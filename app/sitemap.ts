@@ -1,10 +1,13 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, TX_SLUGS } from "@/lib/site";
+import { getAllClonePages } from "@/lib/clone-content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = ["/", "/reviews/", "/promotions/", "/doctors/", "/contact/"];
   const txPaths = Object.values(TX_SLUGS).map((slug) => `/${slug}/`);
-  const all = [...staticPaths, ...txPaths];
+  const clonePages = getAllClonePages().map((p) => p.path);
+  const sectionIndexes = ["/skin-aesthetics/", "/articles/"].filter((p) => !clonePages.includes(p));
+  const all = [...staticPaths, ...txPaths, ...clonePages, ...sectionIndexes];
 
   return all.flatMap((p) => {
     const enP = p === "/" ? "/en/" : `/en${p}`;

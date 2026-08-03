@@ -1,0 +1,919 @@
+{
+  "slug": "iv-drip",
+  "section": "aesthetics",
+  "path": "/aesthetics/iv-drip/",
+  "sourceUrl": "https://artsurgery.co.th/aesthetics/iv-drip/",
+  "sourceId": 520,
+  "th": {
+    "title": "IV DRIP โปรแกรมเติมออร่า ผิวขาวกระจ่างใส",
+    "metaTitle": "IV DRIP โปรแกรมเติมออร่า ผิวขาวกระจ่างใส",
+    "metaDesc": "IV Drip หรือ Vitamin Drip คือ การฉีดวิตามินหรือสารอาหารต่างๆ ผ่านทางสายน้ำเกลือเข้าทางหลอดเลือดดำ ร่างกายจะสามารถดูดซึมวิตามินได้ทั้งหมดเกือบ 100%",
+    "lead": "การฉีดผิว คือการฉีดสารสำคัญต่างๆที่มากกว่าการฉีดวิตามินซีอย่างเดียว จึงช่วยฟื้นฟูสภาพผิวค่อยๆขาวใสขึ้นอย่างเป็นธรรมชาติด้วยการใช้วิตามินบำรุงผิวหลากหลายชนิด สารต้านอนุมูลอิสระ และสารที่ช่วยลดการสร้างเม็ดสีผิว เข้าทางหลอดเลือดดำในขนาดที่เหมาะสม ประโยชน์ท่จะได้รับจากการฉีดคือมีผลช่วยในเรื่องเป็นสารต้านอนุมูลอิสระเสริมสร้างภูมิคุ้มกัน ผิวจะค่อยๆดูขาวกระจ่างใสขึ้น",
+    "blocks": [
+      {
+        "t": "p",
+        "html": "เหมาะกับผู้ที่ต้องการเพิ่มสารต่อต้านอนุมูลอิสระให้กับร่างการ ผู้ที่ต้องการการเสริมสร้างคอลลาเจน และเน้นให้ผิวดูขาวกระจ่างใส"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ระยะเวลาในการทำนานประมาณ 15-20 นาทีต่อครั้ง ควรทำบ่อยประมาณสัปดาห์ละ 1-2 ครั้ง (หรือตามคำแนะนำของแพทย์)",
+          "เข็มที่ฉีดเข้าเส้นเลือดมีขนาดเล็กมากเมื่อเทียบกับเข็มเจาะเลือดทั่วไป จึงรู้สึกเจ็บเพียงเล็กน้อยขณะฉีดยาเข้าเส้นเลือด"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-03.avif",
+        "alt": "IV Drip โปรแกรมเติมออร่า ผิวขาวกระจ่างใส ที่ The Art",
+        "w": 685,
+        "h": 743
+      },
+      {
+        "t": "p",
+        "html": "Diamond White วิตามินผิวขาวนีออน ปรับผิวให้กระจ่างใส"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip2-02.avif",
+        "alt": "โปรแกรมดริปวิตามิน Diamond White ปรับผิวให้กระจ่างใส",
+        "w": 627,
+        "h": 1049
+      },
+      {
+        "t": "p",
+        "html": "Signature 7D ปรับสีผิวให้กระจ่างใส บำรุงสมอง ดีท็อกซ์ตับ"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-01.avif",
+        "alt": "โปรแกรมดริปวิตามิน Signature 7D ปรับสีผิว บำรุงสมอง ดีท็อกซ์ตับ",
+        "w": 798,
+        "h": 1140
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-02-2.avif",
+        "alt": "โปรแกรมดริปวิตามิน Aura White ผิวขาวนีออน",
+        "w": 666,
+        "h": 1030
+      },
+      {
+        "t": "p",
+        "html": "Aura White วิตามิน ผิวขาวนีออน ปรับผิวให้ กระจ่างใส"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-06.avif",
+        "alt": "โปรแกรมดริปวิตามิน Aura White ปรับผิวให้กระจ่างใส",
+        "w": 1249,
+        "h": 1401
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-04.avif",
+        "alt": "โปรแกรมดริปวิตามิน Gold White สร้างคอลลาเจนผิว เติมความอ่อนเยาว์",
+        "w": 666,
+        "h": 1030
+      },
+      {
+        "t": "p",
+        "html": "Gold White สร้างคอลลาเจนผิวเติมความอ่อนเยาว์ ช่วยให้ผิวเด็ก"
+      },
+      {
+        "t": "h2",
+        "text": "IV Drip คืออะไร ? ประโยชน์และข้อควรระวังก่อนทำ"
+      },
+      {
+        "t": "p",
+        "html": "IV Drip หรือ Vitamin Drip คือ การฉีดวิตามินหรือสารอาหารต่างๆ ผ่านทางสายน้ำเกลือเข้าทางหลอดเลือดดำ ร่างกายจะสามารถดูดซึมวิตามินได้ทั้งหมดเกือบ 100% อีกทั้งยังเห็นผลได้ทันทีทันใจ"
+      },
+      {
+        "t": "p",
+        "html": "โดยปกติแล้ว ร่างกายจะดูดซึมวิตามินหรือสารอาหารต่างๆ ผ่านทางระบบทางเดินอาหาร ซึ่งต้องใช้เวลาและอาจสูญเสียวิตามินบางส่วนไประหว่างการย่อยและการดูดซึม"
+      },
+      {
+        "t": "p",
+        "html": "แต่การฉีดวิตามินหรือสารอาหารต่างๆ ผ่านทางหลอดเลือดดำนั้น ร่างกายจะสามารถดูดซึมวิตามินได้ทั้งหมดเกือบ 100% เนื่องจากวิตามินจะถูกส่งตรงไปยังกระแสเลือดและเข้าสู่เซลล์ต่างๆ ของร่างกายได้ทันที"
+      },
+      {
+        "t": "h2",
+        "text": "IV Drip มีประโยชน์ต่อร่างกายหลายประการ เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ช่วยบำรุงผิวพรรณ วิตามินบางชนิด เช่น วิตามินซี วิตามินอี วิตามินเอ มีส่วนช่วยในการบำรุงผิวพรรณให้กระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย",
+          "ช่วยให้ร่างกายทำงานได้อย่างมีประสิทธิภาพ วิตามินและสารอาหารต่างๆ ที่จำเป็นต่อร่างกาย เช่น วิตามินบี วิตามินซี วิตามินดี มีส่วนช่วยในการทำงานของเซลล์ต่างๆ ในร่างกาย ช่วยให้ร่างกายแข็งแรงและทำงานได้อย่างมีประสิทธิภาพ",
+          "ช่วยเพิ่มภูมิคุ้มกัน วิตามินบางชนิด เช่น วิตามินซี วิตามินดี มีส่วนช่วยในการเพิ่มภูมิคุ้มกันให้ร่างกาย ช่วยให้ร่างกายต่อสู้กับเชื้อโรคและแบคทีเรียได้ดีขึ้น",
+          "ช่วยลดอาการอ่อนเพลีย วิตามินบางชนิด เช่น วิตามินบี วิตามินซี มีส่วนช่วยในการเสริมสร้างพลังงานให้ร่างกาย ช่วยให้รู้สึกสดชื่นและกระปรี้กระเปร่า",
+          "ช่วยลดน้ำหนัก วิตามินบางชนิด เช่น วิตามินบี วิตามินซี มีส่วนช่วยในการเผาผลาญไขมันและเพิ่มการเผาผลาญพลังงาน ช่วยให้ลดน้ำหนักได้เร็วขึ้น"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ข้อควรระวังก่อนเข้ารับบริการ"
+      },
+      {
+        "t": "p",
+        "html": "ก่อนทำ ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทุกครั้ง เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ผู้ป่วยที่มีโรคประจำตัว เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำ",
+          "ผู้ป่วยที่แพ้วิตามินหรือสารอาหารบางชนิด ควรแจ้งแพทย์ก่อนทำ",
+          "ผู้ป่วยที่ตั้งครรภ์หรือให้นมบุตร ควรปรึกษาแพทย์ก่อนทำ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "IV Drip ย่อมาจาก ย่อมาจาก Intravenous Therapy ซึ่งแปลว่า การให้ยาหรือสารอาหารผ่านทางหลอดเลือดดำ"
+      },
+      {
+        "t": "h2",
+        "text": "การทำ IV Drip วิตามินดีไหม"
+      },
+      {
+        "t": "p",
+        "html": "โดยทั่วไปแล้ว การทำ วิตามินดีถือว่าดีต่อร่างกาย เพราะมีงานวิจัยหลายชิ้นที่พบว่า วิตามินดีมีประโยชน์ต่อสุขภาพมากมาย ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ช่วยบำรุงผิวพรรณ วิตามินดีมีส่วนช่วยในการบำรุงผิวพรรณให้กระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย",
+          "ช่วยให้ร่างกายแข็งแรง วิตามินดีมีส่วนช่วยในการทำงานของเซลล์ต่างๆ ในร่างกาย ช่วยให้ร่างกายแข็งแรงและทำงานได้อย่างมีประสิทธิภาพ",
+          "ช่วยเพิ่มภูมิคุ้มกัน วิตามินดีมีส่วนช่วยในการเพิ่มภูมิคุ้มกันให้ร่างกาย ช่วยให้ร่างกายต่อสู้กับเชื้อโรคและแบคทีเรียได้ดีขึ้น",
+          "ช่วยลดอาการอ่อนเพลีย วิตามินดีมีส่วนช่วยในการเสริมสร้างพลังงานให้ร่างกาย ช่วยให้รู้สึกสดชื่นและกระปรี้กระเปร่า",
+          "ช่วยลดน้ำหนัก วิตามินดีมีส่วนช่วยในการเผาผลาญไขมันและเพิ่มการเผาผลาญพลังงาน ช่วยให้ลดน้ำหนักได้เร็วขึ้น"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "อย่างไรก็ตาม การทำวิตามินดีก็อาจมีความเสี่ยงและผลข้างเคียงที่อาจเกิดขึ้นได้เช่นกัน ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "อาการแพ้ ผู้ป่วยที่มีประวัติแพ้วิตามินดี ควรแจ้งแพทย์ก่อนทำ",
+          "ภาวะแทรกซ้อนจากการใช้เข็ม การทำ อาจทำให้เกิดภาวะแทรกซ้อนจากการใช้เข็ม เช่น อาการบวม แดง คัน หรือติดเชื้อ",
+          "ภาวะแทรกซ้อนจากวิตามินดีเกิน การทำ วิตามินดีในปริมาณที่มากเกินไปอาจทำให้เกิดภาวะแทรกซ้อน เช่น ระดับแคลเซียมในเลือดสูง ไตวาย หัวใจเต้นผิดจังหวะ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ก่อนทำ IV Drip วิตามินดี ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทุกครั้ง เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      },
+      {
+        "t": "p",
+        "html": "การดริปวิตามิน ช่วยให้ผิวขาวได้จริงไหม"
+      },
+      {
+        "t": "p",
+        "html": "ผิวขาวได้จริง เนื่องจากวิตามินบางชนิด เช่น วิตามินซี วิตามินอี วิตามินเอ มีส่วนช่วยในการบำรุงผิวพรรณให้กระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย"
+      },
+      {
+        "t": "p",
+        "html": "สูตรวิตามินผิวขาวที่ได้รับความนิยม ได้แก่"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินซี : วิตามินซีเป็นวิตามินที่ละลายในน้ำ มีคุณสมบัติเป็นสารต้านอนุมูลอิสระ ช่วยปกป้องผิวจากมลภาวะและอนุมูลอิสระ ช่วยให้ผิวกระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย"
+        ]
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินเอ : วิตามินเอเป็นวิตามินที่ละลายในไขมัน มีคุณสมบัติช่วยผลัดเซลล์ผิวเก่าที่เสื่อมสภาพออก เผยเซลล์ผิวใหม่ที่ดูกระจ่างใส ช่วยลดเลือนจุดด่างดำและรอยหมองคล้ำ"
+        ]
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินเอสูตรวิตามินอี : วิตามินอีเป็นวิตามินที่ละลายในไขมัน มีคุณสมบัติเป็นสารต้านอนุมูลอิสระ ช่วยปกป้องผิวจากมลภาวะและอนุมูลอิสระ ช่วยให้ผิวชุ่มชื้นและลดเลือนริ้วรอย"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "นอกจากนี้ ยังมีสูตรวิตามินผิวขาวอื่นๆ ที่นิยม เช่น สูตรวิตามินบี สูตรโคเอ็นไซม์คิว10 สูตรกรดอัลฟาไลโปอิก เป็นต้น การเลือกสูตรวิตามินผิวขาวควรปรึกษาแพทย์หรือผู้เชี่ยวชาญ เพื่อให้เหมาะสมกับสภาพผิวและความต้องการของแต่ละบุคคล"
+      },
+      {
+        "t": "h2",
+        "text": "IV Drip ลดน้ําหนัก สามารถลดน้ำหนักได้จริงไหม"
+      },
+      {
+        "t": "p",
+        "html": "สามารถช่วยลดน้ำหนักได้จริง แต่ผลลัพธ์ที่ได้ขึ้นอยู่กับปัจจัยหลายประการ เช่น สูตรวิตามินที่ใช้ ปริมาณวิตามินที่ใช้ สภาพร่างกาย และพฤติกรรมการใช้ชีวิตของแต่ละบุคคล"
+      },
+      {
+        "t": "p",
+        "html": "สูตรวิตามินที่ได้รับความนิยมในการลดน้ำหนัก ได้แก่ สูตรวิตามินบี สูตรวิตามินซี สูตรวิตามินดี และสูตรกรดอะมิโน โดยวิตามินเหล่านี้มีส่วนช่วยในการเผาผลาญไขมันและเพิ่มการเผาผลาญพลังงาน ส่งผลให้น้ำหนักลดลงได้"
+      },
+      {
+        "t": "p",
+        "html": "ปริมาณวิตามินที่ใช้ก็มีส่วนสำคัญเช่นกัน ปริมาณวิตามินที่มากเกินไปอาจทำให้เกิดผลข้างเคียง เช่น ระดับน้ำตาลในเลือดสูง ไตวาย หัวใจเต้นผิดจังหวะ เป็นต้น ดังนั้น ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทำ เพื่อกำหนดปริมาณวิตามินที่เหมาะสม"
+      },
+      {
+        "t": "p",
+        "html": "สภาพร่างกายของแต่ละบุคคลก็มีส่วนสำคัญเช่นกัน ผู้ที่มีปัญหาสุขภาพ เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำเพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      },
+      {
+        "t": "p",
+        "html": "พฤติกรรมการใช้ชีวิตก็มีส่วนสำคัญเช่นกัน ผู้ที่ลดน้ำหนักด้วย IV Drip ควรควบคุมอาหารและออกกำลังกายควบคู่ไปด้วย เพื่อผลลัพธ์ที่มีประสิทธิภาพ"
+      },
+      {
+        "t": "p",
+        "html": "โดยทั่วไปแล้วสามารถช่วยลดน้ำหนักได้ประมาณ 1-2 กิโลกรัมต่อสัปดาห์ โดยผลลัพธ์ที่ได้จะอยู่ได้นานประมาณ 2-3 เดือน อย่างไรก็ตาม หากหยุดทำ และกลับไปใช้ชีวิตตามปกติ น้ำหนักที่ลดลงอาจกลับมาเท่าเดิมได้"
+      },
+      {
+        "t": "p",
+        "html": "คำแนะนำในการลดน้ำหนักด้วย มีดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทำ เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้",
+          "เลือกสูตรวิตามินที่เหมาะสมกับสภาพร่างกายและความต้องการของแต่ละบุคคล",
+          "ควบคุมอาหารและออกกำลังกายควบคู่ไปด้วย เพื่อผลลัพธ์ที่มีประสิทธิภาพ",
+          "ปรึกษาแพทย์หรือผู้เชี่ยวชาญหากมีอาการผิดปกติหลังทำ"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "IV Drip อันตรายไหม"
+      },
+      {
+        "t": "p",
+        "html": "IV Drip โดยทั่วไปถือว่าปลอดภัยหากทำโดยแพทย์หรือผู้เชี่ยวชาญที่มีประสบการณ์ แต่ก็มีความเสี่ยงและผลข้างเคียงที่อาจเกิดขึ้นได้เช่นกัน ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "อาการแพ้ ผู้ป่วยที่มีประวัติแพ้วิตามินหรือสารอาหารบางชนิด ควรแจ้งแพทย์ก่อนทำ IV Drip",
+          "ภาวะแทรกซ้อนจากการใช้เข็ม การทำ อาจทำให้เกิดภาวะแทรกซ้อนจากการใช้เข็ม เช่น อาการบวม แดง คัน หรือติดเชื้อ",
+          "ภาวะแทรกซ้อนจากวิตามินเกิน การทำ วิตามินในปริมาณที่มากเกินไปอาจทำให้เกิดภาวะแทรกซ้อน เช่น ระดับแคลเซียมในเลือดสูง ไตวาย หัวใจเต้นผิดจังหวะ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ความเสี่ยงและผลข้างเคียงที่อาจเกิดขึ้นจากการทำ ขึ้นอยู่กับปัจจัยหลายประการ เช่น สูตรวิตามินที่ใช้ ปริมาณวิตามินที่ใช้ สภาพร่างกาย และพฤติกรรมการใช้ชีวิตของแต่ละบุคคล"
+      },
+      {
+        "t": "p",
+        "html": "ผู้ที่มีปัญหาสุขภาพ เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำ เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      },
+      {
+        "t": "p",
+        "html": "ควรทําบ่อยแค่ไหน"
+      },
+      {
+        "t": "p",
+        "html": "ความถี่ในการดริปวิตามินนั้นขึ้นอยู่กับสูตรวิตามินที่ใช้และความต้องการของแต่ละบุคคล โดยทั่วไปแล้ว สูตรวิตามินที่ได้รับความนิยม ได้แก่"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินผิวขาว : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง ติดต่อกัน 3-4 สัปดาห์",
+          "สูตรลดน้ำหนัก : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง ติดต่อกัน 4-6 สัปดาห์",
+          "สูตรบำรุงสุขภาพ : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง หรือตามคำแนะนำของแพทย์"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "อย่างไรก็ตาม ผู้ที่มีปัญหาสุขภาพ เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำ เพื่อประเมินความถี่ที่เหมาะสม"
+      },
+      {
+        "t": "p",
+        "html": "นอกจากนี้ หากต้องการผลลัพธ์ที่มีประสิทธิภาพ ควรทำ อย่างต่อเนื่องอย่างน้อย 3-4 สัปดาห์ขึ้นไป"
+      },
+      {
+        "t": "p",
+        "html": "ควรเลือกบริการที่ไหนดี โรงพยาบาลหรือ คลินิก ต่างกันไหม"
+      },
+      {
+        "t": "p",
+        "html": "โรงพยาบาลและคลินิกที่ให้บริการ ต่างก็มีข้อดีและข้อเสียที่แตกต่างกันไป ดังนี้"
+      },
+      {
+        "t": "p",
+        "html": "โรงพยาบาล"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ข้อดี<br>มีมาตรฐานและความปลอดภัยสูง<br>มีแพทย์และพยาบาลผู้เชี่ยวชาญคอยดูแล<br>มีอุปกรณ์เครื่องมือที่ทันสมัยและสะอาด",
+          "ข้อเสีย<br>ราคาอาจสูงกว่าคลินิก<br>อาจต้องรอคิวนาน"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "คลินิก"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ข้อดี<br>ราคาอาจถูกกว่าโรงพยาบาล<br>สะดวกและเข้าถึงได้ง่ายกว่า",
+          "ข้อเสีย<br>มาตรฐานและความปลอดภัยอาจไม่เท่าโรงพยาบาล<br>แพทย์และพยาบาลอาจไม่มีประสบการณ์มากเท่าโรงพยาบาล"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "โดยสรุปแล้ว การเลือกสถานที่ทำ ควรพิจารณาจากปัจจัยต่างๆ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ความปลอดภัย ควรเลือกสถานที่ที่เชื่อถือได้ มีมาตรฐานและความปลอดภัยสูง",
+          "ความสะดวก ควรเลือกสถานที่ที่สะดวกและเข้าถึงได้ง่าย",
+          "ราคา ควรเลือกสถานที่ที่มีราคาเหมาะสมกับงบประมาณ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "นอกจากนี้ ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทำ เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      },
+      {
+        "t": "p",
+        "html": "สำหรับคำถามที่ว่า “ทำที่ไหนดี โรงพยาบาลหรือคลินิก” คำตอบขึ้นอยู่กับปัจจัยส่วนบุคคลของแต่ละบุคคล ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ผู้ที่ให้ความสำคัญกับความปลอดภัยเป็นหลัก ควรเลือกทำ ที่โรงพยาบาล เนื่องจากมีมาตรฐานและความปลอดภัยสูง มีแพทย์และพยาบาลผู้เชี่ยวชาญคอยดูแล",
+          "ผู้ที่ให้ความสำคัญกับความสะดวกเป็นหลัก ควรเลือกทำ ที่คลินิก เนื่องจากสะดวกและเข้าถึงได้ง่ายกว่า ใช้เวลาน้อยกว่า",
+          "ผู้ที่ให้ความสำคัญกับราคาเป็นหลัก ควรเลือกทำ IV Drip ที่คลินิก เนื่องจากราคาอาจถูกกว่าโรงพยาบาล"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "อย่างไรก็ตาม ควรเลือกสถานที่ที่เชื่อถือได้ มีมาตรฐานและความปลอดภัยสูง ตรวจสอบใบอนุญาตประกอบกิจการ และอุปกรณ์เครื่องมือที่ใช้ต้องสะอาดและปลอดภัย"
+      },
+      {
+        "t": "p",
+        "html": "ราคา เท่าไหร่"
+      },
+      {
+        "t": "p",
+        "html": "โดยในส่วนของราคาขึ้นอยู่กับสูตรของวิตามินและระยะเวลาในการทํา โดยโดยทั่วไปมีราคาตั้งแต่หลักพันถึงหลักหมื่นบาท"
+      },
+      {
+        "t": "h2",
+        "text": "ราคา IV Drip นั้นขึ้นอยู่กับปัจจัยต่างๆ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินที่ใช้ สูตรวิตามินแต่ละสูตรมีราคาแตกต่างกันไป โดยทั่วไปแล้ว สูตรวิตามินผิวขาวจะมีราคาแพงที่สุด รองลงมาคือสูตรลดน้ำหนัก และสูตรบำรุงสุขภาพ",
+          "ปริมาณวิตามินที่ใช้ ปริมาณวิตามินที่ใช้ก็มีส่วนสำคัญเช่นกัน ปริมาณวิตามินที่มากขึ้นจะทำให้ราคาสูงขึ้น",
+          "ระยะเวลาในการทำ ระยะเวลาในการทำ แต่ละครั้งแตกต่างกันไป โดยทั่วไปแล้ว ใช้เวลาประมาณ 30-60 นาที ราคาจึงแตกต่างกันไปตามระยะเวลา",
+          "สถานที่ทำ โรงพยาบาลและคลินิกที่ให้บริการ ต่างก็มีราคาที่แตกต่างกันไป โดยทั่วไปแล้ว โรงพยาบาลจะมีราคาแพงกว่าคลินิก"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "โดยสรุปแล้ว"
+      },
+      {
+        "t": "p",
+        "html": "คือการให้วิตามินเข้าสู่ร่างกายผ่านทางหลอดเลือดดำโดยตรง ช่วยให้ร่างกายดูดซึมวิตามินได้ทั้งหมดเกือบ 100% ส่งผลให้เห็นผลได้เร็วกว่าการรับประทานวิตามิน"
+      },
+      {
+        "t": "p",
+        "html": "ประโยชน์ได้แก่"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ช่วยให้ผิวขาวกระจ่างใส",
+          "ช่วยลดอาการอ่อนเพลีย",
+          "ช่วยเพิ่มพลังงาน",
+          "ช่วยฟื้นฟูร่างกาย",
+          "ช่วยลดน้ำหนัก"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "โดยทั่วไปถือว่าปลอดภัยหากทำโดยแพทย์หรือผู้เชี่ยวชาญที่มีประสบการณ์ แต่ก็มีความเสี่ยงและผลข้างเคียงที่อาจเกิดขึ้นได้เช่นกัน ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "อาการแพ้",
+          "ภาวะแทรกซ้อนจากการใช้เข็ม",
+          "ภาวะแทรกซ้อนจากวิตามินเกิน"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ผู้ที่มีปัญหาสุขภาพ เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำ IV Drip เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      },
+      {
+        "t": "p",
+        "html": "ความถี่ในการดริปวิตามินนั้นขึ้นอยู่กับสูตรวิตามินที่ใช้และความต้องการของแต่ละบุคคล โดยทั่วไปแล้ว สูตรวิตามินที่ได้รับความนิยม ได้แก่"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรผิวขาว : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง ติดต่อกัน 3-4 สัปดาห์",
+          "สูตรลดน้ำหนัก : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง ติดต่อกัน 4-6 สัปดาห์",
+          "สูตรบำรุงสุขภาพ : แนะนำให้ทำสัปดาห์ละ 1-2 ครั้ง หรือตามคำแนะนำของแพทย์"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "การเลือกสถานที่ทำ ควรพิจารณาจากปัจจัยต่างๆ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ความปลอดภัย ควรเลือกสถานที่ที่เชื่อถือได้ มีมาตรฐานและความปลอดภัยสูง",
+          "ความสะดวก ควรเลือกสถานที่ที่สะดวกและเข้าถึงได้ง่าย",
+          "ราคา ควรเลือกสถานที่ที่มีราคาเหมาะสมกับงบประมาณ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ในส่วนของราคา นั้นขึ้นอยู่กับปัจจัยต่างๆ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สูตรวิตามินที่ใช้",
+          "ปริมาณวิตามินที่ใช้",
+          "ระยะเวลาในการทำ",
+          "สถานที่ทำ"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "โดยสรุปแล้ว IV Drip เป็นทางเลือกหนึ่งในการเสริมวิตามินให้ร่างกาย แต่ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทำ เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
+      }
+    ],
+    "keywords": [
+      "IV Drip",
+      "ดริปวิตามิน",
+      "วิตามินผิวขาว",
+      "Vitamin Drip",
+      "ดริปวิตามินผิวขาวกระจ่างใส",
+      "IV Drip ราคา",
+      "IV Drip อันตรายไหม"
+    ]
+  },
+  "en": {
+    "title": "IV DRIP — The Aura-Boosting Program for Bright, Radiant Skin",
+    "metaTitle": "IV DRIP — Aura-Boosting Program for Bright, Radiant Skin",
+    "metaDesc": "IV Drip, or Vitamin Drip, delivers vitamins and nutrients through a saline line directly into a vein, allowing the body to absorb almost 100% of the vitamins.",
+    "lead": "Skin injections deliver a range of key active ingredients that go beyond a simple vitamin C shot, helping restore the skin so it gradually becomes brighter in a natural way. A variety of skin-nourishing vitamins, antioxidants, and pigment-reducing agents are delivered intravenously in appropriate doses. The benefits include powerful antioxidant activity, a stronger immune system, and skin that gradually looks whiter and more radiant.",
+    "blocks": [
+      {
+        "t": "p",
+        "html": "Ideal for those who want to boost the body's antioxidants, stimulate collagen production, and achieve visibly brighter, more radiant skin."
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Each session takes about 15–20 minutes and should be done around 1–2 times per week (or as recommended by your doctor)",
+          "The needle used is very small compared with a standard blood-draw needle, so you feel only slight discomfort while the infusion enters the vein"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-03.avif",
+        "alt": "IV Drip — aura-boosting program for bright, radiant skin at The Art",
+        "w": 685,
+        "h": 743
+      },
+      {
+        "t": "p",
+        "html": "Diamond White — neon-bright whitening vitamins for a radiant complexion"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip2-02.avif",
+        "alt": "Diamond White vitamin drip program for brighter skin",
+        "w": 627,
+        "h": 1049
+      },
+      {
+        "t": "p",
+        "html": "Signature 7D — brightens skin tone, nourishes the brain, and detoxes the liver"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-01.avif",
+        "alt": "Signature 7D vitamin drip program — skin tone, brain nourishment, liver detox",
+        "w": 798,
+        "h": 1140
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-02-2.avif",
+        "alt": "Aura White neon-bright whitening vitamin drip program",
+        "w": 666,
+        "h": 1030
+      },
+      {
+        "t": "p",
+        "html": "Aura White — neon-bright whitening vitamins for radiant skin"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-06.avif",
+        "alt": "Aura White vitamin drip program for brighter skin",
+        "w": 1249,
+        "h": 1401
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/520/ivdrip-04.avif",
+        "alt": "Gold White vitamin drip program — collagen building and youthful skin",
+        "w": 666,
+        "h": 1030
+      },
+      {
+        "t": "p",
+        "html": "Gold White — builds skin collagen and restores youthfulness for baby-soft skin"
+      },
+      {
+        "t": "h2",
+        "text": "What Is an IV Drip? Benefits and Precautions Before Treatment"
+      },
+      {
+        "t": "p",
+        "html": "IV Drip, or Vitamin Drip, is the infusion of vitamins or nutrients through a saline line directly into a vein. The body can absorb almost 100% of the vitamins, and the results are immediate."
+      },
+      {
+        "t": "p",
+        "html": "Normally, the body absorbs vitamins and nutrients through the digestive system, which takes time and can lose some of the vitamins during digestion and absorption."
+      },
+      {
+        "t": "p",
+        "html": "By infusing vitamins or nutrients directly into a vein, however, the body can absorb almost 100% of them, because the vitamins are delivered straight into the bloodstream and reach the body's cells immediately."
+      },
+      {
+        "t": "h2",
+        "text": "IV Drips Benefit the Body in Many Ways, Such As"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Nourishing the skin — certain vitamins such as vitamin C, vitamin E, and vitamin A help brighten and hydrate the skin and fade wrinkles",
+          "Helping the body work efficiently — essential vitamins and nutrients such as vitamins B, C, and D support the function of cells throughout the body, keeping it strong and working effectively",
+          "Boosting immunity — vitamins such as C and D help strengthen the immune system, allowing the body to fight off germs and bacteria more effectively",
+          "Reducing fatigue — vitamins such as B and C help build the body's energy, leaving you feeling fresh and revitalised",
+          "Supporting weight loss — vitamins such as B and C help burn fat and boost metabolism, helping you lose weight faster"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Precautions before receiving the service"
+      },
+      {
+        "t": "p",
+        "html": "Before treatment, always consult a doctor or specialist to assess the risks and possible complications, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Patients with underlying conditions such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor before treatment",
+          "Patients allergic to certain vitamins or nutrients should inform their doctor before treatment",
+          "Patients who are pregnant or breastfeeding should consult a doctor before treatment"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "IV Drip stands for Intravenous Therapy, meaning the administration of medication or nutrients through a vein."
+      },
+      {
+        "t": "h2",
+        "text": "Is a Vitamin D IV Drip Good for You?"
+      },
+      {
+        "t": "p",
+        "html": "In general, vitamin D therapy is considered good for the body — numerous studies have found that vitamin D offers many health benefits, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Nourishes the skin — vitamin D helps brighten and hydrate the skin and fade wrinkles",
+          "Strengthens the body — vitamin D supports the function of cells throughout the body, keeping it strong and working efficiently",
+          "Boosts immunity — vitamin D helps strengthen the immune system, allowing the body to fight off germs and bacteria more effectively",
+          "Reduces fatigue — vitamin D helps build the body's energy, leaving you feeling fresh and revitalised",
+          "Supports weight loss — vitamin D helps burn fat and boost metabolism, helping you lose weight faster"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "However, vitamin D therapy can also carry risks and possible side effects, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Allergic reactions — patients with a history of vitamin D allergy should inform their doctor before treatment",
+          "Needle-related complications — the procedure may cause complications from needle use, such as swelling, redness, itching, or infection",
+          "Complications from excess vitamin D — receiving too much vitamin D can cause complications such as high blood calcium, kidney failure, or irregular heartbeat"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Before a vitamin D IV drip, always consult a doctor or specialist to assess the risks and possible complications."
+      },
+      {
+        "t": "p",
+        "html": "Do vitamin drips really whiten the skin?"
+      },
+      {
+        "t": "p",
+        "html": "Yes, they can genuinely brighten the skin, because certain vitamins such as vitamin C, vitamin E, and vitamin A help nourish the skin, making it brighter and more hydrated while fading wrinkles."
+      },
+      {
+        "t": "p",
+        "html": "Popular whitening vitamin formulas include:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin C formula: vitamin C is a water-soluble vitamin with antioxidant properties that protects the skin from pollution and free radicals, brightening and hydrating the skin and fading wrinkles"
+        ]
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin A formula: vitamin A is a fat-soluble vitamin that helps shed old, deteriorated skin cells to reveal brighter new skin, fading dark spots and dullness"
+        ]
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin E formula: vitamin E is a fat-soluble vitamin with antioxidant properties that protects the skin from pollution and free radicals, keeping the skin hydrated and fading wrinkles"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "There are also other popular whitening vitamin formulas, such as vitamin B, coenzyme Q10, and alpha-lipoic acid. When choosing a whitening formula, consult a doctor or specialist so it suits your skin condition and individual needs."
+      },
+      {
+        "t": "h2",
+        "text": "IV Drips for Weight Loss — Do They Really Work?"
+      },
+      {
+        "t": "p",
+        "html": "They can genuinely support weight loss, but the results depend on many factors, such as the vitamin formula used, the amount of vitamins given, your physical condition, and your lifestyle habits."
+      },
+      {
+        "t": "p",
+        "html": "Popular vitamin formulas for weight loss include vitamin B, vitamin C, vitamin D, and amino acid formulas. These vitamins help burn fat and increase energy metabolism, which can lead to weight loss."
+      },
+      {
+        "t": "p",
+        "html": "The amount of vitamins used also matters. Excessive vitamin doses can cause side effects such as high blood sugar, kidney failure, and irregular heartbeat. Always consult a doctor or specialist beforehand to determine the appropriate dose."
+      },
+      {
+        "t": "p",
+        "html": "Each person's physical condition matters too. Those with health issues such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor before treatment to assess the risks and possible complications."
+      },
+      {
+        "t": "p",
+        "html": "Lifestyle also plays an important role. Those using IV drips for weight loss should control their diet and exercise alongside the treatment for the most effective results."
+      },
+      {
+        "t": "p",
+        "html": "In general, IV drips can help you lose around 1–2 kilograms per week, with results lasting about 2–3 months. However, if you stop the treatment and return to your normal lifestyle, the weight you lost may return."
+      },
+      {
+        "t": "p",
+        "html": "Recommendations for losing weight with IV drips are as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Consult a doctor or specialist before treatment to assess the risks and possible complications",
+          "Choose a vitamin formula suited to your physical condition and individual needs",
+          "Control your diet and exercise alongside the treatment for effective results",
+          "Consult a doctor or specialist if you experience any abnormal symptoms after treatment"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Are IV Drips Dangerous?"
+      },
+      {
+        "t": "p",
+        "html": "IV drips are generally considered safe when performed by an experienced doctor or specialist, but risks and side effects can still occur, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Allergic reactions — patients with a history of allergy to certain vitamins or nutrients should inform their doctor before an IV drip",
+          "Needle-related complications — the procedure may cause complications from needle use, such as swelling, redness, itching, or infection",
+          "Complications from excess vitamins — receiving too many vitamins can cause complications such as high blood calcium, kidney failure, or irregular heartbeat"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "The risks and side effects that may arise depend on many factors, such as the vitamin formula used, the amount of vitamins given, your physical condition, and your lifestyle habits."
+      },
+      {
+        "t": "p",
+        "html": "Those with health issues such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor before treatment to assess the risks and possible complications."
+      },
+      {
+        "t": "p",
+        "html": "How often should you have one?"
+      },
+      {
+        "t": "p",
+        "html": "The frequency of vitamin drips depends on the formula used and each person's needs. In general, the popular vitamin formulas are:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Whitening vitamin formula: recommended 1–2 times per week for 3–4 consecutive weeks",
+          "Weight-loss formula: recommended 1–2 times per week for 4–6 consecutive weeks",
+          "Health-boosting formula: recommended 1–2 times per week, or as advised by your doctor"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "However, those with health issues such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor beforehand to determine the appropriate frequency."
+      },
+      {
+        "t": "p",
+        "html": "In addition, for the most effective results, treatment should be continued for at least 3–4 weeks or more."
+      },
+      {
+        "t": "p",
+        "html": "Where should you get the service — is there a difference between a hospital and a clinic?"
+      },
+      {
+        "t": "p",
+        "html": "Hospitals and clinics offering IV drips each have their own pros and cons, as follows:"
+      },
+      {
+        "t": "p",
+        "html": "Hospital"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pros<br>High standards and safety<br>Specialist doctors and nurses on hand<br>Modern, clean tools and equipment",
+          "Cons<br>Prices may be higher than clinics<br>Waiting times may be long"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Clinic"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pros<br>Prices may be lower than hospitals<br>More convenient and easier to access",
+          "Cons<br>Standards and safety may not match a hospital's<br>Doctors and nurses may have less experience than in a hospital"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "In summary, when choosing where to have your treatment, consider the following factors:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Safety — choose a trustworthy provider with high standards and safety",
+          "Convenience — choose a place that is convenient and easy to reach",
+          "Price — choose a place with prices that fit your budget"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "In addition, consult a doctor or specialist before treatment to assess the risks and possible complications."
+      },
+      {
+        "t": "p",
+        "html": "As for the question \"where should I go — a hospital or a clinic?\", the answer depends on each person's individual priorities, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "If safety is your main priority, choose a hospital, which offers high standards and safety with specialist doctors and nurses on hand",
+          "If convenience is your main priority, choose a clinic, which is easier to access and takes less time",
+          "If price is your main priority, choose a clinic for your IV Drip, as prices may be lower than at a hospital"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "In any case, choose a trustworthy provider with high standards and safety — check the operating license and make sure the tools and equipment used are clean and safe."
+      },
+      {
+        "t": "p",
+        "html": "How much does it cost?"
+      },
+      {
+        "t": "p",
+        "html": "The price depends on the vitamin formula and the duration of the treatment, generally ranging from a few thousand to tens of thousands of baht."
+      },
+      {
+        "t": "h2",
+        "text": "IV Drip Prices Depend on the Following Factors"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin formula used — each formula has a different price; in general, whitening formulas are the most expensive, followed by weight-loss and health-boosting formulas",
+          "Amount of vitamins used — this also matters; larger vitamin doses raise the price",
+          "Treatment duration — each session's length varies; sessions generally take about 30–60 minutes, so prices vary with duration",
+          "Where you have it done — hospitals and clinics charge differently; in general, hospitals are more expensive than clinics"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "In summary"
+      },
+      {
+        "t": "p",
+        "html": "An IV drip delivers vitamins into the body directly through a vein, allowing the body to absorb almost 100% of them — producing faster results than taking vitamins orally."
+      },
+      {
+        "t": "p",
+        "html": "The benefits include:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Brighter, more radiant skin",
+          "Reduced fatigue",
+          "More energy",
+          "Body restoration",
+          "Weight loss support"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "IV drips are generally safe when performed by an experienced doctor or specialist, but risks and side effects can still occur, as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Allergic reactions",
+          "Needle-related complications",
+          "Complications from excess vitamins"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Those with health issues such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor before an IV Drip to assess the risks and possible complications."
+      },
+      {
+        "t": "p",
+        "html": "The frequency of vitamin drips depends on the formula used and each person's needs. In general, the popular formulas are:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Whitening formula: recommended 1–2 times per week for 3–4 consecutive weeks",
+          "Weight-loss formula: recommended 1–2 times per week for 4–6 consecutive weeks",
+          "Health-boosting formula: recommended 1–2 times per week, or as advised by your doctor"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "When choosing where to have your treatment, consider the following factors:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Safety — choose a trustworthy provider with high standards and safety",
+          "Convenience — choose a place that is convenient and easy to reach",
+          "Price — choose a place with prices that fit your budget"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "As for pricing, it depends on the following factors:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin formula used",
+          "Amount of vitamins used",
+          "Treatment duration",
+          "Where you have it done"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "In summary, an IV Drip is one option for supplementing the body with vitamins, but you should consult a doctor or specialist before treatment to assess the risks and possible complications."
+      }
+    ],
+    "keywords": [
+      "IV Drip",
+      "vitamin drip",
+      "skin whitening vitamins",
+      "Vitamin Drip Bangkok",
+      "brightening vitamin infusion",
+      "IV Drip price",
+      "is IV Drip safe"
+    ]
+  },
+  "heroImage": "/assets/clone/520/ivdrip-03.avif",
+  "relatedTxKey": "ivdrip"
+}

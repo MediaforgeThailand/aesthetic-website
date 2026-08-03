@@ -1,0 +1,207 @@
+{
+  "slug": "bo",
+  "section": "aesthetics",
+  "path": "/aesthetics/bo/",
+  "sourceUrl": "https://artsurgery.co.th/aesthetics/bo/",
+  "sourceId": 526,
+  "heroImage": "/assets/clone/526/Retouch-botox.avif",
+  "relatedTxKey": "botox",
+  "th": {
+    "title": "โบปรับริ้วรอย",
+    "metaTitle": "โบปรับริ้วรอย",
+    "metaDesc": "หากพูดถึงปัญหาริ้วรอยไม่ว่าจะผ่านไปกี่ยุคสมัยยังคงเป็นปัญหาที่กวนใจ โดยเฉพาะรอยย่นบริเวณหว่างคิ้ว หน้าผาก หางตา ร่องแก้ม ร่องใต้ตานั้นยากที่จะเลี่ยง แต่ปัจจุบันด้วยนวัตกรรม",
+    "lead": "หากพูดถึงปัญหาริ้วรอยไม่ว่าจะผ่านไปกี่ยุคสมัยยังคงเป็นปัญหาที่กวนใจ โดยเฉพาะรอยย่นบริเวณหว่างคิ้ว หน้าผาก หางตา ร่องแก้ม ร่องใต้ตานั้นยากที่จะเลี่ยง แต่ปัจจุบันด้วยนวัตกรรมที่ออกแบบมาเพื่อแก้ปัญหาด้านความงามอย่างโบทอกซ์ที่หลายคนได้ยินจนคุ้นหู ไม่เพียงช่วยลดริ้วรอยไม่ให้มากวนใจ ยังช่วยยกกระชับใบหน้าให้เข้าที่และได้รูป",
+    "blocks": [
+      {
+        "t": "img",
+        "src": "/assets/clone/526/Retouch-botox.avif",
+        "alt": "โบปรับริ้วรอย ลดเลือนริ้วรอย ยกกระชับใบหน้า",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "h2",
+        "text": "6 จุด บนใบหน้า แก้ปัญหาด้วยโบ"
+      },
+      {
+        "t": "h3",
+        "text": "ขั้นตอนการรักษา"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ทำความสะอาดทั่วใบหน้า",
+          "ทายาชาก่อนทำการรักษาประมาณครึ่งชั่วโมง",
+          "แพทย์ทำการฉีดโบ เข้าสู่ผิวอาจรู้สึกตึงเล็กน้อย",
+          "ใช้เวลาประมาณ 15 – 45 นาทีขึ้นอยู่กับบริเวณที่รักษา",
+          "หลังทำการรักษาอาจมีการประคบเย็น ขึ้นอยู่กับแพทย์ผู้รักษาเพราะอาจมีรอยช้ำเกิดขึ้นเพียงเล็กน้อย"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/526/botox-01.avif",
+        "alt": "จุดฉีดโบปรับริ้วรอยบนใบหน้า",
+        "w": 1404,
+        "h": 1377
+      },
+      {
+        "t": "h3",
+        "text": "ดูแลหลังการทำโบ"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ห้ามนวดหรือถูบริเวณที่ทำการฉีด 3 วัน",
+          "ห้ามนอนราบหรือตะแคง 3-4 ชั่วโมงหลังฉีด เพราะเป็นช่วงการซึมของยาเข้ากล้ามเนื้อ ท่านอนตะแคงจะทำให้การกระจายตัวของยาผิดจากตำแหน่งที่แพทย์คาดการณ์ไว้ได้ เมื่อเลย 4 ชั่วโมงไปแล้วสามารถนอนหรือตะแคงได้ตามปกติ",
+          "งดการดื่มแอลกอฮอล์",
+          "ภายใน 2 สัปดาห์แรก ควรงดการเข้าอบไอน้ำ อบซาวน่า ยิงเลเซอร์ ทำ RF หรือ ไอออนโตที่หน้า เพราะความร้อนเฉพาะจุดเป็นเวลานานอาจส่งผลต่อโบท็อกซ์ได้ใน 2 สัปดาห์แรก ความร้อนที่สามารถโดนได้คือ ไดร์เป่าผม อาบน้ำอุ่น (งดบริเวณที่ฉีดโบท็อกซ์) และโดนแสงแดดที่ไม่แรงจ้าเกินไปได้ตามปกติ"
+        ]
+      },
+      {
+        "t": "h3",
+        "text": "ข้อดีของโบ"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ลดริ้วรอยให้ตื้นขึ้น",
+          "ผิวหน้าเรียบเนียน",
+          "รูปหน้าเรียวดูเล็กลง"
+        ]
+      },
+      {
+        "t": "h3",
+        "text": "ผู้ที่ห้ามทำโบ"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "หญิงตั้งครรภ์",
+          "หญิงที่อยู่ในระหว่างให้นมบุตร",
+          "ผู้ที่กล้ามเนื้ออ่อนแรง",
+          "ผู้ที่แพ้โบท็อกซ์",
+          "ผู้ที่ป่วยด้วยโรคหรืออาการทางสมองและระบบประสาท"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/526/botox-03.avif",
+        "alt": "การฉีดโบปรับริ้วรอยโดยแพทย์เฉพาะทาง",
+        "w": 825,
+        "h": 467
+      },
+      {
+        "t": "p",
+        "html": "แม้การฉีดโบจะได้รับความนิยมแต่การเลือกเข้ารับบริการกับโรงพยาบาลที่ได้มาตรฐานและมีแพทย์เฉพาะทางคือสิ่งสำคัญ เพราะแพทย์จะมีความรู้พื้นฐานทางกายวิภาคของกล้ามเนื้อแต่ละมัด ตลอดจนเทคนิคการรักษาที่ถูกต้อง เพื่อให้ผลการรักษาเกิดประโยชน์และมีผลข้างเคียงน้อยที่สุด ซึ่งนำมาถึงความปลอดภัยต่อผู้รับการรักษาและได้ผลลัพธ์เป็นที่น่าพอใจ นอกจากนี้ยังหมดกังวลกับปัญหาการดื้อโบ เพราะมีการเลือกใช้โบท็อกซ์คุณภาพดีที่มีโมเลกุลขนาดเล็กและบริสุทธิ์ปราศจากสารตกค้างสะสมในร่างกายและได้รับการรับรองประสิทธิภาพด้วยการขึ้นทะเบียนในสหรัฐอเมริกา จึงดูอ่อนเยาว์สดใสสุขภาพดีเป็นธรรมชาติแบบไม่ต้องกังวลไปอีกนาน"
+      }
+    ],
+    "keywords": [
+      "โบปรับริ้วรอย",
+      "ฉีดโบ",
+      "โบท็อกซ์",
+      "ลดริ้วรอย",
+      "หน้าเรียว",
+      "ยกกระชับใบหน้า",
+      "ฉีดโบท็อกซ์ที่ไหนดี"
+    ]
+  },
+  "en": {
+    "title": "Botox for Wrinkle Reduction",
+    "metaTitle": "Botox for Wrinkle Reduction",
+    "metaDesc": "Wrinkles have troubled people in every era — especially frown lines, forehead lines, crow's feet, nasolabial folds, and under-eye creases. Today's Botox innovation reduces wrinkles and lifts the face.",
+    "lead": "Wrinkles have remained a troubling concern through every era — especially the creases between the brows, on the forehead, at the corners of the eyes, along the nasolabial folds, and under the eyes, which are hard to avoid. Today, however, an innovation designed to solve aesthetic concerns — the widely known Botox — not only reduces bothersome wrinkles but also lifts and firms the face into beautiful shape.",
+    "blocks": [
+      {
+        "t": "img",
+        "src": "/assets/clone/526/Retouch-botox.avif",
+        "alt": "Botox wrinkle treatment — smooth wrinkles and lift the face",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "h2",
+        "text": "6 Facial Areas That Botox Can Treat"
+      },
+      {
+        "t": "h3",
+        "text": "Treatment Steps"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "The entire face is cleansed.",
+          "Numbing cream is applied about half an hour before treatment.",
+          "The doctor injects the Botox into the skin — you may feel slight tightness.",
+          "The procedure takes about 15 – 45 minutes depending on the treatment area.",
+          "After treatment, a cold compress may be applied at the doctor's discretion, as slight bruising can occur."
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/526/botox-01.avif",
+        "alt": "Botox injection points on the face",
+        "w": 1404,
+        "h": 1377
+      },
+      {
+        "t": "h3",
+        "text": "Aftercare Following Botox"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Do not massage or rub the injection area for 3 days.",
+          "Do not lie flat or on your side for 3-4 hours after injection, as this is when the product is absorbed into the muscles — lying on your side can spread the product away from the doctor's intended placement. After 4 hours you can lie down or sleep on your side as normal.",
+          "Avoid drinking alcohol.",
+          "For the first 2 weeks, avoid steam rooms, saunas, laser treatments, RF, or iontophoresis on the face, as prolonged concentrated heat can affect the Botox during this period. Acceptable heat exposure includes hair dryers, warm showers (avoiding the injected area), and normal, not overly intense sunlight."
+        ]
+      },
+      {
+        "t": "h3",
+        "text": "Benefits of Botox"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Softens wrinkles so they appear shallower",
+          "Smooths the skin",
+          "Slims the face for a smaller-looking shape"
+        ]
+      },
+      {
+        "t": "h3",
+        "text": "Who Should Not Get Botox"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Pregnant women",
+          "Women who are breastfeeding",
+          "People with muscle weakness disorders",
+          "People allergic to Botox",
+          "People with brain or nervous system diseases or conditions"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/526/botox-03.avif",
+        "alt": "Botox injection performed by a specialist doctor",
+        "w": 825,
+        "h": 467
+      },
+      {
+        "t": "p",
+        "html": "Although Botox injections are popular, choosing an accredited hospital with specialist doctors is essential. Doctors have fundamental anatomical knowledge of each facial muscle as well as correct treatment techniques, ensuring the treatment delivers its benefits with minimal side effects — which means safety for the patient and satisfying results. You also need not worry about Botox resistance, because we use high-quality Botox with small, pure molecules that leave no residue accumulating in the body, with efficacy certified by registration in the United States — so you can look naturally youthful, radiant, and healthy without worry for a long time to come."
+      }
+    ],
+    "keywords": [
+      "Botox wrinkle reduction",
+      "Botox injection",
+      "anti-wrinkle injection",
+      "face slimming",
+      "facial lifting",
+      "smooth skin",
+      "where to get Botox"
+    ]
+  }
+}

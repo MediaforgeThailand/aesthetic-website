@@ -1,0 +1,52 @@
+{
+  "slug": "therma-v",
+  "section": "aesthetics",
+  "path": "/aesthetics/therma-v/",
+  "sourceUrl": "https://artsurgery.co.th/aesthetics/therma-v/",
+  "sourceId": 534,
+  "heroImage": "/assets/clone/534/slide-therma-v.avif",
+  "th": {
+    "title": "Therma V",
+    "metaTitle": "Therma V",
+    "metaDesc": "THERMA V นวัตกรรมใหม่แห่งการฟื้นฟูจุดซ่อนเร้นให้กลับมากระชับสดใสเหมือนวัยสาวและขาวอมชมพูอีกครั้ง โดยไม่ต้องผ่าตัด",
+    "lead": "THERMA V นวัตกรรมใหม่แห่งการฟื้นฟูจุดซ่อนเร้นให้กลับมากระชับสดใสเหมือนวัยสาวและขาวอมชมพูอีกครั้ง โดยไม่ต้องผ่าตัด ศัลยกรรมคืนความสวยให้จุดซ่อนเร้น ช่วยเพิ่มความมั่นใจ เติมความสุขให้ชีวิตคู่",
+    "keywords": ["Therma V", "ยกกระชับจุดซ่อนเร้น", "ฟื้นฟูจุดซ่อนเร้น", "กระชับช่องคลอด", "ปัสสาวะเล็ด", "เลเซอร์จุดซ่อนเร้น", "ไม่ต้องผ่าตัด"],
+    "blocks": [
+      { "t": "img", "src": "/assets/clone/534/slide-therma-v.avif", "alt": "THERMA V ยกกระชับจุดซ่อนเร้นโดยไม่ต้องผ่าตัด", "w": 1700, "h": 869 },
+      { "t": "h2", "text": "THERMA V ยกกระชับจุดซ่อนเร้น" },
+      { "t": "p", "html": "นวัตกรรมการดูแลจุดซ่อนเร้นแบบไม่ต้องผ่าตัดมาเอาอกเอาใจสาวไทยกันแล้ว เป็นวิธีที่สามารถช่วยฟื้นฟูผิวของน้องสาวให้กลับมาขาวใส อวบอิ่มอย่างปลอดภัย ทั้งยังเพิ่มความมั่นใจให้จุดซ่อนเร้นกลับมาฟิตกระชับ แถมยังช่วยให้ถึงจุดสุดยอดได้ง่ายขึ้นอีกด้วย" },
+      { "t": "p", "html": "THERMA V นวัตกรรมใหม่แห่งการฟื้นฟูจุดซ่อนเร้นให้กลับมากระชับสดใสเหมือนวัยสาวและขาวอมชมพูอีกครั้ง โดยไม่ต้องผ่าตัด" },
+      { "t": "h2", "text": "THERMA V ช่วยแก้ปัญหา" },
+      { "t": "ul", "items": [
+        "ช่องคลอดไม่กระชับ เกิดการผายลมในขณะร่วมรัก",
+        "ปัสสาวะเล็ด อั้นปัสสาวะไม่อยู่ ไอ จาม มีปัสสาวะออกมากะปริบกะปรอย",
+        "ลดปัญหาน้ำหล่อลื่นน้อยทำให้รู้สึกเจ็บเวลาร่วมรัก",
+        "ลดปัญหาตกขาว"
+      ] },
+      { "t": "img", "src": "/assets/clone/534/thermavad-02.avif", "alt": "โปรแกรม THERMA V ฟื้นฟูจุดซ่อนเร้นที่ The Art", "w": 849, "h": 1200 },
+      { "t": "img", "src": "/assets/clone/534/thermav-01.avif", "alt": "เครื่อง THERMA V นวัตกรรมยกกระชับจุดซ่อนเร้น", "w": 1029, "h": 617 }
+    ]
+  },
+  "en": {
+    "title": "Therma V",
+    "metaTitle": "Therma V",
+    "metaDesc": "THERMA V is a new innovation that restores intimate-area firmness and brightness — youthful, rosy-fair skin again, with no surgery required.",
+    "lead": "THERMA V is a new innovation in intimate rejuvenation, restoring firmness and a bright, youthful, rosy-fair look — no surgery required. It brings beauty back to your intimate area, boosts confidence and adds happiness to your relationship.",
+    "keywords": ["Therma V", "intimate area tightening", "vaginal rejuvenation", "vaginal tightening", "urinary leakage", "non-surgical feminine treatment", "no surgery"],
+    "blocks": [
+      { "t": "img", "src": "/assets/clone/534/slide-therma-v.avif", "alt": "THERMA V non-surgical intimate-area tightening", "w": 1700, "h": 869 },
+      { "t": "h2", "text": "THERMA V intimate-area tightening" },
+      { "t": "p", "html": "This non-surgical intimate-care innovation has arrived to delight Thai women. It safely restores the skin of your intimate area to a brighter, fuller condition, boosts confidence with renewed firmness and tightness — and can even make reaching climax easier." },
+      { "t": "p", "html": "THERMA V is a new innovation that restores the intimate area to a firm, radiant, youthful state with rosy-fair skin once again — no surgery required." },
+      { "t": "h2", "text": "Problems THERMA V helps solve" },
+      { "t": "ul", "items": [
+        "Vaginal laxity, causing air passing during intimacy",
+        "Urinary leakage and poor bladder control — dribbling when coughing or sneezing",
+        "Reduces insufficient lubrication that causes pain during intimacy",
+        "Reduces vaginal discharge problems"
+      ] },
+      { "t": "img", "src": "/assets/clone/534/thermavad-02.avif", "alt": "THERMA V intimate rejuvenation program at The Art", "w": 849, "h": 1200 },
+      { "t": "img", "src": "/assets/clone/534/thermav-01.avif", "alt": "THERMA V device — intimate-area tightening innovation", "w": 1029, "h": 617 }
+    ]
+  }
+}
