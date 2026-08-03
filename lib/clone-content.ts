@@ -48,12 +48,7 @@ let cache: ClonePageData[] | null = null;
 
 export function getAllClonePages(): ClonePageData[] {
   if (cache) return cache;
-  let files: string[] = [];
-  try {
-    files = readdirSync(CONTENT_DIR).filter((f) => f.endsWith(".json"));
-  } catch {
-    return [];
-  }
+  const files = readdirSync(CONTENT_DIR).filter((f) => f.endsWith(".json"));
   cache = files.map((f) => JSON.parse(readFileSync(join(CONTENT_DIR, f), "utf8")) as ClonePageData);
   return cache;
 }
@@ -71,23 +66,21 @@ export function getClonePage(section: ClonePageData["section"], segments: string
   return getAllClonePages().find((p) => normalize(p.path) === path);
 }
 
-/** segments ใต้ section สำหรับ generateStaticParams (decode แล้ว) */
-export function cloneParamsFor(section: ClonePageData["section"]): { path?: string[] }[] {
+/** segments ใต้ section สำหรับ generateStaticParams (decode แล้ว)
+    root ต้องเป็น { path: [] } — entry แบบ {} ทำให้ Next 15.5 ทิ้ง static params ทั้ง route เงียบ ๆ */
+export function cloneParamsFor(section: ClonePageData["section"]): { path: string[] }[] {
   return getAllClonePages()
     .filter((p) => p.section === section)
-    .map((p) => {
-      const segs = p.path.replace(/^\/|\/$/g, "").split("/").slice(1);
-      return segs.length ? { path: segs } : {};
-    });
+    .map((p) => ({ path: p.path.replace(/^\/|\/$/g, "").split("/").slice(1) }));
 }
 
 export function pick(lang: Lang, page: ClonePageData): CloneLocaleContent {
   return lang === "th" ? page.th : page.en;
 }
 
-/** params สำหรับ route [[...path]] — การันตีมี entry ราก ({}) เพียงหนึ่งเดียว */
-export function cloneRouteParams(section: ClonePageData["section"]): { path?: string[] }[] {
+/** params สำหรับ route [[...path]] — การันตีมี entry ราก ({ path: [] }) เพียงหนึ่งเดียว */
+export function cloneRouteParams(section: ClonePageData["section"]): { path: string[] }[] {
   const params = cloneParamsFor(section);
-  const hasRoot = params.some((p) => !p.path || p.path.length === 0);
-  return hasRoot ? params : [{}, ...params];
+  const hasRoot = params.some((p) => p.path.length === 0);
+  return hasRoot ? params : [{ path: [] }, ...params];
 }
