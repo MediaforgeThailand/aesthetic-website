@@ -1,22 +1,101 @@
-@import "tailwindcss";
+/* ─── The Art Aesthetic — global styles (from design reference) ─── */
 
-@theme {
-  --color-blush-50: #fdf6f4;
-  --color-blush-100: #fae9e5;
-  --color-blush-200: #f5d5cd;
-  --color-blush-300: #edb5a8;
-  --color-blush-400: #e28b77;
-  --color-blush-500: #d56a52;
-  --color-blush-600: #c05138;
-  --color-blush-700: #a0412d;
-  --color-blush-800: #853929;
-  --color-blush-900: #703327;
+@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent.woff2') format('woff2');font-weight:100 500;font-style:normal;font-display:swap}
+@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent-Bold.woff2') format('woff2');font-weight:600 900;font-style:normal;font-display:swap}
+@font-face{font-family:'Luxia';src:url('/assets/fonts/LuxiaRegular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Luxia';src:url('/assets/fonts/LuxiaDisplay.woff') format('woff');font-weight:500 700;font-style:normal;font-display:swap}
+
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:#FFFDFC;color:#33241E;font-family:'DB Heavent','Prompt',sans-serif;-webkit-font-smoothing:antialiased}
+.aa-root h1,.aa-root h2,.aa-root h3{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500;color:#3c2127}
+.aa-root,.aa-root *{font-family:'DB Heavent','Prompt',sans-serif !important;font-size-adjust:0.5}
+.aa-root h1 *,.aa-root h2 *,.aa-root h3 *,
+.aa-root h1,.aa-root h2,.aa-root h3{font-family:'Luxia','DB Heavent','Trirong',serif !important}
+.aa-serif,.aa-root .aa-serif,.aa-root .aa-serif *{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500}
+.aa-pfi,.aa-root .aa-pfi{font-family:'Playfair Display','Luxia',serif !important;font-style:italic}
+a{color:#8F543F;text-decoration:none}
+a:hover{color:#A96A55}
+button{-webkit-tap-highlight-color:transparent}
+::selection{background:#EFD3C4;color:#33241E}
+img{max-width:100%}
+h1,h2,h3,p{margin:0}
+
+/* Keyframes */
+@keyframes aaRise{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes aaFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes aaPulse{0%,100%{box-shadow:0 12px 28px rgba(169,106,85,.35)}50%{box-shadow:0 12px 38px rgba(169,106,85,.55)}}
+@keyframes aaRiseB{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+@keyframes aaMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes aaHeroIn{from{opacity:0;transform:scale(1.06)}to{opacity:1;transform:none}}
+@keyframes aaDocIn{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+@keyframes aaDocInR{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:none}}
+@keyframes aaSDot{0%{transform:translateY(0);opacity:1}72%{transform:translateY(20px);opacity:0}100%{transform:translateY(20px);opacity:0}}
+@keyframes aaGrad{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+
+.aa-gradtext{background:linear-gradient(110deg,#9E5F4E,#BE7E67 32%,#E0AE92 50%,#A96A55 72%,#9E5F4E);background-size:220% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:#A96A55;animation:aaGrad 8s ease infinite}
+
+.aa-zoom .aa-zoom-img{transition:transform .9s cubic-bezier(.22,.61,.36,1)}
+.aa-zoom:hover .aa-zoom-img{transform:scale(1.06)}
+
+/* Scroll reveal */
+[data-rv]{transition:opacity .85s cubic-bezier(.22,.61,.36,1),transform .85s cubic-bezier(.22,.61,.36,1)}
+body.rv-init [data-rv]{opacity:0;transform:translateY(26px)}
+body.rv-init [data-rv].rv-on{opacity:1;transform:none}
+
+/* Containers: desktop min(1440px,88vw) → phone min(560px,92vw) */
+.aa-wrap{width:min(1440px,88vw);margin-left:auto;margin-right:auto}
+@media (max-width:640px){.aa-wrap{width:min(560px,92vw)}}
+
+/* Responsive visibility system
+   .aa-desk       shown >980px  (desktop nav / inline header items)
+   .aa-burg       shown ≤980px  (hamburger)
+   .aa-m-hide     hidden ≤640px
+   .aa-m-only     shown  ≤640px (mobile-redesign variants: hero, footer accordion, sticky capsule)
+   .aa-d-only     hidden ≤640px (desktop/tablet variants of those regions) */
+.aa-burg{display:none}
+.aa-m-only{display:none !important}
+@media (max-width:980px){
+  .aa-desk{display:none !important}
+  .aa-burg{display:inline-flex !important}
+  .aa-herog{grid-template-columns:1fr !important}
+  .aa-2col{grid-template-columns:1fr !important}
+}
+@media (max-width:640px){
+  .aa-m-hide{display:none !important}
+  .aa-d-only{display:none !important}
+  .aa-m-only{display:block !important}
+  .aa-m-only.aa-m-flex{display:flex !important}
+  body{padding-bottom:86px}
 }
 
-html {
-  scroll-behavior: smooth;
-}
+.aa-rail{scrollbar-width:thin;scrollbar-color:#D9B7A3 transparent}
+.aa-3col{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch}
+@media (max-width:720px){.aa-3col{grid-template-columns:1fr !important}}
+#aa-rev-rail{scrollbar-width:none;cursor:grab}
+#aa-rev-rail::-webkit-scrollbar{display:none}
 
-body {
-  @apply bg-blush-50 text-stone-800 antialiased;
+/* Shared hover utilities (reference `style-hover` equivalents) */
+.aa-hv-lift{transition:transform .25s}
+.aa-hv-lift:hover{transform:translateY(-2px)}
+.aa-hv-card{transition:transform .3s,box-shadow .3s}
+.aa-hv-card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(169,106,85,.16)}
+.aa-hv-scale{transition:transform .25s}
+.aa-hv-scale:hover{transform:scale(1.08)}
+.aa-nav-link{color:#33241E;transition:color .2s}
+.aa-nav-link:hover{color:#A96A55}
+.aa-ftr-link{color:#D8C2B4;transition:color .2s}
+.aa-ftr-link:hover{color:#fff}
+.aa-ftr-link-dim{color:#C7AC9C;transition:color .2s}
+.aa-ftr-link-dim:hover{color:#fff}
+.aa-branch-card{background:rgba(229,183,157,.07);transition:background .25s}
+.aa-branch-card:hover{background:rgba(229,183,157,.14)}
+.aa-white-link{color:#fff}
+.aa-white-link:hover{color:#fff}
+.aa-ghost-cap{color:#F6E8E1;transition:background .25s}
+.aa-ghost-cap:hover{color:#fff;background:rgba(229,183,157,.12)}
+
+/* QR card: desktop แถวนอน → mobile คอลัมน์กึ่งกลาง */
+@media (max-width:640px){
+  .aa-qr-card{flex-direction:column;text-align:center}
+  .aa-qr-card .aa-qr-text{display:flex;flex-direction:column;align-items:center}
 }
