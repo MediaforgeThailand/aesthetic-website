@@ -17,11 +17,22 @@ export function cloneMetadata(lang: Lang, page: ClonePageData): Metadata {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: alternatesFor(lang, page.path),
-    openGraph: page.heroImage ? { images: [page.heroImage] } : undefined,
+    openGraph: { images: [page.heroImage ?? "/assets/hero-hospital.jpg"] },
   };
 }
 
 const P_STYLE: React.CSSProperties = { font: "300 15px/1.95 'Prompt',sans-serif", color: "#5D4A40", margin: "14px 0 0" };
+
+/** เนื้อหา block เก็บ href เป็น path ไทย (canonical) — บน /en/ ต้องเติม prefix ให้ลิงก์ภายใน */
+const localizeHtml = (lang: Lang, html: string): string =>
+  lang === "en" ? html.replace(/href="\/(?!en\/)/g, 'href="/en/') : html;
+
+const localizeBlock = (lang: Lang, b: CloneBlock): CloneBlock => {
+  if (lang !== "en") return b;
+  if ("html" in b && b.html) return { ...b, html: localizeHtml(lang, b.html) };
+  if ("items" in b && b.items) return { ...b, items: b.items.map((it) => localizeHtml(lang, it)) };
+  return b;
+};
 
 function Block({ b }: { b: CloneBlock }) {
   switch (b.t) {
@@ -198,7 +209,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
 
         {/* เนื้อหา */}
         {c.blocks.map((b, i) => (
-          <Block key={i} b={b} />
+          <Block key={i} b={localizeBlock(lang, b)} />
         ))}
 
         {page.hasCaseImagery ? (

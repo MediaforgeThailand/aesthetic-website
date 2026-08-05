@@ -10,48 +10,186 @@
     "metaDesc": "โปรแกรม Thermatite ช่วยปรับหน้าเรียว ยกกระชับหน้าเด็ก กระตุ้นคอลลาเจนให้ผิวนิ่มน่าสัมผัสขณะทำสบายผิวเพียง 45 นาที ทำสวยเสร็จปุ๊บใช้งานผิวต่อได้ทันที",
     "lead": "โปรแกรม Thermatite ช่วยปรับหน้าเรียว ยกกระชับหน้าเด็ก กระตุ้นคอลลาเจนให้ผิวนิ่มน่าสัมผัส ขณะทำสบายผิวเพียง 45 นาที ทำสวยเสร็จปุ๊บใช้งานผิวต่อได้ทันที",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/518/slide-thermatite.avif", "alt": "Thermatite ปรับรูปหน้า ยกกระชับผิวหน้าโดยไม่ต้องผ่าตัด", "w": 1700, "h": 868 },
-      { "t": "h2", "text": "Thermatite ปรับรูปหน้า" },
-      { "t": "img", "src": "/assets/clone/518/thermatite-01.png", "alt": "เครื่อง Thermatite สำหรับยกกระชับผิวและลดเซลลูไลท์", "w": 1158, "h": 1302 },
-      { "t": "p", "html": "เหมาะกับคนไข้ที่มีปัญหาเรื่องของเซลลูไลท์<br>ต้องการลดสัดส่วนหรือต้องการยกกระชับผิวหน้า<br>และไม่ต้องการใช้ทรีทเม้นท์ชนิดเข็ม<br>ขณะทำรู้สึกผ่อนคลายเหมือนการนวดอุ่นๆ เล็กน้อยและไม่เจ็บ" },
-      { "t": "h3", "text": "Thermatite" },
-      { "t": "p", "html": "เป็นเครื่องมือที่ช่วยยกกระชับผิวลดเซลลูไลท์ ลดสัดส่วนโดยผสมผสานเทคโนโลยี 4 ชนิดคือ" },
-      { "t": "ol", "items": [
-        "คลื่นความถี่วิทยุความถี่สูงชนิดสองขั้ว (Bi-polar RF)",
-        "ระบบหัวนวดชนิดสุญญากาศ และลูกกลิ้ง (Vacuum and Roller)",
-        "แสงอินฟราเรด",
-        "คลื่นเสียงอัลทราโซนิค"
-      ] },
-      { "t": "img", "src": "/assets/clone/518/thermatite-02.avif", "alt": "รายละเอียดเทคโนโลยีของโปรแกรม Thermatite", "w": 648, "h": 1048 },
-      { "t": "p", "html": "ระยะเวลาในการรักษาด้วย Thermatite ใช้เวลาประมาณ 30-40 นาทีต่อ 1 บริเวณ สามารถทำได้ 1-2 ครั้งต่ออาทิตย์ สังเกตเห็นความเปลี่ยนแปลงเรื่องเซลลูไลท์ประมาณครั้งที่ 3-6 ทำต่อเนื่องประมาณ 10-12 ครั้ง จะเห็นผลการรักษาเต็มที่ หลังจากนั้นเพื่อผลในระยะยาวสามารถทำทุก 1-3 เดือนแล้วแต่บุคคล" },
-      { "t": "ul", "items": [
-        "ปรับหน้าเรียวภายใน 45 นาที",
-        "ช่วยกระตุ้นคอลลาเจนทำให้หน้าดูเด็ก",
-        "แก้ปัญหาริ้วรอยต่างๆ แก้ปัญหาผิวทรุด",
-        "เก็บกรอบหน้าให้ดูเรียวสวยขึ้นเห็นได้ชัด",
-        "เห็นผลทันทีหลังทำ",
-        "ไม่แสบร้อน ทั้งในขณะที่ทำและหลังทำ",
-        "ทำเสร็จสามารถใช้งานผิวต่อได้ทันที"
-      ] },
-      { "t": "img", "src": "/assets/clone/518/thermatite-ying.avif", "alt": "ผู้รับบริการโปรแกรม Thermatite ยกกระชับหน้าเรียว", "w": 1260, "h": 999 },
-      { "t": "h2", "text": "รีวิว THERMATITE ของ ดิอาทคลินิก" },
-      { "t": "video", "src": "https://www.youtube.com/embed/gBRvREwaP8w", "title": "One Day With Bella : วันสบายๆของ \"เบลล่า\" กับโปรแกรมหน้าเด็กที่ชื่นชอบมากที่สุด!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/QconnBvMc-o", "title": "Woody บุกดิอาทคลินิก ไขเคล็ดลับความสวยของ เบลล่า ราณี" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "โปรแกรมระเบิดเหนียง : แค่ 2 Week หน้าเรียวมากแม่!!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "โปรแกรมระเบิดเหนียง : ผิวหน้ายกกระชับ หน้าเรียวx2 ด้วยเทคนิคเฉพาะของ The Art" },
-      { "t": "img", "src": "/assets/clone/518/review6-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review2-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review4-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review11-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review3-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review1-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review10-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review9-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review7-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review8-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review5-thermatite.avif", "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง", "w": 471, "h": 471 }
+      {
+        "t": "img",
+        "src": "/assets/clone/518/slide-thermatite.avif",
+        "alt": "Thermatite ปรับรูปหน้า ยกกระชับผิวหน้าโดยไม่ต้องผ่าตัด",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "h2",
+        "text": "Thermatite ปรับรูปหน้า"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-01.png",
+        "alt": "เครื่อง Thermatite สำหรับยกกระชับผิวและลดเซลลูไลท์",
+        "w": 1158,
+        "h": 1302
+      },
+      {
+        "t": "p",
+        "html": "เหมาะกับคนไข้ที่มีปัญหาเรื่องของเซลลูไลท์<br>ต้องการลดสัดส่วนหรือต้องการยกกระชับผิวหน้า<br>และไม่ต้องการใช้ทรีทเม้นท์ชนิดเข็ม<br>ขณะทำรู้สึกผ่อนคลายเหมือนการนวดอุ่นๆ เล็กน้อยและไม่เจ็บ"
+      },
+      {
+        "t": "h3",
+        "text": "Thermatite"
+      },
+      {
+        "t": "p",
+        "html": "เป็นเครื่องมือที่ช่วยยกกระชับผิวลดเซลลูไลท์ ลดสัดส่วนโดยผสมผสานเทคโนโลยี 4 ชนิดคือ"
+      },
+      {
+        "t": "ol",
+        "items": [
+          "คลื่นความถี่วิทยุความถี่สูงชนิดสองขั้ว (Bi-polar RF)",
+          "ระบบหัวนวดชนิดสุญญากาศ และลูกกลิ้ง (Vacuum and Roller)",
+          "แสงอินฟราเรด",
+          "คลื่นเสียงอัลทราโซนิค"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-02.avif",
+        "alt": "รายละเอียดเทคโนโลยีของโปรแกรม Thermatite",
+        "w": 648,
+        "h": 1048
+      },
+      {
+        "t": "p",
+        "html": "ระยะเวลาในการรักษาด้วย Thermatite ใช้เวลาประมาณ 30-40 นาทีต่อ 1 บริเวณ สามารถทำได้ 1-2 ครั้งต่ออาทิตย์ สังเกตเห็นความเปลี่ยนแปลงเรื่องเซลลูไลท์ประมาณครั้งที่ 3-6 ทำต่อเนื่องประมาณ 10-12 ครั้ง จะเห็นผลการรักษาเต็มที่ หลังจากนั้นเพื่อผลในระยะยาวสามารถทำทุก 1-3 เดือนแล้วแต่บุคคล"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "ปรับหน้าเรียวภายใน 45 นาที",
+          "ช่วยกระตุ้นคอลลาเจนทำให้หน้าดูเด็ก",
+          "แก้ปัญหาริ้วรอยต่างๆ แก้ปัญหาผิวทรุด",
+          "เก็บกรอบหน้าให้ดูเรียวสวยขึ้นเห็นได้ชัด",
+          "เห็นผลทันทีหลังทำ",
+          "ไม่แสบร้อน ทั้งในขณะที่ทำและหลังทำ",
+          "ทำเสร็จสามารถใช้งานผิวต่อได้ทันที"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-ying.avif",
+        "alt": "ผู้รับบริการโปรแกรม Thermatite ยกกระชับหน้าเรียว",
+        "w": 1260,
+        "h": 999
+      },
+      {
+        "t": "h2",
+        "text": "รีวิว THERMATITE ของ ดิอาทคลินิก"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/gBRvREwaP8w",
+        "title": "One Day With Bella : วันสบายๆของ \"เบลล่า\" กับโปรแกรมหน้าเด็กที่ชื่นชอบมากที่สุด!"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/QconnBvMc-o",
+        "title": "Woody บุกดิอาทคลินิก ไขเคล็ดลับความสวยของ เบลล่า ราณี"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "โปรแกรมระเบิดเหนียง : แค่ 2 Week หน้าเรียวมากแม่!!"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "โปรแกรมระเบิดเหนียง : ผิวหน้ายกกระชับ หน้าเรียวx2 ด้วยเทคนิคเฉพาะของ The Art"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review6-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review2-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review4-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review11-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review3-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review1-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review10-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review9-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review7-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review8-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review5-thermatite.avif",
+        "alt": "รีวิวผลลัพธ์โปรแกรม Thermatite จากผู้ใช้บริการจริง",
+        "w": 471,
+        "h": 471
+      }
     ],
-    "keywords": ["Thermatite", "ยกกระชับผิวหน้า", "ปรับหน้าเรียว", "ลดเซลลูไลท์", "กระตุ้นคอลลาเจน", "ลดเหนียง", "ยกกระชับไม่ผ่าตัด"]
+    "keywords": [
+      "Thermatite",
+      "ยกกระชับผิวหน้า",
+      "ปรับหน้าเรียว",
+      "ลดเซลลูไลท์",
+      "กระตุ้นคอลลาเจน",
+      "ลดเหนียง",
+      "ยกกระชับไม่ผ่าตัด"
+    ]
   },
   "en": {
     "title": "Thermatite",
@@ -59,48 +197,186 @@
     "metaDesc": "The Thermatite program slims the face, lifts and firms for a youthful look, and stimulates collagen for soft, touchable skin — a comfortable 45-minute session with zero downtime.",
     "lead": "The Thermatite program helps slim the face, lift and firm for a more youthful look, and stimulate collagen for soft, touchable skin. The treatment is gentle on the skin and takes only 45 minutes — and as soon as you are done, you can go straight back to your daily routine.",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/518/slide-thermatite.avif", "alt": "Thermatite facial contouring — non-surgical skin lifting and firming", "w": 1700, "h": 868 },
-      { "t": "h2", "text": "Thermatite Facial Contouring" },
-      { "t": "img", "src": "/assets/clone/518/thermatite-01.png", "alt": "The Thermatite machine for skin tightening and cellulite reduction", "w": 1158, "h": 1302 },
-      { "t": "p", "html": "Ideal for clients with cellulite concerns<br>who want to slim their contours or lift and firm facial skin<br>without any needle-based treatment.<br>During the session it feels relaxing, like a gentle warm massage — completely painless." },
-      { "t": "h3", "text": "Thermatite" },
-      { "t": "p", "html": "Thermatite is a device that lifts and firms the skin, reduces cellulite and slims body contours by combining four technologies:" },
-      { "t": "ol", "items": [
-        "High-frequency bi-polar radiofrequency (Bi-polar RF)",
-        "Vacuum suction massage head with rollers (Vacuum and Roller)",
-        "Infrared light",
-        "Ultrasonic waves"
-      ] },
-      { "t": "img", "src": "/assets/clone/518/thermatite-02.avif", "alt": "Details of the technologies behind the Thermatite program", "w": 648, "h": 1048 },
-      { "t": "p", "html": "A Thermatite treatment takes about 30-40 minutes per area and can be done 1-2 times per week. Changes in cellulite become noticeable around the 3rd-6th session, with full results after approximately 10-12 continuous sessions. After that, for long-term results, maintenance sessions can be done every 1-3 months depending on the individual." },
-      { "t": "ul", "items": [
-        "A slimmer face in 45 minutes",
-        "Stimulates collagen for a more youthful-looking face",
-        "Addresses wrinkles and skin laxity",
-        "Visibly tightens the facial contour for a slimmer, more beautiful shape",
-        "Immediate results right after treatment",
-        "No burning or stinging, during or after the session",
-        "Zero downtime — return to your routine immediately"
-      ] },
-      { "t": "img", "src": "/assets/clone/518/thermatite-ying.avif", "alt": "Client receiving the Thermatite face-slimming and firming program", "w": 1260, "h": 999 },
-      { "t": "h2", "text": "THERMATITE Reviews from The Art Clinic" },
-      { "t": "video", "src": "https://www.youtube.com/embed/gBRvREwaP8w", "title": "One Day With Bella: a relaxed day with \"Bella\" and her favorite baby-face program!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/QconnBvMc-o", "title": "Woody visits The Art Clinic to uncover the beauty secrets of Bella Ranee" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "Double-chin blasting program: a visibly slimmer face in just 2 weeks!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "Double-chin blasting program: lifted, firmer skin and a face twice as slim with The Art's signature technique" },
-      { "t": "img", "src": "/assets/clone/518/review6-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review2-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review4-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review11-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review3-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review1-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review10-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review9-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review7-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review8-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 },
-      { "t": "img", "src": "/assets/clone/518/review5-thermatite.avif", "alt": "Thermatite program results from a real client", "w": 471, "h": 471 }
+      {
+        "t": "img",
+        "src": "/assets/clone/518/slide-thermatite.avif",
+        "alt": "Thermatite facial contouring — non-surgical skin lifting and firming",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "h2",
+        "text": "Thermatite Facial Contouring"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-01.png",
+        "alt": "The Thermatite machine for skin tightening and cellulite reduction",
+        "w": 1158,
+        "h": 1302
+      },
+      {
+        "t": "p",
+        "html": "Ideal for clients with cellulite concerns<br>who want to slim their contours or lift and firm facial skin<br>without any needle-based treatment.<br>During the session it feels relaxing, like a gentle warm massage — completely painless."
+      },
+      {
+        "t": "h3",
+        "text": "Thermatite"
+      },
+      {
+        "t": "p",
+        "html": "Thermatite is a device that lifts and firms the skin, reduces cellulite and slims body contours by combining four technologies:"
+      },
+      {
+        "t": "ol",
+        "items": [
+          "High-frequency bi-polar radiofrequency (Bi-polar RF)",
+          "Vacuum suction massage head with rollers (Vacuum and Roller)",
+          "Infrared light",
+          "Ultrasonic waves"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-02.avif",
+        "alt": "Details of the technologies behind the Thermatite program",
+        "w": 648,
+        "h": 1048
+      },
+      {
+        "t": "p",
+        "html": "A Thermatite treatment takes about 30-40 minutes per area and can be done 1-2 times per week. Changes in cellulite become noticeable around the 3rd-6th session, with full results after approximately 10-12 continuous sessions. After that, for long-term results, maintenance sessions can be done every 1-3 months depending on the individual."
+      },
+      {
+        "t": "ul",
+        "items": [
+          "A slimmer face in 45 minutes",
+          "Stimulates collagen for a more youthful-looking face",
+          "Addresses wrinkles and skin laxity",
+          "Visibly tightens the facial contour for a slimmer, more beautiful shape",
+          "Immediate results right after treatment",
+          "No burning or stinging, during or after the session",
+          "Zero downtime — return to your routine immediately"
+        ]
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/thermatite-ying.avif",
+        "alt": "Client receiving the Thermatite face-slimming and firming program",
+        "w": 1260,
+        "h": 999
+      },
+      {
+        "t": "h2",
+        "text": "THERMATITE Reviews from The Art Aesthetic"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/gBRvREwaP8w",
+        "title": "One Day With Bella: a relaxed day with \"Bella\" and her favorite baby-face program!"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/QconnBvMc-o",
+        "title": "Woody visits The Art Clinic to uncover the beauty secrets of Bella Ranee"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "Double-chin blasting program: a visibly slimmer face in just 2 weeks!"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "Double-chin blasting program: lifted, firmer skin and a face twice as slim with The Art's signature technique"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review6-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review2-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review4-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review11-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review3-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review1-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review10-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review9-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review7-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review8-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/518/review5-thermatite.avif",
+        "alt": "Thermatite program results from a real client",
+        "w": 471,
+        "h": 471
+      }
     ],
-    "keywords": ["Thermatite", "skin tightening", "face slimming", "cellulite reduction", "collagen stimulation", "double chin reduction", "non-surgical lifting"]
+    "keywords": [
+      "Thermatite",
+      "skin tightening",
+      "face slimming",
+      "cellulite reduction",
+      "collagen stimulation",
+      "double chin reduction",
+      "non-surgical lifting"
+    ]
   },
   "heroImage": "/assets/clone/518/slide-thermatite.avif",
   "hasCaseImagery": true

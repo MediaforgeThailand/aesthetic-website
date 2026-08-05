@@ -10,7 +10,13 @@
     "metaDesc": "เป็นอีกเคสที่เข้ามาทำสวยกับทาง The Art สำหรับพยาบาลสาวน้อยที่ตอนนี้กลายเป็นพยาบาลสาวสวยหน้าเป๊ะไปแล้ว เพราะก่อนที่จะเข้ามาทำสวยที่ The Art เธอมีปัญหา",
     "lead": "เป็นอีกเคสที่เข้ามาทำสวยกับทาง The Art สำหรับพยาบาลสาวน้อยที่ตอนนี้กลายเป็นพยาบาลสาวสวยหน้าเป๊ะไปแล้ว เพราะก่อนที่จะเข้ามาทำสวยที่ The Art เธอมีปัญหา ใบหน้าไม่ได้สัดส่วน เนื่องจากเป็นคนคางสั้น-คางบุ๋ม ทำให้ใบหน้าดูกลม ดูสั้นไม่ได้สัดส่วน ทั้ง ๆ ที่โหงวเฮ้งโดยรวมบนใบหน้าเกือบดีแล้ว เพราะเป็นคนจมูกโด่ง ตาโต และหน้าผากสมดุล แต่ดันมาตกม้าตายตรงคางที่สั้นจนเกินไป ทำให้เธอรู้สึกว่าใบหน้าของเธอนั้นยังดูขาด ๆ อะไรไปอยู่",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/1923/33-2.avif", "alt": "เคสศัลยกรรมเสริมคางที่ The Art แก้ปัญหาคางสั้น-คางบุ๋ม ใบหน้าไม่ได้สัดส่วน", "w": 1040, "h": 1040 },
+      {
+        "t": "img",
+        "src": "/assets/clone/1923/33-2.avif",
+        "alt": "เคสศัลยกรรมเสริมคางที่ The Art แก้ปัญหาคางสั้น-คางบุ๋ม ใบหน้าไม่ได้สัดส่วน",
+        "w": 1040,
+        "h": 1040
+      },
       {
         "t": "p",
         "html": "ซึ่งเธอก็เลยเข้ามาปรึกษากับทางคุณหมออาร์ทว่าจะแก้ปัญหาข้างต้นอย่างไรได้บ้าง หมออาร์ทที่เห็นใบหน้าของน้องคนนี้ทันทีก็เห็นถึงจุดบกพร่องเลยว่าเป็นคนที่คางสั้น ควรจะที่ทำศัลยกรรมเสริมคาง ปรับสัดส่วนบนใบหน้าของเธอให้มีความสมดุลขึ้น เพื่อช่วยเสริมให้คางมีความยาวเรียวสวย ใบหน้าก็จะดูดี ดูเป๊ะขึ้น"
@@ -19,15 +25,9 @@
         "t": "p",
         "html": "หมออาร์ทได้เหลาซิลิโคนเสริมคางให้กับเคสนี้แบบเคสต่อเคส เป็นการตกแต่งซิลิโคนก่อนทำการผ่าตัด โดยการวิเคราะห์รูปทรงซิลิโคนให้เข้ากับใบหน้า และรูปทรงโครงหน้าอย่างมากที่สุด เพื่อที่จะให้คางเรียวสวย ไม่ยาว ไม่สั้น เกินไป ให้มีความสมดุลกับใบหน้าของเธอมากที่สุด หลังจากทำไปเพียง 14 วัน ต้องบอกเลยว่า คางของเธอเรียวสวยขึ้นกว่าเดิมมาก ใบหน้าดูเปลี่ยนไปอย่างเห็นได้ชัด โครงหน้าเป็นรูปทรงวีเชฟ ดูละมุนแล้วเป็นธรรมชาติมากขึ้น สวยขึ้นกว่าเดิมมาก ๆ ถูกใจน้องพยาบาลสาวคนนี้แบบสุด ๆ ไปเลยค่ะ สวยหวานละมุนปังขึ้นแบบนี้ต้องที่ The Art สิคะ"
       },
-      { "t": "p", "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวศัลยกรรมได้ที่" },
       {
-        "t": "ul",
-        "items": [
-          "Tel: <a href=\"tel:+66657172473\">065-717-2473</a> | 065-717-2474 | 065-717-2475",
-          "Facebook: The Art",
-          "IG: theartclinic",
-          "Line: @theartclinic | @theartbeautyclub"
-        ]
+        "t": "p",
+        "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวศัลยกรรมได้ที่"
       }
     ],
     "keywords": [
@@ -46,7 +46,13 @@
     "metaDesc": "Another beauty case at The Art: a young nurse who is now stunning with perfectly balanced features. Before coming to The Art, she struggled with facial proportions.",
     "lead": "Here is another beauty case from The Art — a young nurse who has now become a beautiful nurse with perfectly balanced features. Before coming to The Art, her face lacked proportion because of a short, dimpled chin, which made her face look round, short, and out of balance. Her overall features were already nearly ideal — a well-defined nose, large eyes, and a balanced forehead — but the overly short chin let her down, leaving her feeling that something was still missing from her face.",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/1923/33-2.avif", "alt": "Chin augmentation case at The Art correcting a short, dimpled chin and unbalanced facial proportions", "w": 1040, "h": 1040 },
+      {
+        "t": "img",
+        "src": "/assets/clone/1923/33-2.avif",
+        "alt": "Chin augmentation case at The Art correcting a short, dimpled chin and unbalanced facial proportions",
+        "w": 1040,
+        "h": 1040
+      },
       {
         "t": "p",
         "html": "She came to consult Dr. Art about how to fix the problem. The moment Dr. Art saw her face, he identified the flaw: a short chin. He recommended chin augmentation surgery to rebalance her facial proportions, lengthening the chin into a slim, beautiful shape so the whole face would look better and more refined."
@@ -55,15 +61,9 @@
         "t": "p",
         "html": "Dr. Art hand-carved the chin silicone implant for this case individually, shaping it before surgery by analysing which implant form would best suit her face and bone structure — so the chin would be slim and beautiful, neither too long nor too short, and in perfect balance with her face. Just 14 days after the procedure, her chin was dramatically slimmer and more beautiful, her face visibly transformed with a V-shaped contour that looks soft and natural. She is happier with the result than she ever imagined. For this kind of sweet, soft, stunning transformation, it has to be The Art."
       },
-      { "t": "p", "html": "Contact us for details or to book a procedure at:" },
       {
-        "t": "ul",
-        "items": [
-          "Tel: <a href=\"tel:+66657172473\">065-717-2473</a> | 065-717-2474 | 065-717-2475",
-          "Facebook: The Art",
-          "IG: theartclinic",
-          "Line: @theartclinic | @theartbeautyclub"
-        ]
+        "t": "p",
+        "html": "Contact us for details or to book a procedure at:"
       }
     ],
     "keywords": [

@@ -17,7 +17,10 @@
         "w": 1568,
         "h": 1044
       },
-      { "t": "p", "html": "Key Takeaways :" },
+      {
+        "t": "p",
+        "html": "Key Takeaways :"
+      },
       {
         "t": "ul",
         "items": [
@@ -27,7 +30,10 @@
           "ฟิลเลอร์ในตลาดมีหลายรุ่น หลายยี่ห้อ และแต่ละรุ่นมีคุณสมบัติเด่นที่ตอบโจทย์ความต้องการแตกต่างกัน ไม่ว่าจะเป็นการเติมเต็มร่องลึก เพิ่มความอิ่มเอิบ หรือปรับรูปหน้าให้ได้สัดส่วน"
         ]
       },
-      { "t": "h2", "text": "ทำความรู้จักกันให้ชัดว่าฟิลเลอร์ (Filler) คืออะไร?" },
+      {
+        "t": "h2",
+        "text": "ทำความรู้จักกันให้ชัดว่าฟิลเลอร์ (Filler) คืออะไร?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/close-up-woman-lip-filler-procedure.avif",
@@ -43,7 +49,10 @@
         "t": "p",
         "html": "การฉีดฟิลเลอร์ควรทำโดยแพทย์เพื่อหลีกเลี่ยงผลข้างเคียงและได้ผลลัพธ์ที่ดีที่สุด ผลลัพธ์จะอยู่ได้ชั่วคราวขึ้นอยู่กับชนิดของฟิลเลอร์และบริเวณที่ฉีด โดยทั่วไปจะมีอายุประมาณ 6 เดือนถึง 2 ปี ก่อนที่จะถูกดูดซึมหรือสลายไปในร่างกาย"
       },
-      { "t": "h3", "text": "ชนิดของฟิลเลอร์" },
+      {
+        "t": "h3",
+        "text": "ชนิดของฟิลเลอร์"
+      },
       {
         "t": "p",
         "html": "ฟิลเลอร์มีหลายประเภทที่มีคุณสมบัติและการใช้งานแตกต่างกัน เพื่อให้เหมาะสมกับความต้องการและลักษณะของผิวแต่ละบุคคล ซึ่งสามารถแบ่งได้เป็น 3 ประเภทหลัก ได้แก่ ฟิลเลอร์แบบชั่วคราว กึ่งถาวร และถาวร"
@@ -56,7 +65,10 @@
           "<b>ฟิลเลอร์แบบถาวร</b> : ฟิลเลอร์ชนิดนี้ เช่น โพลิเมทิลเมทาคริเลต (Polymethylmethacrylate, PMMA) หรือซิลิโคน (Silicone) จะอยู่ในร่างกายถาวร ในประเทศไทยจะไม่มีการใช้ฟิลเลอร์ประเภทนี้และจัดว่าเป็นฟิลเลอร์ปลอม เนื่องจากมีความเสี่ยงที่สารจะไหลไปยังจุดอื่นจนเสียรูปทรง และตกค้างอยู่ใต้ผิวหนังโดยไม่สลายหายไปเอง หากต้องการเอาออกจะต้องขูดฟิลเลอร์ออกเท่านั้น"
         ]
       },
-      { "t": "h2", "text": "ฟิลเลอร์ฉีดจุดไหนได้บ้าง? แต่ละจุดใช้กี่ CC?" },
+      {
+        "t": "h2",
+        "text": "ฟิลเลอร์ฉีดจุดไหนได้บ้าง? แต่ละจุดใช้กี่ CC?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/filler-infographic.avif",
@@ -68,42 +80,66 @@
         "t": "p",
         "html": "การฉีดฟิลเลอร์สามารถช่วยปรับรูปหน้าให้ดูสมส่วน โดยการใช้ฟิลเลอร์ในจุดต่าง ๆ ของใบหน้าจะช่วยแก้ไขปัญหาหรือเพิ่มความสวยงามในบริเวณที่ต้องการได้ ซึ่งแต่ละจุดจะใช้ปริมาณฟิลเลอร์แตกต่างกันไป ดังนี้"
       },
-      { "t": "h3", "text": "ฟิลเลอร์ร่องแก้ม" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์ร่องแก้ม"
+      },
       {
         "t": "p",
         "html": "การฉีด<a href=\"/aesthetics/filler/filler-midface/\">ฟิลเลอร์ร่องแก้ม</a>ช่วยลดริ้วรอยและหย่อนคล้อยในบริเวณนี้ ให้ผิวดูเรียบเนียนและเต็มฟูขึ้น โดยทั่วไปจะใช้ฟิลเลอร์ประมาณ 1-3 CC ต่อข้าง"
       },
-      { "t": "h3", "text": "ฟิลเลอร์คาง" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์คาง"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-chin/\">ฟิลเลอร์คาง</a>ช่วยปรับรูปคางให้เรียวขึ้นหรือยืดเส้นคางให้สวยงามขึ้น โดยใช้ฟิลเลอร์ประมาณ 1-2 CC ซึ่งจะช่วยเพิ่มความสมส่วนให้กับใบหน้า และช่วยเสริมโครงหน้าให้ดูมีมิติ"
       },
-      { "t": "h3", "text": "ฟิลเลอร์ใต้ตา" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์ใต้ตา"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-under-eye/\">ฟิลเลอร์ใต้ตา</a>เหมาะสำหรับผู้ที่มีปัญหาผิวใต้ตาหย่อนคล้อย หรือริ้วรอยใต้ตา ที่เกิดจากการขาดคอลลาเจน และการทรุดตัวของกระดูกเบ้าตาตามวัย การฉีดฟิลเลอร์ช่วยเติมเต็มให้ดูสดใสและลดรอยคล้ำ โดยใช้ฟิลเลอร์ประมาณ 1-3 CC ต่อข้าง ผลลัพธ์คือการทำให้ผิวใต้ตาดูเต่งตึงและสว่างขึ้น"
       },
-      { "t": "h3", "text": "ฟิลเลอร์ขมับ" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์ขมับ"
+      },
       {
         "t": "p",
         "html": "การฉีดฟิลเลอร์ขมับช่วยเติมเต็มบริเวณขมับที่ดูแบนหรือหมองคล้ำ เพื่อให้หน้าดูสมส่วนขึ้น ขมับดูเต็มฟูและปรับรูปหน้าให้ดูอ่อนเยาว์ โดยทั่วไปจะใช้ฟิลเลอร์ประมาณ 2-4 CC ต่อข้าง"
       },
-      { "t": "h3", "text": "ฟิลเลอร์หน้าผาก" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์หน้าผาก"
+      },
       {
         "t": "p",
         "html": "ฟิลเลอร์หน้าผากจะช่วยปรับรูปหน้าให้ดูเรียบเนียนและเติมเต็มรอยย่นที่เกิดจากการขยับกล้ามเนื้อบนหน้าผาก ใช้ฟิลเลอร์ประมาณ 3-5 CC เพื่อเพิ่มความสมส่วนให้กับใบหน้า"
       },
-      { "t": "h3", "text": "ฟิลเลอร์ปาก" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์ปาก"
+      },
       {
         "t": "p",
         "html": "การฉีด<a href=\"/aesthetics/filler/filler-mouth/\">ฟิลเลอร์ปาก</a>จะช่วยเพิ่มความอวบอิ่มให้กับริมฝีปากที่บาง หรือเติมเต็มร่องริ้วรอยรอบปาก โดยใช้ฟิลเลอร์ประมาณ 1-2 CC ช่วยให้ริมฝีปากดูเต็มและมีมิติขึ้น"
       },
-      { "t": "h3", "text": "ฟิลเลอร์แก้มส้ม" },
+      {
+        "t": "h3",
+        "text": "ฟิลเลอร์แก้มส้ม"
+      },
       {
         "t": "p",
         "html": "ฟิลเลอร์แก้มส้มจะช่วยเติมเต็มบริเวณแก้มที่ดูแบนหรือขาดความเต่งตึง ทำให้ใบหน้าดูอ่อนเยาว์และมีชีวิตชีวาขึ้น การใช้ฟิลเลอร์ประมาณ 1-2 CC ต่อ 2 ข้างจะช่วยเพิ่มปริมาณเนื้อผิวแก้มและลดรอยย่นที่เกิดขึ้นที่บริเวณนี้"
       },
-      { "t": "h2", "text": "ฟิลเลอร์มียี่ห้ออะไรบ้าง? แตกต่างกันอย่างไร?" },
+      {
+        "t": "h2",
+        "text": "ฟิลเลอร์มียี่ห้ออะไรบ้าง? แตกต่างกันอย่างไร?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/front-view-woman-getting-injections.avif",
@@ -115,7 +151,10 @@
         "t": "p",
         "html": "ฟิลเลอร์ก็จะมีอยู่หลายยี่ห้อซึ่งจะผลิตมาจากบริษัทที่แตกต่างกัน และใช้เทคโนโลยีที่เป็นเอกลักษณ์ของแต่ละยี่ห้อ จะเลือกฟิลเลอร์ยี่ห้อไหนดีนั้นอาจพิจารณาได้ตามคุณสมบัติของแต่ละยี่ห้อ รวมไปถึงความเหมาะสมในการแก้ปัญหา โดยยี่ห้อของฟิลเลอร์ที่เป็นที่นิยมก็จะมีอยู่ด้วยกัน ดังนี้"
       },
-      { "t": "h3", "text": "Juvederm" },
+      {
+        "t": "h3",
+        "text": "Juvederm"
+      },
       {
         "t": "p",
         "html": "Juvederm (จูวีเดิม) เป็นฟิลเลอร์จากสหรัฐอเมริกาที่ผลิตจากกรดไฮยาลูโรนิกซึ่งอยู่ในรูปแบบ cross-link ช่วยให้ฟิลเลอร์เรียบเนียนไม่เป็นก้อน ไม่ไหลย้อย ปั้นขึ้นรูปง่ายและผสานเข้ากับเนื้อเยื่อผิวหนังได้อย่างกลมกลืน โดยที่ผลลัพธ์สามารถอยู่ได้ระหว่าง 9-24 เดือน ขึ้นอยู่กับชนิดและพื้นที่ที่ฉีด"
@@ -124,7 +163,10 @@
         "t": "p",
         "html": "โดยฟิลเลอร์ของ Juvederm ก็จะมีหลายรุ่นให้เลือก ซึ่งจะแบ่งออกได้ผ่านเทคโนโลยีที่ใช้ในการทำให้กรดไฮยาลูโรนิกมีรูปแบบ cross-link ได้สองกลุ่มคือ เทคโนโลยี Hylacross ที่จะอุ้มน้ำได้ดี ช่วยให้ผิวดูอิ่มฟู และ เทคโนโลยี Vycross ซึ่งจะมีจุดเด่นในความสามารถในการยกกระชับและขึ้นรูปได้ดี อยู่ได้นานแต่อุ้มน้ำได้น้อยกว่า Hylacross"
       },
-      { "t": "p", "html": "รุ่นที่นิยมใช้ของ Juvederm ก็จะมี ดังนี้" },
+      {
+        "t": "p",
+        "html": "รุ่นที่นิยมใช้ของ Juvederm ก็จะมี ดังนี้"
+      },
       {
         "t": "ul",
         "items": [
@@ -132,7 +174,10 @@
           "เทคโนโลยี Vycross<br>Juvederm Volite: อยู่ได้สูงถึง 9 เดือน<br>Juvederm Volbella: อยู่ได้สูงถึง 12 เดือน<br>Juvederm Volift: อยู่ได้สูงถึง 18 เดือน<br>Juvederm Volux: อยู่ได้สูงถึง 18-24 เดือน<br>Juvederm Voluma : อยู่ได้สูงถึง 24 เดือน"
         ]
       },
-      { "t": "h3", "text": "Neuramis" },
+      {
+        "t": "h3",
+        "text": "Neuramis"
+      },
       {
         "t": "p",
         "html": "Neuramis (นิวรามิส) เป็นฟิลเลอร์จากเกาหลีใต้ที่ถูกพัฒนาขึ้นโดย MedyTox ที่ผ่านการใช้เทคโนโลยี SHAPE Technology เพื่อทำให้ฟิลเลอร์มีคุณสมบัติ 2-step cross-linking ซึ่งช่วยให้ฟิลเลอร์มีความคงตัวสูง ตรึงไปกับผิว ขึ้นรูปง่าย และทำให้คนไข้ไม่ต้องเจ็บปวดมากในการทำหัตถการ"
@@ -141,7 +186,10 @@
         "t": "p",
         "html": "โดย Neuramis แต่ละรุ่นก็ยังมีจุดเด่นที่ทำให้เหมาะกับจุดที่แตกต่างกันไปด้วย เช่น Neuramis Deep และ Neuramis Deep Licodain ก็จะเหมาะกับการเติมริ้วรอยลึก ในขณะที่ Neuramis Volume Licodain จะเหมาะกับการยกกระชับและปรับรูปหน้าโดยเฉพาะในบริเวณแก้มและคาง"
       },
-      { "t": "p", "html": "ในปัจจุบันฟิลเลอร์ Neuramis รุ่นที่ได้รับอนุญาตในไทยแล้วก็จะมี ดังนี้" },
+      {
+        "t": "p",
+        "html": "ในปัจจุบันฟิลเลอร์ Neuramis รุ่นที่ได้รับอนุญาตในไทยแล้วก็จะมี ดังนี้"
+      },
       {
         "t": "ul",
         "items": [
@@ -150,12 +198,18 @@
           "Neuramis Volume Licodain : อยู่ได้สูงถึง 24 เดือน"
         ]
       },
-      { "t": "h3", "text": "Restylane" },
+      {
+        "t": "h3",
+        "text": "Restylane"
+      },
       {
         "t": "p",
         "html": "Restylane (เรสทิเลน) เป็นฟิลเลอร์จากสวีเดนที่มีกรดไฮยาลูโรนิกแบรนด์แรกของโลกที่ถูกนำมาใช้แก้ปัญหาเรื่องริ้วรอย โดยฟิลเลอร์ Restylane ก็จะแบ่งออกได้สองกลุ่ม คือ กลุ่มที่ใช้เทคโนโลยี NASHA ซึ่งจะทำให้เนื้อฟิลเลอร์มีความแน่น แข็งแรง เหมาะกับการยกผิวเพื่อแก้ปัญหาริ้วรอยเฉพาะจุด กับเทคโนโลยี OBT ซึ่งจะผลิตเนื้อฟิลเลอร์ที่มีความยืดหยุ่นสูง เหมาะกับการเติมในจุดที่มีการเคลื่อนไหวบ่อย เช่น ร่องแก้ม ทำให้หน้าดูละมุน ดูเหมือนใบหน้าธรรมชาติ"
       },
-      { "t": "p", "html": "ซึ่งรุ่นที่นิยมใช้ Restylane ก็จะมีดังนี้" },
+      {
+        "t": "p",
+        "html": "ซึ่งรุ่นที่นิยมใช้ Restylane ก็จะมีดังนี้"
+      },
       {
         "t": "ul",
         "items": [
@@ -163,13 +217,22 @@
           "เทคโนโลยี OBT<br>Restylane Refyne : อยู่ได้สูงถึง 12 เดือน<br>Restylane Kysse : อยู่ได้สูงถึง 12 เดือน<br>Restylane Volyme : อยู่ได้สูงถึง 18 เดือน<br>Restylane Defyne : อยู่ได้สูงถึง 12-18 เดือน"
         ]
       },
-      { "t": "h2", "text": "ฟิลเลอร์อันตรายไหม? อาการแทรกซ้อนมีอะไรบ้าง?" },
+      {
+        "t": "h2",
+        "text": "ฟิลเลอร์อันตรายไหม? อาการแทรกซ้อนมีอะไรบ้าง?"
+      },
       {
         "t": "p",
         "html": "ฟิลเลอร์โดยทั่วไปไม่ถือว่าอันตราย หากได้รับการฉีดจากแพทย์ที่มีประสบการณ์และใช้ฟิลเลอร์ที่ไม่ได้ให้ผลถาวร เช่น กรดไฮยาลูโรนิก (Hyaluronic Acid) แต่หากไม่ได้รับการฉีดอย่างถูกต้องหรือใช้ฟิลเลอร์ที่ไม่ได้มาตรฐานก็อาจเกิดอันตรายได้"
       },
-      { "t": "h3", "text": "อันตรายจากการฉีดฟิลเลอร์มีอะไรบ้าง?" },
-      { "t": "p", "html": "ความเสี่ยงและอาการแทรกซ้อนที่อาจเกิดขึ้นก็จะมีอยู่ ดังนี้" },
+      {
+        "t": "h3",
+        "text": "อันตรายจากการฉีดฟิลเลอร์มีอะไรบ้าง?"
+      },
+      {
+        "t": "p",
+        "html": "ความเสี่ยงและอาการแทรกซ้อนที่อาจเกิดขึ้นก็จะมีอยู่ ดังนี้"
+      },
       {
         "t": "ul",
         "items": [
@@ -180,7 +243,10 @@
           "<b>อาการแพ้</b> : สารฟิลเลอร์อาจทำให้เกิดอาการแพ้อย่างผื่นคันหรืออาการบวมได้"
         ]
       },
-      { "t": "h2", "text": "การเตรียมตัวก่อนฉีดฟิลเลอร์ต้องทำอย่างไร?" },
+      {
+        "t": "h2",
+        "text": "การเตรียมตัวก่อนฉีดฟิลเลอร์ต้องทำอย่างไร?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/woman-having-her-face-injected.avif",
@@ -203,7 +269,10 @@
           "<b>ไม่ดื่มแอลกอฮอล์</b> : งดดื่มแอลกอฮอล์ 24 ชั่วโมงก่อนการฉีด เพื่อป้องกันอาการบวมและฟกช้ำ"
         ]
       },
-      { "t": "h2", "text": "การดูแลหลังฉีดฟิลเลอร์มีขั้นตอนอย่างไรบ้าง" },
+      {
+        "t": "h2",
+        "text": "การดูแลหลังฉีดฟิลเลอร์มีขั้นตอนอย่างไรบ้าง"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/shocked-woman-open-mouth-while-take-injection.avif",
@@ -227,7 +296,10 @@
           "<b>รับประทานยาฆ่าเชื้อตามแพทย์สั่ง</b> : เพื่อป้องกันการติดเชื้อหลังทำหัตถการฟิลเลอร์"
         ]
       },
-      { "t": "h3", "text": "ฉีดฟิลเลอร์ห้ามกินอะไรบ้าง?" },
+      {
+        "t": "h3",
+        "text": "ฉีดฟิลเลอร์ห้ามกินอะไรบ้าง?"
+      },
       {
         "t": "ul",
         "items": [
@@ -240,12 +312,18 @@
           "<b>งดสูบบุหรี่</b> : เนื่องจากสารต่าง ๆ ในบุหรี่จะขยายหลอดเลือด ทำให้อาการบวมหายช้าลงและส่งผลให้อายุของการรักษาน้อยลงด้วย"
         ]
       },
-      { "t": "h2", "text": "ฟิลเลอร์แต่ละยี่ห้อ มีราคาเท่าไหร่?" },
+      {
+        "t": "h2",
+        "text": "ฟิลเลอร์แต่ละยี่ห้อ มีราคาเท่าไหร่?"
+      },
       {
         "t": "p",
         "html": "ฉีดฟิลเลอร์ราคาเท่าไหร่นั้นจะแตกต่างกันไปตามยี่ห้อและรุ่นที่เลือก ซึ่งในปัจจุบันราคาของแต่ละรุ่นก็จะมี ดังนี้"
       },
-      { "t": "h3", "text": "ราคาของฟิลเลอร์ Juvederm" },
+      {
+        "t": "h3",
+        "text": "ราคาของฟิลเลอร์ Juvederm"
+      },
       {
         "t": "ul",
         "items": [
@@ -254,7 +332,10 @@
           "<b>Juvederm 10 CC</b> : ราคาโปรโมชัน 159,000 บาท"
         ]
       },
-      { "t": "h3", "text": "ราคาของฟิลเลอร์ Restylane" },
+      {
+        "t": "h3",
+        "text": "ราคาของฟิลเลอร์ Restylane"
+      },
       {
         "t": "ul",
         "items": [
@@ -263,7 +344,10 @@
           "<b>Restylane 10 CC</b> : ราคาโปรโมชัน 119,000 บาท"
         ]
       },
-      { "t": "h3", "text": "ราคาของฟิลเลอร์ Neuramis" },
+      {
+        "t": "h3",
+        "text": "ราคาของฟิลเลอร์ Neuramis"
+      },
       {
         "t": "ul",
         "items": [
@@ -272,7 +356,10 @@
           "<b>Neuramis 10 CC</b> : ราคาโปรโมชัน 49,000 บาท"
         ]
       },
-      { "t": "h2", "text": "ฉีดฟิลเลอร์ที่ไหนดี? สิ่งเล็ก ๆ ที่ควรสังเกตเสมอ" },
+      {
+        "t": "h2",
+        "text": "ฉีดฟิลเลอร์ที่ไหนดี? สิ่งเล็ก ๆ ที่ควรสังเกตเสมอ"
+      },
       {
         "t": "p",
         "html": "การเลือกสถานที่ฉีดฟิลเลอร์เป็นสิ่งสำคัญที่ไม่ควรมองข้าม เพื่อให้ได้ผลลัพธ์ที่สวยงามและปลอดภัย ควรพิจารณาปัจจัยหลายอย่างก่อนตัดสินใจ ดังนี้"
@@ -291,12 +378,18 @@
         "t": "p",
         "html": "การใส่ใจรายละเอียดเล็ก ๆ เหล่านี้จะช่วยให้การฉีดฟิลเลอร์เป็นประสบการณ์ที่คุ้มค่ามากขึ้น"
       },
-      { "t": "h2", "text": "อยากทำฟิลเลอร์ เลือก The Art!" },
+      {
+        "t": "h2",
+        "text": "อยากทำฟิลเลอร์ เลือก The Art!"
+      },
       {
         "t": "p",
         "html": "หากกำลังมองหาคลินิกฉีดฟิลเลอร์ที่ตอบโจทย์ความสวยงาม The Art ก็คือตัวเลือกที่ไม่ควรมองข้าม ด้วยความน่าเชื่อ ใส่ใจในบริการ มีแพทย์เป็นผู้ทำหัตถการให้ทุกเคส มั่นใจได้ทั้งในเรื่องของผลลัพธ์และการดูแลอย่างใกล้ชิด"
       },
-      { "t": "h3", "text": "รวมรูปรีวิวฉีดฟิลเลอร์ที่ The Art" },
+      {
+        "t": "h3",
+        "text": "รวมรูปรีวิวฉีดฟิลเลอร์ที่ The Art"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/filler-injection.avif",
@@ -339,24 +432,22 @@
         "w": 1200,
         "h": 1200
       },
-      { "t": "h2", "text": "ฟิลเลอร์ ตัวเลือกที่น่าสนใจในการแก้ปัญหารูปหน้า" },
+      {
+        "t": "h2",
+        "text": "ฟิลเลอร์ ตัวเลือกที่น่าสนใจในการแก้ปัญหารูปหน้า"
+      },
       {
         "t": "p",
         "html": "การฉีดฟิลเลอร์เป็นวิธีการปรับรูปหน้าที่ทำได้โดยการเติมสารเติมเต็มเข้าไปบริเวณในจุดที่ต้องการแก้ไข เพื่อช่วยปรับสมดุลและเพิ่มความโดดเด่นให้ใบหน้าดูสมมาตรและสวยงามมากขึ้น วิธีนี้เหมาะสำหรับผู้ที่ต้องการทดลองปรับรูปหน้าแบบชั่วคราวก่อนตัดสินใจทำหัตถการที่มีผลถาวร สำหรับใครที่กำลังมองหาคลินิกที่มีประสบการณ์ด้านฟิลเลอร์ The Art คือตัวเลือกที่มั่นใจได้ ด้วยความใส่ใจในทุกขั้นตอนและผลลัพธ์ที่ช่วยเสริมความมั่นใจให้ลูกค้าพอใจในภาพลักษณ์ของตัวเอง"
       },
-      { "t": "p", "html": "ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่" },
       {
-        "t": "ul",
-        "items": [
-          "Facebook : <a href=\"https://www.facebook.com/TheArtHospitalClinic\" rel=\"nofollow noopener\" target=\"_blank\">https://www.facebook.com/TheArtHospitalClinic</a>",
-          "Line : <a href=\"https://lin.ee/NkRRV6R\" rel=\"nofollow noopener\" target=\"_blank\">https://lin.ee/NkRRV6R</a>",
-          "Instagram : <a href=\"https://www.instagram.com/thearthospital.clinic/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.instagram.com/thearthospital.clinic/</a>",
-          "TikTok : <a href=\"https://www.tiktok.com/@theartclinicandhospital\" rel=\"nofollow noopener\" target=\"_blank\">https://www.tiktok.com/@theartclinicandhospital</a>",
-          "Youtube : <a href=\"https://www.youtube.com/c/THEARTCLINICOfficial\" rel=\"nofollow noopener\" target=\"_blank\">https://www.youtube.com/c/THEARTCLINICOfficial</a>",
-          "Tel : 02-666-4666"
-        ]
+        "t": "p",
+        "html": "ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่"
       },
-      { "t": "p", "html": "อ้างอิง" },
+      {
+        "t": "p",
+        "html": "อ้างอิง"
+      },
       {
         "t": "p",
         "html": "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>"
@@ -412,7 +503,10 @@
         "w": 1568,
         "h": 1044
       },
-      { "t": "p", "html": "Key Takeaways :" },
+      {
+        "t": "p",
+        "html": "Key Takeaways :"
+      },
       {
         "t": "ul",
         "items": [
@@ -422,7 +516,10 @@
           "The market offers many filler brands and product lines, each with distinct strengths for different needs — filling deep folds, adding fullness, or bringing the face into better proportion"
         ]
       },
-      { "t": "h2", "text": "Let's Get Clear: What Exactly Is a Filler?" },
+      {
+        "t": "h2",
+        "text": "Let's Get Clear: What Exactly Is a Filler?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/close-up-woman-lip-filler-procedure.avif",
@@ -438,7 +535,10 @@
         "t": "p",
         "html": "Filler injections should always be performed by a doctor to avoid side effects and achieve the best result. Results are temporary and depend on the filler type and injection area — generally lasting around 6 months to 2 years before being absorbed and broken down by the body"
       },
-      { "t": "h3", "text": "Types of Fillers" },
+      {
+        "t": "h3",
+        "text": "Types of Fillers"
+      },
       {
         "t": "p",
         "html": "Fillers come in several types with different properties and uses, to suit each person's needs and skin. They fall into three main categories: temporary, semi-permanent, and permanent fillers"
@@ -451,7 +551,10 @@
           "<b>Permanent fillers</b> : fillers such as polymethylmethacrylate (PMMA) or silicone remain in the body permanently. These are not used in Thailand and are considered counterfeit fillers, because of the risk of the substance migrating and distorting the face, and because they remain under the skin without dissolving. Removal requires surgical scraping of the filler"
         ]
       },
-      { "t": "h2", "text": "Where Can Fillers Be Injected? How Many CC per Area?" },
+      {
+        "t": "h2",
+        "text": "Where Can Fillers Be Injected? How Many CC per Area?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/filler-infographic.avif",
@@ -463,42 +566,66 @@
         "t": "p",
         "html": "Filler injections can bring the face into better proportion. Using filler at different points of the face corrects problems or enhances beauty exactly where needed, with each area requiring a different amount:"
       },
-      { "t": "h3", "text": "Nasolabial Fold Filler" },
+      {
+        "t": "h3",
+        "text": "Nasolabial Fold Filler"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-midface/\">Nasolabial fold filler</a> reduces wrinkles and sagging in this area, leaving the skin smoother and fuller. Typically around 1-3 CC per side is used"
       },
-      { "t": "h3", "text": "Chin Filler" },
+      {
+        "t": "h3",
+        "text": "Chin Filler"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-chin/\">Chin filler</a> slims and refines the chin line using around 1-2 CC, bringing the face into better proportion and adding dimension to the facial structure"
       },
-      { "t": "h3", "text": "Under-Eye Filler" },
+      {
+        "t": "h3",
+        "text": "Under-Eye Filler"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-under-eye/\">Under-eye filler</a> suits those with sagging under-eye skin or under-eye wrinkles caused by collagen loss and age-related recession of the orbital bone. The injection restores volume for a fresher look and reduces dark circles, using around 1-3 CC per side. The result is firmer, brighter under-eye skin"
       },
-      { "t": "h3", "text": "Temple Filler" },
+      {
+        "t": "h3",
+        "text": "Temple Filler"
+      },
       {
         "t": "p",
         "html": "Temple filler restores volume to temples that look flat or hollow, bringing the face into better proportion, making the temples look full, and giving the face a more youthful shape. Typically around 2-4 CC per side is used"
       },
-      { "t": "h3", "text": "Forehead Filler" },
+      {
+        "t": "h3",
+        "text": "Forehead Filler"
+      },
       {
         "t": "p",
         "html": "Forehead filler smooths the forehead and fills in creases caused by muscle movement, using around 3-5 CC to bring the face into better proportion"
       },
-      { "t": "h3", "text": "Lip Filler" },
+      {
+        "t": "h3",
+        "text": "Lip Filler"
+      },
       {
         "t": "p",
         "html": "<a href=\"/aesthetics/filler/filler-mouth/\">Lip filler</a> adds fullness to thin lips or fills fine lines around the mouth, using around 1-2 CC to make the lips look full and dimensional"
       },
-      { "t": "h3", "text": "Cheek (Apple Cheek) Filler" },
+      {
+        "t": "h3",
+        "text": "Cheek (Apple Cheek) Filler"
+      },
       {
         "t": "p",
         "html": "Apple-cheek filler restores volume to cheeks that look flat or deflated, making the face look younger and more vibrant. Around 1-2 CC across both sides adds volume to the cheeks and reduces creasing in this area"
       },
-      { "t": "h2", "text": "Which Filler Brands Are There? How Do They Differ?" },
+      {
+        "t": "h2",
+        "text": "Which Filler Brands Are There? How Do They Differ?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/front-view-woman-getting-injections.avif",
@@ -510,7 +637,10 @@
         "t": "p",
         "html": "Fillers come in many brands, each produced by a different company using its own signature technology. Choosing a brand can come down to the properties of each product line and how well it suits the problem being treated. The most popular filler brands are:"
       },
-      { "t": "h3", "text": "Juvederm" },
+      {
+        "t": "h3",
+        "text": "Juvederm"
+      },
       {
         "t": "p",
         "html": "Juvederm is a filler from the United States made from cross-linked hyaluronic acid, which keeps the filler smooth and lump-free, prevents migration, makes it easy to sculpt, and blends seamlessly with the skin tissue. Results last between 9-24 months depending on the product line and treatment area"
@@ -519,7 +649,10 @@
         "t": "p",
         "html": "Juvederm offers several lines, divided by the cross-linking technology used: Hylacross technology, which retains water well and gives the skin a plump look, and Vycross technology, which excels at lifting and shaping, lasts longer, but retains less water than Hylacross"
       },
-      { "t": "p", "html": "Popular Juvederm lines include:" },
+      {
+        "t": "p",
+        "html": "Popular Juvederm lines include:"
+      },
       {
         "t": "ul",
         "items": [
@@ -527,7 +660,10 @@
           "Vycross technology<br>Juvederm Volite: lasts up to 9 months<br>Juvederm Volbella: lasts up to 12 months<br>Juvederm Volift: lasts up to 18 months<br>Juvederm Volux: lasts up to 18-24 months<br>Juvederm Voluma : lasts up to 24 months"
         ]
       },
-      { "t": "h3", "text": "Neuramis" },
+      {
+        "t": "h3",
+        "text": "Neuramis"
+      },
       {
         "t": "p",
         "html": "Neuramis is a filler from South Korea developed by MedyTox using SHAPE Technology, giving the filler 2-step cross-linking properties. This makes the filler highly stable, keeps it anchored in the skin, makes it easy to shape, and keeps discomfort low during the procedure"
@@ -536,7 +672,10 @@
         "t": "p",
         "html": "Each Neuramis line has strengths suited to different areas: Neuramis Deep and Neuramis Deep Lidocaine suit filling deep wrinkles, while Neuramis Volume Lidocaine suits lifting and facial reshaping, especially in the cheeks and chin"
       },
-      { "t": "p", "html": "Neuramis lines currently approved in Thailand are:" },
+      {
+        "t": "p",
+        "html": "Neuramis lines currently approved in Thailand are:"
+      },
       {
         "t": "ul",
         "items": [
@@ -545,12 +684,18 @@
           "Neuramis Volume Lidocaine : lasts up to 24 months"
         ]
       },
-      { "t": "h3", "text": "Restylane" },
+      {
+        "t": "h3",
+        "text": "Restylane"
+      },
       {
         "t": "p",
         "html": "Restylane is a filler from Sweden — the world's first hyaluronic acid brand used to treat wrinkles. Restylane fillers fall into two groups: those using NASHA technology, which produces a dense, strong filler ideal for lifting the skin to treat wrinkles in specific spots, and OBT technology, which produces a highly flexible filler suited to areas with frequent movement such as the nasolabial folds, giving the face a soft, natural look"
       },
-      { "t": "p", "html": "Popular Restylane lines include:" },
+      {
+        "t": "p",
+        "html": "Popular Restylane lines include:"
+      },
       {
         "t": "ul",
         "items": [
@@ -558,13 +703,22 @@
           "OBT technology<br>Restylane Refyne : lasts up to 12 months<br>Restylane Kysse : lasts up to 12 months<br>Restylane Volyme : lasts up to 18 months<br>Restylane Defyne : lasts up to 12-18 months"
         ]
       },
-      { "t": "h2", "text": "Are Fillers Dangerous? What Are the Possible Complications?" },
+      {
+        "t": "h2",
+        "text": "Are Fillers Dangerous? What Are the Possible Complications?"
+      },
       {
         "t": "p",
         "html": "Fillers are generally not considered dangerous when injected by an experienced doctor using non-permanent fillers such as hyaluronic acid. However, incorrect injection or substandard fillers can cause harm"
       },
-      { "t": "h3", "text": "What Are the Risks of Filler Injections?" },
-      { "t": "p", "html": "The possible risks and complications include:" },
+      {
+        "t": "h3",
+        "text": "What Are the Risks of Filler Injections?"
+      },
+      {
+        "t": "p",
+        "html": "The possible risks and complications include:"
+      },
       {
         "t": "ul",
         "items": [
@@ -575,7 +729,10 @@
           "<b>Allergic reaction</b> : filler substances can trigger allergic reactions such as itchy rashes or swelling"
         ]
       },
-      { "t": "h2", "text": "How Should You Prepare Before a Filler Injection?" },
+      {
+        "t": "h2",
+        "text": "How Should You Prepare Before a Filler Injection?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/woman-having-her-face-injected.avif",
@@ -598,7 +755,10 @@
           "<b>No alcohol</b> : avoid alcohol for 24 hours before the injection to prevent swelling and bruising"
         ]
       },
-      { "t": "h2", "text": "How Should You Care for Yourself After Filler Injections?" },
+      {
+        "t": "h2",
+        "text": "How Should You Care for Yourself After Filler Injections?"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/shocked-woman-open-mouth-while-take-injection.avif",
@@ -622,7 +782,10 @@
           "<b>Take antibiotics as prescribed</b> : to prevent infection after the filler procedure"
         ]
       },
-      { "t": "h3", "text": "What Should You Avoid Eating After Filler Injections?" },
+      {
+        "t": "h3",
+        "text": "What Should You Avoid Eating After Filler Injections?"
+      },
       {
         "t": "ul",
         "items": [
@@ -635,12 +798,18 @@
           "<b>No smoking</b> : substances in cigarettes dilate blood vessels, slowing the resolution of swelling and shortening how long the results last"
         ]
       },
-      { "t": "h2", "text": "How Much Does Each Filler Brand Cost?" },
+      {
+        "t": "h2",
+        "text": "How Much Does Each Filler Brand Cost?"
+      },
       {
         "t": "p",
         "html": "The cost of filler injections varies by brand and product line. Current prices for each line are as follows:"
       },
-      { "t": "h3", "text": "Juvederm Filler Prices" },
+      {
+        "t": "h3",
+        "text": "Juvederm Filler Prices"
+      },
       {
         "t": "ul",
         "items": [
@@ -649,7 +818,10 @@
           "<b>Juvederm 10 CC</b> : promotional price 159,000 baht"
         ]
       },
-      { "t": "h3", "text": "Restylane Filler Prices" },
+      {
+        "t": "h3",
+        "text": "Restylane Filler Prices"
+      },
       {
         "t": "ul",
         "items": [
@@ -658,7 +830,10 @@
           "<b>Restylane 10 CC</b> : promotional price 119,000 baht"
         ]
       },
-      { "t": "h3", "text": "Neuramis Filler Prices" },
+      {
+        "t": "h3",
+        "text": "Neuramis Filler Prices"
+      },
       {
         "t": "ul",
         "items": [
@@ -667,7 +842,10 @@
           "<b>Neuramis 10 CC</b> : promotional price 49,000 baht"
         ]
       },
-      { "t": "h2", "text": "Where Should You Get Fillers? The Small Things to Always Check" },
+      {
+        "t": "h2",
+        "text": "Where Should You Get Fillers? The Small Things to Always Check"
+      },
       {
         "t": "p",
         "html": "Choosing where to get filler injections is important and should never be overlooked. For beautiful, safe results, consider several factors before deciding:"
@@ -686,12 +864,18 @@
         "t": "p",
         "html": "Paying attention to these small details will make your filler experience far more worthwhile"
       },
-      { "t": "h2", "text": "Want Fillers? Choose The Art!" },
+      {
+        "t": "h2",
+        "text": "Want Fillers? Choose The Art!"
+      },
       {
         "t": "p",
         "html": "If you are looking for a filler clinic that delivers on beauty, The Art is a choice not to be overlooked — trustworthy, attentive service, with a doctor performing every procedure, so you can be confident in both the results and the close, personal care"
       },
-      { "t": "h3", "text": "Filler Review Photos at The Art" },
+      {
+        "t": "h3",
+        "text": "Filler Review Photos at The Art"
+      },
       {
         "t": "img",
         "src": "/assets/clone/527/filler-injection.avif",
@@ -734,24 +918,22 @@
         "w": 1200,
         "h": 1200
       },
-      { "t": "h2", "text": "Fillers: A Compelling Option for Fixing Facial Shape Concerns" },
+      {
+        "t": "h2",
+        "text": "Fillers: A Compelling Option for Fixing Facial Shape Concerns"
+      },
       {
         "t": "p",
         "html": "Filler injection reshapes the face by adding a volumising substance to the exact spots that need correction, rebalancing the face and enhancing its features for a more symmetrical, beautiful look. It suits those who want to try a temporary facial change before committing to a permanent procedure. For anyone seeking a clinic experienced in fillers, The Art is a choice you can trust — with care at every step and results that boost clients' confidence in their own image"
       },
-      { "t": "p", "html": "Contact us for more information at" },
       {
-        "t": "ul",
-        "items": [
-          "Facebook : <a href=\"https://www.facebook.com/TheArtHospitalClinic\" rel=\"nofollow noopener\" target=\"_blank\">https://www.facebook.com/TheArtHospitalClinic</a>",
-          "Line : <a href=\"https://lin.ee/NkRRV6R\" rel=\"nofollow noopener\" target=\"_blank\">https://lin.ee/NkRRV6R</a>",
-          "Instagram : <a href=\"https://www.instagram.com/thearthospital.clinic/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.instagram.com/thearthospital.clinic/</a>",
-          "TikTok : <a href=\"https://www.tiktok.com/@theartclinicandhospital\" rel=\"nofollow noopener\" target=\"_blank\">https://www.tiktok.com/@theartclinicandhospital</a>",
-          "Youtube : <a href=\"https://www.youtube.com/c/THEARTCLINICOfficial\" rel=\"nofollow noopener\" target=\"_blank\">https://www.youtube.com/c/THEARTCLINICOfficial</a>",
-          "Tel : 02-666-4666"
-        ]
+        "t": "p",
+        "html": "Contact us for more information at"
       },
-      { "t": "p", "html": "References" },
+      {
+        "t": "p",
+        "html": "References"
+      },
       {
         "t": "p",
         "html": "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>"

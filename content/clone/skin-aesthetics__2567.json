@@ -10,8 +10,20 @@
     "metaDesc": "เป็นสาวน้อยที่ ใบหน้าดูกลมบวม เพราะมีเหนียงเยอะ สำหรับน้องกะทิ ที่ทำให้เธอขาดความมั่นใจ เพราะมองมุมไหนใบหน้าก็ดูกลมไปหมด",
     "lead": "เป็นสาวน้อยที่ ใบหน้าดูกลมบวม เพราะมีเหนียงเยอะ สำหรับน้องกะทิ ที่ทำให้เธอขาดความมั่นใจ เพราะมองมุมไหนใบหน้าก็ดูกลมไปหมด อีกทั้งกรอบหน้าก็ยังไม่ชัด ยิ่งทำให้เธอเหมือนเป็นคนอ้วน ทั้ง ๆ ที่จริงแล้ว รูปร่างเธอไม่ได้อ้วนอะไรขนาดนั้น แต่เพราะเธอเป็นสาวแก้มเยอะมาตั้งแต่เกิด ทำให้โดนหลาย ๆ คนทักว่าอ้วน เพราะมีใบหน้าใหญ่นั่นเอง",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/2567/32.avif", "alt": "เคสยกกระชับใบหน้าด้วย Thermatite ที่ The Art — ใบหน้ากลมบวม เหนียงเยอะ ก่อนทำ", "w": 700, "h": 936 },
-      { "t": "img", "src": "/assets/clone/2567/33.avif", "alt": "ใบหน้าก่อนทำ Thermatite กรอบหน้าไม่ชัด", "w": 700, "h": 846 },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/32.avif",
+        "alt": "เคสยกกระชับใบหน้าด้วย Thermatite ที่ The Art — ใบหน้ากลมบวม เหนียงเยอะ ก่อนทำ",
+        "w": 700,
+        "h": 936
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/33.avif",
+        "alt": "ใบหน้าก่อนทำ Thermatite กรอบหน้าไม่ชัด",
+        "w": 700,
+        "h": 846
+      },
       {
         "t": "p",
         "html": "น้องกะทิเลยเข้ามาปรึกษาคุณหมอที่ The Art เพื่อที่จะแก้ปัญหาดังกล่าวของตัวเองให้หมดไป แต่น้องกะทินั้นยังไม่พร้อมที่จะทำการผ่าตัดศัลยกรรม หรือทำการดูดไขมัน คุณหมอเลยแนะนำอีกหนึ่งวิธีที่จะกำจัดเหนียง กำจัดเซลลูไลท์ส่วนเกิน แก้ปัญหาหน้าบวม หน้าใหญ่ได้ด้วยการยกกระชับใบหน้า ด้วย<a href=\"/aesthetics/thermatite/\">โปรแกรม Thermatite</a> ซึ่งเป็นโปรแกรมสลายไขมันส่วนเกิน และเซลลูไลท์ที่ใช้เวลาเพียงไม่นาน หลังจากทำไปแล้วเห็นผลทันที และไม่ต้องพักฟื้น สามารถใช้ชีวิตได้ตามปกติทันทีค่ะ"
@@ -20,18 +32,30 @@
         "t": "p",
         "html": "เนื่องจากโปรแกรม Thermatite จะทำงานด้วยการปล่อยคลื่นความถี่สูงลงลึกถึงชั้นผิวเพื่อทำการกำจัดเซลลูไลท์ส่วนเกินให้แตกกระจายออก และสลายออกไปจากบริเวณที่เราต้องยกกระชับผิว ขณะทำจะไม่รู้สึกเจ็บแต่อย่างใด เพราะจะรู้สึกเหมือนโดนนวดอุ่น ๆ เพียงเล็กน้อย ใช้เวลาในการทำเพียงแค่ 30 – 40 นาที ต่อ 1 จุด ไม่มีรอยแผล ไม่ใช้เข็ม หลังทำจะไม่รู้สึกเจ็บ รู้สึกปวดบวมแต่อย่างใด ซึ่งหลังจากทำแล้วจะเห็นเลยว่าใบหน้ายกกระชับขึ้น ใบหน้าดูเรียวเล็กเหมือนสาวเกาหลีค่ะ"
       },
-      { "t": "img", "src": "/assets/clone/2567/31.avif", "alt": "ผลลัพธ์หลังยกกระชับใบหน้าด้วย Thermatite ใบหน้าเรียวขึ้น", "w": 700, "h": 1250 },
-      { "t": "img", "src": "/assets/clone/2567/34.avif", "alt": "รีวิวหลังทำ Thermatite ที่ The Art กรอบหน้าชัดขึ้น", "w": 700, "h": 930 },
-      { "t": "img", "src": "/assets/clone/2567/35.avif", "alt": "ใบหน้าหลังทำ Thermatite ดูเรียวกระชับ", "w": 700, "h": 938 },
-      { "t": "p", "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวศัลยกรรมได้ที่" },
       {
-        "t": "ul",
-        "items": [
-          "Tel: <a href=\"tel:020964505\">02-096-4505</a>",
-          "Facebook: The Art",
-          "IG: theartclinic",
-          "Line: @theartclinic | @theartbeautyclub"
-        ]
+        "t": "img",
+        "src": "/assets/clone/2567/31.avif",
+        "alt": "ผลลัพธ์หลังยกกระชับใบหน้าด้วย Thermatite ใบหน้าเรียวขึ้น",
+        "w": 700,
+        "h": 1250
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/34.avif",
+        "alt": "รีวิวหลังทำ Thermatite ที่ The Art กรอบหน้าชัดขึ้น",
+        "w": 700,
+        "h": 930
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/35.avif",
+        "alt": "ใบหน้าหลังทำ Thermatite ดูเรียวกระชับ",
+        "w": 700,
+        "h": 938
+      },
+      {
+        "t": "p",
+        "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวศัลยกรรมได้ที่"
       }
     ],
     "keywords": [
@@ -50,8 +74,20 @@
     "metaDesc": "Khun Kati's face looked round and puffy because of a full double chin, draining her confidence — from every angle her face simply looked round.",
     "lead": "Khun Kati is a young woman whose face looked round and puffy because of a full double chin — something that drained her confidence, since from every angle her face simply looked round. Her jawline was undefined too, which made her look overweight even though her figure really wasn't. She had been full-cheeked since birth, so many people teased her about being chubby simply because her face looked large.",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/2567/32.avif", "alt": "Thermatite face-tightening case at The Art — round, puffy face with double chin before treatment", "w": 700, "h": 936 },
-      { "t": "img", "src": "/assets/clone/2567/33.avif", "alt": "Face before Thermatite treatment with an undefined jawline", "w": 700, "h": 846 },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/32.avif",
+        "alt": "Thermatite face-tightening case at The Art — round, puffy face with double chin before treatment",
+        "w": 700,
+        "h": 936
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/33.avif",
+        "alt": "Face before Thermatite treatment with an undefined jawline",
+        "w": 700,
+        "h": 846
+      },
       {
         "t": "p",
         "html": "Khun Kati came to consult the doctors at The Art to solve the problem once and for all. She wasn't ready for surgery or liposuction, however, so the doctor recommended another way to eliminate the double chin and excess cellulite and fix the puffy, wide-faced look: face tightening with the <a href=\"/aesthetics/thermatite/\">Thermatite programme</a>. It dissolves excess fat and cellulite in a short session, with immediate visible results, no downtime, and a normal routine right away."
@@ -60,18 +96,30 @@
         "t": "p",
         "html": "The Thermatite programme works by delivering high-frequency waves deep into the skin to break up and dissolve excess cellulite in the area being tightened. The treatment doesn't hurt at all — it feels like a gentle warm massage — and takes only 30–40 minutes per area, with no wounds and no needles. There is no pain or swelling afterwards. Once done, you can see the face visibly lifted and firmer, looking slimmer like a Korean beauty."
       },
-      { "t": "img", "src": "/assets/clone/2567/31.avif", "alt": "Result after Thermatite face tightening — a visibly slimmer face", "w": 700, "h": 1250 },
-      { "t": "img", "src": "/assets/clone/2567/34.avif", "alt": "Review after Thermatite at The Art — a more defined jawline", "w": 700, "h": 930 },
-      { "t": "img", "src": "/assets/clone/2567/35.avif", "alt": "Face after Thermatite treatment, slim and firm", "w": 700, "h": 938 },
-      { "t": "p", "html": "Contact us for details or to book a procedure at:" },
       {
-        "t": "ul",
-        "items": [
-          "Tel: <a href=\"tel:020964505\">02-096-4505</a>",
-          "Facebook: The Art",
-          "IG: theartclinic",
-          "Line: @theartclinic | @theartbeautyclub"
-        ]
+        "t": "img",
+        "src": "/assets/clone/2567/31.avif",
+        "alt": "Result after Thermatite face tightening — a visibly slimmer face",
+        "w": 700,
+        "h": 1250
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/34.avif",
+        "alt": "Review after Thermatite at The Art — a more defined jawline",
+        "w": 700,
+        "h": 930
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2567/35.avif",
+        "alt": "Face after Thermatite treatment, slim and firm",
+        "w": 700,
+        "h": 938
+      },
+      {
+        "t": "p",
+        "html": "Contact us for details or to book a procedure at:"
       }
     ],
     "keywords": [

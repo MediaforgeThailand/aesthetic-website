@@ -10,20 +10,48 @@
     "metaDesc": "เรื่องผิวเป็นอีกหนึ่งเรื่องที่หนุ่มๆ สาวๆ เกือบทุกคนไม่มองข้าม และไม่อยากมีผิวที่ดูคล้ำเสีย เพราะส่วนใหญ่แล้วก็อยากมีผิวที่ดูขาวกระจ่างใส",
     "lead": "เรื่องผิวเป็นอีกหนึ่งเรื่องที่หนุ่มๆ สาวๆ เกือบทุกคนไม่มองข้าม และไม่อยากมีผิวที่ดูคล้ำเสีย เพราะส่วนใหญ่แล้วก็อยากมีผิวที่ดูขาวกระจ่างใส มีออร่า ดูสุขภาพดีกันทั้งนั้น แต่ด้วยมลพิษ และอากาศในบ้านเราที่แสงแดดแรง มี UV เยอะ จึงอาจจะทำร้ายสุขภาพผิวของเราอย่างหลีกเลี่ยงไม่ได้ แต่วันนี้ไม่ว่าใครก็สามารถมีสุขภาพผิวที่ดีได้จากการดูแลจากภายในร่างกายให้เห็นผลออกมาภายนอก ด้วยการปรับผิวให้ดูขาวกระจ่างใส จากการฉีดวิตามิน Re-Booster Signature 7D ที่ The Art ค่า",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/2250/33.avif", "alt": "รีวิวปรับผิวให้ดูขาวกระจ่างใสด้วยการฉีดวิตามิน Signature 7D ที่ The Art", "w": 700, "h": 698 },
-      { "t": "p", "html": "ซึ่งวิตามิน Signature 7D ของ The Art เป็นการดริปวิตามินผ่านทางเส้นเลือดผ่านทางสายน้ำเกลือ ที่มีประโยชน์ต่อร่างกายเป็นอย่างมาก เพราะช่วยดีท็อกซ์กำจัดของเสียออกจากตับ สร้างภูมิคุ้มกันให้กับร่างกาย ให้สุขภาพร่างกายแข็งแรงขึ้น แล้วยังช่วยบำรุงสมอง อีกทั้งยังช่วยปรับสภาพผิวให้ขาวกระจ่างใสขึ้น ดูสุขภาพดี หากใครเป็นสายปาร์ตี้หนัก แล้วทำให้ร่างกายดูโทรม ดูอ่อนเพลีย หากดริปวิตามินตัวนี้เข้าไปจะช่วยทำให้ร่างกายดูแข็งแรงขึ้นอย่างเห็นได้ชัด ผิวที่เคยคล้ำ เคยแห้งจากการขาดน้ำ ก็จะดูสุขภาพดีขึ้น แล้วยิ่งเข้ารับบริการอย่างต่อเนื่องรับรองเลยว่า ผิวของคุณจะขาวออร่าจนเดินไปไหน ก็มีแต่คนเหลียวหลังมองจนคอเคล็ดแน่นอน" },
-      { "t": "img", "src": "/assets/clone/2250/31.avif", "alt": "ผู้รับบริการฉีดวิตามินผิว Signature 7D เพื่อผิวขาวกระจ่างใส", "w": 700, "h": 696 },
-      { "t": "p", "html": "ตัววิตามิน Re-Booster Signature 7D ตัวนี้ไม่ว่าใครก็สามารถใช้บริการได้ง่ายๆ เพียงใช้เวลาประมาณเพียงแค่ 45 นาทีต่อครั้ง นอนเล่นโทรศัพท์ชิลๆ รอเวลาเพื่อให้วิตามินเข้าไปฟื้นฟูสภาพร่างกาย เพียงเท่านี้ก็เห็นผลแล้วว่าผิวดูสุขภาพดีขึ้น แต่ผลลัพธ์ที่ออกมาขึ้นอยู่กับสภาพผิวของแต่ละคนว่ามีปัญหาเยอะ หรือน้อยแค่ไหนนะคะ รวมถึงควรดื่มน้ำในแต่ละวันเยอะๆ เพื่อให้เห็นผลลัพธ์ได้ดีขึ้นกว่าเดิมอีกด้วย อยากผิวสวยสุขภาพดี อย่ารอช้าค่ะ เข้ามาที่ The Art สิคะ แล้วคุณจะเห็นตัวเองที่ดูดีขึ้นกว่าเดิมแน่นอนค่ะ" },
-      { "t": "img", "src": "/assets/clone/2250/32.avif", "alt": "ดริปวิตามิน Signature 7D ดีท็อกซ์ตับ ปรับผิวขาวใสที่ The Art", "w": 700, "h": 797 },
-      { "t": "p", "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวได้ที่" },
-      { "t": "ul", "items": [
-        "065-717-2473 | 065-717-2474 | 065-717-2475",
-        "The Art",
-        "theartclinic",
-        "@theartclinic | @theartbeautyclub"
-      ] }
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/33.avif",
+        "alt": "รีวิวปรับผิวให้ดูขาวกระจ่างใสด้วยการฉีดวิตามิน Signature 7D ที่ The Art",
+        "w": 700,
+        "h": 698
+      },
+      {
+        "t": "p",
+        "html": "ซึ่งวิตามิน Signature 7D ของ The Art เป็นการดริปวิตามินผ่านทางเส้นเลือดผ่านทางสายน้ำเกลือ ที่มีประโยชน์ต่อร่างกายเป็นอย่างมาก เพราะช่วยดีท็อกซ์กำจัดของเสียออกจากตับ สร้างภูมิคุ้มกันให้กับร่างกาย ให้สุขภาพร่างกายแข็งแรงขึ้น แล้วยังช่วยบำรุงสมอง อีกทั้งยังช่วยปรับสภาพผิวให้ขาวกระจ่างใสขึ้น ดูสุขภาพดี หากใครเป็นสายปาร์ตี้หนัก แล้วทำให้ร่างกายดูโทรม ดูอ่อนเพลีย หากดริปวิตามินตัวนี้เข้าไปจะช่วยทำให้ร่างกายดูแข็งแรงขึ้นอย่างเห็นได้ชัด ผิวที่เคยคล้ำ เคยแห้งจากการขาดน้ำ ก็จะดูสุขภาพดีขึ้น แล้วยิ่งเข้ารับบริการอย่างต่อเนื่องรับรองเลยว่า ผิวของคุณจะขาวออร่าจนเดินไปไหน ก็มีแต่คนเหลียวหลังมองจนคอเคล็ดแน่นอน"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/31.avif",
+        "alt": "ผู้รับบริการฉีดวิตามินผิว Signature 7D เพื่อผิวขาวกระจ่างใส",
+        "w": 700,
+        "h": 696
+      },
+      {
+        "t": "p",
+        "html": "ตัววิตามิน Re-Booster Signature 7D ตัวนี้ไม่ว่าใครก็สามารถใช้บริการได้ง่ายๆ เพียงใช้เวลาประมาณเพียงแค่ 45 นาทีต่อครั้ง นอนเล่นโทรศัพท์ชิลๆ รอเวลาเพื่อให้วิตามินเข้าไปฟื้นฟูสภาพร่างกาย เพียงเท่านี้ก็เห็นผลแล้วว่าผิวดูสุขภาพดีขึ้น แต่ผลลัพธ์ที่ออกมาขึ้นอยู่กับสภาพผิวของแต่ละคนว่ามีปัญหาเยอะ หรือน้อยแค่ไหนนะคะ รวมถึงควรดื่มน้ำในแต่ละวันเยอะๆ เพื่อให้เห็นผลลัพธ์ได้ดีขึ้นกว่าเดิมอีกด้วย อยากผิวสวยสุขภาพดี อย่ารอช้าค่ะ เข้ามาที่ The Art สิคะ แล้วคุณจะเห็นตัวเองที่ดูดีขึ้นกว่าเดิมแน่นอนค่ะ"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/32.avif",
+        "alt": "ดริปวิตามิน Signature 7D ดีท็อกซ์ตับ ปรับผิวขาวใสที่ The Art",
+        "w": 700,
+        "h": 797
+      },
+      {
+        "t": "p",
+        "html": "ติดต่อสอบถามรายละเอียด หรือจองคิวได้ที่"
+      }
     ],
-    "keywords": ["ฉีดวิตามินผิว", "Signature 7D", "ดริปวิตามิน", "ปรับผิวขาวกระจ่างใส", "ดีท็อกซ์ตับ", "IV Drip"]
+    "keywords": [
+      "ฉีดวิตามินผิว",
+      "Signature 7D",
+      "ดริปวิตามิน",
+      "ปรับผิวขาวกระจ่างใส",
+      "ดีท็อกซ์ตับ",
+      "IV Drip"
+    ]
   },
   "en": {
     "title": "Brighter, Radiant Skin and a Healthy Liver Detox with Signature 7D Vitamin Injections at “The Art”",
@@ -31,20 +59,48 @@
     "metaDesc": "Skin is something almost everyone cares about — nobody wants a dull, damaged complexion. Most of us want skin that looks bright, radiant and healthy.",
     "lead": "Skin is something almost no one overlooks — nobody wants a complexion that looks dull and damaged, because most of us want skin that looks bright, radiant and glowing with health. But with pollution and Thailand's strong sunshine and high UV levels, our skin health inevitably takes a beating. Today, however, anyone can achieve healthy skin by caring for the body from within so the results show on the outside — brightening the skin with Re-Booster Signature 7D vitamin injections at The Art.",
     "blocks": [
-      { "t": "img", "src": "/assets/clone/2250/33.avif", "alt": "Skin-brightening results with Signature 7D vitamin injections at The Art", "w": 700, "h": 698 },
-      { "t": "p", "html": "The Art's Signature 7D vitamin program is an intravenous vitamin drip delivered through a saline line, and it offers remarkable benefits for the body. It helps detox the liver and flush out waste, strengthens the immune system for better overall health, nourishes the brain, and also conditions the skin to look brighter, clearer and healthier. If you are a heavy partier whose body looks worn out and fatigued, this vitamin drip will visibly restore your strength. Skin that used to look dull or dehydrated will look healthier — and with continuous treatments, we promise your skin will glow with such an aura that heads will turn wherever you go." },
-      { "t": "img", "src": "/assets/clone/2250/31.avif", "alt": "Client receiving the Signature 7D skin vitamin drip for bright, radiant skin", "w": 700, "h": 696 },
-      { "t": "p", "html": "The Re-Booster Signature 7D vitamin treatment is easy for anyone to receive — it takes only about 45 minutes per session. Just lie back, relax with your phone, and let the vitamins restore your body. That alone is enough to see your skin looking healthier, although results vary depending on each person's skin condition and how much it needs. Drinking plenty of water every day also helps you see even better results. If you want beautiful, healthy skin, don't wait — come to The Art and you will certainly see a better-looking you." },
-      { "t": "img", "src": "/assets/clone/2250/32.avif", "alt": "Signature 7D vitamin drip for liver detox and skin brightening at The Art", "w": 700, "h": 797 },
-      { "t": "p", "html": "Contact us for details or to book an appointment at" },
-      { "t": "ul", "items": [
-        "065-717-2473 | 065-717-2474 | 065-717-2475",
-        "The Art",
-        "theartclinic",
-        "@theartclinic | @theartbeautyclub"
-      ] }
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/33.avif",
+        "alt": "Skin-brightening results with Signature 7D vitamin injections at The Art",
+        "w": 700,
+        "h": 698
+      },
+      {
+        "t": "p",
+        "html": "The Art's Signature 7D vitamin program is an intravenous vitamin drip delivered through a saline line, and it offers remarkable benefits for the body. It helps detox the liver and flush out waste, strengthens the immune system for better overall health, nourishes the brain, and also conditions the skin to look brighter, clearer and healthier. If you are a heavy partier whose body looks worn out and fatigued, this vitamin drip will visibly restore your strength. Skin that used to look dull or dehydrated will look healthier — and with continuous treatments, we promise your skin will glow with such an aura that heads will turn wherever you go."
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/31.avif",
+        "alt": "Client receiving the Signature 7D skin vitamin drip for bright, radiant skin",
+        "w": 700,
+        "h": 696
+      },
+      {
+        "t": "p",
+        "html": "The Re-Booster Signature 7D vitamin treatment is easy for anyone to receive — it takes only about 45 minutes per session. Just lie back, relax with your phone, and let the vitamins restore your body. That alone is enough to see your skin looking healthier, although results vary depending on each person's skin condition and how much it needs. Drinking plenty of water every day also helps you see even better results. If you want beautiful, healthy skin, don't wait — come to The Art and you will certainly see a better-looking you."
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/2250/32.avif",
+        "alt": "Signature 7D vitamin drip for liver detox and skin brightening at The Art",
+        "w": 700,
+        "h": 797
+      },
+      {
+        "t": "p",
+        "html": "Contact us for details or to book an appointment at"
+      }
     ],
-    "keywords": ["skin vitamin injection", "Signature 7D", "vitamin drip", "skin brightening", "liver detox", "IV drip"]
+    "keywords": [
+      "skin vitamin injection",
+      "Signature 7D",
+      "vitamin drip",
+      "skin brightening",
+      "liver detox",
+      "IV drip"
+    ]
   },
   "heroImage": "/assets/clone/2250/33.avif",
   "relatedTxKey": "ivdrip",
