@@ -230,8 +230,8 @@
         "html": "สามารถติดต่อสอบถามบริการเพิ่มเติมได้ที่ช่องทางนี้"
       },
       {
-        "t": "p",
-        "html": "อ้างอิง"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
         "t": "p",
@@ -496,8 +496,8 @@
         "html": "You can contact us for more information through these channels:"
       },
       {
-        "t": "p",
-        "html": "References"
+        "t": "h3",
+        "text": "References"
       },
       {
         "t": "p",

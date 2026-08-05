@@ -26,44 +26,48 @@
         "html": "หลุมสิวเป็นปัญหาผิวที่เกิดจากการอักเสบของสิวอย่างรุนแรงที่ทำลายเนื้อเยื่อผิวหนัง เมื่อต่อมไขมันและรูขุมขนติดเชื้อหรืออักเสบ การฟื้นตัวของผิวหนังอาจไม่สมบูรณ์และเกิดแผลเป็นที่มีลักษณะเป็นหลุมลึก การเกิดหลุมสิวมักมีสาเหตุหลักหลายประการ ดังนี้:"
       },
       {
-        "t": "p",
-        "html": "<strong>การอักเสบของสิว</strong>"
+        "t": "h3",
+        "text": "การอักเสบของสิว"
       },
       {
         "t": "p",
         "html": "สิวที่อักเสบมากจะทำให้เนื้อเยื่อรอบๆ สิวถูกทำลาย เมื่อสิวหายแล้ว ผิวหนังจะพยายามฟื้นตัวด้วยการสร้างคอลลาเจนใหม่ แต่หากการฟื้นตัวนี้ไม่สมบูรณ์ จะทำให้เกิดแผลเป็นและหลุมสิว"
       },
       {
-        "t": "p",
-        "html": "<strong>การบีบสิว</strong>"
+        "t": "h3",
+        "text": "การบีบสิว"
       },
       {
         "t": "p",
         "html": "การบีบสิวเป็นการกระทำที่สามารถทำให้เนื้อเยื่อผิวหนังเกิดความเสียหายมากขึ้น การบีบสิวจะทำให้สิ่งสกปรกและแบคทีเรียแทรกซึมเข้าไปในชั้นผิวที่ลึกขึ้น ทำให้เกิดการอักเสบและแผลเป็นที่ลึกมากขึ้น"
       },
       {
-        "t": "p",
-        "html": "<strong>พันธุกรรม</strong>"
+        "t": "h3",
+        "text": "พันธุกรรม"
       },
       {
         "t": "p",
         "html": "พันธุกรรมมีบทบาทสำคัญในการเกิดหลุมสิว หากในครอบครัวมีคนที่มีปัญหาหลุมสิว มีโอกาสสูงที่บุคคลนั้นจะมีปัญหาหลุมสิวเช่นกัน เนื่องจากสภาพผิวและการฟื้นตัวของผิวหนังมีความแตกต่างกันไปตามพันธุกรรม"
       },
       {
-        "t": "p",
-        "html": "<strong>การรักษาสิวที่ไม่ถูกต้อง</strong>"
+        "t": "h3",
+        "text": "การรักษาสิวที่ไม่ถูกต้อง"
       },
       {
         "t": "p",
         "html": "การใช้ผลิตภัณฑ์รักษาสิวที่ไม่เหมาะสมหรือการละเลยในการรักษาสิวสามารถทำให้สิวเกิดการอักเสบมากขึ้น ซึ่งจะเพิ่มโอกาสในการเกิดหลุมสิว การรักษาสิวควรได้รับคำแนะนำจากแพทย์ผิวหนังเพื่อให้ได้วิธีการรักษาที่ถูกต้องและเหมาะสม"
       },
       {
-        "t": "p",
-        "html": "<strong>ปัจจัยอื่น ๆ</strong>"
+        "t": "h3",
+        "text": "ปัจจัยอื่น ๆ"
       },
       {
         "t": "p",
         "html": "การสัมผัสสิ่งสกปรก การใช้เครื่องสำอางที่ไม่เหมาะสม และการไม่รักษาความสะอาดของผิวหน้าเป็นปัจจัยที่สามารถเพิ่มความเสี่ยงในการเกิดหลุมสิวได้ นอกจากนี้ การรับประทานอาหารที่มีน้ำตาลสูงหรือมีไขมันมากก็สามารถทำให้การอักเสบของสิวแย่ลงได้"
+      },
+      {
+        "t": "h3",
+        "text": "การป้องกันหลุมสิว"
       },
       {
         "t": "p",
@@ -365,8 +369,8 @@
         "html": "หลุมสิวมีหลายประเภท แต่ละประเภทมีลักษณะเฉพาะและวิธีการรักษาที่แตกต่างกัน การทำความเข้าใจประเภทของหลุมสิวจะช่วยให้สามารถเลือกวิธีการรักษาที่เหมาะสมและมีประสิทธิภาพมากขึ้น"
       },
       {
-        "t": "p",
-        "html": "<strong>1. หลุมสิว Ice Pick</strong>"
+        "t": "h3",
+        "text": "1. หลุมสิว Ice Pick"
       },
       {
         "t": "p",
@@ -381,8 +385,8 @@
         "html": "วิธีการรักษา:<br>การรักษาหลุมสิว Ice Pick มักต้องใช้วิธีการที่ลึกและเข้มข้น เช่น การทำเลเซอร์ Fractional Laser การทำ Microneedling หรือการผ่าตัดแบบ Subcision ในบางกรณีอาจใช้การเติมฟิลเลอร์เพื่อยกพื้นผิวที่เป็นหลุมให้เรียบเนียนขึ้น"
       },
       {
-        "t": "p",
-        "html": "<strong>2. หลุมสิว Box Scar</strong>"
+        "t": "h3",
+        "text": "2. หลุมสิว Box Scar"
       },
       {
         "t": "p",
@@ -397,8 +401,8 @@
         "html": "วิธีการรักษา:<br>การรักษาหลุมสิว Box Scar อาจใช้การทำเลเซอร์ Fractional Laser หรือ Pico Laser เพื่อกระตุ้นการสร้างคอลลาเจน นอกจากนี้ยังสามารถใช้การเติมฟิลเลอร์เพื่อยกพื้นผิวที่เป็นหลุม และการทำ Microneedling เพื่อกระตุ้นการฟื้นฟูผิว"
       },
       {
-        "t": "p",
-        "html": "<strong>3. หลุมสิว Rolling Scar</strong>"
+        "t": "h3",
+        "text": "3. หลุมสิว Rolling Scar"
       },
       {
         "t": "p",
@@ -413,8 +417,8 @@
         "html": "วิธีการรักษา:<br>การรักษาหลุมสิว Rolling Scar มักใช้การทำ Subcision เพื่อตัดพังผืดที่ดึงรั้งผิวหนัง นอกจากนี้ยังสามารถใช้การทำเลเซอร์ Fractional Laser หรือ Pico Laser เพื่อกระตุ้นการสร้างคอลลาเจน และการเติมฟิลเลอร์เพื่อยกพื้นผิวที่เป็นหลุม"
       },
       {
-        "t": "p",
-        "html": "<strong>4. หลุมสิวตื้นและหลุมสิวลึก</strong>"
+        "t": "h3",
+        "text": "4. หลุมสิวตื้นและหลุมสิวลึก"
       },
       {
         "t": "p",
@@ -607,44 +611,48 @@
         "html": "Atrophic acne scars are a skin problem caused by severe acne inflammation that destroys skin tissue. When the sebaceous glands and pores become infected or inflamed, the skin may not heal completely, leaving deep, pitted scars. The main causes of acne scarring include:"
       },
       {
-        "t": "p",
-        "html": "<strong>Acne inflammation</strong>"
+        "t": "h3",
+        "text": "Acne inflammation"
       },
       {
         "t": "p",
         "html": "Severely inflamed acne destroys the tissue around the blemish. Once the acne heals, the skin tries to recover by producing new collagen — but if that recovery is incomplete, scars and pits form."
       },
       {
-        "t": "p",
-        "html": "<strong>Squeezing pimples</strong>"
+        "t": "h3",
+        "text": "Squeezing pimples"
       },
       {
         "t": "p",
         "html": "Squeezing pimples causes even more damage to the skin tissue. It pushes dirt and bacteria deeper into the skin, causing greater inflammation and deeper scarring."
       },
       {
-        "t": "p",
-        "html": "<strong>Genetics</strong>"
+        "t": "h3",
+        "text": "Genetics"
       },
       {
         "t": "p",
         "html": "Genetics play a significant role in acne scarring. If someone in your family has acne scars, there is a high chance you may develop them too, since skin type and the skin's healing capacity vary with genetics."
       },
       {
-        "t": "p",
-        "html": "<strong>Incorrect acne treatment</strong>"
+        "t": "h3",
+        "text": "Incorrect acne treatment"
       },
       {
         "t": "p",
         "html": "Using unsuitable acne products or neglecting treatment can make acne more inflamed, which increases the chance of scarring. Acne treatment should be guided by a dermatologist so you get the correct, appropriate care."
       },
       {
-        "t": "p",
-        "html": "<strong>Other factors</strong>"
+        "t": "h3",
+        "text": "Other factors"
       },
       {
         "t": "p",
         "html": "Contact with dirt, unsuitable cosmetics, and poor facial hygiene are all factors that increase the risk of acne scars. In addition, a diet high in sugar or fat can worsen acne inflammation."
+      },
+      {
+        "t": "h3",
+        "text": "Preventing Acne Scars"
       },
       {
         "t": "p",
@@ -946,8 +954,8 @@
         "html": "There are several types of acne scars, each with distinct characteristics and treatments. Understanding the type of scar helps you choose the most suitable, effective treatment."
       },
       {
-        "t": "p",
-        "html": "<strong>1. Ice Pick Scars</strong>"
+        "t": "h3",
+        "text": "1. Ice Pick Scars"
       },
       {
         "t": "p",
@@ -962,8 +970,8 @@
         "html": "Treatment:<br>Ice pick scars usually need deep, intensive methods such as Fractional Laser, microneedling, or Subcision surgery. In some cases filler is used to lift the depressed surface for a smoother result."
       },
       {
-        "t": "p",
-        "html": "<strong>2. Box Scars</strong>"
+        "t": "h3",
+        "text": "2. Box Scars"
       },
       {
         "t": "p",
@@ -978,8 +986,8 @@
         "html": "Treatment:<br>Box scars may be treated with Fractional Laser or Pico Laser to stimulate collagen. Filler can also be used to lift the depression, and microneedling to stimulate skin repair."
       },
       {
-        "t": "p",
-        "html": "<strong>3. Rolling Scars</strong>"
+        "t": "h3",
+        "text": "3. Rolling Scars"
       },
       {
         "t": "p",
@@ -994,8 +1002,8 @@
         "html": "Treatment:<br>Rolling scars are usually treated with Subcision to release the fibrous bands. Fractional Laser or Pico Laser can also stimulate collagen, and filler can lift the depressed surface."
       },
       {
-        "t": "p",
-        "html": "<strong>4. Shallow and Deep Scars</strong>"
+        "t": "h3",
+        "text": "4. Shallow and Deep Scars"
       },
       {
         "t": "p",

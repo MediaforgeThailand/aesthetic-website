@@ -445,20 +445,16 @@
         "html": "ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่"
       },
       {
-        "t": "p",
-        "html": "อ้างอิง"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
-        "t": "p",
-        "html": "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>"
-      },
-      {
-        "t": "p",
-        "html": "Cleveland Clinic. (n.d.). Dermal fillers. <a href=\"https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers\" rel=\"nofollow noopener\" target=\"_blank\">https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers</a>"
-      },
-      {
-        "t": "p",
-        "html": "U.S. Food and Drug Administration. (n.d.). Dermal filler do’s and don’ts for wrinkles, lips and more. <a href=\"https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more\" rel=\"nofollow noopener\" target=\"_blank\">https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more</a>"
+        "t": "ul",
+        "items": [
+          "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>",
+          "Cleveland Clinic. (n.d.). Dermal fillers. <a href=\"https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers\" rel=\"nofollow noopener\" target=\"_blank\">https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers</a>",
+          "U.S. Food and Drug Administration. (n.d.). Dermal filler do’s and don’ts for wrinkles, lips and more. <a href=\"https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more\" rel=\"nofollow noopener\" target=\"_blank\">https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more</a>"
+        ]
       }
     ],
     "faqs": [
@@ -931,20 +927,16 @@
         "html": "Contact us for more information at"
       },
       {
-        "t": "p",
-        "html": "References"
+        "t": "h3",
+        "text": "References"
       },
       {
-        "t": "p",
-        "html": "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>"
-      },
-      {
-        "t": "p",
-        "html": "Cleveland Clinic. (n.d.). Dermal fillers. <a href=\"https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers\" rel=\"nofollow noopener\" target=\"_blank\">https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers</a>"
-      },
-      {
-        "t": "p",
-        "html": "U.S. Food and Drug Administration. (n.d.). Dermal filler do’s and don’ts for wrinkles, lips and more. <a href=\"https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more\" rel=\"nofollow noopener\" target=\"_blank\">https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more</a>"
+        "t": "ul",
+        "items": [
+          "American Board of Cosmetic Surgery. (n.d.). Learn about injectable dermal fillers. <a href=\"https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.americanboardcosmeticsurgery.org/procedure-learning-center/non-surgical/injectable-fillers-guide/</a>",
+          "Cleveland Clinic. (n.d.). Dermal fillers. <a href=\"https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers\" rel=\"nofollow noopener\" target=\"_blank\">https://my.clevelandclinic.org/health/treatments/22667-dermal-fillers</a>",
+          "U.S. Food and Drug Administration. (n.d.). Dermal filler do’s and don’ts for wrinkles, lips and more. <a href=\"https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more\" rel=\"nofollow noopener\" target=\"_blank\">https://www.fda.gov/consumers/consumer-updates/dermal-filler-dos-and-donts-wrinkles-lips-and-more</a>"
+        ]
       }
     ],
     "faqs": [

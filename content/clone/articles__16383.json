@@ -268,20 +268,16 @@
         "html": "ต้นแขนกระชับ เรียวสวย อยากลดต้นแขนแบบทันใจ ไม่ใช่แค่ความฝัน! ปรึกษาเราได้ที่ The Art Aesthetic เปลี่ยนตัวเองให้มั่นใจกว่าเดิม"
       },
       {
-        "t": "p",
-        "html": "<strong>อ้างอิง</strong>"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
-        "t": "p",
-        "html": "TIMESOFINDIA. (2023, December 26). <em>Flabby arms? Top 5 exercises to burn arm fat</em>. Times of India. <a href=\"https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525\" rel=\"nofollow noopener\" target=\"_blank\">https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525</a>"
-      },
-      {
-        "t": "p",
-        "html": "Rachael, A. (2024, October 11). <em>The 9 Best Ways to Lose Arm Fat</em>. Healthline. <a href=\"https://www.healthline.com/nutrition/how-to-lose-arm-fat\" rel=\"nofollow noopener\" target=\"_blank\">https://www.healthline.com/nutrition/how-to-lose-arm-fat</a>"
-      },
-      {
-        "t": "p",
-        "html": "Stephanie, M. (2020, May 29). <em>5 exercises to tighten and tone your arms for summer</em>. NBC News. <a href=\"https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266\" rel=\"nofollow noopener\" target=\"_blank\">https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266</a>"
+        "t": "ul",
+        "items": [
+          "TIMESOFINDIA. (2023, December 26). <em>Flabby arms? Top 5 exercises to burn arm fat</em>. Times of India. <a href=\"https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525\" rel=\"nofollow noopener\" target=\"_blank\">https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525</a>",
+          "Rachael, A. (2024, October 11). <em>The 9 Best Ways to Lose Arm Fat</em>. Healthline. <a href=\"https://www.healthline.com/nutrition/how-to-lose-arm-fat\" rel=\"nofollow noopener\" target=\"_blank\">https://www.healthline.com/nutrition/how-to-lose-arm-fat</a>",
+          "Stephanie, M. (2020, May 29). <em>5 exercises to tighten and tone your arms for summer</em>. NBC News. <a href=\"https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266\" rel=\"nofollow noopener\" target=\"_blank\">https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266</a>"
+        ]
       }
     ],
     "faqs": [
@@ -555,20 +551,16 @@
         "html": "Firm, beautifully lean upper arms — fast — are not just a dream! Consult us at The Art Aesthetic and transform yourself with more confidence than ever."
       },
       {
-        "t": "p",
-        "html": "<strong>References</strong>"
+        "t": "h3",
+        "text": "References"
       },
       {
-        "t": "p",
-        "html": "TIMESOFINDIA. (2023, December 26). <em>Flabby arms? Top 5 exercises to burn arm fat</em>. Times of India. <a href=\"https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525\" rel=\"nofollow noopener\" target=\"_blank\">https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525</a>"
-      },
-      {
-        "t": "p",
-        "html": "Rachael, A. (2024, October 11). <em>The 9 Best Ways to Lose Arm Fat</em>. Healthline. <a href=\"https://www.healthline.com/nutrition/how-to-lose-arm-fat\" rel=\"nofollow noopener\" target=\"_blank\">https://www.healthline.com/nutrition/how-to-lose-arm-fat</a>"
-      },
-      {
-        "t": "p",
-        "html": "Stephanie, M. (2020, May 29). <em>5 exercises to tighten and tone your arms for summer</em>. NBC News. <a href=\"https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266\" rel=\"nofollow noopener\" target=\"_blank\">https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266</a>"
+        "t": "ul",
+        "items": [
+          "TIMESOFINDIA. (2023, December 26). <em>Flabby arms? Top 5 exercises to burn arm fat</em>. Times of India. <a href=\"https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525\" rel=\"nofollow noopener\" target=\"_blank\">https://timesofindia.indiatimes.com/life-style/health-fitness/weight-loss/flabby-arms-top-5-exercises-to-burn-arm-fat/photostory/106100515.cms?picid=106100525</a>",
+          "Rachael, A. (2024, October 11). <em>The 9 Best Ways to Lose Arm Fat</em>. Healthline. <a href=\"https://www.healthline.com/nutrition/how-to-lose-arm-fat\" rel=\"nofollow noopener\" target=\"_blank\">https://www.healthline.com/nutrition/how-to-lose-arm-fat</a>",
+          "Stephanie, M. (2020, May 29). <em>5 exercises to tighten and tone your arms for summer</em>. NBC News. <a href=\"https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266\" rel=\"nofollow noopener\" target=\"_blank\">https://www.nbcnews.com/better/lifestyle/5-exercises-tighten-tone-your-arms-summer-ncna1008266</a>"
+        ]
       }
     ],
     "faqs": [

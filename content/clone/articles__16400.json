@@ -219,8 +219,8 @@
         "html": "หากสนใจหรืออยากติดต่อสอบถามเพิ่มเติม ทักหาเราได้ที่"
       },
       {
-        "t": "p",
-        "html": "<strong>อ้างอิง</strong>"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
         "t": "p",
@@ -439,8 +439,8 @@
         "html": "For more information or further inquiries, reach us at"
       },
       {
-        "t": "p",
-        "html": "<strong>References</strong>"
+        "t": "h3",
+        "text": "References"
       },
       {
         "t": "p",

@@ -267,32 +267,32 @@
         "h": 1080
       },
       {
-        "t": "p",
-        "html": "<strong>1. ปริมาณฟิลเลอร์ไม่เหมาะสมกับปากคนไข้</strong>"
+        "t": "h3",
+        "text": "1. ปริมาณฟิลเลอร์ไม่เหมาะสมกับปากคนไข้"
       },
       {
         "t": "p",
         "html": "หากปริมาณฟิลเลอร์ที่ฉีดไปมากเกินไปหรือไม่เหมาะสมกับลักษณะของริมฝีปาก อาจทำให้เกิดก้อนที่ไม่สม่ำเสมอได้ เพราะปริมาณที่มากเกินไปจะยากต่อการกระจายตัวจึงเกิดการเกาะตัวของฟิลเลอร์เป็นก้อนชัดเจน"
       },
       {
-        "t": "p",
-        "html": "<strong>2. ฟิลเลอร์ไม่เหมาะกับบริเวณที่ฉีด</strong>"
+        "t": "h3",
+        "text": "2. ฟิลเลอร์ไม่เหมาะกับบริเวณที่ฉีด"
       },
       {
         "t": "p",
         "html": "บริเวณริมฝีปากมีความบอบบางและขยับบ่อย การใช้ฟิลเลอร์ที่มีความแข็งหรือไม่เหมาะสมกับการเคลื่อนไหวของปากอาจทำให้เกิดก้อน ฟิลเลอร์ที่มีความหนาหรือมีเนื้อสัมผัสแข็งจะไม่เหมาะกับการฉีดฟิลเลอร์ปาก"
       },
       {
-        "t": "p",
-        "html": "<strong>3. ฟิลเลอร์ไม่ได้มาตรฐานหรือฟิลเลอร์ไม่สามารถสลายได้</strong>"
+        "t": "h3",
+        "text": "3. ฟิลเลอร์ไม่ได้มาตรฐานหรือฟิลเลอร์ไม่สามารถสลายได้"
       },
       {
         "t": "p",
         "html": "ฟิลเลอร์บางยี่ห้ออาจมีคุณภาพต่ำ หรือไม่สามารถสลายได้ตามธรรมชาติ หากใช้ฟิลเลอร์ที่ไม่ผ่านการรับรอง มีส่วนผสมที่ไม่เหมาะสม อาจทำให้ฟิลเลอร์ปากเป็นก้อนในระยะยาว ไม่สามารถสลายได้เอง"
       },
       {
-        "t": "p",
-        "html": "<strong>4. แพทย์ขาดความชำนาญ</strong>"
+        "t": "h3",
+        "text": "4. แพทย์ขาดความชำนาญ"
       },
       {
         "t": "p",
@@ -404,8 +404,8 @@
         "html": "ติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่"
       },
       {
-        "t": "p",
-        "html": "<strong>อ้างอิง</strong>"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
         "t": "p",
@@ -691,32 +691,32 @@
         "h": 1080
       },
       {
-        "t": "p",
-        "html": "<strong>1. Filler amount unsuited to the patient's lips</strong>"
+        "t": "h3",
+        "text": "1. Filler amount unsuited to the patient's lips"
       },
       {
         "t": "p",
         "html": "If too much filler is injected, or the amount does not suit the characteristics of the lips, uneven lumps can form — an excessive amount is hard to distribute evenly, so the filler visibly clumps together."
       },
       {
-        "t": "p",
-        "html": "<strong>2. Filler unsuited to the injection area</strong>"
+        "t": "h3",
+        "text": "2. Filler unsuited to the injection area"
       },
       {
         "t": "p",
         "html": "The lip area is delicate and moves frequently. Using a filler that is too firm or unsuited to the movement of the mouth can cause lumps. Thick or firm-textured fillers are not suitable for lip filler injections."
       },
       {
-        "t": "p",
-        "html": "<strong>3. Substandard or non-dissolvable filler</strong>"
+        "t": "h3",
+        "text": "3. Substandard or non-dissolvable filler"
       },
       {
         "t": "p",
         "html": "Some filler brands may be low quality or unable to break down naturally. Using uncertified fillers with unsuitable ingredients can cause long-term lumps in the lips that cannot dissolve on their own."
       },
       {
-        "t": "p",
-        "html": "<strong>4. Inexperienced injector</strong>"
+        "t": "h3",
+        "text": "4. Inexperienced injector"
       },
       {
         "t": "p",
@@ -828,8 +828,8 @@
         "html": "Contact us for more information at"
       },
       {
-        "t": "p",
-        "html": "<strong>References</strong>"
+        "t": "h3",
+        "text": "References"
       },
       {
         "t": "p",

@@ -214,16 +214,15 @@
         "html": "สนใจติดต่อสอบถามเพิ่มเติมได้ที่"
       },
       {
-        "t": "p",
-        "html": "อ้างอิง"
+        "t": "h3",
+        "text": "อ้างอิง"
       },
       {
-        "t": "p",
-        "html": "Dr.Marco Faria Correa. (2024, November 7). <i>Dermal Filler for Forehead: A Comprehensive Guide</i>. <a href=\"https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/</a>"
-      },
-      {
-        "t": "p",
-        "html": "The Skin &amp; Wellbeing Clinic Preston. (2021, August 24). <i>Advantages of forehead fillers</i>. <a href=\"https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/</a>"
+        "t": "ul",
+        "items": [
+          "Dr.Marco Faria Correa. (2024, November 7). <i>Dermal Filler for Forehead: A Comprehensive Guide</i>. <a href=\"https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/</a>",
+          "The Skin &amp; Wellbeing Clinic Preston. (2021, August 24). <i>Advantages of forehead fillers</i>. <a href=\"https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/</a>"
+        ]
       }
     ],
     "faqs": [
@@ -454,16 +453,15 @@
         "html": "For more information, contact us at"
       },
       {
-        "t": "p",
-        "html": "References"
+        "t": "h3",
+        "text": "References"
       },
       {
-        "t": "p",
-        "html": "Dr.Marco Faria Correa. (2024, November 7). <i>Dermal Filler for Forehead: A Comprehensive Guide</i>. <a href=\"https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/</a>"
-      },
-      {
-        "t": "p",
-        "html": "The Skin &amp; Wellbeing Clinic Preston. (2021, August 24). <i>Advantages of forehead fillers</i>. <a href=\"https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/</a>"
+        "t": "ul",
+        "items": [
+          "Dr.Marco Faria Correa. (2024, November 7). <i>Dermal Filler for Forehead: A Comprehensive Guide</i>. <a href=\"https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.drmarco.com/dermal-filler-for-forehead-a-comprehensive-guide/</a>",
+          "The Skin &amp; Wellbeing Clinic Preston. (2021, August 24). <i>Advantages of forehead fillers</i>. <a href=\"https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/\" target=\"_blank\" rel=\"nofollow noopener\">https://www.skinandwellbeingclinic.com/advantages-of-forehead-fillers/</a>"
+        ]
       }
     ],
     "faqs": [

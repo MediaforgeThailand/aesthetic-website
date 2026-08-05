@@ -110,8 +110,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "ข้อควรระวังก่อนเข้ารับบริการ"
+        "t": "h3",
+        "text": "ข้อควรระวังก่อนเข้ารับบริการ"
       },
       {
         "t": "p",
@@ -164,8 +164,8 @@
         "html": "ก่อนทำ IV Drip วิตามินดี ควรปรึกษาแพทย์หรือผู้เชี่ยวชาญก่อนทุกครั้ง เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
       },
       {
-        "t": "p",
-        "html": "การดริปวิตามิน ช่วยให้ผิวขาวได้จริงไหม"
+        "t": "h3",
+        "text": "การดริปวิตามิน ช่วยให้ผิวขาวได้จริงไหม"
       },
       {
         "t": "p",
@@ -178,18 +178,8 @@
       {
         "t": "ul",
         "items": [
-          "สูตรวิตามินซี : วิตามินซีเป็นวิตามินที่ละลายในน้ำ มีคุณสมบัติเป็นสารต้านอนุมูลอิสระ ช่วยปกป้องผิวจากมลภาวะและอนุมูลอิสระ ช่วยให้ผิวกระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย"
-        ]
-      },
-      {
-        "t": "ul",
-        "items": [
-          "สูตรวิตามินเอ : วิตามินเอเป็นวิตามินที่ละลายในไขมัน มีคุณสมบัติช่วยผลัดเซลล์ผิวเก่าที่เสื่อมสภาพออก เผยเซลล์ผิวใหม่ที่ดูกระจ่างใส ช่วยลดเลือนจุดด่างดำและรอยหมองคล้ำ"
-        ]
-      },
-      {
-        "t": "ul",
-        "items": [
+          "สูตรวิตามินซี : วิตามินซีเป็นวิตามินที่ละลายในน้ำ มีคุณสมบัติเป็นสารต้านอนุมูลอิสระ ช่วยปกป้องผิวจากมลภาวะและอนุมูลอิสระ ช่วยให้ผิวกระจ่างใส ชุ่มชื้น และลดเลือนริ้วรอย",
+          "สูตรวิตามินเอ : วิตามินเอเป็นวิตามินที่ละลายในไขมัน มีคุณสมบัติช่วยผลัดเซลล์ผิวเก่าที่เสื่อมสภาพออก เผยเซลล์ผิวใหม่ที่ดูกระจ่างใส ช่วยลดเลือนจุดด่างดำและรอยหมองคล้ำ",
           "สูตรวิตามินเอสูตรวิตามินอี : วิตามินอีเป็นวิตามินที่ละลายในไขมัน มีคุณสมบัติเป็นสารต้านอนุมูลอิสระ ช่วยปกป้องผิวจากมลภาวะและอนุมูลอิสระ ช่วยให้ผิวชุ่มชื้นและลดเลือนริ้วรอย"
         ]
       },
@@ -206,6 +196,10 @@
         "html": "สามารถช่วยลดน้ำหนักได้จริง แต่ผลลัพธ์ที่ได้ขึ้นอยู่กับปัจจัยหลายประการ เช่น สูตรวิตามินที่ใช้ ปริมาณวิตามินที่ใช้ สภาพร่างกาย และพฤติกรรมการใช้ชีวิตของแต่ละบุคคล"
       },
       {
+        "t": "h3",
+        "text": "ปัจจัยที่มีผลต่อการลดน้ำหนักด้วย IV Drip"
+      },
+      {
         "t": "p",
         "html": "สูตรวิตามินที่ได้รับความนิยมในการลดน้ำหนัก ได้แก่ สูตรวิตามินบี สูตรวิตามินซี สูตรวิตามินดี และสูตรกรดอะมิโน โดยวิตามินเหล่านี้มีส่วนช่วยในการเผาผลาญไขมันและเพิ่มการเผาผลาญพลังงาน ส่งผลให้น้ำหนักลดลงได้"
       },
@@ -220,6 +214,10 @@
       {
         "t": "p",
         "html": "พฤติกรรมการใช้ชีวิตก็มีส่วนสำคัญเช่นกัน ผู้ที่ลดน้ำหนักด้วย IV Drip ควรควบคุมอาหารและออกกำลังกายควบคู่ไปด้วย เพื่อผลลัพธ์ที่มีประสิทธิภาพ"
+      },
+      {
+        "t": "h3",
+        "text": "ผลลัพธ์และคำแนะนำในการลดน้ำหนัก"
       },
       {
         "t": "p",
@@ -263,8 +261,8 @@
         "html": "ผู้ที่มีปัญหาสุขภาพ เช่น โรคไต โรคหัวใจ โรคความดันโลหิตสูง โรคเบาหวาน ควรปรึกษาแพทย์ก่อนทำ เพื่อประเมินความเสี่ยงและภาวะแทรกซ้อนที่อาจเกิดขึ้นได้"
       },
       {
-        "t": "p",
-        "html": "ควรทําบ่อยแค่ไหน"
+        "t": "h3",
+        "text": "ควรทําบ่อยแค่ไหน"
       },
       {
         "t": "p",
@@ -287,16 +285,16 @@
         "html": "นอกจากนี้ หากต้องการผลลัพธ์ที่มีประสิทธิภาพ ควรทำ อย่างต่อเนื่องอย่างน้อย 3-4 สัปดาห์ขึ้นไป"
       },
       {
-        "t": "p",
-        "html": "ควรเลือกบริการที่ไหนดี โรงพยาบาลหรือ คลินิก ต่างกันไหม"
+        "t": "h3",
+        "text": "ควรเลือกบริการที่ไหนดี โรงพยาบาลหรือ คลินิก ต่างกันไหม"
       },
       {
         "t": "p",
         "html": "โรงพยาบาลและคลินิกที่ให้บริการ ต่างก็มีข้อดีและข้อเสียที่แตกต่างกันไป ดังนี้"
       },
       {
-        "t": "p",
-        "html": "โรงพยาบาล"
+        "t": "h3",
+        "text": "โรงพยาบาล"
       },
       {
         "t": "ul",
@@ -306,8 +304,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "คลินิก"
+        "t": "h3",
+        "text": "คลินิก"
       },
       {
         "t": "ul",
@@ -349,8 +347,8 @@
         "html": "อย่างไรก็ตาม ควรเลือกสถานที่ที่เชื่อถือได้ มีมาตรฐานและความปลอดภัยสูง ตรวจสอบใบอนุญาตประกอบกิจการ และอุปกรณ์เครื่องมือที่ใช้ต้องสะอาดและปลอดภัย"
       },
       {
-        "t": "p",
-        "html": "ราคา เท่าไหร่"
+        "t": "h3",
+        "text": "ราคา เท่าไหร่"
       },
       {
         "t": "p",
@@ -370,8 +368,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "โดยสรุปแล้ว"
+        "t": "h3",
+        "text": "โดยสรุปแล้ว"
       },
       {
         "t": "p",
@@ -565,8 +563,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "Precautions before receiving the service"
+        "t": "h3",
+        "text": "Precautions before receiving the service"
       },
       {
         "t": "p",
@@ -619,8 +617,8 @@
         "html": "Before a vitamin D IV drip, always consult a doctor or specialist to assess the risks and possible complications."
       },
       {
-        "t": "p",
-        "html": "Do vitamin drips really whiten the skin?"
+        "t": "h3",
+        "text": "Do vitamin drips really whiten the skin?"
       },
       {
         "t": "p",
@@ -633,18 +631,8 @@
       {
         "t": "ul",
         "items": [
-          "Vitamin C formula: vitamin C is a water-soluble vitamin with antioxidant properties that protects the skin from pollution and free radicals, brightening and hydrating the skin and fading wrinkles"
-        ]
-      },
-      {
-        "t": "ul",
-        "items": [
-          "Vitamin A formula: vitamin A is a fat-soluble vitamin that helps shed old, deteriorated skin cells to reveal brighter new skin, fading dark spots and dullness"
-        ]
-      },
-      {
-        "t": "ul",
-        "items": [
+          "Vitamin C formula: vitamin C is a water-soluble vitamin with antioxidant properties that protects the skin from pollution and free radicals, brightening and hydrating the skin and fading wrinkles",
+          "Vitamin A formula: vitamin A is a fat-soluble vitamin that helps shed old, deteriorated skin cells to reveal brighter new skin, fading dark spots and dullness",
           "Vitamin E formula: vitamin E is a fat-soluble vitamin with antioxidant properties that protects the skin from pollution and free radicals, keeping the skin hydrated and fading wrinkles"
         ]
       },
@@ -661,6 +649,10 @@
         "html": "They can genuinely support weight loss, but the results depend on many factors, such as the vitamin formula used, the amount of vitamins given, your physical condition, and your lifestyle habits."
       },
       {
+        "t": "h3",
+        "text": "Factors that affect weight loss with IV drips"
+      },
+      {
         "t": "p",
         "html": "Popular vitamin formulas for weight loss include vitamin B, vitamin C, vitamin D, and amino acid formulas. These vitamins help burn fat and increase energy metabolism, which can lead to weight loss."
       },
@@ -675,6 +667,10 @@
       {
         "t": "p",
         "html": "Lifestyle also plays an important role. Those using IV drips for weight loss should control their diet and exercise alongside the treatment for the most effective results."
+      },
+      {
+        "t": "h3",
+        "text": "Results and weight-loss recommendations"
       },
       {
         "t": "p",
@@ -718,8 +714,8 @@
         "html": "Those with health issues such as kidney disease, heart disease, high blood pressure, or diabetes should consult a doctor before treatment to assess the risks and possible complications."
       },
       {
-        "t": "p",
-        "html": "How often should you have one?"
+        "t": "h3",
+        "text": "How often should you have one?"
       },
       {
         "t": "p",
@@ -742,16 +738,16 @@
         "html": "In addition, for the most effective results, treatment should be continued for at least 3–4 weeks or more."
       },
       {
-        "t": "p",
-        "html": "Where should you get the service — is there a difference between a hospital and a clinic?"
+        "t": "h3",
+        "text": "Where should you get the service — is there a difference between a hospital and a clinic?"
       },
       {
         "t": "p",
         "html": "Hospitals and clinics offering IV drips each have their own pros and cons, as follows:"
       },
       {
-        "t": "p",
-        "html": "Hospital"
+        "t": "h3",
+        "text": "Hospital"
       },
       {
         "t": "ul",
@@ -761,8 +757,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "Clinic"
+        "t": "h3",
+        "text": "Clinic"
       },
       {
         "t": "ul",
@@ -804,8 +800,8 @@
         "html": "In any case, choose a trustworthy provider with high standards and safety — check the operating license and make sure the tools and equipment used are clean and safe."
       },
       {
-        "t": "p",
-        "html": "How much does it cost?"
+        "t": "h3",
+        "text": "How much does it cost?"
       },
       {
         "t": "p",
@@ -825,8 +821,8 @@
         ]
       },
       {
-        "t": "p",
-        "html": "In summary"
+        "t": "h3",
+        "text": "In summary"
       },
       {
         "t": "p",

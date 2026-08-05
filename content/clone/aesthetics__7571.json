@@ -66,6 +66,7 @@
         "t": "p",
         "html": "ในการแสวงหาวิธีการปรับปรุงและฟื้นฟูผิวพรรณโดยไม่ต้องเข้ารับการผ่าตัด Thermage ได้กลายเป็นหนึ่งในตัวเลือกยอดนิยม วิธีการนี้ให้ผลลัพธ์ที่น่าพอใจโดยมีการรบกวนน้อยที่สุด อย่างไรก็ตาม ความกังวลเกี่ยวกับความเจ็บปวดเป็นปัจจัยสำคัญที่ผู้คนพิจารณาก่อนตัดสินใจทำการรักษา"
       },
+      { "t": "h3", "text": "ความรู้สึกขณะทำ Thermage" },
       {
         "t": "p",
         "html": "การรักษาด้วย Thermage ทำงานโดยการใช้คลื่นวิทยุเพื่อสร้างความร้อนในชั้นผิวหนัง ซึ่งอาจทำให้ผู้รับการรักษารู้สึกถึงความอบอุ่นหรือเสียวซ่านในบางครั้ง การรู้สึกไม่สบายนี้มักจะค่อนข้างเบาและสามารถควบคุมได้ด้วยการปรับระดับความร้อนหรือใช้เจลหรือครีมช่วยลดความรู้สึกไม่สบาย ความรู้สึกเจ็บปวดจะแตกต่างกันไปในแต่ละบุคคล ขึ้นอยู่กับความไวของผิว พื้นที่การรักษา และความอดทนต่อความเจ็บปวดของแต่ละบุคคล"
@@ -347,6 +348,7 @@
         "t": "p",
         "html": "In the search for ways to improve and rejuvenate the skin without surgery, Thermage has become a popular option, delivering satisfying results with minimal disruption. Still, concern about pain is a key factor people weigh before deciding on treatment."
       },
+      { "t": "h3", "text": "What Thermage Feels Like" },
       {
         "t": "p",
         "html": "Thermage works by using radio waves to generate heat within the skin, which can produce a sensation of warmth or occasional tingling. This discomfort is usually quite mild and can be managed by adjusting the heat level or using a gel or cream to ease the sensation. Pain perception varies from person to person, depending on skin sensitivity, the treatment area, and individual pain tolerance."
