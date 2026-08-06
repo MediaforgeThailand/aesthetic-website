@@ -39,7 +39,7 @@ export default function Header({ lang }: { lang: Lang }) {
             columnGap: 16,
             rowGap: 2,
             padding: "4px 0",
-            font: "300 10px/1.5 'Prompt',sans-serif",
+            font: "300 11px/1.5 'Prompt',sans-serif",
             color: "#8F7266",
             letterSpacing: ".02em",
           }}
