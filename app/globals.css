@@ -6,13 +6,13 @@
 @font-face{font-family:'Luxia';src:url('/assets/fonts/LuxiaDisplay.woff') format('woff');font-weight:500 700;font-style:normal;font-display:swap}
 
 *,*::before,*::after{box-sizing:border-box}
-/* Typography per handoff README tokens: Prompt = UI/body, Trirong = หัวข้อไทย (serif), Luxia/Playfair = Latin display.
-   (DB Heavent จาก design capture ถูกถอดออก — เรนเดอร์เล็กเกินไปจนอ่านยากบน desktop) */
-body{margin:0;background:#FFFDFC;color:#33241E;font-family:'Prompt',sans-serif;-webkit-font-smoothing:antialiased}
-.aa-root,.aa-root *{font-family:'Prompt',sans-serif !important}
+/* Typography: DB Heavent ทั้งเว็บตาม CI (ตามที่เจ้าของสั่ง) — จุดสำคัญคือ font-size-adjust ต้อง !important
+   เพื่อชนะการรีเซ็ตจาก inline `font:` shorthand ไม่งั้น DB Heavent จะเรนเดอร์เล็กจนอ่านไม่ได้ (บั๊กของ capture เดิม) */
+body{margin:0;background:#FFFDFC;color:#33241E;font-family:'DB Heavent','Prompt',sans-serif;-webkit-font-smoothing:antialiased}
+.aa-root,.aa-root *{font-family:'DB Heavent','Prompt',sans-serif !important;font-size-adjust:0.5 !important}
 .aa-root h1,.aa-root h2,.aa-root h3,
-.aa-root h1 *,.aa-root h2 *,.aa-root h3 *{font-family:'Luxia','Trirong',serif !important;font-weight:600;color:#3c2127}
-.aa-serif,.aa-root .aa-serif,.aa-root .aa-serif *{font-family:'Luxia','Trirong',serif !important;font-weight:600}
+.aa-root h1 *,.aa-root h2 *,.aa-root h3 *{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500;color:#3c2127}
+.aa-serif,.aa-root .aa-serif,.aa-root .aa-serif *{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500}
 .aa-pfi,.aa-root .aa-pfi{font-family:'Playfair Display','Luxia',serif !important;font-style:italic}
 a{color:#8F543F;text-decoration:none}
 a:hover{color:#A96A55}
