@@ -39,7 +39,7 @@ export default function Header({ lang }: { lang: Lang }) {
             columnGap: 16,
             rowGap: 2,
             padding: "4px 0",
-            font: "300 11px/1.5 'Prompt',sans-serif",
+            font: "300 11px/1.5 'DB Heavent',sans-serif",
             color: "#8F7266",
             letterSpacing: ".02em",
           }}
@@ -51,13 +51,13 @@ export default function Header({ lang }: { lang: Lang }) {
       <div className="aa-wrap" style={{ display: "flex", alignItems: "center", gap: 20, padding: "12px 0" }}>
         <Link href={href(lang, "/")} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 3 }}>
           <img src="/assets/logo-art.png" alt="THE ART" width={94} height={30} style={{ height: 30, width: "auto", display: "block" }} />
-          <span style={{ font: "600 8.5px/1 'Prompt',sans-serif", letterSpacing: ".46em", color: "#A96A55", paddingLeft: 2 }}>
+          <span style={{ font: "600 8.5px/1 'DB Heavent',sans-serif", letterSpacing: ".46em", color: "#A96A55", paddingLeft: 2 }}>
             AESTHETIC
           </span>
         </Link>
         <nav className="aa-desk" style={{ display: "flex", alignItems: "center", gap: 26, marginLeft: "auto" }}>
           {items.map((m) => (
-            <Link key={m.href} href={m.href} className="aa-nav-link" style={{ font: "400 14px 'Prompt',sans-serif", padding: "4px 0" }}>
+            <Link key={m.href} href={m.href} className="aa-nav-link" style={{ font: "400 14px 'DB Heavent',sans-serif", padding: "4px 0" }}>
               {m.label}
             </Link>
           ))}
@@ -77,7 +77,7 @@ export default function Header({ lang }: { lang: Lang }) {
               borderRadius: 999,
               background: "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)",
               color: "#fff",
-              font: "500 13.5px 'Prompt',sans-serif",
+              font: "500 13.5px 'DB Heavent',sans-serif",
               boxShadow: "0 10px 24px rgba(169,106,85,.3)",
             }}
           >
@@ -113,7 +113,7 @@ export default function Header({ lang }: { lang: Lang }) {
               key={m.href}
               href={m.href}
               onClick={() => setMenuOpen(false)}
-              style={{ font: "400 16px 'Prompt',sans-serif", color: "#33241E", padding: "13px 4px", borderBottom: "1px solid #F6EBE3" }}
+              style={{ font: "400 16px 'DB Heavent',sans-serif", color: "#33241E", padding: "13px 4px", borderBottom: "1px solid #F6EBE3" }}
             >
               {m.label}
             </Link>
@@ -131,14 +131,14 @@ export default function Header({ lang }: { lang: Lang }) {
                 borderRadius: 999,
                 background: "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)",
                 color: "#fff",
-                font: "500 14px 'Prompt',sans-serif",
+                font: "500 14px 'DB Heavent',sans-serif",
               }}
             >
               {t("ปรึกษาฟรีทาง LINE", "Free Consult")}
             </a>
             <a
               href={TEL_HREF}
-              style={{ flex: 1, textAlign: "center", padding: 13, borderRadius: 999, border: "1px solid #D9B7A3", color: "#8F543F", font: "500 14px 'Prompt',sans-serif" }}
+              style={{ flex: 1, textAlign: "center", padding: 13, borderRadius: 999, border: "1px solid #D9B7A3", color: "#8F543F", font: "500 14px 'DB Heavent',sans-serif" }}
             >
               {TEL_DISPLAY}
             </a>

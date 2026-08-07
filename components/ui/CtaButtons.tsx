@@ -30,7 +30,7 @@ export function LineButton({
           ? "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)"
           : "linear-gradient(120deg,#CE9079,#F1D3C2)",
         color: light ? "#fff" : "#2B1C16",
-        font: "600 15px 'Prompt',sans-serif",
+        font: "600 15px 'DB Heavent',sans-serif",
         boxShadow: light ? "0 10px 24px rgba(169,106,85,.3)" : "0 10px 24px rgba(43,28,22,.3)",
       }}
     >
@@ -57,7 +57,7 @@ export function TelButton({ lang, on = "light" }: { lang: Lang; on?: "light" | "
         borderRadius: 999,
         border: light ? "1px solid #D9B7A3" : "1px solid rgba(229,183,157,.5)",
         color: light ? "#8F543F" : "#F6E8E1",
-        font: "500 15px 'Prompt',sans-serif",
+        font: "500 15px 'DB Heavent',sans-serif",
       }}
     >
       {t("โทร", "Call")} {TEL_DISPLAY}

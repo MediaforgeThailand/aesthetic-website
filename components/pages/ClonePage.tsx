@@ -21,7 +21,7 @@ export function cloneMetadata(lang: Lang, page: ClonePageData): Metadata {
   };
 }
 
-const P_STYLE: React.CSSProperties = { font: "300 15px/1.95 'Prompt',sans-serif", color: "#5D4A40", margin: "14px 0 0" };
+const P_STYLE: React.CSSProperties = { font: "300 15px/1.95 'DB Heavent',sans-serif", color: "#5D4A40", margin: "14px 0 0" };
 
 /** เนื้อหา block เก็บ href เป็น path ไทย (canonical) — บน /en/ ต้องเติม prefix ให้ลิงก์ภายใน */
 const localizeHtml = (lang: Lang, html: string): string =>
@@ -160,7 +160,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
 
       <article className="aa-wrap" style={{ maxWidth: 860, paddingTop: "clamp(28px,4vw,48px)" }}>
         {/* Breadcrumb */}
-        <nav aria-label="breadcrumb" style={{ font: "300 12.5px 'Prompt',sans-serif", color: "#A08876", display: "flex", flexWrap: "wrap", gap: 6 }}>
+        <nav aria-label="breadcrumb" style={{ font: "300 12.5px 'DB Heavent',sans-serif", color: "#A08876", display: "flex", flexWrap: "wrap", gap: 6 }}>
           {crumbs.map((cr, i) => (
             <span key={i} style={{ display: "inline-flex", gap: 6 }}>
               {i > 0 && <span>›</span>}
@@ -177,7 +177,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
 
         <h1 style={{ fontSize: "clamp(27px,3.6vw,42px)", lineHeight: 1.3, margin: "14px 0 0" }}>{c.title}</h1>
         {c.lead ? (
-          <p style={{ font: "300 16px/1.95 'Prompt',sans-serif", color: "#71594E", margin: "16px 0 0" }}>{c.lead}</p>
+          <p style={{ font: "300 16px/1.95 'DB Heavent',sans-serif", color: "#71594E", margin: "16px 0 0" }}>{c.lead}</p>
         ) : null}
 
         {/* CTA row ใต้ intro */}
@@ -192,10 +192,10 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
             aria-label={t("ในหน้านี้", "On this page")}
             style={{ margin: "26px 0 0", padding: "16px 20px", background: "#FAF3EE", border: "1px solid #F0DCCF", borderRadius: 16 }}
           >
-            <div style={{ font: "500 11.5px 'Prompt',sans-serif", letterSpacing: ".22em", color: "#B4735F" }}>
+            <div style={{ font: "500 11.5px 'DB Heavent',sans-serif", letterSpacing: ".22em", color: "#B4735F" }}>
               {t("ในหน้านี้", "ON THIS PAGE")}
             </div>
-            <ol style={{ margin: "10px 0 0", paddingLeft: 20, font: "300 13.5px/2 'Prompt',sans-serif", color: "#5D4A40" }}>
+            <ol style={{ margin: "10px 0 0", paddingLeft: 20, font: "300 13.5px/2 'DB Heavent',sans-serif", color: "#5D4A40" }}>
               {h2s.map((h) => (
                 <li key={h.text}>
                   <a href={`#${anchorId(h.text)}`} style={{ color: "#8F543F" }}>
@@ -213,7 +213,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
         ))}
 
         {page.hasCaseImagery ? (
-          <div style={{ marginTop: 18, font: "300 12px 'Prompt',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
+          <div style={{ marginTop: 18, font: "300 12px 'DB Heavent',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
         ) : null}
 
         {/* FAQ */}
@@ -246,17 +246,17 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
             }}
           >
             <div>
-              <div style={{ font: "500 11.5px 'Prompt',sans-serif", letterSpacing: ".22em", color: "#B4735F" }}>
+              <div style={{ font: "500 11.5px 'DB Heavent',sans-serif", letterSpacing: ".22em", color: "#B4735F" }}>
                 {t("โปรแกรมที่เกี่ยวข้อง", "RELATED PROGRAM")}
               </div>
               <div className="aa-serif" style={{ fontSize: "clamp(19px,2.2vw,26px)", fontWeight: 600, color: "#33241E", marginTop: 6 }}>
                 {related.name}
               </div>
-              <div style={{ font: "300 13.5px 'Prompt',sans-serif", color: "#8F7266", marginTop: 4 }}>
+              <div style={{ font: "300 13.5px 'DB Heavent',sans-serif", color: "#8F7266", marginTop: 4 }}>
                 {t("ดูรายละเอียด ราคา และรีวิวของโปรแกรมนี้", "See details, prices and reviews for this program")}
               </div>
             </div>
-            <span style={{ font: "500 14px 'Prompt',sans-serif", color: "#8F543F" }}>{t("ดูรายละเอียด →", "View details →")}</span>
+            <span style={{ font: "500 14px 'DB Heavent',sans-serif", color: "#8F543F" }}>{t("ดูรายละเอียด →", "View details →")}</span>
           </Link>
         ) : null}
       </article>
@@ -274,14 +274,14 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
           />
         </div>
         {c.keywords?.length ? (
-          <div style={{ marginTop: 26, font: "300 12px/1.9 'Prompt',sans-serif", color: "#B39F92", textAlign: "center" }}>
+          <div style={{ marginTop: 26, font: "300 12px/1.9 'DB Heavent',sans-serif", color: "#B39F92", textAlign: "center" }}>
             {c.keywords.join(" · ")}
           </div>
         ) : null}
       </div>
 
       <style>{`
-        .clone-table table{width:100%;border-collapse:collapse;font:300 14px/1.8 'Prompt',sans-serif;color:#5D4A40}
+        .clone-table table{width:100%;border-collapse:collapse;font:300 14px/1.8 'DB Heavent',sans-serif;color:#5D4A40}
         .clone-table th{font-weight:500;color:#33241E;background:#FAF3EE;text-align:left}
         .clone-table th,.clone-table td{padding:12px 16px;border-bottom:1px solid #F0E1D8}
         .clone-table tr:last-child td{border-bottom:none}

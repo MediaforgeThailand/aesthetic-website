@@ -116,7 +116,7 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
           >
             {isFace ? t("ทุกปัญหาผิวหน้า", "facial concern") : t("ทั่วเรือนร่าง", "skin care")}
           </div>
-          <div style={{ font: "300 12px/1.65 'Prompt',sans-serif", color: "#8A6E60", marginTop: 8 }}>
+          <div style={{ font: "300 12px/1.65 'DB Heavent',sans-serif", color: "#8A6E60", marginTop: 8 }}>
             {isFace
               ? t("ออกแบบการรักษาเฉพาะโครงหน้าของคุณ", "Personalised to your facial features")
               : t("ตั้งแต่ผิวขาวกระจ่างใสถึงกระชับสัดส่วน", "From brightening to body contouring")}
@@ -130,11 +130,11 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
         <div style={{ display: "flex", gap: 6, borderBottom: "1px solid #F0E1D8" }}>
           <button type="button" onClick={() => switchTab("face")} className="aa-serif" style={{ ...tabStyle(isFace), marginRight: 26 }}>
             {t("ใบหน้า", "Face")}{" "}
-            <span style={{ font: "300 12px 'Prompt',sans-serif", color: "#C4AE9E", verticalAlign: "middle" }}>{face.length}</span>
+            <span style={{ font: "300 12px 'DB Heavent',sans-serif", color: "#C4AE9E", verticalAlign: "middle" }}>{face.length}</span>
           </button>
           <button type="button" onClick={() => switchTab("body")} className="aa-serif" style={tabStyle(!isFace)}>
             {t("ผิวกายและรูปร่าง", "Body & Skin")}{" "}
-            <span style={{ font: "300 12px 'Prompt',sans-serif", color: "#C4AE9E", verticalAlign: "middle" }}>{body.length}</span>
+            <span style={{ font: "300 12px 'DB Heavent',sans-serif", color: "#C4AE9E", verticalAlign: "middle" }}>{body.length}</span>
           </button>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 clamp(20px,3vw,44px)", marginTop: 6 }}>
@@ -155,7 +155,7 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
                 animationDelay: `${i * 0.045}s`,
               }}
             >
-              <span style={{ font: "400 14.5px 'Prompt',sans-serif", color: "#4A382F" }}>{c.label}</span>
+              <span style={{ font: "400 14.5px 'DB Heavent',sans-serif", color: "#4A382F" }}>{c.label}</span>
               <span style={{ flex: "none", fontSize: 15, color: "#C08268" }}>→</span>
             </Link>
           ))}
@@ -175,7 +175,7 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
             borderRadius: 999,
             background: "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)",
             color: "#fff",
-            font: "500 14px 'Prompt',sans-serif",
+            font: "500 14px 'DB Heavent',sans-serif",
           }}
         >
           <img src="/assets/line-icon.png" alt="" width={18} height={18} style={{ width: 18, height: 18, borderRadius: 5 }} />

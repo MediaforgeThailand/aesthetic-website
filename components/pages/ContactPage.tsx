@@ -67,7 +67,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
     padding: "14px 18px",
     borderRadius: 16,
     color: "#FBF3ED",
-    font: "400 14px 'Prompt',sans-serif",
+    font: "400 14px 'DB Heavent',sans-serif",
   };
 
   return (
@@ -82,7 +82,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
       <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,72px) 0 clamp(56px,8vw,90px)" }}>
         {/* Heading */}
         <div style={{ textAlign: "center", maxWidth: 620, margin: "0 auto" }}>
-          <div style={{ font: "500 12px 'Prompt',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>
+          <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>
             CONTACT &amp; BRANCHES
           </div>
           <h1
@@ -95,7 +95,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
           >
             {t("ติดต่อเรา · สาขา", "Contact & Branches")}
           </h1>
-          <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'Prompt',sans-serif", color: "#71594E" }}>
+          <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'DB Heavent',sans-serif", color: "#71594E" }}>
             {t(
               "เปิดให้บริการทุกวัน แนะนำให้นัดหมายล่วงหน้าเพื่อความสะดวกของคุณ",
               "Open daily — booking ahead is recommended.",
@@ -131,17 +131,17 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   borderRadius: 999,
                   background: "#FAF3EE",
                   border: "1px solid #F0DCCF",
-                  font: "500 10.5px 'Prompt',sans-serif",
+                  font: "500 10.5px 'DB Heavent',sans-serif",
                   letterSpacing: ".18em",
                   color: "#8F543F",
                 }}
               >
                 {b.tag}
               </div>
-              <h3 style={{ margin: "14px 0 0", font: "600 17px 'Prompt',sans-serif", color: "#33241E" }}>
+              <h3 style={{ margin: "14px 0 0", font: "600 17px 'DB Heavent',sans-serif", color: "#33241E" }}>
                 {b.name}
               </h3>
-              <div style={{ marginTop: 6, font: "300 13.5px/1.8 'Prompt',sans-serif", color: "#71594E" }}>
+              <div style={{ marginTop: 6, font: "300 13.5px/1.8 'DB Heavent',sans-serif", color: "#71594E" }}>
                 {b.area}
               </div>
               <div
@@ -150,7 +150,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   display: "flex",
                   alignItems: "center",
                   gap: 8,
-                  font: "300 13px 'Prompt',sans-serif",
+                  font: "300 13px 'DB Heavent',sans-serif",
                   color: "#71594E",
                 }}
               >
@@ -173,7 +173,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   borderRadius: 999,
                   border: "1px solid #D9B7A3",
                   color: "#8F543F",
-                  font: "500 13.5px 'Prompt',sans-serif",
+                  font: "500 13.5px 'DB Heavent',sans-serif",
                 }}
               >
                 {TEL_DISPLAY}
@@ -195,7 +195,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
               padding: "clamp(28px,4vw,44px)",
             }}
           >
-            <div style={{ font: "500 12px 'Prompt',sans-serif", letterSpacing: ".28em", color: "#E5B79D" }}>
+            <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".28em", color: "#E5B79D" }}>
               TALK TO US
             </div>
             <h2
@@ -256,7 +256,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                     alignItems: "center",
                     justifyContent: "center",
                     color: "#fff",
-                    font: "600 17px 'Prompt',sans-serif",
+                    font: "600 17px 'DB Heavent',sans-serif",
                   }}
                 >
                   f
@@ -286,12 +286,12 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   style={{ flex: "none", width: 152, height: 152, display: "block" }}
                 />
                 <span style={{ display: "flex", flexDirection: "column", gap: 5, minWidth: 170, flex: 1 }}>
-                  <span style={{ font: "500 11.5px 'Prompt',sans-serif", letterSpacing: ".26em", color: "#B4735F" }}>
+                  <span style={{ font: "500 11.5px 'DB Heavent',sans-serif", letterSpacing: ".26em", color: "#B4735F" }}>
                     SCAN TO ADD
                   </span>
                   <span
                     style={{
-                      fontFamily: "'Playfair Display','Trirong',serif",
+                      fontFamily: "'Playfair Display','Luxia',serif",
                       fontWeight: 600,
                       fontSize: "clamp(22px,2.4vw,30px)",
                       lineHeight: 1.15,
@@ -300,7 +300,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   >
                     {LINE_ID}
                   </span>
-                  <span style={{ font: "300 14px/1.7 'Prompt',sans-serif", color: "#71594E" }}>
+                  <span style={{ font: "300 14px/1.7 'DB Heavent',sans-serif", color: "#71594E" }}>
                     {t(
                       "สแกน QR เพื่อแอดไลน์ ปรึกษาแพทย์ได้ทันที",
                       "Scan to add us and chat with a doctor.",
@@ -341,10 +341,10 @@ export default function ContactPage({ lang }: { lang: Lang }) {
               }}
             />
             <div style={{ position: "absolute", left: 24, right: 24, bottom: 22, color: "#FBF3ED" }}>
-              <div style={{ font: "500 11px 'Prompt',sans-serif", letterSpacing: ".24em", color: "#E5B79D" }}>
+              <div style={{ font: "500 11px 'DB Heavent',sans-serif", letterSpacing: ".24em", color: "#E5B79D" }}>
                 THE ART AESTHETIC
               </div>
-              <div style={{ font: "300 13.5px/1.7 'Prompt',sans-serif", marginTop: 6 }}>
+              <div style={{ font: "300 13.5px/1.7 'DB Heavent',sans-serif", marginTop: 6 }}>
                 {t(
                   "แผนที่และเส้นทางแต่ละสาขา สอบถามได้ทาง LINE",
                   "Maps and directions for each branch via LINE.",

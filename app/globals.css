@@ -1,18 +1,21 @@
 /* ─── The Art Aesthetic — global styles (from design reference) ─── */
 
-@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent.woff2') format('woff2');font-weight:100 500;font-style:normal;font-display:swap}
-@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent-Bold.woff2') format('woff2');font-weight:600 900;font-style:normal;font-display:swap}
+/* DB Heavent มี x-height เตี้ยผิดปกติ (aspect 0.36 เทียบกับ Luxia 0.50) ถ้าปล่อยตามจริงจะเล็กจนอ่านไม่ออก
+   size-adjust:139% ปรับ metric ที่ตัว @font-face เลย (0.50 / 0.36) — inline style ทับไม่ได้ */
+@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent.woff2') format('woff2');font-weight:100 500;font-style:normal;font-display:swap;size-adjust:139%}
+@font-face{font-family:'DB Heavent';src:url('/assets/fonts/DBHeavent-Bold.woff2') format('woff2');font-weight:600 900;font-style:normal;font-display:swap;size-adjust:139%}
 @font-face{font-family:'Luxia';src:url('/assets/fonts/LuxiaRegular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:'Luxia';src:url('/assets/fonts/LuxiaDisplay.woff') format('woff');font-weight:500 700;font-style:normal;font-display:swap}
 
 *,*::before,*::after{box-sizing:border-box}
-/* Typography: DB Heavent ทั้งเว็บตาม CI (ตามที่เจ้าของสั่ง) — จุดสำคัญคือ font-size-adjust ต้อง !important
-   เพื่อชนะการรีเซ็ตจาก inline `font:` shorthand ไม่งั้น DB Heavent จะเรนเดอร์เล็กจนอ่านไม่ได้ (บั๊กของ capture เดิม) */
-body{margin:0;background:#FFFDFC;color:#33241E;font-family:'DB Heavent','Prompt',sans-serif;-webkit-font-smoothing:antialiased}
-.aa-root,.aa-root *{font-family:'DB Heavent','Prompt',sans-serif !important;font-size-adjust:0.5 !important}
+/* Typography: DB Heavent ทั้งเว็บตาม CI — หัวข้อใช้ Luxia (ละติน) ตกไป DB Heavent สำหรับไทย
+   ขนาดถูกชดเชย 2 ชั้น: size-adjust ที่ @font-face (ชั้นหลัก) + font-size-adjust ที่นี่ (เผื่อ browser เก่า)
+   เมื่อ size-adjust ทำงานแล้ว aspect = 0.5 พอดี บรรทัดล่างจึงไม่ขยายซ้ำ */
+body{margin:0;background:#FFFDFC;color:#33241E;font-family:'DB Heavent',sans-serif;-webkit-font-smoothing:antialiased}
+.aa-root,.aa-root *{font-family:'DB Heavent',sans-serif !important;font-size-adjust:0.5 !important}
 .aa-root h1,.aa-root h2,.aa-root h3,
-.aa-root h1 *,.aa-root h2 *,.aa-root h3 *{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500;color:#3c2127}
-.aa-serif,.aa-root .aa-serif,.aa-root .aa-serif *{font-family:'Luxia','DB Heavent','Trirong',serif !important;font-weight:500}
+.aa-root h1 *,.aa-root h2 *,.aa-root h3 *{font-family:'Luxia','DB Heavent',serif !important;font-weight:500;color:#3c2127}
+.aa-serif,.aa-root .aa-serif,.aa-root .aa-serif *{font-family:'Luxia','DB Heavent',serif !important;font-weight:500}
 .aa-pfi,.aa-root .aa-pfi{font-family:'Playfair Display','Luxia',serif !important;font-style:italic}
 a{color:#8F543F;text-decoration:none}
 a:hover{color:#A96A55}

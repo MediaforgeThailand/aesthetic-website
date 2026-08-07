@@ -13,7 +13,7 @@ import FaqAccordion from "./tx/FaqAccordion";
 
 const h2Style: React.CSSProperties = {
   margin: 0,
-  fontFamily: "'Trirong','Playfair Display',serif",
+  fontFamily: "'Luxia','DB Heavent',serif",
   fontWeight: 600,
   fontSize: "clamp(24px,2.8vw,34px)",
   color: "#33241E",
@@ -90,7 +90,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <div className="aa-wrap" style={{ padding: "clamp(28px,4vw,44px) 0 clamp(56px,8vw,90px)" }}>
         {/* Breadcrumb */}
-        <nav aria-label={t("เส้นทางหน้า", "Breadcrumb")} style={{ font: "300 13px 'Prompt',sans-serif", color: "#8F7266" }}>
+        <nav aria-label={t("เส้นทางหน้า", "Breadcrumb")} style={{ font: "300 13px 'DB Heavent',sans-serif", color: "#8F7266" }}>
           <Link href={href(lang, "/")} style={{ color: "#8F543F" }}>
             {t("หน้าแรก", "Home")}
           </Link>
@@ -116,7 +116,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                   border: `1px solid ${on ? "transparent" : "#EBD8CD"}`,
                   background: on ? "linear-gradient(120deg,#8F543F,#C08268)" : "#fff",
                   color: on ? "#fff" : "#6B4E3F",
-                  font: "400 13px 'Prompt',sans-serif",
+                  font: "400 13px 'DB Heavent',sans-serif",
                   whiteSpace: "nowrap",
                   transition: "all .25s",
                 }}
@@ -146,7 +146,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                 borderRadius: 999,
                 background: "#FAF3EE",
                 border: "1px solid #F0DCCF",
-                font: "500 11.5px 'Prompt',sans-serif",
+                font: "500 11.5px 'DB Heavent',sans-serif",
                 letterSpacing: ".2em",
                 color: "#8F543F",
               }}
@@ -156,7 +156,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
             <h1
               style={{
                 margin: "18px 0 0",
-                fontFamily: "'Trirong','Playfair Display',serif",
+                fontFamily: "'Luxia','DB Heavent',serif",
                 fontWeight: 600,
                 fontSize: "clamp(30px,3.8vw,48px)",
                 lineHeight: 1.22,
@@ -166,14 +166,14 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
             >
               {d.h1}
             </h1>
-            <p style={{ margin: "16px 0 0", font: "300 15.5px/1.9 'Prompt',sans-serif", color: "#71594E", textWrap: "pretty" }}>
+            <p style={{ margin: "16px 0 0", font: "300 15.5px/1.9 'DB Heavent',sans-serif", color: "#71594E", textWrap: "pretty" }}>
               {d.lead}
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(150px,1fr))", gap: 12, marginTop: 26 }}>
               {facts.map((fa) => (
                 <div key={fa.k} style={{ background: "#FAF3EE", border: "1px solid #F0DCCF", borderRadius: 16, padding: "14px 16px" }}>
-                  <div style={{ font: "500 10.5px 'Prompt',sans-serif", letterSpacing: ".18em", color: "#B4735F" }}>{fa.k}</div>
-                  <div style={{ font: "500 14.5px 'Prompt',sans-serif", color: "#33241E", marginTop: 5 }}>{fa.v}</div>
+                  <div style={{ font: "500 10.5px 'DB Heavent',sans-serif", letterSpacing: ".18em", color: "#B4735F" }}>{fa.k}</div>
+                  <div style={{ font: "500 14.5px 'DB Heavent',sans-serif", color: "#33241E", marginTop: 5 }}>{fa.v}</div>
                 </div>
               ))}
             </div>
@@ -222,9 +222,9 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                 >
                   {d.en}
                 </div>
-                <div style={{ font: "400 15px 'Prompt',sans-serif", color: "#71594E" }}>{d.name}</div>
+                <div style={{ font: "400 15px 'DB Heavent',sans-serif", color: "#71594E" }}>{d.name}</div>
                 <div style={{ width: 54, height: 1, background: "#C99B85", marginTop: 8 }} />
-                <div style={{ font: "500 11px 'Prompt',sans-serif", letterSpacing: ".3em", color: "#B4735F", marginTop: 4 }}>
+                <div style={{ font: "500 11px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F", marginTop: 4 }}>
                   THE ART AESTHETIC
                 </div>
               </div>
@@ -242,9 +242,9 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
               {t("รู้จักกับ ", "About ")}
               {d.name}
             </h2>
-            <p style={{ margin: "16px 0 0", font: "300 15px/2 'Prompt',sans-serif", color: "#5D4A40", textWrap: "pretty" }}>{d.about1}</p>
-            <p style={{ margin: "14px 0 0", font: "300 15px/2 'Prompt',sans-serif", color: "#5D4A40", textWrap: "pretty" }}>{d.about2}</p>
-            <div style={{ marginTop: 26, font: "500 14px 'Prompt',sans-serif", color: "#33241E" }}>{t("จุดที่นิยมทำ", "Popular areas")}</div>
+            <p style={{ margin: "16px 0 0", font: "300 15px/2 'DB Heavent',sans-serif", color: "#5D4A40", textWrap: "pretty" }}>{d.about1}</p>
+            <p style={{ margin: "14px 0 0", font: "300 15px/2 'DB Heavent',sans-serif", color: "#5D4A40", textWrap: "pretty" }}>{d.about2}</p>
+            <div style={{ marginTop: 26, font: "500 14px 'DB Heavent',sans-serif", color: "#33241E" }}>{t("จุดที่นิยมทำ", "Popular areas")}</div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 9, marginTop: 12 }}>
               {d.spots.map((s) => (
                 <span
@@ -254,7 +254,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                     borderRadius: 999,
                     background: "#FAF3EE",
                     border: "1px solid #F0DCCF",
-                    font: "300 13px 'Prompt',sans-serif",
+                    font: "300 13px 'DB Heavent',sans-serif",
                     color: "#6B4E3F",
                   }}
                 >
@@ -264,8 +264,8 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
             </div>
           </div>
           <div style={{ background: "linear-gradient(180deg,#FAF3EE,#F5E7DE)", borderRadius: 26, padding: "28px 28px 30px", height: "fit-content" }}>
-            <div style={{ font: "500 12px 'Prompt',sans-serif", letterSpacing: ".26em", color: "#B4735F" }}>HOW IT WORKS</div>
-            <h3 style={{ marginTop: 8, fontFamily: "'Trirong','Playfair Display',serif", fontWeight: 600, fontSize: 22, color: "#33241E" }}>
+            <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".26em", color: "#B4735F" }}>HOW IT WORKS</div>
+            <h3 style={{ marginTop: 8, fontFamily: "'Luxia','DB Heavent',serif", fontWeight: 600, fontSize: 22, color: "#33241E" }}>
               {t("ขั้นตอนการรับบริการ", "Your Journey")}
             </h3>
             <div style={{ display: "flex", flexDirection: "column", marginTop: 18 }}>
@@ -293,8 +293,8 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                     <div style={{ flex: 1, width: 1, background: st.line, margin: "4px 0" }} />
                   </div>
                   <div style={{ paddingBottom: 20 }}>
-                    <div style={{ font: "500 14.5px 'Prompt',sans-serif", color: "#33241E" }}>{st.t}</div>
-                    <div style={{ font: "300 13px/1.7 'Prompt',sans-serif", color: "#71594E", marginTop: 3 }}>{st.d}</div>
+                    <div style={{ font: "500 14.5px 'DB Heavent',sans-serif", color: "#33241E" }}>{st.t}</div>
+                    <div style={{ font: "300 13px/1.7 'DB Heavent',sans-serif", color: "#71594E", marginTop: 3 }}>{st.d}</div>
                   </div>
                 </div>
               ))}
@@ -316,11 +316,11 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                     altAfter={t(`หลังทำ ${p.cap}`, `After — ${p.cap}`)}
                     ariaLabel={t(`เลื่อนเปรียบเทียบก่อน–หลัง ${p.cap}`, `Drag to compare before and after — ${p.cap}`)}
                   />
-                  <div style={{ marginTop: 10, font: "300 12.5px 'Prompt',sans-serif", color: "#8F7266", textAlign: "center" }}>{p.cap}</div>
+                  <div style={{ marginTop: 10, font: "300 12.5px 'DB Heavent',sans-serif", color: "#8F7266", textAlign: "center" }}>{p.cap}</div>
                 </div>
               ))}
             </div>
-            <div style={{ marginTop: 14, font: "300 12px 'Prompt',sans-serif", color: "#A08876", textAlign: "center" }}>
+            <div style={{ marginTop: 14, font: "300 12px 'DB Heavent',sans-serif", color: "#A08876", textAlign: "center" }}>
               {t("*รูปที่ใช้รีวิวได้รับการอนุญาตแล้ว · ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "*Photos used with permission · Results vary by individual")}
             </div>
           </section>
@@ -331,7 +331,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
           <section style={{ marginTop: "clamp(48px,6vw,80px)" }}>
             <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 14, flexWrap: "wrap" }}>
               <h2 style={h2Style}>{t("โปรโมชั่นที่เกี่ยวข้อง", "Current Promotion")}</h2>
-              <Link href={href(lang, "/promotions/")} style={{ font: "400 13.5px 'Prompt',sans-serif", color: "#8F543F" }}>
+              <Link href={href(lang, "/promotions/")} style={{ font: "400 13.5px 'DB Heavent',sans-serif", color: "#8F543F" }}>
                 {t("ดูโปรโมชั่นทั้งหมด →", "All promotions →")}
               </Link>
             </div>
@@ -360,7 +360,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                     background: "rgba(46,33,28,.72)",
                     backdropFilter: "blur(6px)",
                     color: "#E5B79D",
-                    font: "500 10.5px 'Prompt',sans-serif",
+                    font: "500 10.5px 'DB Heavent',sans-serif",
                     letterSpacing: ".18em",
                   }}
                 >
@@ -368,8 +368,8 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                 </div>
               </div>
               <div style={{ padding: "clamp(22px,3vw,34px)", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <h3 style={{ margin: 0, font: "600 clamp(17px,2vw,21px) 'Prompt',sans-serif", color: "#33241E" }}>{promo.title}</h3>
-                <div style={{ font: "300 14px/1.85 'Prompt',sans-serif", color: "#71594E", marginTop: 8, maxWidth: 520 }}>{promo.sub}</div>
+                <h3 style={{ margin: 0, font: "600 clamp(17px,2vw,21px) 'DB Heavent',sans-serif", color: "#33241E" }}>{promo.title}</h3>
+                <div style={{ font: "300 14px/1.85 'DB Heavent',sans-serif", color: "#71594E", marginTop: 8, maxWidth: 520 }}>{promo.sub}</div>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 20 }}>
                   <a
                     href={LINE_URL}
@@ -384,13 +384,13 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                       borderRadius: 999,
                       background: "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)",
                       color: "#fff",
-                      font: "500 14px 'Prompt',sans-serif",
+                      font: "500 14px 'DB Heavent',sans-serif",
                     }}
                   >
                     {t("รับสิทธิ์ทาง LINE", "Claim via LINE")}
                   </a>
                 </div>
-                <div style={{ font: "300 11.5px 'Prompt',sans-serif", color: "#A08876", marginTop: 12 }}>
+                <div style={{ font: "300 11.5px 'DB Heavent',sans-serif", color: "#A08876", marginTop: 12 }}>
                   {t("*เงื่อนไขเป็นไปตามที่คลินิกกำหนด", "*Terms as specified by the clinic.")}
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
         </div>
 
         {/* Keyword block */}
-        <p style={{ marginTop: 30, font: "300 12px/1.9 'Prompt',sans-serif", color: "#B39F92" }}>{d.keywords.join(" · ")}</p>
+        <p style={{ marginTop: 30, font: "300 12px/1.9 'DB Heavent',sans-serif", color: "#B39F92" }}>{d.keywords.join(" · ")}</p>
       </div>
     </>
   );

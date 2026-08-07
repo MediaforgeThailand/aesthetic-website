@@ -76,7 +76,7 @@ export default function StickyCta({ lang }: { lang: Lang }) {
               borderRadius: 999,
               background: "#06C755",
               color: "#fff",
-              font: "600 14.5px 'Prompt',sans-serif",
+              font: "600 14.5px 'DB Heavent',sans-serif",
               boxShadow: "0 6px 16px rgba(6,199,85,.35)",
             }}
           >
@@ -94,7 +94,7 @@ export default function StickyCta({ lang }: { lang: Lang }) {
               gap: 7,
               padding: "13px 10px",
               borderRadius: 999,
-              font: "500 14.5px 'Prompt',sans-serif",
+              font: "500 14.5px 'DB Heavent',sans-serif",
             }}
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none">

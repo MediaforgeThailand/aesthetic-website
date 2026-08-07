@@ -29,7 +29,7 @@ export default function FaqAccordion({ faqs }: { faqs: TxFaq[] }) {
                 textAlign: "left",
               }}
             >
-              <span style={{ font: "500 15px 'Prompt',sans-serif", color: "#33241E" }}>{f.q}</span>
+              <span style={{ font: "500 15px 'DB Heavent',sans-serif", color: "#33241E" }}>{f.q}</span>
               <span
                 aria-hidden
                 style={{
@@ -52,7 +52,7 @@ export default function FaqAccordion({ faqs }: { faqs: TxFaq[] }) {
               style={{
                 display: isOpen ? "block" : "none",
                 padding: "0 22px 20px",
-                font: "300 14px/1.9 'Prompt',sans-serif",
+                font: "300 14px/1.9 'DB Heavent',sans-serif",
                 color: "#5D4A40",
               }}
             >
