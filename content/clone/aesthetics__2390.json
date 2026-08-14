@@ -9,27 +9,90 @@
     "metaTitle": "Video Aesthetics",
     "metaDesc": "รวมวิดีโอหัตถการความงามจาก The Art Aesthetic ทั้ง HIFU x Meso Fat ฟิลเลอร์ปาก ฟิลเลอร์ใต้ตา โปรแกรมระเบิดเหนียง และการรักษาหลุมสิว ชมผลลัพธ์จริงจากเคสจริง",
     "blocks": [
-      { "t": "video", "src": "https://www.youtube.com/embed/DdD0kakAT_Q", "title": "HIFU x Meso Fat : โปรแกรมคู่จิ้น ที่ทำออกมาแล้วหน้าเป๊ะมาก!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DLmfXjcDCdM", "title": "Filler ปากสวย สไตล์นางงาม #หมอบอลดิอาท" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "โปรแกรมระเบิดเหนียง : ผิวหน้ายกกระชับ หน้าเรียวx2 ด้วยเทคนิคเฉพาะของ The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "โปรแกรมระเบิดเหนียง : แค่ 2 Week หน้าเรียวมากแม่!!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/r5XV23a3OXw", "title": "ใต้ตาคล้ำ ขมับตอบ แก้มตอบ ให้หน้าเด็กแบบไม่ต้องผ่าตัด ด้วย Filler" },
-      { "t": "video", "src": "https://www.youtube.com/embed/6Asl4V8UWmM", "title": "ใครเคยเป็นสิว แล้วทิ้งร่องรอยไว้ อยากรักษาให้หาย #ต้องดูคลิปนี้นะคะ" }
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DdD0kakAT_Q",
+        "title": "HIFU x Meso Fat : โปรแกรมดูแลกรอบหน้าแบบคู่"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DLmfXjcDCdM",
+        "title": "Filler ปาก ออกแบบทรงปากโดยแพทย์ The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "โปรแกรมดูแลเหนียงและกรอบหน้า ด้วยเทคนิคของ The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "โปรแกรมดูแลเหนียง — รีวิวจากผู้เข้ารับบริการ"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/r5XV23a3OXw",
+        "title": "ใต้ตาคล้ำ ขมับตอบ แก้มตอบ ให้หน้าเด็กแบบไม่ต้องผ่าตัด ด้วย Filler"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/6Asl4V8UWmM",
+        "title": "ใครมีร่องรอยจากสิว อยากดูแลให้ผิวเรียบขึ้น ดูคลิปนี้"
+      }
     ],
-    "keywords": ["วิดีโอหัตถการความงาม", "HIFU Meso Fat", "ฟิลเลอร์ปาก", "ฟิลเลอร์ใต้ตา", "โปรแกรมระเบิดเหนียง", "รักษาหลุมสิว"]
+    "keywords": [
+      "วิดีโอหัตถการความงาม",
+      "HIFU Meso Fat",
+      "ฟิลเลอร์ปาก",
+      "ฟิลเลอร์ใต้ตา",
+      "โปรแกรมระเบิดเหนียง",
+      "รักษาหลุมสิว"
+    ]
   },
   "en": {
     "title": "Video Aesthetics",
     "metaTitle": "Video Aesthetics",
     "metaDesc": "Watch aesthetic treatment videos from The Art Aesthetic — HIFU x Meso Fat, lip filler, under-eye filler, the double-chin blasting program and acne scar treatment, with real results from real cases.",
     "blocks": [
-      { "t": "video", "src": "https://www.youtube.com/embed/DdD0kakAT_Q", "title": "HIFU x Meso Fat: the perfect-pair program for a flawlessly sculpted face!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DLmfXjcDCdM", "title": "Filler for beautiful pageant-style lips by Dr. Ball at The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "Double-chin blasting program: lifted, firmer skin and a face twice as slim with The Art's signature technique" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "Double-chin blasting program: a visibly slimmer face in just 2 weeks!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/r5XV23a3OXw", "title": "Dark under-eyes, hollow temples, sunken cheeks — a younger-looking face without surgery, with filler" },
-      { "t": "video", "src": "https://www.youtube.com/embed/6Asl4V8UWmM", "title": "Ever had acne that left scars behind and want to treat it? Watch this clip" }
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DdD0kakAT_Q",
+        "title": "HIFU x Meso Fat: a paired program for facial contouring"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DLmfXjcDCdM",
+        "title": "Lip filler — lip shape designed by a doctor at The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "Double-chin and jawline program using The Art's technique"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "Double-chin program — a client's review"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/r5XV23a3OXw",
+        "title": "Dark under-eyes, hollow temples, sunken cheeks — a younger-looking face without surgery, with filler"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/6Asl4V8UWmM",
+        "title": "Marks left behind by acne — how they can be treated. Watch this clip"
+      }
     ],
-    "keywords": ["aesthetic treatment videos", "HIFU Meso Fat", "lip filler", "under-eye filler", "double chin reduction", "acne scar treatment"]
-  }
+    "keywords": [
+      "aesthetic treatment videos",
+      "HIFU Meso Fat",
+      "lip filler",
+      "under-eye filler",
+      "double chin reduction",
+      "acne scar treatment"
+    ]
+  },
+  "hasCaseImagery": true
 }

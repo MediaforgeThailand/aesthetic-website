@@ -31,34 +31,14 @@ export function contactMetadata(lang: Lang): Metadata {
 export default function ContactPage({ lang }: { lang: Lang }) {
   const t = tr(lang);
 
-  /* branches(lang) จาก @/lib/site ให้ name/hours — เสริม tag/area จาก renderVals (reference lines 1384-1388) */
+  /* branches(lang) จาก @/lib/site ให้ name/addr/hours — ที่อยู่เป็นค่าจริงจากเว็บหลัก
+     ห้ามเติมข้อความบอกทางที่ยืนยันไม่ได้ (ที่จอดรถ / ใกล้รถไฟฟ้า ฯลฯ) */
   const extras = [
-    {
-      tag: "BANGKOK · ดอนเมือง",
-      name: t("The Art — ดอนเมือง", "The Art — Don Mueang"),
-      area: t(
-        "ย่านดอนเมือง กรุงเทพฯ เดินทางสะดวก มีที่จอดรถ",
-        "Don Mueang, Bangkok — easy access, parking available.",
-      ),
-    },
-    {
-      tag: "BANGKOK · ลาดพร้าว",
-      name: t("The Art — ลาดพร้าว", "The Art — Lat Phrao"),
-      area: t(
-        "ย่านลาดพร้าว กรุงเทพฯ ใกล้รถไฟฟ้า เดินทางง่าย",
-        "Lat Phrao, Bangkok — close to the BTS/MRT line.",
-      ),
-    },
-    {
-      tag: "EAST · PATTAYA",
-      name: t("The Art — พัทยา", "The Art — Pattaya"),
-      area: t(
-        "ใจกลางพัทยา จ.ชลบุรี รองรับทั้งลูกค้าชาวไทยและต่างชาติ",
-        "Central Pattaya, Chonburi — serving Thai and international clients.",
-      ),
-    },
+    { tag: t("BANGKOK · ดอนเมือง", "BANGKOK · DON MUEANG"), name: t("The Art — ดอนเมือง", "The Art — Don Mueang") },
+    { tag: t("BANGKOK · ลาดพร้าว", "BANGKOK · LAT PHRAO"), name: t("The Art — ลาดพร้าว", "The Art — Lat Phrao") },
+    { tag: t("EAST · พัทยา", "EAST · PATTAYA"), name: t("The Art — พัทยา", "The Art — Pattaya") },
   ];
-  const branchCards = branches(lang).map((b, i) => ({ ...extras[i], hours: b.hours }));
+  const branchCards = branches(lang).map((b, i) => ({ ...extras[i], addr: b.addr, hours: b.hours }));
 
   const chanStyle: React.CSSProperties = {
     display: "flex",
@@ -141,9 +121,16 @@ export default function ContactPage({ lang }: { lang: Lang }) {
               <h3 style={{ margin: "14px 0 0", font: "600 17px 'DB Heavent',sans-serif", color: "#33241E" }}>
                 {b.name}
               </h3>
-              <div style={{ marginTop: 6, font: "300 13.5px/1.8 'DB Heavent',sans-serif", color: "#71594E" }}>
-                {b.area}
-              </div>
+              <address
+                style={{
+                  marginTop: 6,
+                  font: "300 13.5px/1.8 'DB Heavent',sans-serif",
+                  color: "#71594E",
+                  fontStyle: "normal",
+                }}
+              >
+                {b.addr}
+              </address>
               <div
                 style={{
                   marginTop: 12,

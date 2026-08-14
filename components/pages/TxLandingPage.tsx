@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { href, Lang, tr } from "@/lib/i18n";
 import { LINE_URL, TX_ORDER, TxKey, txHref } from "@/lib/site";
-import { PROMO_MAP, promos } from "@/lib/shared-data";
+import { PROMO_MAP, PROMO_VALID_UNTIL, baPairs, promos } from "@/lib/shared-data";
 import { txData } from "@/lib/tx-data";
 import { LineButton, TelButton } from "@/components/ui/CtaButtons";
 import DarkCtaBanner from "@/components/ui/DarkCtaBanner";
@@ -61,18 +61,8 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
     },
   ];
 
-  const baPairs = [
-    {
-      before: "/assets/ba/undereye-b.jpg",
-      after: "/assets/ba/undereye-a.jpg",
-      cap: t("ฟิลเลอร์ใต้ตา + ขมับ", "Under-eye + temple filler"),
-    },
-    {
-      before: "/assets/ba/chin-b.jpg",
-      after: "/assets/ba/chin-a.jpg",
-      cap: t("ฟิลเลอร์คาง ปรับรูปหน้า", "Chin filler contour"),
-    },
-  ];
+  /* ภาพก่อน–หลังต้องตรงกับหัตถการของหน้านี้เท่านั้น — ดู lib/shared-data.ts */
+  const ba = baPairs(lang, txKey);
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -303,11 +293,11 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
         </div>
 
         {/* ก่อน–หลัง (เฉพาะหัตถการที่มีรูปจริง) */}
-        {d.hasBa ? (
+        {d.hasBa && ba.length ? (
           <section style={{ marginTop: "clamp(48px,6vw,80px)" }}>
             <h2 style={h2Style}>{t("ผลลัพธ์ก่อน–หลัง จากเคสจริง", "Before & After, Real Cases")}</h2>
             <div className="aa-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginTop: 24 }}>
-              {baPairs.map((p) => (
+              {ba.map((p) => (
                 <div key={p.before}>
                   <BaSlider
                     before={p.before}
@@ -370,6 +360,15 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
               <div style={{ padding: "clamp(22px,3vw,34px)", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <h3 style={{ margin: 0, font: "600 clamp(17px,2vw,21px) 'DB Heavent',sans-serif", color: "#33241E" }}>{promo.title}</h3>
                 <div style={{ font: "300 14px/1.85 'DB Heavent',sans-serif", color: "#71594E", marginTop: 8, maxWidth: 520 }}>{promo.sub}</div>
+                <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginTop: 12 }}>
+                  <span style={{ font: "600 24px 'DB Heavent',sans-serif", color: "#8F543F" }}>
+                    {promo.price.toLocaleString("en-US")}
+                  </span>
+                  <span style={{ font: "300 14px 'DB Heavent',sans-serif", color: "#71594E" }}>{t("บาท", "THB")}</span>
+                  <span style={{ font: "300 11.5px 'DB Heavent',sans-serif", color: "#A08876" }}>
+                    {promo.sku} · {t(`ถึง ${PROMO_VALID_UNTIL.th}`, `until ${PROMO_VALID_UNTIL.en}`)}
+                  </span>
+                </div>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 20 }}>
                   <a
                     href={LINE_URL}

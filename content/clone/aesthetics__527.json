@@ -318,7 +318,7 @@
       },
       {
         "t": "p",
-        "html": "ฉีดฟิลเลอร์ราคาเท่าไหร่นั้นจะแตกต่างกันไปตามยี่ห้อและรุ่นที่เลือก ซึ่งในปัจจุบันราคาของแต่ละรุ่นก็จะมี ดังนี้"
+        "html": "ฉีดฟิลเลอร์ราคาเท่าไหร่นั้นจะแตกต่างกันไปตามยี่ห้อและปริมาณที่ใช้ ราคาแพ็กเกจปัจจุบัน (ถึง 31 ธ.ค. 2569) มีดังนี้"
       },
       {
         "t": "h3",
@@ -327,9 +327,9 @@
       {
         "t": "ul",
         "items": [
-          "<b>รุ่น Ultra Plus XC</b> : ราคาโปรโมชัน 9,900 บาท",
-          "<b>รุ่นอื่น ๆ</b> : ราคาโปรโมชัน 16,900 บาท",
-          "<b>Juvederm 10 CC</b> : ราคาโปรโมชัน 159,000 บาท"
+          "<b>Juvederm ทุกรุ่น (Ultra Plus XC, Voluma, Volbella, Volift) 1 cc</b> : 16,900 บาท",
+          "<b>Juvederm ทุกรุ่น 5 cc</b> : 89,000 บาท",
+          "<b>Juvederm ทุกรุ่น 10 cc</b> : 169,000 บาท"
         ]
       },
       {
@@ -339,9 +339,9 @@
       {
         "t": "ul",
         "items": [
-          "<b>รุ่น Classic</b> : ราคาโปรโมชัน 9,900 บาท",
-          "<b>รุ่นอื่น ๆ</b> : ราคาโปรโมชัน 12,900 บาท",
-          "<b>Restylane 10 CC</b> : ราคาโปรโมชัน 119,000 บาท"
+          "<b>Restylane ทุกรุ่น 1 cc</b> : 12,900 บาท",
+          "<b>Restylane ทุกรุ่น 5 cc</b> : 65,900 บาท (แถม Botox Dysport 50 ยูนิต)",
+          "<b>Restylane ทุกรุ่น 10 cc</b> : 129,000 บาท (แถม Botox Dysport 100 ยูนิต)"
         ]
       },
       {
@@ -351,10 +351,13 @@
       {
         "t": "ul",
         "items": [
-          "<b>รุ่นทั่วไป</b> : ราคาโปรโมชัน 5,900 บาท",
-          "<b>Neuramis 4 CC</b> : ราคาโปรโมชัน 19,900 บาท",
-          "<b>Neuramis 10 CC</b> : ราคาโปรโมชัน 49,000 บาท"
+          "<b>Neuramis ทุกรุ่น 1 cc</b> : 5,900 บาท",
+          "<b>Neuramis ทุกรุ่น 4 cc</b> : 20,900 บาท"
         ]
+      },
+      {
+        "t": "p",
+        "html": "ราคาข้างต้นเป็นราคาแพ็กเกจถึงวันที่ 31 ธันวาคม 2569 เงื่อนไขเป็นไปตามที่คลินิกกำหนด กรุณาสอบถามราคาล่าสุดก่อนเข้ารับบริการ"
       },
       {
         "t": "h2",
@@ -800,7 +803,7 @@
       },
       {
         "t": "p",
-        "html": "The cost of filler injections varies by brand and product line. Current prices for each line are as follows:"
+        "html": "The cost of filler injections varies by brand and by the volume used. Current package prices (valid until 31 December 2026) are as follows:"
       },
       {
         "t": "h3",
@@ -809,9 +812,9 @@
       {
         "t": "ul",
         "items": [
-          "<b>Ultra Plus XC</b> : promotional price 9,900 baht",
-          "<b>Other lines</b> : promotional price 16,900 baht",
-          "<b>Juvederm 10 CC</b> : promotional price 159,000 baht"
+          "<b>Juvederm, any line (Ultra Plus XC, Voluma, Volbella, Volift) — 1 cc</b> : 16,900 baht",
+          "<b>Juvederm, any line — 5 cc</b> : 89,000 baht",
+          "<b>Juvederm, any line — 10 cc</b> : 169,000 baht"
         ]
       },
       {
@@ -821,9 +824,9 @@
       {
         "t": "ul",
         "items": [
-          "<b>Classic</b> : promotional price 9,900 baht",
-          "<b>Other lines</b> : promotional price 12,900 baht",
-          "<b>Restylane 10 CC</b> : promotional price 119,000 baht"
+          "<b>Restylane, any line — 1 cc</b> : 12,900 baht",
+          "<b>Restylane, any line — 5 cc</b> : 65,900 baht (includes 50 units of Botox Dysport)",
+          "<b>Restylane, any line — 10 cc</b> : 129,000 baht (includes 100 units of Botox Dysport)"
         ]
       },
       {
@@ -833,10 +836,13 @@
       {
         "t": "ul",
         "items": [
-          "<b>Standard line</b> : promotional price 5,900 baht",
-          "<b>Neuramis 4 CC</b> : promotional price 19,900 baht",
-          "<b>Neuramis 10 CC</b> : promotional price 49,000 baht"
+          "<b>Neuramis, any line — 1 cc</b> : 5,900 baht",
+          "<b>Neuramis, any line — 4 cc</b> : 20,900 baht"
         ]
+      },
+      {
+        "t": "p",
+        "html": "The prices above are package prices valid until 31 December 2026. Terms are as specified by the clinic — please confirm the current price before treatment."
       },
       {
         "t": "h2",

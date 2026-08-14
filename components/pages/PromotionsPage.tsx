@@ -3,22 +3,19 @@ import Image from "next/image";
 import { Lang, tr } from "@/lib/i18n";
 import { alternatesFor } from "@/lib/seo";
 import { LINE_URL } from "@/lib/site";
-import { promos } from "@/lib/shared-data";
+import { PROMO_VALID_UNTIL, promos } from "@/lib/shared-data";
 import DarkCtaBanner from "@/components/ui/DarkCtaBanner";
-
-/** เดือนของโปรโมชั่นปัจจุบัน (reference ใช้ prop promoMonth) */
-const PROMO_MONTH = "AUGUST 2026";
 
 export function promotionsMetadata(lang: Lang): Metadata {
   const t = tr(lang);
   return {
     title: t(
-      "โปรโมชั่นประจำเดือน ฟิลเลอร์ · HIFU · ผิวใส ราคาพิเศษ",
-      "Monthly Promotions — Filler, HIFU & Skin Specials",
+      "โปรโมชั่น ฟิลเลอร์ · โบท็อกซ์ · ร้อยไหม · เลเซอร์ ราคาชัดเจน",
+      "Promotions — Filler, Botox, Thread Lift & Laser",
     ),
     description: t(
-      "โปรโมชั่นคลินิกความงามประจำเดือน — Lip Perfect ฟิลเลอร์ปาก, Baby Glow ใต้ตา + ผิวใส, Firm & Lift HIFU + โบกราม และ Diamond Baby Face สิทธิพิเศษจำนวนจำกัดในแต่ละเดือน สอบถามและรับสิทธิ์ผ่าน LINE @theartaesthetics",
-      "This month's aesthetic clinic promotions — Lip Perfect lip filler, Baby Glow under-eye + radiance, Firm & Lift HIFU + jaw Botox, and Diamond Baby Face. Limited monthly privileges — ask for details and claim via LINE @theartaesthetics.",
+      "โปรโมชั่นคลินิกความงาม The Art Aesthetic ฟิลเลอร์ Restylane 1 cc, ฟิลเลอร์ปาก, Botox Korea, ร้อยไหม MINT, Ultraformer III, Pico Laser, IV Drip และ Diamond Baby Face แจ้งราคาชัดเจนทุกรายการ สอบถามและจองคิวผ่าน LINE @theartaesthetics",
+      "The Art Aesthetic clinic promotions — Restylane filler 1 cc, lip filler, Botox Korea, MINT thread lift, Ultraformer III, Pico Laser, IV Drip and Diamond Baby Face. Every price listed. Ask and book via LINE @theartaesthetics.",
     ),
     alternates: alternatesFor(lang, "/promotions/"),
   };
@@ -44,15 +41,15 @@ export default function PromotionsPage({ lang }: { lang: Lang }) {
               letterSpacing: ".26em",
             }}
           >
-            {PROMO_MONTH}
+            {t(`ราคานี้ถึง ${PROMO_VALID_UNTIL.th}`, `VALID UNTIL ${PROMO_VALID_UNTIL.en}`)}
           </div>
           <h1 style={{ margin: "16px 0 0", fontWeight: 600, fontSize: "clamp(30px,4vw,50px)", color: "#33241E" }}>
-            {t("โปรโมชั่นประจำเดือน", "Monthly Promotions")}
+            {t("โปรโมชั่น", "Promotions")}
           </h1>
           <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'DB Heavent',sans-serif", color: "#71594E" }}>
             {t(
-              "สิทธิพิเศษจำนวนจำกัดในแต่ละเดือน สอบถามรายละเอียดและรับสิทธิ์ผ่าน LINE",
-              "Limited monthly privileges — ask for details and claim via LINE.",
+              "ราคาทุกรายการเป็นราคาแพ็กเกจจริง สอบถามรายละเอียดและจองคิวผ่าน LINE",
+              "Every price shown is the actual package price. Ask for details and book via LINE.",
             )}
           </p>
         </div>
@@ -101,6 +98,15 @@ export default function PromotionsPage({ lang }: { lang: Lang }) {
               <div style={{ padding: "20px 22px 22px", display: "flex", flexDirection: "column", flex: 1 }}>
                 <div style={{ font: "600 17px 'DB Heavent',sans-serif", color: "#33241E" }}>{p.title}</div>
                 <div style={{ font: "300 13.5px/1.75 'DB Heavent',sans-serif", color: "#71594E", marginTop: 6, flex: 1 }}>{p.sub}</div>
+                <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginTop: 12 }}>
+                  <span style={{ font: "600 22px 'DB Heavent',sans-serif", color: "#8F543F" }}>
+                    {p.price.toLocaleString("en-US")}
+                  </span>
+                  <span style={{ font: "300 13px 'DB Heavent',sans-serif", color: "#71594E" }}>{t("บาท", "THB")}</span>
+                </div>
+                <div style={{ font: "300 11px 'DB Heavent',sans-serif", color: "#A08876", marginTop: 2 }}>
+                  {p.sku} · {t(`ถึง ${PROMO_VALID_UNTIL.th}`, `until ${PROMO_VALID_UNTIL.en}`)}
+                </div>
                 <a
                   href={LINE_URL}
                   target="_blank"

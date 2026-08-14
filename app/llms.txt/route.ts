@@ -1,8 +1,22 @@
 import { getAllClonePages } from "@/lib/clone-content";
 import { txData } from "@/lib/tx-data";
-import { LINE_ID, LINE_URL, SITE_URL, TEL_DISPLAY, TX_SLUGS, TxKey } from "@/lib/site";
+import {
+  BRANCH_ADDR,
+  COMPANY_NAME,
+  COMPANY_REG,
+  LICENSE_AD,
+  LICENSE_HOSPITAL,
+  LINE_ID,
+  LINE_URL,
+  SITE_URL,
+  TEL_DISPLAY,
+  TX_SLUGS,
+  TxKey,
+} from "@/lib/site";
 
 export const dynamic = "force-static";
+
+const BRANCH_NAMES = ["กรุงเทพฯ · ดอนเมือง", "กรุงเทพฯ · ลาดพร้าว", "พัทยา"];
 
 /** llms.txt — โครงเว็บสำหรับ AI answer engines (AEO) */
 export function GET() {
@@ -27,10 +41,19 @@ ${landing}
 ${clones}
 
 ## หน้าอื่น ๆ
-- [รีวิวก่อน–หลัง](${SITE_URL}/reviews/): รีวิวเคสจริง ฟิลเลอร์ โบท็อกซ์ ร้อยไหม ยกกระชับ
-- [โปรโมชั่น](${SITE_URL}/promotions/): โปรโมชั่นประจำเดือน
+- [รีวิวก่อน–หลัง](${SITE_URL}/reviews/): รีวิวเคสจริง ฟิลเลอร์ โบท็อกซ์ ร้อยไหม ยกกระชับ (ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล)
+- [โปรโมชั่น](${SITE_URL}/promotions/): แพ็กเกจพร้อมราคา ระบุรหัสแพ็กเกจและวันสิ้นสุดทุกรายการ
 - [ทีมแพทย์](${SITE_URL}/doctors/): แพทย์ประจำคลินิกพร้อมเลขใบประกอบวิชาชีพ
 - [ติดต่อ/สาขา](${SITE_URL}/contact/): ที่อยู่ เวลาเปิด ช่องทางติดต่อ
+
+## สาขา (ที่อยู่)
+${BRANCH_ADDR.map((b, i) => `- ${BRANCH_NAMES[i]}: ${b.street.th} ${b.locality.th} ${b.postalCode}`).join("\n")}
+
+## ข้อมูลตามกฎหมาย
+- ${COMPANY_NAME} (${COMPANY_REG})
+- ${LICENSE_HOSPITAL}
+- ${LICENSE_AD}
+- ผลลัพธ์ของหัตถการขึ้นอยู่กับแต่ละบุคคล ควรปรึกษาแพทย์ก่อนรับบริการ
 `;
 
   return new Response(body, { headers: { "Content-Type": "text/plain; charset=utf-8" } });

@@ -4,8 +4,12 @@ import Link from "next/link";
 import { useState } from "react";
 import { Lang, href, tr } from "@/lib/i18n";
 import {
+  COMPANY_NAME,
+  COMPANY_REG,
   FACEBOOK_URL,
   FOOT_TX,
+  LICENSE_AD,
+  LICENSE_HOSPITAL,
   LINE_ID,
   LINE_URL,
   TEL_DISPLAY,
@@ -88,10 +92,20 @@ export default function Footer({ lang }: { lang: Lang }) {
     </div>
   );
 
+  /* ── ข้อความบังคับตามกฎหมาย — เลขอ้างอิงอยู่ที่ lib/site.ts ห้ามแก้ตรงนี้ ── */
   const bottomNote = (
-    <span>
-      {t("ใบอนุญาตโฆษณาเลขที่ ฆสพ.สบส. ๗๐๓๘/๒๕๖๗ · ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "Ad licence ฆสพ.สบส. ๗๐๓๘/๒๕๖๗ · Results vary by individual")}
+    <span style={{ textAlign: "right" }}>
+      {LICENSE_HOSPITAL} · {LICENSE_AD}
+      <br />
+      {t("ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "Results vary by individual")}
     </span>
+  );
+
+  const legalBlock = (
+    <div style={{ font: "300 11.5px/1.8 'DB Heavent',sans-serif", color: "#9A7E6E" }}>
+      <div>{COMPANY_NAME}</div>
+      <div>{COMPANY_REG}</div>
+    </div>
   );
 
   return (
@@ -168,7 +182,10 @@ export default function Footer({ lang }: { lang: Lang }) {
               color: "#9A7E6E",
             }}
           >
-            <span>© 2026 The Art Aesthetic — by The Art Hospital &amp; Clinic</span>
+            <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+              <span>© 2026 The Art Aesthetic — by The Art Hospital &amp; Clinic</span>
+              {legalBlock}
+            </div>
             {bottomNote}
           </div>
         </div>
@@ -228,7 +245,14 @@ export default function Footer({ lang }: { lang: Lang }) {
           </div>
           <div style={{ marginTop: 22, display: "flex", flexDirection: "column", gap: 8, font: "300 11.5px/1.8 'DB Heavent',sans-serif", color: "#9A7E6E" }}>
             <span>© 2026 The Art Aesthetic — by The Art Hospital &amp; Clinic</span>
-            {bottomNote}
+            {legalBlock}
+            <span>
+              {LICENSE_HOSPITAL}
+              <br />
+              {LICENSE_AD}
+              <br />
+              {t("ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "Results vary by individual")}
+            </span>
           </div>
         </div>
       </div>

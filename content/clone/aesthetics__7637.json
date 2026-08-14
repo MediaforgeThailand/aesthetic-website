@@ -177,9 +177,13 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis Deep (กล่องดำ) ราคาโปรโมชันเพียง 5,900 บาท/1cc หากซื้อครบ 10cc สำหรับเติมเต็มหน้าผากและจุดอื่น ๆ ทั่วใบหน้า ราคาเหลือเพียง 49,000 บาท",
-          "Restylane Vital ราคาโปรโมชันเพียง 12,900 บาท/1cc เมื่อซื้อครบ 10cc จ่ายเพียง 119,000 บาทเท่านั้น"
+          "Neuramis ทุกรุ่น (เช่น Deep กล่องดำ) ราคา 5,900 บาท/1cc หากซื้อแพ็กเกจ 4cc สำหรับเติมเต็มหน้าผากและจุดอื่น ๆ ทั่วใบหน้า ราคา 20,900 บาท",
+          "Restylane ทุกรุ่น (เช่น Vital) ราคา 12,900 บาท/1cc แพ็กเกจ 10cc ราคา 129,000 บาท (แถม Botox Dysport 100 ยูนิต)"
         ]
+      },
+      {
+        "t": "p",
+        "html": "ราคาข้างต้นเป็นราคาแพ็กเกจถึงวันที่ 31 ธันวาคม 2569 เงื่อนไขเป็นไปตามที่คลินิกกำหนด กรุณาสอบถามราคาล่าสุดก่อนเข้ารับบริการ"
       },
       {
         "t": "h2",
@@ -416,9 +420,13 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis Deep (black box): promotional price of only 5,900 THB/1cc, or when purchasing a full 10cc to augment the forehead and other areas of the face, only 49,000 THB.",
-          "Restylane Vital: promotional price of only 12,900 THB/1cc, or only 119,000 THB when purchasing a full 10cc."
+          "Neuramis, any line (e.g. Deep, black box): 5,900 THB/1cc, or 20,900 THB for the 4cc package covering the forehead and other areas of the face.",
+          "Restylane, any line (e.g. Vital): 12,900 THB/1cc, or 129,000 THB for the 10cc package (includes 100 units of Botox Dysport)."
         ]
+      },
+      {
+        "t": "p",
+        "html": "The prices above are package prices valid until 31 December 2026. Terms are as specified by the clinic — please confirm the current price before treatment."
       },
       {
         "t": "h2",

@@ -188,12 +188,14 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis Deep ราคา 5,900 บาทต่อ 1 cc",
-          "Juvederm Ultra Plus XC ราคา 9,900 บาทต่อ 1 cc",
-          "Juvederm Volift ราคา 16,900 บาทต่อ 1 cc",
-          "Restylane Defyne ราคา 12,900 บาทต่อ 1 cc",
-          "Restylane Classic ราคา 9,900 บาทต่อ 1 cc"
+          "Neuramis ทุกรุ่น (เช่น Deep) ราคา 5,900 บาทต่อ 1 cc",
+          "Juvederm ทุกรุ่น (Ultra Plus XC, Voluma, Volbella, Volift) ราคา 16,900 บาทต่อ 1 cc",
+          "Restylane ทุกรุ่น (เช่น Defyne, Kysse, Lyft) ราคา 12,900 บาทต่อ 1 cc"
         ]
+      },
+      {
+        "t": "p",
+        "html": "ราคาข้างต้นเป็นราคาแพ็กเกจถึงวันที่ 31 ธันวาคม 2569 เงื่อนไขเป็นไปตามที่คลินิกกำหนด กรุณาสอบถามราคาล่าสุดก่อนเข้ารับบริการ"
       },
       {
         "t": "h2",
@@ -454,12 +456,14 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis Deep — 5,900 baht per 1 cc",
-          "Juvederm Ultra Plus XC — 9,900 baht per 1 cc",
-          "Juvederm Volift — 16,900 baht per 1 cc",
-          "Restylane Defyne — 12,900 baht per 1 cc",
-          "Restylane Classic — 9,900 baht per 1 cc"
+          "Neuramis, any line (e.g. Deep) — 5,900 baht per 1 cc",
+          "Juvederm, any line (Ultra Plus XC, Voluma, Volbella, Volift) — 16,900 baht per 1 cc",
+          "Restylane, any line (e.g. Defyne, Kysse, Lyft) — 12,900 baht per 1 cc"
         ]
+      },
+      {
+        "t": "p",
+        "html": "The prices above are package prices valid until 31 December 2026. Terms are as specified by the clinic — please confirm the current price before treatment."
       },
       {
         "t": "h2",

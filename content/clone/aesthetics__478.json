@@ -10,96 +10,299 @@
     "metaTitle": "Aesthetics (หัตถการ)",
     "metaDesc": "หัตถการ หมายถึง การกระทำใด ๆ โดยใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เข้าสู่ร่างกายผู้ป่วย เพื่อตรวจวินิจฉัยโรค รักษาโรค หรือบรรเทาอาการเจ็บปวดของผู้ป่วย",
     "lead": "หัตถการทางการแพทย์เป็นคำที่หมายถึงทักษะ, เทคนิค, และวิธีการต่างๆ ที่ใช้ในการดูแลรักษาผู้ป่วยโดยเฉพาะในด้านการแพทย์และการผ่าตัด หัตถการทางการแพทย์ครอบคลุมถึงการวินิจฉัย, การรักษา, การดูแลเอาใจใส่ผู้ป่วย, และการป้องกันโรค ซึ่งต้องการความเชี่ยวชาญและความชำนาญเฉพาะด้านจากผู้ปฏิบัติงานในสายงานสุขภาพ",
-    "keywords": ["หัตถการ", "หัตถการความงาม", "หัตถการทางการแพทย์", "ฉีดฟิลเลอร์", "ร้อยไหม", "เลเซอร์ผิว", "หัตถการหน้าเรียว"],
+    "keywords": [
+      "หัตถการ",
+      "หัตถการความงาม",
+      "หัตถการทางการแพทย์",
+      "ฉีดฟิลเลอร์",
+      "ร้อยไหม",
+      "เลเซอร์ผิว",
+      "หัตถการหน้าเรียว"
+    ],
     "blocks": [
-      { "t": "p", "html": "หัตถการทางการแพทย์ไม่เพียงแต่รวมถึงการใช้เครื่องมือและอุปกรณ์ทางการแพทย์ในการรักษาโรคเท่านั้น แต่ยังรวมถึงการใช้ความรู้ทางทฤษฎีและประสบการณ์ในการประยุกต์ใช้วิธีการต่างๆ เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดในการรักษาผู้ป่วย นอกจากนี้ หัตถการทางการแพทย์ยังรวมถึงการสื่อสารกับผู้ป่วยและครอบครัวของพวกเขา เพื่อให้คำแนะนำและสนับสนุนทางจิตใจ ซึ่งเป็นส่วนสำคัญในการฟื้นฟูและการรักษา" },
-      { "t": "p", "html": "การพัฒนาหัตถการทางการแพทย์เป็นกระบวนการต่อเนื่องที่ต้องการการศึกษา, การฝึกอบรม, และการทดลองอย่างต่อเนื่องเพื่อปรับปรุงและนำเสนอวิธีการรักษาใหม่ๆ ที่มีประสิทธิภาพและปลอดภัยยิ่งขึ้น ในยุคของเทคโนโลยีสมัยใหม่, หัตถการทางการแพทย์ยังรวมถึงการใช้นวัตกรรมเทคโนโลยีขั้นสูง เช่น การใช้เครื่องมือผ่าตัดแบบมีความแม่นยำสูง, การใช้ปัญญาประดิษฐ์ในการวินิจฉัยโรค, และการใช้การบำบัดทางพันธุกรรม ทั้งหมดนี้มีเป้าหมายเพื่อเพิ่มโอกาสในการรักษาโรคที่ซับซ้อนและปรับปรุงคุณภาพชีวิตของผู้ป่วย" },
-      { "t": "img", "src": "/assets/clone/478/slide-diamondbabyface.avif", "alt": "โปรแกรม Diamond Baby Face", "w": 1700, "h": 832 },
-      { "t": "img", "src": "/assets/clone/478/slide-thermatite.avif", "alt": "โปรแกรม Thermatite", "w": 1700, "h": 868 },
-      { "t": "img", "src": "/assets/clone/478/slide-matrix-hifu.avif", "alt": "โปรแกรม Matrix HIFU", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-ivdrip.avif", "alt": "โปรแกรม IV Drip", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-mesofat.avif", "alt": "โปรแกรม Meso Fat", "w": 1700, "h": 867 },
-      { "t": "img", "src": "/assets/clone/478/Retouch-botox.avif", "alt": "โปรแกรมโบปรับริ้วรอย", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-filler.avif", "alt": "โปรแกรมฟิลเลอร์", "w": 1700, "h": 868 },
-      { "t": "img", "src": "/assets/clone/478/slide-therma-v.avif", "alt": "โปรแกรม Therma V", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-Qswitch.avif", "alt": "โปรแกรม Q-Switch", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-enduremax.avif", "alt": "โปรแกรม Endure Max", "w": 1700, "h": 871 },
-      { "t": "h2", "text": "หัตถการ คือ อะไร" },
-      { "t": "p", "html": "<strong>หัตถการ</strong> (Procedure) หมายถึง การรักษาผู้ป่วยหรือผู้รับบริการด้วยการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เข้าสู่ร่างกาย โดยอาจเป็นการวินิจฉัยโรค การรักษา หรือประคับประคองอาการ แบ่งออกได้ 2 ประเภทหลัก ๆ ได้แก่" },
-      { "t": "ul", "items": [
-        "หัตถการทางการแพทย์ เป็นการวินิจฉัย รักษา หรือประคับประคองอาการของผู้ป่วย โดยแพทย์หรือพยาบาลเป็นผู้ดำเนินการ เช่น การเจาะเลือด การฉีดยา การใส่สายสวน การผ่าคลอด เป็นต้น",
-        "หัตถการความงาม เป็นการปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกของร่างกาย เพื่อให้ดูดีขึ้น โดยแพทย์หรือผู้เชี่ยวชาญด้านความงามเป็นผู้ดำเนินการ เช่น การฉีดฟิลเลอร์ การร้อยไหม การเลเซอร์ เป็นต้น"
-      ]},
-      { "t": "h2", "text": "VDO รีวิว Aesthetics ของ The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DLmfXjcDCdM", "title": "Filler ปากสวย สไตล์นางงาม #หมอบอลดิอาท" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DdD0kakAT_Q", "title": "HIFU x Meso Fat : โปรแกรมคู่จิ้น ที่ทำออกมาแล้วหน้าเป๊ะมาก!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "โปรแกรมระเบิดเหนียง : ผิวหน้ายกกระชับ หน้าเรียวx2 ด้วยเทคนิคเฉพาะของ The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "โปรแกรมระเบิดเหนียง : แค่ 2 Week หน้าเรียวมากแม่!!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/r5XV23a3OXw", "title": "ใต้ตาคล้ำ ขมับตอบ แก้มตอบ ให้หน้าเด็กแบบไม่ต้องผ่าตัด ด้วย Filler" },
-      { "t": "video", "src": "https://www.youtube.com/embed/6Asl4V8UWmM", "title": "ใครเคยเป็นสิว แล้วทิ้งร่องรอยไว้ อยากรักษาให้หาย #ต้องดูคลิปนี้นะคะ" },
-      { "t": "p", "html": "หัตถการทางการแพทย์ คืออะไร และ มีอะไรบ้าง" },
-      { "t": "p", "html": "หัตถการทางการแพทย์เป็นการรักษาที่มุ่งเน้นไปที่การวินิจฉัย การรักษา หรือประคับประคองอาการของโรคหรืออาการต่าง ๆ หัตถการทางการแพทย์มีหลายประเภท ขึ้นอยู่กับวัตถุประสงค์ของการวินิจฉัย การรักษา หรือประคับประคองอาการ ดังนี้" },
-      { "t": "ul", "items": [
-        "หัตถการวินิจฉัย เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อวินิจฉัยโรคหรืออาการต่าง ๆ เช่น<br/>การเจาะเลือด (Blood draw) เพื่อตรวจหาระดับของสารต่าง ๆ ในเลือด<br/>การถ่ายภาพรังสี (Radiography) เพื่อดูภาพภายในร่างกาย เช่น กระดูก ปอดและหัวใจ<br/>การอัลตราซาวนด์ (Ultrasound) เพื่อดูภาพภายในร่างกายโดยใช้คลื่นเสียงความถี่สูง<br/>การสแกนด้วยคลื่นแม่เหล็กไฟฟ้า (Magnetic resonance imaging: MRI) เพื่อดูภาพภายในร่างกายโดยใช้สนามแม่เหล็กและคลื่นวิทยุ",
-        "หัตถการการรักษา เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อรักษาโรคหรืออาการต่าง ๆ เช่น<br/>การฉีดยา (Injection) เพื่อนำยาเข้าสู่ร่างกายโดยตรง<br/>การใส่สายสวน (Catheterization) เพื่อนำสายสวนเข้าไปยังอวัยวะต่าง ๆ ในร่างกาย<br/>การผ่าตัด (Surgery) เพื่อแก้ไขหรือซ่อมแซมส่วนที่เสียหายของร่างกาย",
-        "หัตถการประคับประคองอาการ เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อบรรเทาอาการหรือภาวะแทรกซ้อนของโรคหรืออาการต่าง ๆ เช่น<br/>การใส่เครื่องช่วยหายใจ (Ventilator) เพื่อช่วยหายใจ<br/>การใส่ท่อสวนปัสสาวะ (Urinary catheter) เพื่อระบายปัสสาวะออกจากร่างกาย"
-      ]},
-      { "t": "p", "html": "การเลือกทำหัตถการทางการแพทย์ควรพิจารณาจากปัจจัยต่าง ๆ เช่น ความรุนแรงของโรคหรืออาการ ความเสี่ยงและผลข้างเคียงของหัตถการ ค่าใช้จ่าย และความต้องการของผู้ป่วย ควรปรึกษาแพทย์ผู้เชี่ยวชาญก่อนตัดสินใจทำหัตถการทางการแพทย์" },
-      { "t": "h2", "text": "หัตถการความงาม มีอะไรบ้าง" },
-      { "t": "p", "html": "หัตถการความงามเป็นการรักษาที่มุ่งเน้นไปที่การปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกของร่างกายเพื่อให้ดูดีขึ้น หัตถการความงามมีหลายประเภท" },
-      { "t": "p", "html": "หัตถการความงามมีหลายประเภท ขึ้นอยู่กับวัตถุประสงค์ในการปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกที่ต้องการรักษา โดยจะมีหลักๆ ดังนี้" },
-      { "t": "ul", "items": [
-        "การฉีดฟิลเลอร์ (Filler injection) เป็นการใช้สารเติมเต็ม เช่น กรดไฮยาลูรอนิก (Hyaluronic acid) หรือคอลลาเจน (Collagen) ฉีดเข้าไปใต้ผิวหนังเพื่อเติมเต็มร่องลึก ปรับรูปหน้า หรือสร้างมิติให้กับใบหน้า",
-        "การร้อยไหม (Thread lift) เป็นการใช้ไหมเส้นเล็ก ๆ ร้อยเข้าไปใต้ผิวหนังเพื่อยกกระชับผิว ลดริ้วรอย หรือปรับรูปหน้า",
-        "การเลเซอร์ (Laser) เป็นการใช้คลื่นแสงที่มีความเข้มข้นสูงในการกำจัดรอยดำ รอยแดง กระชับรูขุมขน ลดริ้วรอย หรือกำจัดขน",
-        "การเสริมจมูก (Rhinoplasty) เป็นการผ่าตัดเพื่อปรับรูปทรงจมูกให้สวยงาม",
-        "การศัลยกรรมหน้าอก (Breast augmentation) เป็นการผ่าตัดเพื่อเพิ่มขนาดหน้าอกหรือปรับรูปทรงหน้าอก"
-      ]},
-      { "t": "p", "html": "นอกจากนี้ยังมีหัตถการความงามอื่น ๆ อีกมากมาย เช่น การดูดไขมัน (Liposuction) การฉีดโบท็อกซ์ (Botox) การสักคิ้ว (Eyebrow tattooing) การสักปาก (Lip tattooing) เป็นต้น" },
-      { "t": "p", "html": "การเลือกทำหัตถการความงามควรพิจารณาจากปัจจัยต่าง ๆ เช่น สภาพผิว สภาพร่างกาย งบประมาณ และความต้องการของแต่ละบุคคล ควรศึกษาข้อมูลและปรึกษาแพทย์ผู้เชี่ยวชาญก่อนตัดสินใจทำหัตถการความงาม" },
-      { "t": "h2", "text": "หัตถการ ลดรอยสิว" },
-      { "t": "p", "html": "หัตถการลดรอยสิวมีหลายประเภท ขึ้นอยู่กับลักษณะของรอยสิว เช่น" },
-      { "t": "ul", "items": [
-        "การฉีดยา เช่น การฉีดยาลดการอักเสบ การฉีดยาเพิ่มความชุ่มชื้นให้กับผิว เป็นต้น",
-        "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์กระตุ้นการสร้างคอลลาเจน เป็นต้น"
-      ]},
-      { "t": "h2", "text": "หัตถการหน้าใส" },
-      { "t": "p", "html": "หัตถการหน้าใสมีหลายประเภท ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล เช่น" },
-      { "t": "ul", "items": [
-        "การฉีดวิตามิน (Vitamin injection)",
-        "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์ฆ่าเชื้อแบคทีเรีย เป็นต้น",
-        "การมาส์กหน้า เช่น การมาส์กหน้าด้วยวิตามิน การมาส์กหน้าด้วยโคลน เป็นต้น"
-      ]},
-      { "t": "h2", "text": "หัตถการกระชับรูขุมขน" },
-      { "t": "p", "html": "หัตถการกระชับรูขุมขนมีหลายประเภท ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล เช่น" },
-      { "t": "ul", "items": [
-        "การฉีดยา เช่น การฉีดยาเพิ่มความชุ่มชื้นให้กับผิว การฉีดยาลดการอักเสบ เป็นต้น",
-        "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์กระตุ้นการสร้างคอลลาเจน เป็นต้น"
-      ]},
-      { "t": "h2", "text": "หัตถการลดเหนียง" },
-      { "t": "p", "html": "หัตถการลดเหนียงมีหลายประเภท ขึ้นอยู่กับสภาพของเหนียง เช่น" },
-      { "t": "ul", "items": [
-        "การฉีดยา เช่น การฉีดยาลดการอักเสบ การฉีดยาสลายไขมัน เป็นต้น",
-        "การเลเซอร์ เช่น การเลเซอร์สลายไขมัน เป็นต้น"
-      ]},
-      { "t": "h2", "text": "หัตถการ หน้าเรียว" },
-      { "t": "p", "html": "หัตถการหน้าเรียวมีหลายประเภท ขึ้นอยู่กับสภาพของใบหน้าของแต่ละบุคคล เช่น" },
-      { "t": "ul", "items": [
-        "การฉีดฟิลเลอร์ (Filler injection)",
-        "การร้อยไหม (Thread lift)",
-        "การศัลยกรรมดึงหน้า (Face lift)"
-      ]},
-      { "t": "h2", "text": "หัตถการ มีข้อดีและข้อเสียอย่างไร" },
-      { "t": "p", "html": "หัตถการมีข้อดีและข้อเสียแตกต่างกันไป ขึ้นอยู่กับประเภทของหัตถการ ดังนี้" },
-      { "t": "p", "html": "ข้อดี" },
-      { "t": "ul", "items": [
-        "สามารถช่วยรักษาโรคหรืออาการต่าง ๆ ได้อย่างรวดเร็วและมีประสิทธิภาพ",
-        "สามารถช่วยปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกให้ดูดีขึ้น"
-      ]},
-      { "t": "p", "html": "ข้อเสีย" },
-      { "t": "ul", "items": [
-        "อาจเกิดผลข้างเคียง"
-      ]}
+      {
+        "t": "p",
+        "html": "หัตถการทางการแพทย์ไม่เพียงแต่รวมถึงการใช้เครื่องมือและอุปกรณ์ทางการแพทย์ในการรักษาโรคเท่านั้น แต่ยังรวมถึงการใช้ความรู้ทางทฤษฎีและประสบการณ์ในการประยุกต์ใช้วิธีการต่างๆ เพื่อให้ได้ผลลัพธ์ที่ดีที่สุดในการรักษาผู้ป่วย นอกจากนี้ หัตถการทางการแพทย์ยังรวมถึงการสื่อสารกับผู้ป่วยและครอบครัวของพวกเขา เพื่อให้คำแนะนำและสนับสนุนทางจิตใจ ซึ่งเป็นส่วนสำคัญในการฟื้นฟูและการรักษา"
+      },
+      {
+        "t": "p",
+        "html": "การพัฒนาหัตถการทางการแพทย์เป็นกระบวนการต่อเนื่องที่ต้องการการศึกษา, การฝึกอบรม, และการทดลองอย่างต่อเนื่องเพื่อปรับปรุงและนำเสนอวิธีการรักษาใหม่ๆ ที่มีประสิทธิภาพและปลอดภัยยิ่งขึ้น ในยุคของเทคโนโลยีสมัยใหม่, หัตถการทางการแพทย์ยังรวมถึงการใช้นวัตกรรมเทคโนโลยีขั้นสูง เช่น การใช้เครื่องมือผ่าตัดแบบมีความแม่นยำสูง, การใช้ปัญญาประดิษฐ์ในการวินิจฉัยโรค, และการใช้การบำบัดทางพันธุกรรม ทั้งหมดนี้มีเป้าหมายเพื่อเพิ่มโอกาสในการรักษาโรคที่ซับซ้อนและปรับปรุงคุณภาพชีวิตของผู้ป่วย"
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-diamondbabyface.avif",
+        "alt": "โปรแกรม Diamond Baby Face",
+        "w": 1700,
+        "h": 832
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-thermatite.avif",
+        "alt": "โปรแกรม Thermatite",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-matrix-hifu.avif",
+        "alt": "โปรแกรม Matrix HIFU",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-ivdrip.avif",
+        "alt": "โปรแกรม IV Drip",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-mesofat.avif",
+        "alt": "โปรแกรม Meso Fat",
+        "w": 1700,
+        "h": 867
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/Retouch-botox.avif",
+        "alt": "โปรแกรมโบปรับริ้วรอย",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-filler.avif",
+        "alt": "โปรแกรมฟิลเลอร์",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-therma-v.avif",
+        "alt": "โปรแกรม Therma V",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-Qswitch.avif",
+        "alt": "โปรแกรม Q-Switch",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-enduremax.avif",
+        "alt": "โปรแกรม Endure Max",
+        "w": 1700,
+        "h": 871
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการ คือ อะไร"
+      },
+      {
+        "t": "p",
+        "html": "<strong>หัตถการ</strong> (Procedure) หมายถึง การรักษาผู้ป่วยหรือผู้รับบริการด้วยการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เข้าสู่ร่างกาย โดยอาจเป็นการวินิจฉัยโรค การรักษา หรือประคับประคองอาการ แบ่งออกได้ 2 ประเภทหลัก ๆ ได้แก่"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "หัตถการทางการแพทย์ เป็นการวินิจฉัย รักษา หรือประคับประคองอาการของผู้ป่วย โดยแพทย์หรือพยาบาลเป็นผู้ดำเนินการ เช่น การเจาะเลือด การฉีดยา การใส่สายสวน การผ่าคลอด เป็นต้น",
+          "หัตถการความงาม เป็นการปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกของร่างกาย เพื่อให้ดูดีขึ้น โดยแพทย์หรือผู้เชี่ยวชาญด้านความงามเป็นผู้ดำเนินการ เช่น การฉีดฟิลเลอร์ การร้อยไหม การเลเซอร์ เป็นต้น"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "VDO รีวิว Aesthetics ของ The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DLmfXjcDCdM",
+        "title": "Filler ปาก ออกแบบทรงปากโดยแพทย์ The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DdD0kakAT_Q",
+        "title": "HIFU x Meso Fat : โปรแกรมดูแลกรอบหน้าแบบคู่"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "โปรแกรมดูแลเหนียงและกรอบหน้า ด้วยเทคนิคของ The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "โปรแกรมดูแลเหนียง — รีวิวจากผู้เข้ารับบริการ"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/r5XV23a3OXw",
+        "title": "ใต้ตาคล้ำ ขมับตอบ แก้มตอบ ให้หน้าเด็กแบบไม่ต้องผ่าตัด ด้วย Filler"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/6Asl4V8UWmM",
+        "title": "ใครมีร่องรอยจากสิว อยากดูแลให้ผิวเรียบขึ้น ดูคลิปนี้"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการทางการแพทย์ คืออะไร และ มีอะไรบ้าง"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการทางการแพทย์เป็นการรักษาที่มุ่งเน้นไปที่การวินิจฉัย การรักษา หรือประคับประคองอาการของโรคหรืออาการต่าง ๆ หัตถการทางการแพทย์มีหลายประเภท ขึ้นอยู่กับวัตถุประสงค์ของการวินิจฉัย การรักษา หรือประคับประคองอาการ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "หัตถการวินิจฉัย เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อวินิจฉัยโรคหรืออาการต่าง ๆ เช่น<br/>การเจาะเลือด (Blood draw) เพื่อตรวจหาระดับของสารต่าง ๆ ในเลือด<br/>การถ่ายภาพรังสี (Radiography) เพื่อดูภาพภายในร่างกาย เช่น กระดูก ปอดและหัวใจ<br/>การอัลตราซาวนด์ (Ultrasound) เพื่อดูภาพภายในร่างกายโดยใช้คลื่นเสียงความถี่สูง<br/>การสแกนด้วยคลื่นแม่เหล็กไฟฟ้า (Magnetic resonance imaging: MRI) เพื่อดูภาพภายในร่างกายโดยใช้สนามแม่เหล็กและคลื่นวิทยุ",
+          "หัตถการการรักษา เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อรักษาโรคหรืออาการต่าง ๆ เช่น<br/>การฉีดยา (Injection) เพื่อนำยาเข้าสู่ร่างกายโดยตรง<br/>การใส่สายสวน (Catheterization) เพื่อนำสายสวนเข้าไปยังอวัยวะต่าง ๆ ในร่างกาย<br/>การผ่าตัด (Surgery) เพื่อแก้ไขหรือซ่อมแซมส่วนที่เสียหายของร่างกาย",
+          "หัตถการประคับประคองอาการ เป็นการใช้เครื่องมือหรืออุปกรณ์ต่าง ๆ เพื่อบรรเทาอาการหรือภาวะแทรกซ้อนของโรคหรืออาการต่าง ๆ เช่น<br/>การใส่เครื่องช่วยหายใจ (Ventilator) เพื่อช่วยหายใจ<br/>การใส่ท่อสวนปัสสาวะ (Urinary catheter) เพื่อระบายปัสสาวะออกจากร่างกาย"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "การเลือกทำหัตถการทางการแพทย์ควรพิจารณาจากปัจจัยต่าง ๆ เช่น ความรุนแรงของโรคหรืออาการ ความเสี่ยงและผลข้างเคียงของหัตถการ ค่าใช้จ่าย และความต้องการของผู้ป่วย ควรปรึกษาแพทย์ผู้เชี่ยวชาญก่อนตัดสินใจทำหัตถการทางการแพทย์"
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการความงาม มีอะไรบ้าง"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการความงามเป็นการรักษาที่มุ่งเน้นไปที่การปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกของร่างกายเพื่อให้ดูดีขึ้น หัตถการความงามมีหลายประเภท"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการความงามมีหลายประเภท ขึ้นอยู่กับวัตถุประสงค์ในการปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกที่ต้องการรักษา โดยจะมีหลักๆ ดังนี้"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดฟิลเลอร์ (Filler injection) เป็นการใช้สารเติมเต็ม เช่น กรดไฮยาลูรอนิก (Hyaluronic acid) หรือคอลลาเจน (Collagen) ฉีดเข้าไปใต้ผิวหนังเพื่อเติมเต็มร่องลึก ปรับรูปหน้า หรือสร้างมิติให้กับใบหน้า",
+          "การร้อยไหม (Thread lift) เป็นการใช้ไหมเส้นเล็ก ๆ ร้อยเข้าไปใต้ผิวหนังเพื่อยกกระชับผิว ลดริ้วรอย หรือปรับรูปหน้า",
+          "การเลเซอร์ (Laser) เป็นการใช้คลื่นแสงที่มีความเข้มข้นสูงในการกำจัดรอยดำ รอยแดง กระชับรูขุมขน ลดริ้วรอย หรือกำจัดขน",
+          "การเสริมจมูก (Rhinoplasty) เป็นการผ่าตัดเพื่อปรับรูปทรงจมูกให้สวยงาม",
+          "การศัลยกรรมหน้าอก (Breast augmentation) เป็นการผ่าตัดเพื่อเพิ่มขนาดหน้าอกหรือปรับรูปทรงหน้าอก"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "นอกจากนี้ยังมีหัตถการความงามอื่น ๆ อีกมากมาย เช่น การดูดไขมัน (Liposuction) การฉีดโบท็อกซ์ (Botox) การสักคิ้ว (Eyebrow tattooing) การสักปาก (Lip tattooing) เป็นต้น"
+      },
+      {
+        "t": "p",
+        "html": "การเลือกทำหัตถการความงามควรพิจารณาจากปัจจัยต่าง ๆ เช่น สภาพผิว สภาพร่างกาย งบประมาณ และความต้องการของแต่ละบุคคล ควรศึกษาข้อมูลและปรึกษาแพทย์ผู้เชี่ยวชาญก่อนตัดสินใจทำหัตถการความงาม"
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการ ลดรอยสิว"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการลดรอยสิวมีหลายประเภท ขึ้นอยู่กับลักษณะของรอยสิว เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดยา เช่น การฉีดยาลดการอักเสบ การฉีดยาเพิ่มความชุ่มชื้นให้กับผิว เป็นต้น",
+          "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์กระตุ้นการสร้างคอลลาเจน เป็นต้น"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการหน้าใส"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการหน้าใสมีหลายประเภท ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดวิตามิน (Vitamin injection)",
+          "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์ฆ่าเชื้อแบคทีเรีย เป็นต้น",
+          "การมาส์กหน้า เช่น การมาส์กหน้าด้วยวิตามิน การมาส์กหน้าด้วยโคลน เป็นต้น"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการกระชับรูขุมขน"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการกระชับรูขุมขนมีหลายประเภท ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดยา เช่น การฉีดยาเพิ่มความชุ่มชื้นให้กับผิว การฉีดยาลดการอักเสบ เป็นต้น",
+          "การเลเซอร์ เช่น การเลเซอร์ผลัดเซลล์ผิว การเลเซอร์กระตุ้นการสร้างคอลลาเจน เป็นต้น"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการลดเหนียง"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการลดเหนียงมีหลายประเภท ขึ้นอยู่กับสภาพของเหนียง เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดยา เช่น การฉีดยาลดการอักเสบ การฉีดยาสลายไขมัน เป็นต้น",
+          "การเลเซอร์ เช่น การเลเซอร์สลายไขมัน เป็นต้น"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการ หน้าเรียว"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการหน้าเรียวมีหลายประเภท ขึ้นอยู่กับสภาพของใบหน้าของแต่ละบุคคล เช่น"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "การฉีดฟิลเลอร์ (Filler injection)",
+          "การร้อยไหม (Thread lift)",
+          "การศัลยกรรมดึงหน้า (Face lift)"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "หัตถการ มีข้อดีและข้อเสียอย่างไร"
+      },
+      {
+        "t": "p",
+        "html": "หัตถการมีข้อดีและข้อเสียแตกต่างกันไป ขึ้นอยู่กับประเภทของหัตถการ ดังนี้"
+      },
+      {
+        "t": "p",
+        "html": "ข้อดี"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "สามารถช่วยรักษาโรคหรืออาการต่าง ๆ ได้อย่างรวดเร็วและมีประสิทธิภาพ",
+          "สามารถช่วยปรับปรุงหรือแก้ไขรูปลักษณ์ภายนอกให้ดูดีขึ้น"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "ข้อเสีย"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "อาจเกิดผลข้างเคียง"
+        ]
+      }
     ]
   },
   "en": {
@@ -107,96 +310,300 @@
     "metaTitle": "Aesthetics (Medical Procedures)",
     "metaDesc": "A medical procedure means any action using instruments or devices on a patient's body to diagnose disease, treat illness, or relieve a patient's pain.",
     "lead": "Medical procedures refer to the skills, techniques and methods used in patient care, particularly in medicine and surgery. Medical procedures cover diagnosis, treatment, attentive patient care and disease prevention, requiring specialized expertise and proficiency from healthcare practitioners.",
-    "keywords": ["aesthetic procedures", "cosmetic procedures", "medical procedures", "filler injection", "thread lift", "skin laser", "face slimming procedures"],
+    "keywords": [
+      "aesthetic procedures",
+      "cosmetic procedures",
+      "medical procedures",
+      "filler injection",
+      "thread lift",
+      "skin laser",
+      "face slimming procedures"
+    ],
     "blocks": [
-      { "t": "p", "html": "Medical procedures involve not only the use of medical instruments and devices to treat disease, but also the application of theoretical knowledge and experience across different methods to achieve the best treatment outcomes for patients. Medical practice also includes communicating with patients and their families to provide guidance and emotional support, which is a vital part of recovery and treatment." },
-      { "t": "p", "html": "The development of medical procedures is a continuous process requiring ongoing study, training and experimentation to refine and introduce new, more effective and safer treatments. In the era of modern technology, medical procedures also incorporate advanced innovations such as high-precision surgical instruments, artificial intelligence in diagnosis, and gene therapy — all aimed at improving the chances of treating complex diseases and enhancing patients' quality of life." },
-      { "t": "img", "src": "/assets/clone/478/slide-diamondbabyface.avif", "alt": "Diamond Baby Face program", "w": 1700, "h": 832 },
-      { "t": "img", "src": "/assets/clone/478/slide-thermatite.avif", "alt": "Thermatite program", "w": 1700, "h": 868 },
-      { "t": "img", "src": "/assets/clone/478/slide-matrix-hifu.avif", "alt": "Matrix HIFU program", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-ivdrip.avif", "alt": "IV Drip program", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-mesofat.avif", "alt": "Meso Fat program", "w": 1700, "h": 867 },
-      { "t": "img", "src": "/assets/clone/478/Retouch-botox.avif", "alt": "Anti-wrinkle botulinum program", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-filler.avif", "alt": "Filler program", "w": 1700, "h": 868 },
-      { "t": "img", "src": "/assets/clone/478/slide-therma-v.avif", "alt": "Therma V program", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-Qswitch.avif", "alt": "Q-Switch program", "w": 1700, "h": 869 },
-      { "t": "img", "src": "/assets/clone/478/slide-enduremax.avif", "alt": "Endure Max program", "w": 1700, "h": 871 },
-      { "t": "h2", "text": "What is a procedure?" },
-      { "t": "p", "html": "A <strong>procedure</strong> means treating a patient or client using instruments or devices on the body — whether for diagnosis, treatment or symptom management. Procedures fall into 2 main categories:" },
-      { "t": "ul", "items": [
-        "Medical procedures — diagnosing, treating or managing a patient's symptoms, performed by doctors or nurses, e.g. blood draws, injections, catheter insertion, caesarean section, etc.",
-        "Aesthetic procedures — improving or correcting the body's outward appearance to look better, performed by doctors or aesthetic specialists, e.g. filler injections, thread lifts, laser treatments, etc."
-      ]},
-      { "t": "h2", "text": "Video reviews of Aesthetics at The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DLmfXjcDCdM", "title": "Beauty-queen-style lip filler by Dr. Ball of The Art" },
-      { "t": "video", "src": "https://www.youtube.com/embed/DdD0kakAT_Q", "title": "HIFU x Meso Fat: the perfect duo program for a flawless face!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/LSLoldD4jjE", "title": "Double-chin blast program: lifted skin, twice-as-slim face with The Art's signature technique" },
-      { "t": "video", "src": "https://www.youtube.com/embed/p6fgIVOBHIE", "title": "Double-chin blast program: a visibly slimmer face in just 2 weeks!!" },
-      { "t": "video", "src": "https://www.youtube.com/embed/r5XV23a3OXw", "title": "Dark under-eyes, hollow temples, sunken cheeks — a younger face without surgery, with filler" },
-      { "t": "video", "src": "https://www.youtube.com/embed/6Asl4V8UWmM", "title": "Ever had acne that left its marks? Want them treated? Watch this clip" },
-      { "t": "p", "html": "What are medical procedures, and what do they include?" },
-      { "t": "p", "html": "Medical procedures are treatments focused on diagnosing, treating or managing the symptoms of diseases or conditions. There are many types of medical procedures depending on the purpose — diagnosis, treatment or symptom management — as follows:" },
-      { "t": "ul", "items": [
-        "Diagnostic procedures — using instruments or devices to diagnose diseases or conditions, e.g.<br/>Blood draw, to check levels of various substances in the blood<br/>Radiography, to view images inside the body such as bones, lungs and heart<br/>Ultrasound, to view images inside the body using high-frequency sound waves<br/>Magnetic resonance imaging (MRI), to view images inside the body using magnetic fields and radio waves",
-        "Treatment procedures — using instruments or devices to treat diseases or conditions, e.g.<br/>Injection, to deliver medicine directly into the body<br/>Catheterization, to insert a catheter into organs in the body<br/>Surgery, to correct or repair damaged parts of the body",
-        "Supportive procedures — using instruments or devices to relieve symptoms or complications of diseases or conditions, e.g.<br/>Ventilator, to assist breathing<br/>Urinary catheter, to drain urine from the body"
-      ]},
-      { "t": "p", "html": "Choosing a medical procedure should take into account factors such as the severity of the disease or condition, the procedure's risks and side effects, cost, and the patient's needs. Consult a specialist doctor before deciding on any medical procedure." },
-      { "t": "h2", "text": "What are aesthetic procedures?" },
-      { "t": "p", "html": "Aesthetic procedures are treatments focused on improving or correcting the body's outward appearance to look better. There are many types of aesthetic procedures." },
-      { "t": "p", "html": "Aesthetic procedures come in many types, depending on the aspect of appearance to be improved or corrected. The main ones are:" },
-      { "t": "ul", "items": [
-        "Filler injection — using dermal fillers such as hyaluronic acid or collagen injected under the skin to fill deep lines, adjust facial shape, or add dimension to the face",
-        "Thread lift — using fine threads inserted under the skin to lift and firm the skin, reduce wrinkles, or reshape the face",
-        "Laser — using high-intensity light to remove dark marks and redness, tighten pores, reduce wrinkles, or remove hair",
-        "Rhinoplasty — surgery to reshape the nose beautifully",
-        "Breast augmentation — surgery to enlarge or reshape the breasts"
-      ]},
-      { "t": "p", "html": "There are also many other aesthetic procedures, such as liposuction, Botox injection, eyebrow tattooing, lip tattooing and more." },
-      { "t": "p", "html": "Choosing an aesthetic procedure should take into account factors such as skin condition, physical condition, budget and each person's needs. Research the information and consult a specialist doctor before deciding on any aesthetic procedure." },
-      { "t": "h2", "text": "Procedures for reducing acne marks" },
-      { "t": "p", "html": "There are several types of acne-mark reduction procedures, depending on the nature of the marks, such as:" },
-      { "t": "ul", "items": [
-        "Injections, such as anti-inflammatory injections or skin-hydrating injections",
-        "Lasers, such as skin-resurfacing lasers or collagen-stimulating lasers"
-      ]},
-      { "t": "h2", "text": "Procedures for clear skin" },
-      { "t": "p", "html": "There are several types of skin-clarifying procedures, depending on each person's skin condition, such as:" },
-      { "t": "ul", "items": [
-        "Vitamin injection",
-        "Lasers, such as skin-resurfacing lasers or bacteria-killing lasers",
-        "Facial masks, such as vitamin masks or clay masks"
-      ]},
-      { "t": "h2", "text": "Pore-tightening procedures" },
-      { "t": "p", "html": "There are several types of pore-tightening procedures, depending on each person's skin condition, such as:" },
-      { "t": "ul", "items": [
-        "Injections, such as skin-hydrating injections or anti-inflammatory injections",
-        "Lasers, such as skin-resurfacing lasers or collagen-stimulating lasers"
-      ]},
-      { "t": "h2", "text": "Double-chin reduction procedures" },
-      { "t": "p", "html": "There are several types of double-chin reduction procedures, depending on the condition of the chin, such as:" },
-      { "t": "ul", "items": [
-        "Injections, such as anti-inflammatory injections or fat-dissolving injections",
-        "Lasers, such as fat-dissolving lasers"
-      ]},
-      { "t": "h2", "text": "Face-slimming procedures" },
-      { "t": "p", "html": "There are several types of face-slimming procedures, depending on each person's face, such as:" },
-      { "t": "ul", "items": [
-        "Filler injection",
-        "Thread lift",
-        "Face lift surgery"
-      ]},
-      { "t": "h2", "text": "What are the pros and cons of procedures?" },
-      { "t": "p", "html": "Procedures have different pros and cons depending on the type of procedure, as follows:" },
-      { "t": "p", "html": "Pros" },
-      { "t": "ul", "items": [
-        "Can help treat diseases or conditions quickly and effectively",
-        "Can help improve or correct outward appearance to look better"
-      ]},
-      { "t": "p", "html": "Cons" },
-      { "t": "ul", "items": [
-        "Side effects may occur"
-      ]}
+      {
+        "t": "p",
+        "html": "Medical procedures involve not only the use of medical instruments and devices to treat disease, but also the application of theoretical knowledge and experience across different methods to achieve the best treatment outcomes for patients. Medical practice also includes communicating with patients and their families to provide guidance and emotional support, which is a vital part of recovery and treatment."
+      },
+      {
+        "t": "p",
+        "html": "The development of medical procedures is a continuous process requiring ongoing study, training and experimentation to refine and introduce new, more effective and safer treatments. In the era of modern technology, medical procedures also incorporate advanced innovations such as high-precision surgical instruments, artificial intelligence in diagnosis, and gene therapy — all aimed at improving the chances of treating complex diseases and enhancing patients' quality of life."
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-diamondbabyface.avif",
+        "alt": "Diamond Baby Face program",
+        "w": 1700,
+        "h": 832
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-thermatite.avif",
+        "alt": "Thermatite program",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-matrix-hifu.avif",
+        "alt": "Matrix HIFU program",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-ivdrip.avif",
+        "alt": "IV Drip program",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-mesofat.avif",
+        "alt": "Meso Fat program",
+        "w": 1700,
+        "h": 867
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/Retouch-botox.avif",
+        "alt": "Anti-wrinkle botulinum program",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-filler.avif",
+        "alt": "Filler program",
+        "w": 1700,
+        "h": 868
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-therma-v.avif",
+        "alt": "Therma V program",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-Qswitch.avif",
+        "alt": "Q-Switch program",
+        "w": 1700,
+        "h": 869
+      },
+      {
+        "t": "img",
+        "src": "/assets/clone/478/slide-enduremax.avif",
+        "alt": "Endure Max program",
+        "w": 1700,
+        "h": 871
+      },
+      {
+        "t": "h2",
+        "text": "What is a procedure?"
+      },
+      {
+        "t": "p",
+        "html": "A <strong>procedure</strong> means treating a patient or client using instruments or devices on the body — whether for diagnosis, treatment or symptom management. Procedures fall into 2 main categories:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Medical procedures — diagnosing, treating or managing a patient's symptoms, performed by doctors or nurses, e.g. blood draws, injections, catheter insertion, caesarean section, etc.",
+          "Aesthetic procedures — improving or correcting the body's outward appearance to look better, performed by doctors or aesthetic specialists, e.g. filler injections, thread lifts, laser treatments, etc."
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Video reviews of Aesthetics at The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DLmfXjcDCdM",
+        "title": "Lip filler — lip shape designed by a doctor at The Art"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/DdD0kakAT_Q",
+        "title": "HIFU x Meso Fat: a paired program for facial contouring"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/LSLoldD4jjE",
+        "title": "Double-chin and jawline program using The Art's technique"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/p6fgIVOBHIE",
+        "title": "Double-chin program — a client's review"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/r5XV23a3OXw",
+        "title": "Dark under-eyes, hollow temples, sunken cheeks — a younger face without surgery, with filler"
+      },
+      {
+        "t": "video",
+        "src": "https://www.youtube.com/embed/6Asl4V8UWmM",
+        "title": "Marks left behind by acne — how they can be treated. Watch this clip"
+      },
+      {
+        "t": "p",
+        "html": "What are medical procedures, and what do they include?"
+      },
+      {
+        "t": "p",
+        "html": "Medical procedures are treatments focused on diagnosing, treating or managing the symptoms of diseases or conditions. There are many types of medical procedures depending on the purpose — diagnosis, treatment or symptom management — as follows:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Diagnostic procedures — using instruments or devices to diagnose diseases or conditions, e.g.<br/>Blood draw, to check levels of various substances in the blood<br/>Radiography, to view images inside the body such as bones, lungs and heart<br/>Ultrasound, to view images inside the body using high-frequency sound waves<br/>Magnetic resonance imaging (MRI), to view images inside the body using magnetic fields and radio waves",
+          "Treatment procedures — using instruments or devices to treat diseases or conditions, e.g.<br/>Injection, to deliver medicine directly into the body<br/>Catheterization, to insert a catheter into organs in the body<br/>Surgery, to correct or repair damaged parts of the body",
+          "Supportive procedures — using instruments or devices to relieve symptoms or complications of diseases or conditions, e.g.<br/>Ventilator, to assist breathing<br/>Urinary catheter, to drain urine from the body"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Choosing a medical procedure should take into account factors such as the severity of the disease or condition, the procedure's risks and side effects, cost, and the patient's needs. Consult a specialist doctor before deciding on any medical procedure."
+      },
+      {
+        "t": "h2",
+        "text": "What are aesthetic procedures?"
+      },
+      {
+        "t": "p",
+        "html": "Aesthetic procedures are treatments focused on improving or correcting the body's outward appearance to look better. There are many types of aesthetic procedures."
+      },
+      {
+        "t": "p",
+        "html": "Aesthetic procedures come in many types, depending on the aspect of appearance to be improved or corrected. The main ones are:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Filler injection — using dermal fillers such as hyaluronic acid or collagen injected under the skin to fill deep lines, adjust facial shape, or add dimension to the face",
+          "Thread lift — using fine threads inserted under the skin to lift and firm the skin, reduce wrinkles, or reshape the face",
+          "Laser — using high-intensity light to remove dark marks and redness, tighten pores, reduce wrinkles, or remove hair",
+          "Rhinoplasty — surgery to reshape the nose beautifully",
+          "Breast augmentation — surgery to enlarge or reshape the breasts"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "There are also many other aesthetic procedures, such as liposuction, Botox injection, eyebrow tattooing, lip tattooing and more."
+      },
+      {
+        "t": "p",
+        "html": "Choosing an aesthetic procedure should take into account factors such as skin condition, physical condition, budget and each person's needs. Research the information and consult a specialist doctor before deciding on any aesthetic procedure."
+      },
+      {
+        "t": "h2",
+        "text": "Procedures for reducing acne marks"
+      },
+      {
+        "t": "p",
+        "html": "There are several types of acne-mark reduction procedures, depending on the nature of the marks, such as:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Injections, such as anti-inflammatory injections or skin-hydrating injections",
+          "Lasers, such as skin-resurfacing lasers or collagen-stimulating lasers"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Procedures for clear skin"
+      },
+      {
+        "t": "p",
+        "html": "There are several types of skin-clarifying procedures, depending on each person's skin condition, such as:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Vitamin injection",
+          "Lasers, such as skin-resurfacing lasers or bacteria-killing lasers",
+          "Facial masks, such as vitamin masks or clay masks"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Pore-tightening procedures"
+      },
+      {
+        "t": "p",
+        "html": "There are several types of pore-tightening procedures, depending on each person's skin condition, such as:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Injections, such as skin-hydrating injections or anti-inflammatory injections",
+          "Lasers, such as skin-resurfacing lasers or collagen-stimulating lasers"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Double-chin reduction procedures"
+      },
+      {
+        "t": "p",
+        "html": "There are several types of double-chin reduction procedures, depending on the condition of the chin, such as:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Injections, such as anti-inflammatory injections or fat-dissolving injections",
+          "Lasers, such as fat-dissolving lasers"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "Face-slimming procedures"
+      },
+      {
+        "t": "p",
+        "html": "There are several types of face-slimming procedures, depending on each person's face, such as:"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Filler injection",
+          "Thread lift",
+          "Face lift surgery"
+        ]
+      },
+      {
+        "t": "h2",
+        "text": "What are the pros and cons of procedures?"
+      },
+      {
+        "t": "p",
+        "html": "Procedures have different pros and cons depending on the type of procedure, as follows:"
+      },
+      {
+        "t": "p",
+        "html": "Pros"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Can help treat diseases or conditions quickly and effectively",
+          "Can help improve or correct outward appearance to look better"
+        ]
+      },
+      {
+        "t": "p",
+        "html": "Cons"
+      },
+      {
+        "t": "ul",
+        "items": [
+          "Side effects may occur"
+        ]
+      }
     ]
-  }
+  },
+  "hasCaseImagery": true
 }

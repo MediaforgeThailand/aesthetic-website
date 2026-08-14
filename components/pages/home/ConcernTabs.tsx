@@ -35,7 +35,7 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
     { label: t("เซลลูไลท์", "Cellulite"), tx: "thermage" },
     { label: t("ไขมันสะสมเฉพาะจุด", "Stubborn fat"), tx: "hifu" },
     { label: t("ผิวหย่อนคล้อย", "Skin laxity"), tx: "hifu" },
-    { label: t("กำจัดขนถาวร", "Hair removal"), tx: "underarm" },
+    { label: t("ขนดก ต้องโกนบ่อย", "Unwanted hair"), tx: "underarm" },
     { label: t("ผิวแห้งหยาบ ไม่เรียบเนียน", "Rough skin"), tx: "underarm" },
     { label: t("แผลเป็นและรอยดำ", "Scars & marks"), tx: "pico" },
   ];
@@ -89,7 +89,8 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
       <div className="home-con-vis" style={{ position: "relative", minHeight: 560, display: "flex", alignItems: "flex-end" }}>
         <img
           src="/assets/blue-model.png"
-          alt={t("คุณบลู — The Art Aesthetic", "Blue — The Art Aesthetic")}
+          alt=""
+          aria-hidden
           width={667}
           height={1275}
           className="home-con-model"

@@ -63,22 +63,22 @@
         "ประสบการณ์และความชำนาญการของแพทย์",
         "แพ็กเกจโปรโมชั่นฟิลเลอร์ใต้ตาของแต่ละคลินิก"
       ] },
-      { "t": "p", "html": "สำหรับโปรแกรมฟิลเลอร์ใต้ตาที่ The Art มีให้เลือกสรรหลากหลายยี่ห้อ และหลากหลายราคา สามารถเลือกได้ตามความต้องการ ดังนี้" },
+      { "t": "p", "html": "สำหรับโปรแกรมฟิลเลอร์ใต้ตาที่ The Art มีให้เลือกสรรหลากหลายยี่ห้อ และหลากหลายราคา ราคาแพ็กเกจถึง 31 ธ.ค. 2569 ดังนี้" },
       { "t": "ul", "items": [
-        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Juvederm</strong><br/>เฉพาะรุ่น Ultra Plus XC ราคา 9,900 บาท ต่อ cc",
-        "รุ่นอื่น ๆ ราคา 16,900 บาท ต่อ cc",
-        "เหมา 10cc เพียง 159,000 บาท"
+        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Juvederm</strong><br/>ทุกรุ่น (Ultra Plus XC, Voluma, Volbella, Volift) 1 cc ราคา 16,900 บาท",
+        "เหมา 5cc ราคา 89,000 บาท",
+        "เหมา 10cc ราคา 169,000 บาท"
       ] },
       { "t": "ul", "items": [
-        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Restylane</strong><br/>เฉพาะรุ่น Classic ราคา 9,900 บาท ต่อ cc",
-        "รุ่นอื่น ๆ ราคา 12,900 บาท ต่อ cc",
-        "เหมา 10cc เพียง 119,000 บาท"
+        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Restylane</strong><br/>ทุกรุ่น 1 cc ราคา 12,900 บาท",
+        "เหมา 5cc ราคา 65,900 บาท (แถม Botox Dysport 50 ยูนิต)",
+        "เหมา 10cc ราคา 129,000 บาท (แถม Botox Dysport 100 ยูนิต)"
       ] },
       { "t": "ul", "items": [
-        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Neuramis</strong><br/>1cc ราคา 5,900 บาท",
-        "เหมา 4cc ราคา 19,900 บาท",
-        "เหมา 10cc ราคา 49,000 บาท"
+        "<strong>โปรแกรมฟิลเลอร์ ยี่ห้อ Neuramis</strong><br/>ทุกรุ่น 1 cc ราคา 5,900 บาท",
+        "เหมา 4cc ราคา 20,900 บาท"
       ] },
+      { "t": "p", "html": "ราคาข้างต้นเป็นราคาแพ็กเกจถึงวันที่ 31 ธันวาคม 2569 เงื่อนไขเป็นไปตามที่คลินิกกำหนด กรุณาสอบถามราคาล่าสุดก่อนเข้ารับบริการ" },
       { "t": "h2", "text": "ฉีดฟิลเลอร์ใต้ตาที่ไหนดี? The Art คือคำตอบ!" },
       { "t": "p", "html": "สำหรับใครที่กำลังวางแผนว่าจะเลือกฉีดฟิลเลอร์ใต้ตา ที่ไหนดี นอกจากพิจารณาจากปัจจัยทางด้านราคา หรือเลือกฉีดฟิลเลอร์ใต้ตา ยี่ห้อไหนดีแล้วนั้น แนะนำพิจารณาจากปัจจัยดังต่อไปนี้เพื่อให้ได้ผลลัพธ์การฉีดฟิลเลอร์ใต้ตาที่ตรงใจและปลอดภัยมากที่สุด" },
       { "t": "ul", "items": [
@@ -176,22 +176,22 @@
         "The doctor's experience and expertise.",
         "Each clinic's under-eye filler packages and promotions."
       ] },
-      { "t": "p", "html": "At The Art, our under-eye filler program offers a wide choice of brands and price points to suit your needs:" },
+      { "t": "p", "html": "At The Art, our under-eye filler program offers a wide choice of brands and price points. Package prices valid until 31 December 2026:" },
       { "t": "ul", "items": [
-        "<strong>Juvederm filler program</strong><br/>Ultra Plus XC only: 9,900 THB per cc",
-        "Other formulations: 16,900 THB per cc",
-        "10cc package: only 159,000 THB"
+        "<strong>Juvederm filler program</strong><br/>Any line (Ultra Plus XC, Voluma, Volbella, Volift), 1 cc: 16,900 THB",
+        "5cc package: 89,000 THB",
+        "10cc package: 169,000 THB"
       ] },
       { "t": "ul", "items": [
-        "<strong>Restylane filler program</strong><br/>Classic only: 9,900 THB per cc",
-        "Other formulations: 12,900 THB per cc",
-        "10cc package: only 119,000 THB"
+        "<strong>Restylane filler program</strong><br/>Any line, 1 cc: 12,900 THB",
+        "5cc package: 65,900 THB (includes 50 units of Botox Dysport)",
+        "10cc package: 129,000 THB (includes 100 units of Botox Dysport)"
       ] },
       { "t": "ul", "items": [
-        "<strong>Neuramis filler program</strong><br/>1cc: 5,900 THB",
-        "4cc package: 19,900 THB",
-        "10cc package: 49,000 THB"
+        "<strong>Neuramis filler program</strong><br/>Any line, 1 cc: 5,900 THB",
+        "4cc package: 20,900 THB"
       ] },
+      { "t": "p", "html": "The prices above are package prices valid until 31 December 2026. Terms are as specified by the clinic — please confirm the current price before treatment." },
       { "t": "h2", "text": "Where should you get under-eye filler? The Art is the answer!" },
       { "t": "p", "html": "If you are planning where to get under-eye filler, beyond comparing prices or choosing a filler brand, consider the following factors to get the safest, most satisfying under-eye filler result:" },
       { "t": "ul", "items": [

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Lang, tr, href } from "@/lib/i18n";
-import { LICENSE_1, LICENSE_2, LINE_URL, TEL_DISPLAY, TEL_HREF, navItems } from "@/lib/site";
+import { LICENSE_AD, LICENSE_HOSPITAL, LINE_URL, TEL_DISPLAY, TEL_HREF, navItems } from "@/lib/site";
 import LangToggle from "./LangToggle";
 
 export default function Header({ lang }: { lang: Lang }) {
@@ -44,8 +44,8 @@ export default function Header({ lang }: { lang: Lang }) {
             letterSpacing: ".02em",
           }}
         >
-          <span>{LICENSE_1}</span>
-          <span>{LICENSE_2}</span>
+          <span>{LICENSE_HOSPITAL}</span>
+          <span>{LICENSE_AD}</span>
         </div>
       </div>
       <div className="aa-wrap" style={{ display: "flex", alignItems: "center", gap: 20, padding: "12px 0" }}>

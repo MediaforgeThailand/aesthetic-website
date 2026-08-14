@@ -194,13 +194,14 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis deep (กล่องดำ) ราคา 5,900 บาทต่อ 1 cc",
-          "Neuramis Volume Lidocaine (กล่องทอง) ราคา 5,900 บาทต่อ 1 cc",
-          "Juvederm Ultra Plus XC ราคา 9,900 บาทต่อ 1 cc",
-          "Juvederm Volift ราคา 16,900 บาทต่อ 1 cc",
-          "Restylane LYFT Lidocaine 12,900 บาทต่อ 1 cc",
-          "Restylane DEFYNE 12,900 บาทต่อ 1 cc"
+          "Neuramis ทุกรุ่น (Deep กล่องดำ, Volume Lidocaine กล่องทอง) ราคา 5,900 บาทต่อ 1 cc",
+          "Juvederm ทุกรุ่น (Ultra Plus XC, Voluma, Volbella, Volift) ราคา 16,900 บาทต่อ 1 cc",
+          "Restylane ทุกรุ่น (LYFT Lidocaine, DEFYNE ฯลฯ) ราคา 12,900 บาทต่อ 1 cc"
         ]
+      },
+      {
+        "t": "p",
+        "html": "ราคาข้างต้นเป็นราคาแพ็กเกจถึงวันที่ 31 ธันวาคม 2569 เงื่อนไขเป็นไปตามที่คลินิกกำหนด กรุณาสอบถามราคาล่าสุดก่อนเข้ารับบริการ"
       },
       {
         "t": "h2",
@@ -459,13 +460,14 @@
       {
         "t": "ul",
         "items": [
-          "Neuramis Deep (black box) — 5,900 THB per 1 cc",
-          "Neuramis Volume Lidocaine (gold box) — 5,900 THB per 1 cc",
-          "Juvederm Ultra Plus XC — 9,900 THB per 1 cc",
-          "Juvederm Volift — 16,900 THB per 1 cc",
-          "Restylane LYFT Lidocaine — 12,900 THB per 1 cc",
-          "Restylane DEFYNE — 12,900 THB per 1 cc"
+          "Neuramis, any line (Deep black box, Volume Lidocaine gold box) — 5,900 THB per 1 cc",
+          "Juvederm, any line (Ultra Plus XC, Voluma, Volbella, Volift) — 16,900 THB per 1 cc",
+          "Restylane, any line (LYFT Lidocaine, DEFYNE, etc.) — 12,900 THB per 1 cc"
         ]
+      },
+      {
+        "t": "p",
+        "html": "The prices above are package prices valid until 31 December 2026. Terms are as specified by the clinic — please confirm the current price before treatment."
       },
       {
         "t": "h2",
