@@ -3,6 +3,7 @@ import Link from "next/link";
 import { href, Lang, tr } from "@/lib/i18n";
 import { LINE_URL, TX_ORDER, TxKey, txHref } from "@/lib/site";
 import { PROMO_MAP, PROMO_VALID_UNTIL, baPairs, promos } from "@/lib/shared-data";
+import { casesForTx, concernLabel } from "@/lib/ba-cases";
 import { txData } from "@/lib/tx-data";
 import { LineButton, TelButton } from "@/components/ui/CtaButtons";
 import DarkCtaBanner from "@/components/ui/DarkCtaBanner";
@@ -61,8 +62,9 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
     },
   ];
 
-  /* ภาพก่อน–หลังต้องตรงกับหัตถการของหน้านี้เท่านั้น — ดู lib/shared-data.ts */
+  /* ภาพก่อน–หลังต้องตรงกับหัตถการของหน้านี้เท่านั้น — ดู lib/shared-data.ts และ lib/ba-cases.ts */
   const ba = baPairs(lang, txKey);
+  const caseImgs = casesForTx(txKey);
 
   const faqJsonLd = {
     "@context": "https://schema.org",
@@ -292,24 +294,46 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
           </div>
         </div>
 
-        {/* ก่อน–หลัง (เฉพาะหัตถการที่มีรูปจริง) */}
-        {d.hasBa && ba.length ? (
+        {/* ก่อน–หลัง (เฉพาะหัตถการที่มีรูปจริง)
+            สองชุด: baPairs = ภาพแยกก่อน/หลัง ใช้ BaSlider · caseImgs = ภาพเดียวมีก่อน–หลังในตัว */}
+        {(d.hasBa && ba.length) || caseImgs.length ? (
           <section style={{ marginTop: "clamp(48px,6vw,80px)" }}>
             <h2 style={h2Style}>{t("ผลลัพธ์ก่อน–หลัง จากเคสจริง", "Before & After, Real Cases")}</h2>
-            <div className="aa-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginTop: 24 }}>
-              {ba.map((p) => (
-                <div key={p.before}>
-                  <BaSlider
-                    before={p.before}
-                    after={p.after}
-                    altBefore={t(`ก่อนทำ ${p.cap}`, `Before — ${p.cap}`)}
-                    altAfter={t(`หลังทำ ${p.cap}`, `After — ${p.cap}`)}
-                    ariaLabel={t(`เลื่อนเปรียบเทียบก่อน–หลัง ${p.cap}`, `Drag to compare before and after — ${p.cap}`)}
-                  />
-                  <div style={{ marginTop: 10, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>{p.cap}</div>
-                </div>
-              ))}
-            </div>
+            {d.hasBa && ba.length ? (
+              <div className="aa-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginTop: 24 }}>
+                {ba.map((p) => (
+                  <div key={p.before}>
+                    <BaSlider
+                      before={p.before}
+                      after={p.after}
+                      altBefore={t(`ก่อนทำ ${p.cap}`, `Before — ${p.cap}`)}
+                      altAfter={t(`หลังทำ ${p.cap}`, `After — ${p.cap}`)}
+                      ariaLabel={t(`เลื่อนเปรียบเทียบก่อน–หลัง ${p.cap}`, `Drag to compare before and after — ${p.cap}`)}
+                    />
+                    <div style={{ marginTop: 10, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>{p.cap}</div>
+                  </div>
+                ))}
+              </div>
+            ) : null}
+            {caseImgs.length ? (
+              <div className="aa-2col" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20, marginTop: 24 }}>
+                {caseImgs.map((c) => (
+                  <figure key={c.img} style={{ margin: 0 }}>
+                    <Image
+                      src={c.img}
+                      alt={`${t("เคสจริงก่อน–หลัง", "Real before and after case")} — ${concernLabel(lang, c.concern)}`}
+                      width={1072}
+                      height={800}
+                      sizes="(max-width:980px) 92vw, 460px"
+                      style={{ display: "block", width: "100%", height: "auto", aspectRatio: "1072/800", objectFit: "cover", borderRadius: 18 }}
+                    />
+                    <figcaption style={{ marginTop: 10, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>
+                      {concernLabel(lang, c.concern)}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
+            ) : null}
             <div style={{ marginTop: 14, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", textAlign: "center" }}>
               {t("*รูปที่ใช้รีวิวได้รับการอนุญาตแล้ว · ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "*Photos used with permission · Results vary by individual")}
             </div>

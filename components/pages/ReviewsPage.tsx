@@ -3,7 +3,9 @@ import Image from "next/image";
 import { Lang, tr } from "@/lib/i18n";
 import { alternatesFor } from "@/lib/seo";
 import { disclaimer, vids } from "@/lib/shared-data";
+import { concernLabel, concernTag, featuredCases } from "@/lib/ba-cases";
 import ReviewRail from "@/components/ui/ReviewRail";
+import CaseRail from "@/components/ui/CaseRail";
 import BaSlider from "@/components/pages/reviews/BaSlider";
 
 export function reviewsMetadata(lang: Lang): Metadata {
@@ -32,6 +34,7 @@ const GALLERY = [
 
 export default function ReviewsPage({ lang }: { lang: Lang }) {
   const t = tr(lang);
+  const cases = featuredCases();
 
   /* revCards จาก renderVals ของ reference (desktop บรรทัด 1376-1381) */
   const cards = [
@@ -161,7 +164,80 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             </p>
           </div>
           <ReviewRail lang={lang} />
+
+          {/* ── แถวที่สอง: ภาพเคสจริงก่อน–หลัง (ชุดเดียวกับหน้าแรก) ── */}
+          <div data-rv style={{ marginTop: "clamp(28px,4vw,44px)", maxWidth: 600 }}>
+            <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
+              {t("ภาพก่อน–หลัง จากเคสจริง", "Before & After — Real Cases")}
+            </h3>
+            <p style={{ margin: "10px 0 0", font: "300 14px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
+              {t(
+                "ริมฝีปาก · ผิวใสเปล่งปลั่ง · กรอบหน้า และปัญหาผิวอื่น ๆ ทุกภาพเป็นเคสจริงของ The Art Aesthetic",
+                "Lips, glowing skin, jawline and more — every image is a real client case at The Art Aesthetic.",
+              )}
+            </p>
+          </div>
+          <CaseRail lang={lang} items={cases} />
         </div>
+      </section>
+
+      {/* ── รวมภาพเคสจริงทั้งหมด (view all) ── */}
+      <section className="aa-wrap" style={{ padding: "clamp(44px,6vw,64px) 0 0" }}>
+        <h2
+          data-rv
+          style={{
+            margin: 0,
+            fontFamily: "'Luxia','Noto Sans Thai',serif",
+            fontWeight: 600,
+            fontSize: "clamp(24px,2.8vw,34px)",
+            color: "#33241E",
+          }}
+        >
+          {t("รวมภาพก่อน–หลังทั้งหมด", "All Before & After Cases")}
+        </h2>
+        <div className="rvw-cases" data-rv style={{ marginTop: 22 }}>
+          {cases.map((c) => (
+            <figure key={c.img} style={{ margin: 0 }}>
+              <div className="aa-zoom" style={{ borderRadius: 18, overflow: "hidden", boxShadow: "0 12px 26px rgba(107,74,60,.12)" }}>
+                <Image
+                  className="aa-zoom-img"
+                  src={c.img}
+                  alt={`${t("เคสจริงก่อน–หลัง", "Real before and after case")} — ${concernLabel(lang, c.concern)}`}
+                  width={1072}
+                  height={800}
+                  sizes="(max-width:640px) 92vw, (max-width:1100px) 46vw, 440px"
+                  style={{ display: "block", width: "100%", height: "auto", aspectRatio: "1072/800", objectFit: "cover" }}
+                />
+              </div>
+              <figcaption
+                style={{
+                  marginTop: 10,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  gap: 10,
+                  font: "500 14px 'Luxia','Noto Sans Thai',sans-serif",
+                  color: "#33241E",
+                }}
+              >
+                {concernLabel(lang, c.concern)}
+                <span
+                  style={{
+                    flex: "none",
+                    padding: "5px 12px",
+                    borderRadius: 999,
+                    background: "#FAF3EE",
+                    font: "400 11.5px 'Luxia','Noto Sans Thai',sans-serif",
+                    color: "#8F543F",
+                  }}
+                >
+                  {concernTag(c.concern)}
+                </span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <div style={{ marginTop: 14, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", textAlign: "center" }}>{disclaimer(lang)}</div>
       </section>
 
       {/* ── แกลเลอรีรีวิวฟิลเลอร์ (rv-filler-1..6) ── */}
@@ -257,6 +333,8 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
       <style>{`
 .rvw-gal{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 @media (max-width:640px){.rvw-gal{grid-template-columns:repeat(2,1fr);gap:12px}}
+.rvw-cases{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+@media (max-width:640px){.rvw-cases{grid-template-columns:1fr;gap:16px}}
 .rvw-yt:hover{color:#A96A55}
 `}</style>
     </>

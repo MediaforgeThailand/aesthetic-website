@@ -6,6 +6,7 @@ import { alternatesFor, ogFor } from "@/lib/seo";
 import { SITE_URL, TX_SLUGS, txHref } from "@/lib/site";
 import { CloneBlock, ClonePageData, pick } from "@/lib/clone-content";
 import { disclaimer } from "@/lib/shared-data";
+import { casesForPath, concernLabel } from "@/lib/ba-cases";
 import { txData } from "@/lib/tx-data";
 import { LineButton, TelButton } from "@/components/ui/CtaButtons";
 import DarkCtaBanner from "@/components/ui/DarkCtaBanner";
@@ -105,6 +106,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
   const c = pick(lang, page);
   const h2s = c.blocks.filter((b): b is Extract<CloneBlock, { text: string }> => b.t === "h2");
   const related = page.relatedTxKey ? txData(lang)[page.relatedTxKey] : null;
+  const caseImgs = casesForPath(page.path);
 
   const sectionLabel =
     page.section === "articles" ? t("บทความ", "Articles") : page.section === "aesthetics" ? "Aesthetics" : "Skin Aesthetics";
@@ -212,7 +214,32 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
           <Block key={i} b={localizeBlock(lang, b)} />
         ))}
 
-        {page.hasCaseImagery ? (
+        {/* ภาพเคสจริงก่อน–หลังของ "ปัญหา" ที่หน้านี้พูดถึง — จับคู่ด้วย path ใน lib/ba-cases.ts */}
+        {caseImgs.length ? (
+          <section style={{ marginTop: 40 }}>
+            <h2 style={{ fontSize: "clamp(22px,2.6vw,30px)", margin: 0 }}>{t("ภาพก่อน–หลัง จากเคสจริง", "Before & After, Real Cases")}</h2>
+            <div className="clone-cases" style={{ marginTop: 18 }}>
+              {caseImgs.map((cs) => (
+                <figure key={cs.img} style={{ margin: 0 }}>
+                  <Image
+                    src={cs.img}
+                    alt={`${t("เคสจริงก่อน–หลัง", "Real before and after case")} — ${concernLabel(lang, cs.concern)}`}
+                    width={1072}
+                    height={800}
+                    sizes="(max-width:860px) 92vw, 420px"
+                    style={{ display: "block", width: "100%", height: "auto", aspectRatio: "1072/800", objectFit: "cover", borderRadius: 16 }}
+                  />
+                  <figcaption style={{ marginTop: 8, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>
+                    {concernLabel(lang, cs.concern)}
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+            <style>{`.clone-cases{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}@media (max-width:640px){.clone-cases{grid-template-columns:1fr;gap:14px}}`}</style>
+          </section>
+        ) : null}
+
+        {page.hasCaseImagery || caseImgs.length ? (
           <div style={{ marginTop: 18, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
         ) : null}
 

@@ -5,9 +5,11 @@ import { Lang, href, tr } from "@/lib/i18n";
 import { alternatesFor } from "@/lib/seo";
 import { LINE_ID, txHref } from "@/lib/site";
 import { DOCTORS, disclaimer, vids } from "@/lib/shared-data";
+import { featuredCases } from "@/lib/ba-cases";
 import { LineButton, TelButton } from "@/components/ui/CtaButtons";
 import QrCard from "@/components/ui/QrCard";
 import ReviewRail from "@/components/ui/ReviewRail";
+import CaseRail from "@/components/ui/CaseRail";
 import ConcernTabs from "@/components/pages/home/ConcernTabs";
 import HeroFx from "@/components/pages/home/HeroFx";
 
@@ -458,6 +460,21 @@ export default function HomePage({ lang }: { lang: Lang }) {
               </div>
             </div>
             <ReviewRail lang={lang} />
+
+            {/* ── แถวที่สอง: ภาพเคสจริงก่อน–หลัง (ปาก · ผิวใส · กรอบหน้า มาก่อน) ── */}
+            <div data-rv style={{ marginTop: "clamp(28px,4vw,44px)", maxWidth: 600 }}>
+              <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
+                {t("ภาพก่อน–หลัง จากเคสจริง", "Before & After — Real Cases")}
+              </h3>
+              <p style={{ margin: "10px 0 0", font: "300 14px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
+                {t(
+                  "ริมฝีปาก · ผิวใสเปล่งปลั่ง · กรอบหน้า และปัญหาผิวอื่น ๆ ทุกภาพเป็นเคสจริงของ The Art Aesthetic",
+                  "Lips, glowing skin, jawline and more — every image is a real client case at The Art Aesthetic.",
+                )}
+              </p>
+            </div>
+            <CaseRail lang={lang} items={featuredCases()} />
+
             <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: 16, marginTop: 18 }}>
               <Link
                 href={href(lang, "/reviews/")}
