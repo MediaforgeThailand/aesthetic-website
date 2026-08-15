@@ -6,8 +6,13 @@
 เกณฑ์ที่ใช้จับรูป AI: นิ้วมือผิดรูป/ขาดนิ้วโป้ง ข้อมือหายเข้าไปในเสื้อ กระดุมเบี้ยวขนาดไม่เท่ากัน ผิวไม่มีรูขุมขน
 ตาสองข้างไม่สมมาตร ตัวอักษรบนป้าย/เครื่องมือเป็นตัวมั่ว สถาปัตยกรรมหรือเงาสะท้อนที่เป็นไปไม่ได้
 
-**สรุป: ต้องหารูปจริงมาใส่ 23 ช่อง** — รูป AI ที่ใช้งานอยู่ 9 ช่อง + ช่อง placeholder ที่ยังว่าง 14 ช่อง
+**สรุป: ต้องหารูปจริงมาใส่ 14 ช่อง** — รูป AI ที่ใช้งานอยู่ 9 ช่อง + ช่อง placeholder ที่ยังว่าง 5 ช่อง
 และมีไฟล์ AI ที่ไม่ได้ใช้แล้วอีก 15 ไฟล์ที่ลบทิ้งได้
+
+> **แก้ไข 15 ส.ค. 2569 (รอบสอง)** — ฉบับแรกของเอกสารนี้จัดรูปจริง 9 ไฟล์เป็น placeholder ผิดพลาด
+> (hero-doctors, who-team, method-inject, method-machine, method-treatment, tx-face-inject,
+> tx-injection, tx-lip-filler, slide-diamond) ทั้งหมดเป็นภาพถ่ายจริง คืนกลับเข้าเว็บแล้วใน commit 6c34449
+> เกณฑ์ที่ใช้ตอนแรกเข้มเกินไป คือตัดภาพสต็อกของจริงทิ้งด้วย ทั้งที่โจทย์คือห้ามใช้ภาพ AI เท่านั้น
 
 ---
 
@@ -33,10 +38,11 @@
 
 ---
 
-## กลุ่ม B — ช่อง placeholder ที่รอรูปจริงอยู่ (14 ไฟล์) 🟡
+## กลุ่ม B — ช่องว่างที่รอรูปจริง (5 ไฟล์) 🟡
 
 ตอนนี้แสดงเป็นกรอบเส้นประสีครีมพร้อมข้อความบอกว่าต้องใส่รูปอะไร ขนาดเท่าไหร่
-**ไม่ผิดกฎหมาย** เพราะไม่ได้หลอกใคร แต่หน้าเว็บยังไม่สมบูรณ์
+**ไม่ผิดกฎหมาย** เพราะไม่ได้หลอกใคร แต่การ์ดโปรโมชั่นยังไม่มีรูป
+ทั้ง 5 ไฟล์นี้เป็นไฟล์ที่สร้างใหม่ ไม่เคยมีรูปต้นฉบับมาก่อน (แพ็กเกจใน Excel ไม่มีรูปแนบมา)
 
 | # | ไฟล์ | ขนาดที่ต้องได้ | แสดงที่หน้า | ต้องการรูปอะไร |
 |---|---|---|---|---|
@@ -45,17 +51,6 @@
 | B3 | `promo/ivdrip.jpg` | 1080×810 | [/promotions/](https://aesthetic-website.vercel.app/promotions/) · [/iv-drip/](https://aesthetic-website.vercel.app/iv-drip/) | การ์ดโปร Aura White IV Drip 5 ครั้ง |
 | B4 | `promo/diamond.jpg` | 1080×810 | [/promotions/](https://aesthetic-website.vercel.app/promotions/) · [/diamond-baby-face/](https://aesthetic-website.vercel.app/diamond-baby-face/) | การ์ดโปร Diamond Baby Face 4 ครั้ง |
 | B5 | `promo/underarm.jpg` | 1080×810 | [/promotions/](https://aesthetic-website.vercel.app/promotions/) · [/underarm-laser/](https://aesthetic-website.vercel.app/underarm-laser/) | การ์ดโปรกำจัดขนไดโอด 8 ครั้ง |
-| B6 | `hero-doctors.png` | 1146×657 PNG พื้นใส | [/](https://aesthetic-website.vercel.app/) | ภาพหมู่ทีมแพทย์ ตัดพื้นหลังออก วางทับ hero หน้าแรก (ทั้งจอคอมและมือถือ) |
-| B7 | `who-team.png` | 1400×847 | [/](https://aesthetic-website.vercel.app/) | ภาพหมู่ทีมงาน ในส่วน ART & SCIENCE |
-| B8 | `method-inject.jpg` | 2560×1706 | [/](https://aesthetic-website.vercel.app/) | ภาพการฉีดจริงที่คลินิก — การ์ด "ฉีด" ในแถว By Method |
-| B9 | `method-machine.png` | 918×769 | [/](https://aesthetic-website.vercel.app/) · [/ultraformer/](https://aesthetic-website.vercel.app/ultraformer/) | ภาพเครื่องมือของเราเอง — การ์ด "เครื่อง" + hero หน้า Ultraformer |
-| B10 | `method-treatment.jpg` | 2560×1707 | [/](https://aesthetic-website.vercel.app/) | ภาพห้องทรีตเมนต์ขณะใช้งานจริง — การ์ด "ทรีตเมนต์" |
-| B11 | `tx-face-inject.jpg` | 900×600 | [/filler/](https://aesthetic-website.vercel.app/filler/) · [/dolly-eye/](https://aesthetic-website.vercel.app/dolly-eye/) | ภาพฉีดฟิลเลอร์บนใบหน้า — hero 2 หน้า |
-| B12 | `tx-injection.jpg` | 900×600 | [/botox/](https://aesthetic-website.vercel.app/botox/) | ภาพขั้นตอนการฉีด — hero หน้าโบท็อกซ์ |
-| B13 | `tx-lip-filler.jpg` | 900×600 | [/lip-filler/](https://aesthetic-website.vercel.app/lip-filler/) | ภาพฉีดฟิลเลอร์ปากโดยแพทย์ของเรา — hero หน้าฟิลเลอร์ปาก |
-| B14 | `slide-diamond.png` | 1400×685 | [/diamond-baby-face/](https://aesthetic-website.vercel.app/diamond-baby-face/) | แบนเนอร์ Diamond Baby Face — hero |
-
-> ไฟล์ B11–B14 และ B9 ยังถูกใช้เป็น `og:image` ของหน้านั้น ๆ ด้วย
 
 ---
 
@@ -75,7 +70,7 @@ dr-ploy.png   dr-pluem.png    dr-yongyee.png
 
 ---
 
-## รูปที่ตรวจแล้วว่าเป็นของจริง — ไม่ต้องแก้ (50 ไฟล์) ✅
+## รูปที่ตรวจแล้วว่าเป็นของจริง — ไม่ต้องแก้ (59 ไฟล์) ✅
 
 - **`ba/*.jpg` ทั้ง 10 ไฟล์** (ก่อน–หลัง) — เห็นผ้าคาดผมปัก "THE ART CLINIC" ชัดเจน
   มีวันที่ภาษาไทยสะกดถูกต้อง (AI มักเขียนภาษาไทยเพี้ยน) มีรูขุมขน ไฝ ขนตาจริง
@@ -84,6 +79,10 @@ dr-ploy.png   dr-pluem.png    dr-yongyee.png
 - **`rev/*.jpg`, `promo/filler|lip-filler|botox|thread.jpg`** — ดึงจาก art-hospital.com มีแบรนด์ THE ART
 - **`tour/room1-3.jpg`, `hospital-side.jpg`** — ภาพถ่ายจริงของคลินิก
 - **`logo-*.png`, `line-icon.png`** — โลโก้/ไอคอน ไม่ใช่ภาพถ่าย
+- **9 ไฟล์ที่คืนกลับมา** — `hero-doctors.png` และ `who-team.png` เป็นภาพหมู่ทีมแพทย์ใส่เสื้อกาวน์ THE ART
+  ที่อ่านโลโก้ออกชัด มือและนิ้วครบถูกต้อง · `method-machine.png` เป็นเครื่อง Ultraformer III ของจริง
+  (หน้าจอขึ้น "3.0 J" และ "START" อ่านออกถูกต้อง) · `method-inject/treatment` และ `tx-*` เป็นภาพหัตถการ
+  ที่มือ นิ้ว และเข็มถูกต้องตามกายวิภาค
 
 **2 ไฟล์ที่ยังสรุปไม่ได้** (ผู้ตรวจชุดที่สองให้ผล "ไม่แน่ใจ"):
 `ba/lips-a.jpg` (ครอปแคบเกินจนไม่เหลือเบาะแส) และ `blue-model.png` (นางแบบ ใช้เป็นภาพประกอบ ไม่ได้อ้างว่าเป็นคนไข้)
@@ -94,6 +93,7 @@ dr-ploy.png   dr-pluem.png    dr-yongyee.png
 
 1. **รูปหมอ (A1–A6)** ต้องเป็นรูปแพทย์ตัวจริงทั้ง 6 ท่านตามที่ระบุใน `lib/shared-data.ts`
    ถ่ายท่าเดียวกัน ฉากเดียวกัน แล้วตัดพื้นหลังเป็น PNG โปร่งใส ขนาด 640×740
-2. **ห้ามใช้ภาพสต็อก** ที่ไม่ใช่คลินิกเรา — ผิดหลักเดียวกับภาพ AI
+2. **ห้ามใช้ภาพ AI เด็ดขาด** ส่วนภาพสต็อกของจริงใช้ได้ (กฎหมายไม่ได้ห้าม) แต่ถ้าถ่ายที่คลินิกเราเองจะดีกว่า
+   — บางไฟล์ในหมวด "ของจริง" ยังเป็นภาพสต็อกอยู่ ทยอยเปลี่ยนได้ ไม่ใช่เรื่องเร่งด่วน
 3. **ภาพคนไข้ทุกภาพ** ต้องมีหนังสือยินยอมเป็นลายลักษณ์อักษร (ดูตัวอย่างการใส่หมายเหตุใน `rv-filler-*.jpg`)
 4. ใส่ไฟล์ทับที่เดิมโดยใช้ **ชื่อไฟล์เดิมเป๊ะ** แล้ว deploy — ไม่ต้องแก้โค้ดเลย
