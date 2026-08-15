@@ -30,7 +30,7 @@ export function LineButton({
           ? "linear-gradient(120deg,#9E5F4E,#BE7E67 52%,#E7B79F)"
           : "linear-gradient(120deg,#CE9079,#F1D3C2)",
         color: light ? "#fff" : "#2B1C16",
-        font: "600 15px 'Luxia','Noto Sans Thai',sans-serif",
+        font: "500 15px 'Luxia','Noto Sans Thai',sans-serif",
         boxShadow: light ? "0 10px 24px rgba(169,106,85,.3)" : "0 10px 24px rgba(43,28,22,.3)",
       }}
     >

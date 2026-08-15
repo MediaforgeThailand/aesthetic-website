@@ -68,7 +68,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
           <h1
             style={{
               margin: "14px 0 0",
-              fontWeight: 600,
+              fontWeight: 500,
               fontSize: "clamp(30px,4vw,50px)",
               color: "#33241E",
             }}
@@ -118,7 +118,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
               >
                 {b.tag}
               </div>
-              <h3 style={{ margin: "14px 0 0", font: "600 17px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>
+              <h3 style={{ margin: "14px 0 0", font: "500 17px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>
                 {b.name}
               </h3>
               <address
@@ -188,7 +188,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
             <h2
               style={{
                 margin: "10px 0 0",
-                fontWeight: 600,
+                fontWeight: 500,
                 fontSize: "clamp(22px,2.6vw,30px)",
                 color: "#FBF3ED",
               }}
@@ -243,7 +243,7 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                     alignItems: "center",
                     justifyContent: "center",
                     color: "#fff",
-                    font: "600 17px 'Luxia','Noto Sans Thai',sans-serif",
+                    font: "500 17px 'Luxia','Noto Sans Thai',sans-serif",
                   }}
                 >
                   f
@@ -278,8 +278,8 @@ export default function ContactPage({ lang }: { lang: Lang }) {
                   </span>
                   <span
                     style={{
-                      fontFamily: "'Playfair Display','Luxia',serif",
-                      fontWeight: 600,
+                      fontFamily: "'Luxia','Noto Sans Thai',serif",
+                      fontWeight: 500,
                       fontSize: "clamp(22px,2.4vw,30px)",
                       lineHeight: 1.15,
                       color: "#33241E",

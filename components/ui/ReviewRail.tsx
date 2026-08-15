@@ -132,7 +132,7 @@ export default function ReviewRail({ lang }: { lang: Lang }) {
                 </div>
               </div>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, marginTop: 14, padding: "0 4px" }}>
-                <div style={{ font: "600 15.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{rv.title}</div>
+                <div style={{ font: "500 15.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{rv.title}</div>
                 <span
                   style={{
                     flex: "none",

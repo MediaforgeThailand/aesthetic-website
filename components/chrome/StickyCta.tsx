@@ -76,7 +76,7 @@ export default function StickyCta({ lang }: { lang: Lang }) {
               borderRadius: 999,
               background: "#06C755",
               color: "#fff",
-              font: "600 14.5px 'Luxia','Noto Sans Thai',sans-serif",
+              font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif",
               boxShadow: "0 6px 16px rgba(6,199,85,.35)",
             }}
           >

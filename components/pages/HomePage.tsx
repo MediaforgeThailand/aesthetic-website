@@ -338,7 +338,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
               <span style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>OUR HOSPITAL</span>
               <span style={{ width: 30, height: 1, background: "#DCC0A8" }} />
             </div>
-            <h2 style={{ margin: "16px 0 0", fontWeight: 600, fontSize: "clamp(28px,3.6vw,44px)", lineHeight: 1.22, color: "#33241E" }}>
+            <h2 style={{ margin: "16px 0 0", fontWeight: 500, fontSize: "clamp(28px,3.6vw,44px)", lineHeight: 1.22, color: "#33241E" }}>
               The Art Hospital
             </h2>
             <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -362,7 +362,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                 />
                 <div style={{ position: "absolute", inset: 0, background: "linear-gradient(180deg,rgba(43,28,22,0) 52%,rgba(43,28,22,.74))" }} />
                 <div style={{ position: "absolute", left: 18, right: 18, bottom: 16 }}>
-                  <div className="aa-serif" style={{ fontWeight: 600, fontSize: "clamp(17px,1.9vw,21px)", color: "#FBF3ED" }}>{room.title}</div>
+                  <div className="aa-serif" style={{ fontWeight: 500, fontSize: "clamp(17px,1.9vw,21px)", color: "#FBF3ED" }}>{room.title}</div>
                   <div style={{ font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#E7CDBD", marginTop: 2 }}>
                     {t("แผนกผิวพรรณและความงาม", "Skin & Aesthetic")}
                   </div>
@@ -408,7 +408,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
             />
           </div>
           <div>
-            <h2 data-rv style={{ margin: 0, fontWeight: 600, fontSize: "clamp(34px,4.4vw,60px)", lineHeight: 1.05, letterSpacing: ".01em", color: "#33241E" }}>
+            <h2 data-rv style={{ margin: 0, fontWeight: 500, fontSize: "clamp(34px,4.4vw,60px)", lineHeight: 1.05, letterSpacing: ".01em", color: "#33241E" }}>
               ART &amp; SCIENCE
             </h2>
             <div data-rv style={{ margin: "12px 0 0", font: "400 clamp(15px,1.5vw,19px)/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#8F6A5A" }}>
@@ -418,7 +418,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
               )}
             </div>
             <div data-rv style={{ width: "min(340px,60%)", height: 1, background: "#D9BFAF", margin: "26px 0 0" }} />
-            <h3 data-rv style={{ margin: "26px 0 0", fontWeight: 600, fontSize: "clamp(26px,2.9vw,38px)", lineHeight: 1.15, color: "#33241E" }}>
+            <h3 data-rv style={{ margin: "26px 0 0", fontWeight: 500, fontSize: "clamp(26px,2.9vw,38px)", lineHeight: 1.15, color: "#33241E" }}>
               About us
             </h3>
             <div data-rv style={{ margin: "8px 0 0", font: "400 clamp(14px,1.35vw,17px) 'Luxia','Noto Sans Thai',sans-serif", color: "#B4907E" }}>
@@ -445,7 +445,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
             <div data-rv style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 20 }}>
               <div style={{ maxWidth: 600 }}>
                 <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>REAL REVIEWS</div>
-                <h2 style={{ margin: "14px 0 0", fontWeight: 600, fontSize: "clamp(28px,3.4vw,42px)", lineHeight: 1.25, color: "#33241E" }}>
+                <h2 style={{ margin: "14px 0 0", fontWeight: 500, fontSize: "clamp(28px,3.4vw,42px)", lineHeight: 1.25, color: "#33241E" }}>
                   {t("รีวิวจากผู้รับบริการจริง", "Real Client Reviews")}
                 </h2>
                 <p style={{ margin: "14px 0 0", font: "300 15px/1.9 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -463,7 +463,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
 
             {/* ── แถวที่สอง: ภาพเคสจริงก่อน–หลัง (ปาก · ผิวใส · กรอบหน้า มาก่อน) ── */}
             <div data-rv style={{ marginTop: "clamp(28px,4vw,44px)", maxWidth: 600 }}>
-              <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
+              <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
                 {t("ภาพก่อน–หลัง จากเคสจริง", "Before & After — Real Cases")}
               </h3>
               <p style={{ margin: "10px 0 0", font: "300 14px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -527,7 +527,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
           </div>
           <div data-rv style={{ textAlign: "center", maxWidth: 680, margin: "0 auto" }}>
             <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>WHAT WE SOLVE</div>
-            <h2 style={{ margin: "14px 0 0", fontWeight: 600, fontSize: "clamp(28px,3.4vw,42px)", lineHeight: 1.25, color: "#33241E" }}>
+            <h2 style={{ margin: "14px 0 0", fontWeight: 500, fontSize: "clamp(28px,3.4vw,42px)", lineHeight: 1.25, color: "#33241E" }}>
               {t("เลือกการรักษาที่ใช่สำหรับคุณ", "Find the Right Treatment")}
             </h2>
             <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -541,7 +541,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
           {/* 01 เลือกตามปัญหา */}
           <div data-rv className="home-con01" style={{ display: "flex", alignItems: "baseline", gap: 14, marginTop: 56, marginLeft: "clamp(0px,42%,520px)" }}>
             <span className="aa-pfi" style={{ fontSize: 16, color: "#C4A996" }}>01</span>
-            <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
+            <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
               {t("เลือกตามปัญหา", "By Concern")}
             </h3>
           </div>
@@ -550,7 +550,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
           {/* 02 เลือกตามรูปแบบการรักษา */}
           <div data-rv style={{ display: "flex", alignItems: "baseline", gap: 14, marginTop: 52 }}>
             <span className="aa-pfi" style={{ fontSize: 17, color: "#C99B85" }}>02</span>
-            <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
+            <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
               {t("เลือกตามรูปแบบการรักษา", "By Method")}
             </h3>
           </div>
@@ -620,7 +620,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                       {m.count} {t("โปรแกรม", "programs")}
                     </span>
                   </div>
-                  <div className="aa-serif" style={{ marginTop: 16, fontWeight: 600, fontSize: 22, color: "#33241E" }}>{m.en}</div>
+                  <div className="aa-serif" style={{ marginTop: 16, fontWeight: 500, fontSize: 22, color: "#33241E" }}>{m.en}</div>
                   <div style={{ marginTop: 3, font: "500 15px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>{m.sub}</div>
                   <p style={{ margin: "8px 0 0", font: "300 13.5px/1.7 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>{m.desc}</p>
                 </div>
@@ -631,7 +631,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
           {/* 03 หมวดโปรแกรมยอดนิยมตอนนี้ */}
           <div data-rv style={{ display: "flex", alignItems: "baseline", gap: 14, marginTop: 52, paddingInline: "clamp(8px,2vw,36px)" }}>
             <span className="aa-pfi" style={{ fontSize: 17, color: "#C99B85" }}>03</span>
-            <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
+            <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(21px,2.4vw,28px)", color: "#33241E" }}>
               {t("หมวดโปรแกรมยอดนิยมตอนนี้", "Popular Now — Top 3")}
             </h3>
           </div>
@@ -656,7 +656,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                 <span style={{ display: "flex", alignItems: "baseline", gap: 18, minWidth: 0 }}>
                   <span className="aa-pfi" style={{ fontSize: 19, color: "#C99B85", flex: "none" }}>{tp.rank}</span>
                   <span style={{ minWidth: 0 }}>
-                    <span className="aa-serif home-top5-en" style={{ display: "block", fontWeight: 600, fontSize: "clamp(20px,2.6vw,30px)", color: "#33241E" }}>
+                    <span className="aa-serif home-top5-en" style={{ display: "block", fontWeight: 500, fontSize: "clamp(20px,2.6vw,30px)", color: "#33241E" }}>
                       {tp.en}
                     </span>
                     <span style={{ display: "block", font: "300 13.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", marginTop: 2 }}>{tp.sub}</span>
@@ -706,7 +706,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
             <div data-rv style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 18 }}>
               <div>
                 <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>MEDICAL TEAM</div>
-                <h2 style={{ margin: "14px 0 0", fontWeight: 600, fontSize: "clamp(28px,3.4vw,42px)", color: "#33241E" }}>
+                <h2 style={{ margin: "14px 0 0", fontWeight: 500, fontSize: "clamp(28px,3.4vw,42px)", color: "#33241E" }}>
                   {t("ทีมแพทย์ของเรา", "Our Doctors")}
                 </h2>
               </div>
@@ -731,7 +731,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                     />
                   </div>
                   <div style={{ padding: "16px 20px 20px" }}>
-                    <div style={{ font: "600 16.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{d.nick}</div>
+                    <div style={{ font: "500 16.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{d.nick}</div>
                     <div style={{ font: "400 12.5px/1.5 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E", marginTop: 4 }}>{d.full}</div>
                     <div style={{ font: "300 11.5px/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", marginTop: 7 }}>{d.deg}</div>
                     <div style={{ font: "300 11.5px/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", marginTop: 1 }}>{d.lic}</div>
@@ -747,7 +747,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
           <div data-rv style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", justifyContent: "space-between", gap: 18 }}>
             <div>
               <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>VIDEO REVIEWS</div>
-              <h2 style={{ margin: "14px 0 0", fontWeight: 600, fontSize: "clamp(28px,3.4vw,42px)", color: "#33241E" }}>
+              <h2 style={{ margin: "14px 0 0", fontWeight: 500, fontSize: "clamp(28px,3.4vw,42px)", color: "#33241E" }}>
                 {t("คลิปรีวิวจากผู้รับบริการจริง", "Real Client Video Reviews")}
               </h2>
             </div>
@@ -829,7 +829,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                 style={{
                   margin: "16px auto 0",
                   maxWidth: 640,
-                  fontWeight: 600,
+                  fontWeight: 500,
                   fontSize: "clamp(28px,3.6vw,44px)",
                   lineHeight: 1.3,
                   color: "#FBF3ED",

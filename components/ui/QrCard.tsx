@@ -29,7 +29,7 @@ export default function QrCard({ lang }: { lang: Lang }) {
       />
       <div className="aa-qr-text">
         <div style={{ font: "500 11.5px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".26em", color: "#E5B79D" }}>SCAN TO ADD</div>
-        <div className="aa-serif" style={{ fontSize: "clamp(22px,2.4vw,30px)", fontWeight: 600, color: "#FBF3ED", margin: "6px 0" }}>
+        <div className="aa-serif" style={{ fontSize: "clamp(22px,2.4vw,30px)", fontWeight: 500, color: "#FBF3ED", margin: "6px 0" }}>
           {LINE_ID}
         </div>
         <div style={{ font: "300 14px/1.7 'Luxia','Noto Sans Thai',sans-serif", color: "#C7AC9C" }}>

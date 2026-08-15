@@ -43,7 +43,7 @@ export default function PromotionsPage({ lang }: { lang: Lang }) {
           >
             {t(`ราคานี้ถึง ${PROMO_VALID_UNTIL.th}`, `VALID UNTIL ${PROMO_VALID_UNTIL.en}`)}
           </div>
-          <h1 style={{ margin: "16px 0 0", fontWeight: 600, fontSize: "clamp(30px,4vw,50px)", color: "#33241E" }}>
+          <h1 style={{ margin: "16px 0 0", fontWeight: 500, fontSize: "clamp(30px,4vw,50px)", color: "#33241E" }}>
             {t("โปรโมชั่น", "Promotions")}
           </h1>
           <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -96,10 +96,10 @@ export default function PromotionsPage({ lang }: { lang: Lang }) {
                 </div>
               </div>
               <div style={{ padding: "20px 22px 22px", display: "flex", flexDirection: "column", flex: 1 }}>
-                <div style={{ font: "600 17px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{p.title}</div>
+                <div style={{ font: "500 17px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{p.title}</div>
                 <div style={{ font: "300 13.5px/1.75 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E", marginTop: 6, flex: 1 }}>{p.sub}</div>
                 <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginTop: 12 }}>
-                  <span style={{ font: "600 22px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
+                  <span style={{ font: "500 22px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
                     {p.price.toLocaleString("en-US")}
                   </span>
                   <span style={{ font: "300 13px 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>{t("บาท", "THB")}</span>

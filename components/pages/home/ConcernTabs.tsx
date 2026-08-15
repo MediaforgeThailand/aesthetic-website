@@ -57,7 +57,7 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
     cursor: "pointer",
     padding: "12px 4px",
     marginBottom: -1,
-    fontWeight: 600,
+    fontWeight: 500,
     fontSize: 20,
     color: active ? "#33241E" : "#B7A093",
     transition: "all .3s",
@@ -108,12 +108,12 @@ export default function ConcernTabs({ lang }: { lang: Lang }) {
         />
         <div className="home-con-quote" style={{ position: "absolute", right: 0, top: 30, maxWidth: "44%", textAlign: "left" }}>
           <span style={{ display: "inline-block", fontSize: 24, color: "#C08268", lineHeight: 1 }}>&ldquo;</span>
-          <div className="aa-serif" style={{ fontWeight: 600, fontSize: "clamp(24px,2.8vw,36px)", color: "#4A2F24", lineHeight: 1.06 }}>
+          <div className="aa-serif" style={{ fontWeight: 500, fontSize: "clamp(24px,2.8vw,36px)", color: "#4A2F24", lineHeight: 1.06 }}>
             {isFace ? t("เข้าใจ", "Every") : t("ดูแลผิวกาย", "Head-to-toe")}
           </div>
           <div
             className="aa-serif"
-            style={{ fontWeight: 600, fontSize: "clamp(16px,1.7vw,22px)", color: "#4A2F24", lineHeight: 1.24, marginTop: 4, textWrap: "balance" }}
+            style={{ fontWeight: 500, fontSize: "clamp(16px,1.7vw,22px)", color: "#4A2F24", lineHeight: 1.24, marginTop: 4, textWrap: "balance" }}
           >
             {isFace ? t("ทุกปัญหาผิวหน้า", "facial concern") : t("ทั่วเรือนร่าง", "skin care")}
           </div>

@@ -78,7 +78,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             style={{
               margin: "14px 0 0",
               fontFamily: "'Luxia','Noto Sans Thai',serif",
-              fontWeight: 600,
+              fontWeight: 500,
               fontSize: "clamp(30px,4vw,50px)",
               color: "#33241E",
             }}
@@ -145,7 +145,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
               style={{
                 margin: "14px 0 0",
                 fontFamily: "'Luxia','Noto Sans Thai',serif",
-                fontWeight: 600,
+                fontWeight: 500,
                 fontSize: "clamp(28px,3.4vw,42px)",
                 lineHeight: 1.25,
                 color: "#33241E",
@@ -167,7 +167,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
 
           {/* ── แถวที่สอง: ภาพเคสจริงก่อน–หลัง (ชุดเดียวกับหน้าแรก) ── */}
           <div data-rv style={{ marginTop: "clamp(28px,4vw,44px)", maxWidth: 600 }}>
-            <h3 style={{ margin: 0, fontWeight: 600, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
+            <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(20px,2.4vw,27px)", lineHeight: 1.3, color: "#33241E" }}>
               {t("ภาพก่อน–หลัง จากเคสจริง", "Before & After — Real Cases")}
             </h3>
             <p style={{ margin: "10px 0 0", font: "300 14px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
@@ -188,7 +188,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
           style={{
             margin: 0,
             fontFamily: "'Luxia','Noto Sans Thai',serif",
-            fontWeight: 600,
+            fontWeight: 500,
             fontSize: "clamp(24px,2.8vw,34px)",
             color: "#33241E",
           }}
@@ -247,7 +247,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
           style={{
             margin: 0,
             fontFamily: "'Luxia','Noto Sans Thai',serif",
-            fontWeight: 600,
+            fontWeight: 500,
             fontSize: "clamp(24px,2.8vw,34px)",
             color: "#33241E",
           }}
@@ -289,7 +289,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             style={{
               margin: 0,
               fontFamily: "'Luxia','Noto Sans Thai',serif",
-              fontWeight: 600,
+              fontWeight: 500,
               fontSize: "clamp(24px,2.8vw,34px)",
               color: "#33241E",
             }}

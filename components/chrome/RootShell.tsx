@@ -51,18 +51,10 @@ export default function RootShell({ lang, children }: { lang: Lang; children: Re
       <link rel="preload" href="/assets/fonts/LuxiaRegular.woff" as="font" type="font/woff" crossOrigin="anonymous" />
       <link rel="preload" href="/assets/fonts/NotoSansThai-thai.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
 
-      {/* Playfair Display = ฟอนต์ตัวที่สาม ใช้เฉพาะตัวเลขตกแต่ง .aa-pfi (01/02/03, ลำดับใน Top 5,
-          เลขขั้นตอนในหน้าหัตถการ และเลข 404) — ตัวอักษรอื่นทั้งเว็บใช้ Luxia / Noto Sans Thai ที่ self-host
-          หมายเหตุ: CI ที่ตกลงกันไว้ระบุสองฟอนต์ ตัวนี้จึงเป็นข้อยกเว้นที่ต้องให้เจ้าของเว็บเคาะว่าจะเก็บไว้ไหม
-          ถ้าเก็บ ควรย้ายไป next/font/google เพื่อ self-host ตอน build จะได้ไม่ต้องยิงขอ Google ทุกครั้งที่เปิดหน้า
-          ital,wght ต้องมี 1,600 ด้วย เพราะ TxLandingPage ใช้ .aa-pfi ที่ fontWeight 600 คู่กับ font-style:italic
-          ถ้าไม่ประกาศ เบราว์เซอร์จะหล่นไปใช้ italic 500 แล้วปลอมตัวหนาให้ ซึ่งหนาเกินจริงราว 50% */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
-        rel="stylesheet"
-      />
+      {/* ไม่มีการเรียกฟอนต์จาก CDN ใด ๆ แล้ว — CI ระบุสองฟอนต์ Luxia + Noto Sans Thai และ self-host ทั้งคู่
+          เดิมโหลด Playfair Display จาก Google Fonts ทุกหน้า (234 หน้า) ทั้งที่วาดตัวอักษรจริงแค่ 26 หน้า
+          และวาดแค่ตัวเลขตกแต่ง ตัดออกตามที่เจ้าของเว็บยืนยัน 15 ส.ค. 2569
+          ตัวเลข .aa-pfi ตกไปใช้ Luxia ซึ่งเป็นฟอนต์ display อยู่แล้ว — ดู app/globals.css */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(CLINIC_JSONLD) }} />
       <FxScripts />
       <SiteShell lang={lang}>{children}</SiteShell>

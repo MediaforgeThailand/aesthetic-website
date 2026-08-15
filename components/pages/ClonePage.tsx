@@ -276,7 +276,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
               <div style={{ font: "500 11.5px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".22em", color: "#B4735F" }}>
                 {t("โปรแกรมที่เกี่ยวข้อง", "RELATED PROGRAM")}
               </div>
-              <div className="aa-serif" style={{ fontSize: "clamp(19px,2.2vw,26px)", fontWeight: 600, color: "#33241E", marginTop: 6 }}>
+              <div className="aa-serif" style={{ fontSize: "clamp(19px,2.2vw,26px)", fontWeight: 500, color: "#33241E", marginTop: 6 }}>
                 {related.name}
               </div>
               <div style={{ font: "300 13.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", marginTop: 4 }}>
@@ -313,7 +313,7 @@ export default function ClonePage({ lang, page }: { lang: Lang; page: ClonePageD
         .clone-table th,.clone-table td{padding:12px 16px;border-bottom:1px solid #F0E1D8}
         .clone-table tr:last-child td{border-bottom:none}
         article a{color:#8F543F;text-decoration:underline;text-underline-offset:3px}
-        article strong{font-weight:600;color:#33241E}
+        article strong{font-weight:500;color:#33241E}
       `}</style>
     </div>
   );

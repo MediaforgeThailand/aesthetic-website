@@ -15,7 +15,7 @@ import FaqAccordion from "./tx/FaqAccordion";
 const h2Style: React.CSSProperties = {
   margin: 0,
   fontFamily: "'Luxia','Noto Sans Thai',serif",
-  fontWeight: 600,
+  fontWeight: 500,
   fontSize: "clamp(24px,2.8vw,34px)",
   color: "#33241E",
 };
@@ -149,7 +149,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
               style={{
                 margin: "18px 0 0",
                 fontFamily: "'Luxia','Noto Sans Thai',serif",
-                fontWeight: 600,
+                fontWeight: 500,
                 fontSize: "clamp(30px,3.8vw,48px)",
                 lineHeight: 1.22,
                 color: "#33241E",
@@ -210,7 +210,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
               >
                 <div
                   className="aa-pfi"
-                  style={{ fontWeight: 600, fontSize: "clamp(30px,3.4vw,44px)", color: "#8F543F", lineHeight: 1.15 }}
+                  style={{ fontWeight: 500, fontSize: "clamp(30px,3.4vw,44px)", color: "#8F543F", lineHeight: 1.15 }}
                 >
                   {d.en}
                 </div>
@@ -257,7 +257,7 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
           </div>
           <div style={{ background: "linear-gradient(180deg,#FAF3EE,#F5E7DE)", borderRadius: 26, padding: "28px 28px 30px", height: "fit-content" }}>
             <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".26em", color: "#B4735F" }}>HOW IT WORKS</div>
-            <h3 style={{ marginTop: 8, fontFamily: "'Luxia','Noto Sans Thai',serif", fontWeight: 600, fontSize: 22, color: "#33241E" }}>
+            <h3 style={{ marginTop: 8, fontFamily: "'Luxia','Noto Sans Thai',serif", fontWeight: 500, fontSize: 22, color: "#33241E" }}>
               {t("ขั้นตอนการรับบริการ", "Your Journey")}
             </h3>
             <div style={{ display: "flex", flexDirection: "column", marginTop: 18 }}>
@@ -382,10 +382,10 @@ export default function TxLandingPage({ lang, txKey }: { lang: Lang; txKey: TxKe
                 </div>
               </div>
               <div style={{ padding: "clamp(22px,3vw,34px)", display: "flex", flexDirection: "column", justifyContent: "center" }}>
-                <h3 style={{ margin: 0, font: "600 clamp(17px,2vw,21px) 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{promo.title}</h3>
+                <h3 style={{ margin: 0, font: "500 clamp(17px,2vw,21px) 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{promo.title}</h3>
                 <div style={{ font: "300 14px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E", marginTop: 8, maxWidth: 520 }}>{promo.sub}</div>
                 <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginTop: 12 }}>
-                  <span style={{ font: "600 24px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
+                  <span style={{ font: "500 24px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
                     {promo.price.toLocaleString("en-US")}
                   </span>
                   <span style={{ font: "300 14px 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>{t("บาท", "THB")}</span>
