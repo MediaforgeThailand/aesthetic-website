@@ -117,7 +117,7 @@ export default function Footer({ lang }: { lang: Lang }) {
         <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,64px) 0 30px" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(220px,1fr))", gap: 34 }}>
             <div>
-              <img src="/assets/logo-footer.png" alt="The Art Hospital & Clinic" width={132} height={56} style={{ height: 56, width: "auto" }} />
+              <img src="/assets/logo-art.png" alt="The Art Plastic Surgery Hospital" width={95} height={56} style={{ height: 56, width: "auto" }} />
               <div style={{ marginTop: 14, font: "300 13px/1.9 'Luxia','Noto Sans Thai',sans-serif", color: "#C7AC9C", maxWidth: 280 }}>
                 {t(
                   "คลินิกความงามภายใต้เครือโรงพยาบาลศัลยกรรมตกแต่ง The Art — The Art of Confidence.",
@@ -197,7 +197,7 @@ export default function Footer({ lang }: { lang: Lang }) {
       <div className="aa-m-only">
         <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,64px) 0 30px" }}>
           <div>
-            <img src="/assets/logo-footer.png" alt="The Art Hospital & Clinic" width={108} height={46} style={{ height: 46, width: "auto" }} />
+            <img src="/assets/logo-art.png" alt="The Art Plastic Surgery Hospital" width={78} height={46} style={{ height: 46, width: "auto" }} />
             <div style={{ marginTop: 12, font: "300 13px/1.9 'Luxia','Noto Sans Thai',sans-serif", color: "#C7AC9C", maxWidth: 320 }}>
               {t(
                 "คลินิกความงามภายใต้เครือโรงพยาบาลศัลยกรรมตกแต่ง The Art — The Art of Confidence.",

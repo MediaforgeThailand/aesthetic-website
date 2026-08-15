@@ -51,11 +51,16 @@ export default function Header({ lang }: { lang: Lang }) {
         </div>
       </div>
       <div className="aa-wrap" style={{ display: "flex", alignItems: "center", gap: 20, padding: "12px 0" }}>
-        <Link href={href(lang, "/")} style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 3 }}>
-          <img src="/assets/logo-art.png" alt="THE ART" width={94} height={30} style={{ height: 30, width: "auto", display: "block" }} />
-          <span style={{ font: "600 8.5px/1 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".46em", color: "#A96A55", paddingLeft: 2 }}>
-            AESTHETIC
-          </span>
+        {/* โลโก้ CI เต็ม lockup — คำว่า PLASTIC SURGERY HOSPITAL อยู่ในตัวไฟล์แล้ว
+            จึงไม่มี wordmark AESTHETIC ต่อท้ายอีก (ตัดออกตามที่ยืนยัน 15 ส.ค. 2569) */}
+        <Link href={href(lang, "/")} style={{ display: "flex", alignItems: "center" }}>
+          <img
+            src="/assets/logo-art.png"
+            alt="The Art Plastic Surgery Hospital"
+            width={71}
+            height={42}
+            style={{ height: 42, width: "auto", display: "block" }}
+          />
         </Link>
         <nav className="aa-desk" style={{ display: "flex", alignItems: "center", gap: 26, marginLeft: "auto" }}>
           {items.map((m) => (
