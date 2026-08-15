@@ -17,10 +17,12 @@
 | Runtime | Node.js ≥ 20 |
 | Styling | ไม่มี CSS framework — `app/globals.css` ไฟล์เดียว + inline style |
 | Dependencies | `next`, `react`, `react-dom` เท่านั้น (+ `sharp` ที่มากับ Next) |
-| Database | **ไม่มี** — ไม่มี DB / ORM / CMS / API route / auth / env var / secret |
+| Database | **ไม่มี** — ไม่มี DB / ORM / CMS / API route / auth |
+| Env var | `NEXT_PUBLIC_SITE_URL` ตัวเดียว (ไม่ใช่ secret) — ทับโดเมนสำหรับ preview/staging<br>ถ้าไม่ตั้ง จะใช้โดเมน production `https://aesthetics.artsurgery.co.th` จาก `lib/site.ts` |
 
 ฟอนต์: **DB Heavent** (body ทั้งเว็บ ตาม CI) + **Luxia** (หัวข้อละติน) — self-host เป็น woff2/woff
-ที่ `public/assets/fonts/` **ไม่มีการเรียก Google Fonts หรือ CDN ภายนอกเลย**
+ที่ `public/assets/fonts/` ฟอนต์ตัวเดียวที่ยังโหลดจากภายนอกคือ **Playfair Display**
+(Google Fonts) ใช้เฉพาะตัวเลขตกแต่ง `.aa-pfi` — ดู `components/chrome/RootShell.tsx`
 
 > `@font-face` ของ DB Heavent ตั้ง `size-adjust:139%` ไว้ตั้งใจ — ฟอนต์นี้ x-height เตี้ยผิดปกติ
 > ถ้าเอาออกตัวอักษรจะเล็กจนอ่านไม่ออก ดูคอมเมนต์ใน `app/globals.css`

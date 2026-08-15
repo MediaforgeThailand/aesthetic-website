@@ -15,12 +15,15 @@ export const COMPANY_NAME = "บริษัท อาทออฟเซอร�
 export const COMPANY_REG = "เลขทะเบียนบริษัท 0107569000071";
 
 /* ── โดเมนจริง ────────────────────────────────────────────────────────────────
-   ต้องตั้ง NEXT_PUBLIC_SITE_URL = โดเมน/ซับโดเมนจริง ใน Vercel (ทุก environment)
-   ก่อนขึ้น production ค่านี้ถูกใช้ใน canonical / hreflang / OG / sitemap /
-   robots / JSON-LD — ถ้ายังเป็น *.vercel.app Google จะ index โดเมนชั่วคราวแทน
+   ซับโดเมนจริงของเว็บนี้ (ยืนยันกับลูกค้า 15 ส.ค. 2569)
+   ค่านี้ถูกใช้ใน canonical / hreflang / OG / sitemap / robots / JSON-LD / llms.txt
+   ตั้ง NEXT_PUBLIC_SITE_URL ทับได้สำหรับ preview/staging แต่ค่า default ต้องเป็น
+   โดเมน production เสมอ ห้ามปล่อยให้เป็น *.vercel.app
+   หมายเหตุ: อยู่ใต้โดเมนเดียวกับ artsurgery.co.th (เว็บต้นทางของบทความ clone)
+   จึงต้องมี 301 จาก artsurgery.co.th/aesthetics/** มาที่นี่ ดู docs/redirects.csv
    ────────────────────────────────────────────────────────────────────────── */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://aesthetic-website.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://aesthetics.artsurgery.co.th";
 
 /* ── Landing pages (หัตถการ) ── */
 export type TxKey =

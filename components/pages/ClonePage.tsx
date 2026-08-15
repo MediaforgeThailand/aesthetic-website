@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Lang, href, tr } from "@/lib/i18n";
-import { alternatesFor } from "@/lib/seo";
+import { alternatesFor, ogFor } from "@/lib/seo";
 import { SITE_URL, TX_SLUGS, txHref } from "@/lib/site";
 import { CloneBlock, ClonePageData, pick } from "@/lib/clone-content";
 import { disclaimer } from "@/lib/shared-data";
@@ -17,7 +17,7 @@ export function cloneMetadata(lang: Lang, page: ClonePageData): Metadata {
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: alternatesFor(lang, page.path),
-    openGraph: { images: [page.heroImage ?? "/assets/hero-hospital.jpg"] },
+    openGraph: ogFor(lang, page.heroImage ?? "/assets/hero-hospital.jpg"),
   };
 }
 

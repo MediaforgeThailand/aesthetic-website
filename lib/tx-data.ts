@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Lang, tr } from "./i18n";
-import { alternatesFor } from "./seo";
+import { alternatesFor, ogFor } from "./seo";
 import { TX_SLUGS, TxKey } from "./site";
 
 /* ── SEO landing page content (ทั้ง 12 หัตถการ) — copy verbatim จาก design reference ── */
@@ -922,6 +922,6 @@ export function txMetadata(lang: Lang, key: TxKey | undefined): Metadata {
     description: d.lead,
     alternates: alternatesFor(lang, `/${TX_SLUGS[key]}/`),
   };
-  if (d.img) meta.openGraph = { images: [d.img] };
+  meta.openGraph = ogFor(lang, d.img ?? "/assets/hero-hospital.jpg");
   return meta;
 }
