@@ -3,7 +3,11 @@ import { href, Lang, tr } from "./i18n";
 /* ── ค่าจริง ห้ามเปลี่ยน (README: ช่องทางติดต่อ) ── */
 export const LINE_ID = "@theartaesthetics";
 export const LINE_URL = "https://line.me/R/ti/p/@theartaesthetics";
-export const LINE_QR = "https://qr-official.line.me/gs/M_738iwzqx_GW.png?oat_content=qr";
+/* QR โหลดมาจาก https://qr-official.line.me/gs/M_738iwzqx_GW.png?oat_content=qr แล้วเก็บไว้เอง
+   (เดิม hot-link ตรงไปที่ LINE ทุกหน้า — ถ้า LINE เปลี่ยน URL หรือถูกบล็อก QR จะพังเงียบ ๆ
+   ทั้งที่เป็น CTA หลักของเว็บ และยังส่ง IP ผู้เข้าชมไปให้ LINE ทุกครั้งที่โหลดหน้า)
+   ถ้าเปลี่ยนบัญชี LINE ต้องโหลดไฟล์ใหม่มาทับ public/assets/line-qr.png */
+export const LINE_QR = "/assets/line-qr.png";
 export const TEL_HREF = "tel:026664666";
 export const TEL_DISPLAY = "02-666-4666";
 export const FACEBOOK_URL = "https://www.facebook.com/aesthetics.theartclinic";

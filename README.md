@@ -20,12 +20,19 @@
 | Database | **ไม่มี** — ไม่มี DB / ORM / CMS / API route / auth |
 | Env var | `NEXT_PUBLIC_SITE_URL` ตัวเดียว (ไม่ใช่ secret) — ทับโดเมนสำหรับ preview/staging<br>ถ้าไม่ตั้ง จะใช้โดเมน production `https://aesthetics.artsurgery.co.th` จาก `lib/site.ts` |
 
-ฟอนต์: **DB Heavent** (body ทั้งเว็บ ตาม CI) + **Luxia** (หัวข้อละติน) — self-host เป็น woff2/woff
-ที่ `public/assets/fonts/` ฟอนต์ตัวเดียวที่ยังโหลดจากภายนอกคือ **Playfair Display**
-(Google Fonts) ใช้เฉพาะตัวเลขตกแต่ง `.aa-pfi` — ดู `components/chrome/RootShell.tsx`
+ฟอนต์ตาม CI (ตั้งแต่ 15 ส.ค. 2569): **Luxia** = ตัวอักษรละติน · **Noto Sans Thai** = ตัวอักษรไทย
+self-host ทั้งคู่ที่ `public/assets/fonts/` — DB Heavent เป็น CI เดิม ถอดออกหมดแล้ว
 
-> `@font-face` ของ DB Heavent ตั้ง `size-adjust:139%` ไว้ตั้งใจ — ฟอนต์นี้ x-height เตี้ยผิดปกติ
-> ถ้าเอาออกตัวอักษรจะเล็กจนอ่านไม่ออก ดูคอมเมนต์ใน `app/globals.css`
+เบราว์เซอร์เลือกฟอนต์รายตัวอักษร ลำดับ `'Luxia','Noto Sans Thai'` จึงแยกสองภาษาให้เอง
+เพราะ Luxia ไม่มี glyph ไทยเลย
+
+> `font-size-adjust:0.5 !important` บน `.aa-root *` คือสิ่งที่ทำให้สลับฟอนต์ได้โดยขนาดไม่เพี้ยน
+> **ห้ามลบ** — ต้องมี `!important` เพราะ `font:` shorthand รีเซ็ตค่านี้ตามสเปก
+> ดูคอมเมนต์เต็มใน `app/globals.css`
+
+ฟอนต์ตัวเดียวที่ยังโหลดจากภายนอกคือ **Playfair Display** (Google Fonts) ใช้เฉพาะตัวเลขตกแต่ง
+`.aa-pfi` — เป็นฟอนต์ตัวที่สาม อยู่นอก CI ที่ระบุไว้สองตัว **รอเจ้าของเว็บเคาะว่าจะเก็บไว้ไหม**
+ดู `components/chrome/RootShell.tsx`
 
 ## โครงสร้าง
 

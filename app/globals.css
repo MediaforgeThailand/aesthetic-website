@@ -1,7 +1,11 @@
 /* ─── The Art Aesthetic — global styles (from design reference) ─── */
 
 /* ── ฟอนต์ตาม CI ─────────────────────────────────────────────────────────────
-   ละติน = Luxia · ไทย = Noto Sans Thai   (self-host ทั้งคู่ ไม่มีการเรียก CDN)
+   ละติน = Luxia · ไทย = Noto Sans Thai   (self-host ทั้งคู่)
+
+   ⚠️ ไม่ใช่ว่าทั้งเว็บไม่มีการเรียก CDN — .aa-pfi ด้านล่างใช้ Playfair Display
+   ที่โหลดจาก Google Fonts ใน RootShell.tsx เป็นฟอนต์ตัวที่สาม อยู่นอก CI ที่ตกลงกันไว้
+   ใช้แค่ตัวเลขตกแต่ง แต่ทุกหน้าต้องยิงขอ Google หมด (รวมหน้าที่ไม่มี .aa-pfi เลย 208 จาก 234 หน้า)
 
    เบราว์เซอร์เลือกฟอนต์ "รายตัวอักษร" ไม่ใช่รายบล็อก ลำดับ 'Luxia','Noto Sans Thai'
    จึงให้ผลว่า A-Z a-z 0-9 ได้ Luxia ส่วนอักษรไทยตกมาที่ Noto Sans Thai อัตโนมัติ
