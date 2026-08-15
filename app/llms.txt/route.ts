@@ -4,7 +4,7 @@ import {
   BRANCH_ADDR,
   COMPANY_NAME,
   COMPANY_REG,
-  LICENSE_AD,
+  LICENSE_ADS,
   LICENSE_HOSPITAL,
   LINE_ID,
   LINE_URL,
@@ -52,7 +52,7 @@ ${BRANCH_ADDR.map((b, i) => `- ${BRANCH_NAMES[i]}: ${b.street.th} ${b.locality.t
 ## ข้อมูลตามกฎหมาย
 - ${COMPANY_NAME} (${COMPANY_REG})
 - ${LICENSE_HOSPITAL}
-- ${LICENSE_AD}
+${LICENSE_ADS.map((n) => `- ${n}`).join("\n")}
 - ผลลัพธ์ของหัตถการขึ้นอยู่กับแต่ละบุคคล ควรปรึกษาแพทย์ก่อนรับบริการ
 `;
 

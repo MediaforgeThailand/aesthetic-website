@@ -74,6 +74,9 @@ export default function DoctorsPage({ lang }: { lang: Lang }) {
               <div style={{ padding: "16px 20px 20px" }}>
                 <div style={{ font: "600 16.5px 'DB Heavent',sans-serif", color: "#33241E" }}>{d.nick}</div>
                 <div style={{ font: "400 12.5px/1.5 'DB Heavent',sans-serif", color: "#33241E", marginTop: 4 }}>{d.full}</div>
+                {d.role ? (
+                  <div style={{ font: "500 11.5px/1.55 'DB Heavent',sans-serif", color: "#8F543F", marginTop: 4 }}>{d.role}</div>
+                ) : null}
                 <div style={{ font: "300 11.5px/1.55 'DB Heavent',sans-serif", color: "#8F7266", marginTop: 7 }}>{d.deg}</div>
                 <div style={{ font: "300 11.5px/1.55 'DB Heavent',sans-serif", color: "#A08876", marginTop: 1 }}>{d.lic}</div>
               </div>

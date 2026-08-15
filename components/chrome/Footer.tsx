@@ -8,7 +8,7 @@ import {
   COMPANY_REG,
   FACEBOOK_URL,
   FOOT_TX,
-  LICENSE_AD,
+  LICENSE_ADS,
   LICENSE_HOSPITAL,
   LINE_ID,
   LINE_URL,
@@ -95,7 +95,9 @@ export default function Footer({ lang }: { lang: Lang }) {
   /* ── ข้อความบังคับตามกฎหมาย — เลขอ้างอิงอยู่ที่ lib/site.ts ห้ามแก้ตรงนี้ ── */
   const bottomNote = (
     <span style={{ textAlign: "right" }}>
-      {LICENSE_HOSPITAL} · {LICENSE_AD}
+      {LICENSE_HOSPITAL}
+      <br />
+      {LICENSE_ADS.join(" · ")}
       <br />
       {t("ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "Results vary by individual")}
     </span>
@@ -249,8 +251,12 @@ export default function Footer({ lang }: { lang: Lang }) {
             <span>
               {LICENSE_HOSPITAL}
               <br />
-              {LICENSE_AD}
-              <br />
+              {LICENSE_ADS.map((n) => (
+                <span key={n}>
+                  {n}
+                  <br />
+                </span>
+              ))}
               {t("ผลลัพธ์ขึ้นอยู่กับแต่ละบุคคล", "Results vary by individual")}
             </span>
           </div>
