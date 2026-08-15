@@ -48,7 +48,7 @@ export default function RootShell({ lang, children }: { lang: Lang; children: Re
     <>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      {/* เหลือเฉพาะ Playfair Display สำหรับตัวเลขตกแต่ง .aa-pfi — ตัวอักษรอื่นใช้ DB Heavent/Luxia ที่ self-host */}
+      {/* เหลือเฉพาะ Playfair Display สำหรับตัวเลขตกแต่ง .aa-pfi — ตัวอักษรอื่นใช้ Luxia (ละติน) / Noto Sans Thai (ไทย) ที่ self-host */}
       <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
         rel="stylesheet"

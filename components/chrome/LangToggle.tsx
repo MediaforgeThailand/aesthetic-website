@@ -56,7 +56,7 @@ export default function LangToggle({
     display: "inline-flex",
     alignItems: "center",
     gap: 6,
-    font: "500 11px 'DB Heavent',sans-serif",
+    font: "500 11px 'Luxia','Noto Sans Thai',sans-serif",
     letterSpacing: ".08em",
     padding: pad,
     borderRadius: 999,

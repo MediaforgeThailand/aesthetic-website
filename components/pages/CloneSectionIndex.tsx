@@ -42,9 +42,9 @@ export default function CloneSectionIndex({ lang, section }: { lang: Lang; secti
     <div>
       <div style={{ height: 62 }} />
       <div className="aa-wrap" style={{ padding: "clamp(32px,5vw,56px) 0 clamp(48px,6vw,80px)" }}>
-        <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>THE ART AESTHETIC</div>
+        <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>THE ART AESTHETIC</div>
         <h1 style={{ fontSize: "clamp(28px,3.4vw,42px)", margin: "10px 0 0" }}>{t(l.th, l.en)}</h1>
-        <p style={{ font: "300 15px/1.9 'DB Heavent',sans-serif", color: "#71594E", maxWidth: 640, margin: "14px 0 0" }}>
+        <p style={{ font: "300 15px/1.9 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E", maxWidth: 640, margin: "14px 0 0" }}>
           {t(l.descTh, l.descEn)}
         </p>
         <div
@@ -74,10 +74,10 @@ export default function CloneSectionIndex({ lang, section }: { lang: Lang; secti
                   </div>
                 ) : null}
                 <div style={{ padding: "18px 20px 20px" }}>
-                  <div style={{ font: "500 15.5px/1.5 'DB Heavent',sans-serif", color: "#33241E" }}>{c.title}</div>
+                  <div style={{ font: "500 15.5px/1.5 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{c.title}</div>
                   <div
                     style={{
-                      font: "300 13px/1.8 'DB Heavent',sans-serif",
+                      font: "300 13px/1.8 'Luxia','Noto Sans Thai',sans-serif",
                       color: "#8F7266",
                       marginTop: 6,
                       display: "-webkit-box",
@@ -88,7 +88,7 @@ export default function CloneSectionIndex({ lang, section }: { lang: Lang; secti
                   >
                     {c.metaDesc}
                   </div>
-                  <span style={{ display: "inline-block", marginTop: 12, font: "500 13px 'DB Heavent',sans-serif", color: "#8F543F" }}>
+                  <span style={{ display: "inline-block", marginTop: 12, font: "500 13px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
                     {t("อ่านต่อ →", "Read more →")}
                   </span>
                 </div>

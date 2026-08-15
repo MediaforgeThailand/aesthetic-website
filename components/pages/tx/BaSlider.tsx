@@ -31,7 +31,7 @@ export default function BaSlider({
         borderRadius: 999,
         background: "rgba(46,33,28,.55)",
         color: "#FBF3ED",
-        font: "500 10px 'DB Heavent',sans-serif",
+        font: "500 10px 'Luxia','Noto Sans Thai',sans-serif",
         letterSpacing: ".18em",
         pointerEvents: "none",
       }}

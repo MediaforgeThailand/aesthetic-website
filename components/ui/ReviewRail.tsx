@@ -124,7 +124,7 @@ export default function ReviewRail({ lang }: { lang: Lang }) {
                     background: "rgba(46,33,28,.62)",
                     backdropFilter: "blur(6px)",
                     color: "#F6E8E1",
-                    font: "500 11px 'DB Heavent',sans-serif",
+                    font: "500 11px 'Luxia','Noto Sans Thai',sans-serif",
                     letterSpacing: ".14em",
                   }}
                 >
@@ -132,7 +132,7 @@ export default function ReviewRail({ lang }: { lang: Lang }) {
                 </div>
               </div>
               <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10, marginTop: 14, padding: "0 4px" }}>
-                <div style={{ font: "600 15.5px 'DB Heavent',sans-serif", color: "#33241E" }}>{rv.title}</div>
+                <div style={{ font: "600 15.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{rv.title}</div>
                 <span
                   style={{
                     flex: "none",
@@ -140,7 +140,7 @@ export default function ReviewRail({ lang }: { lang: Lang }) {
                     borderRadius: 999,
                     background: "#fff",
                     border: "1px solid #F0DCCF",
-                    font: "500 11px 'DB Heavent',sans-serif",
+                    font: "500 11px 'Luxia','Noto Sans Thai',sans-serif",
                     letterSpacing: ".05em",
                     color: "#8F543F",
                   }}
@@ -152,7 +152,7 @@ export default function ReviewRail({ lang }: { lang: Lang }) {
           ))}
         </div>
       </div>
-      <div style={{ marginTop: 6, font: "300 12.5px 'DB Heavent',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
+      <div style={{ marginTop: 6, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
     </div>
   );
 }

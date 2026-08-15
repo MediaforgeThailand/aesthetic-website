@@ -36,7 +36,7 @@ export default function BaSlider({
     background: "rgba(46,33,28,.55)",
     backdropFilter: "blur(6px)",
     color: "#F6E8E1",
-    font: "500 10.5px 'DB Heavent',sans-serif",
+    font: "500 10.5px 'Luxia','Noto Sans Thai',sans-serif",
     letterSpacing: ".14em",
     pointerEvents: "none",
     zIndex: 2,

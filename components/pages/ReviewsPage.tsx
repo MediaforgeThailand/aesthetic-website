@@ -70,11 +70,11 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
       {/* ── Header band (reference 680-686) ── */}
       <div style={{ background: "linear-gradient(175deg,#FAF3EE,#FFFDFC)", borderBottom: "1px solid #F4E6DD" }}>
         <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,72px) 0", textAlign: "center" }}>
-          <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>BEFORE &amp; AFTER</div>
+          <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>BEFORE &amp; AFTER</div>
           <h1
             style={{
               margin: "14px 0 0",
-              fontFamily: "'Luxia','DB Heavent',serif",
+              fontFamily: "'Luxia','Noto Sans Thai',serif",
               fontWeight: 600,
               fontSize: "clamp(30px,4vw,50px)",
               color: "#33241E",
@@ -82,7 +82,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
           >
             {t("รีวิวก่อน–หลัง จากเคสจริง", "Real Before & After Reviews")}
           </h1>
-          <p style={{ margin: "14px auto 0", maxWidth: 560, font: "300 15px/1.85 'DB Heavent',sans-serif", color: "#71594E" }}>
+          <p style={{ margin: "14px auto 0", maxWidth: 560, font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
             {t(
               "ลากแถบเลื่อนบนภาพ เพื่อเปรียบเทียบผลลัพธ์ก่อนและหลังทำหัตถการกับ The Art Aesthetic",
               "Drag the handle on each image to compare results at The Art Aesthetic.",
@@ -104,8 +104,8 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
                 sizes="(max-width:640px) 92vw, (max-width:1180px) 44vw, 320px"
               />
               <div style={{ marginTop: 14, padding: "0 6px", display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10 }}>
-                <div style={{ font: "500 14.5px 'DB Heavent',sans-serif", color: "#33241E" }}>{r.title}</div>
-                <span style={{ flex: "none", padding: "5px 12px", borderRadius: 999, background: "#FAF3EE", font: "400 11.5px 'DB Heavent',sans-serif", color: "#8F543F" }}>
+                <div style={{ font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{r.title}</div>
+                <span style={{ flex: "none", padding: "5px 12px", borderRadius: 999, background: "#FAF3EE", font: "400 11.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}>
                   {r.tag}
                 </span>
               </div>
@@ -121,11 +121,11 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             minHeight={200}
             sizes="(max-width:640px) 92vw, 88vw"
           />
-          <div style={{ marginTop: 10, font: "300 12.5px 'DB Heavent',sans-serif", color: "#8F7266", textAlign: "center" }}>
+          <div style={{ marginTop: 10, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>
             {t("โปรแกรมฉีดฟิลเลอร์ปาก — ทำเมื่อ 22/11/67", "Lip filler programme — 22 Nov 2024")}
           </div>
         </div>
-        <div style={{ marginTop: 18, font: "300 12px 'DB Heavent',sans-serif", color: "#A08876", textAlign: "center" }}>
+        <div style={{ marginTop: 18, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", textAlign: "center" }}>
           {t(
             "*รูปที่ใช้รีวิวได้รับการอนุญาตจากผู้รับบริการแล้ว · ผลลัพธ์ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล",
             "*Published with client consent · Results vary by individual.",
@@ -137,11 +137,11 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
       <section style={{ marginTop: "clamp(44px,6vw,64px)", background: "linear-gradient(180deg,#FAF3EE,#F5E7DE)", overflow: "hidden" }}>
         <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,72px) 0" }}>
           <div data-rv style={{ maxWidth: 600 }}>
-            <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>REAL REVIEWS</div>
+            <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>REAL REVIEWS</div>
             <h2
               style={{
                 margin: "14px 0 0",
-                fontFamily: "'Luxia','DB Heavent',serif",
+                fontFamily: "'Luxia','Noto Sans Thai',serif",
                 fontWeight: 600,
                 fontSize: "clamp(28px,3.4vw,42px)",
                 lineHeight: 1.25,
@@ -150,13 +150,13 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             >
               {t("รีวิวจากผู้รับบริการจริง", "Real Client Reviews")}
             </h2>
-            <p style={{ margin: "14px 0 0", font: "300 15px/1.9 'DB Heavent',sans-serif", color: "#71594E" }}>
+            <p style={{ margin: "14px 0 0", font: "300 15px/1.9 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
               {t(
                 "ผลลัพธ์ก่อน–หลังจากเคสจริงของ The Art Aesthetic เลื่อนหรือปัดเพื่อดูรีวิวเพิ่มเติม",
                 "Real before & after cases from The Art Aesthetic — slide or swipe to browse.",
               )}
             </p>
-            <p style={{ margin: "8px 0 0", font: "300 12px/1.6 'DB Heavent',sans-serif", color: "#A08876" }}>
+            <p style={{ margin: "8px 0 0", font: "300 12px/1.6 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876" }}>
               {t("ทุกภาพได้รับอนุญาตจากผู้รับบริการแล้ว", "All images shared with client consent.")}
             </p>
           </div>
@@ -170,7 +170,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
           data-rv
           style={{
             margin: 0,
-            fontFamily: "'Luxia','DB Heavent',serif",
+            fontFamily: "'Luxia','Noto Sans Thai',serif",
             fontWeight: 600,
             fontSize: "clamp(24px,2.8vw,34px)",
             color: "#33241E",
@@ -193,7 +193,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             </div>
           ))}
         </div>
-        <div style={{ marginTop: 14, font: "300 12px 'DB Heavent',sans-serif", color: "#A08876", textAlign: "center" }}>{disclaimer(lang)}</div>
+        <div style={{ marginTop: 14, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", textAlign: "center" }}>{disclaimer(lang)}</div>
       </section>
 
       {/* ── คลิปรีวิววิดีโอ (reference 704-712) ── */}
@@ -212,7 +212,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
           <h2
             style={{
               margin: 0,
-              fontFamily: "'Luxia','DB Heavent',serif",
+              fontFamily: "'Luxia','Noto Sans Thai',serif",
               fontWeight: 600,
               fontSize: "clamp(24px,2.8vw,34px)",
               color: "#33241E",
@@ -225,7 +225,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             href="https://www.youtube.com/c/THEARTCLINICOfficial"
             target="_blank"
             rel="noopener"
-            style={{ font: "500 13.5px 'DB Heavent',sans-serif", color: "#8F543F" }}
+            style={{ font: "500 13.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F" }}
           >
             {t("ดูทั้งหมดบน YouTube →", "See all on YouTube →")}
           </a>
@@ -251,7 +251,7 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             />
           ))}
         </div>
-        <div style={{ font: "300 12px 'DB Heavent',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
+        <div style={{ font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
       </section>
 
       <style>{`

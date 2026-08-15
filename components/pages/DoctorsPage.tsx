@@ -28,11 +28,11 @@ export default function DoctorsPage({ lang }: { lang: Lang }) {
       <div className="aa-wrap" style={{ padding: "clamp(44px,6vw,72px) 0 clamp(56px,8vw,90px)" }}>
         {/* ── Page head ── */}
         <div style={{ textAlign: "center", maxWidth: 640, margin: "0 auto" }}>
-          <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>MEDICAL TEAM</div>
+          <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".3em", color: "#B4735F" }}>MEDICAL TEAM</div>
           <h1 style={{ margin: "14px 0 0", fontWeight: 600, fontSize: "clamp(30px,4vw,50px)", color: "#33241E" }}>
             {t("ทีมแพทย์ The Art Aesthetic", "The Art Aesthetic Doctors")}
           </h1>
-          <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'DB Heavent',sans-serif", color: "#71594E" }}>
+          <p style={{ margin: "14px 0 0", font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
             {t(
               "ทุกหัตถการที่ The Art Aesthetic ทำโดยแพทย์เท่านั้น ภายใต้มาตรฐานเครือโรงพยาบาลศัลยกรรมตกแต่ง The Art",
               "Every treatment is performed by physicians, under The Art plastic-surgery hospital group standard.",
@@ -72,13 +72,13 @@ export default function DoctorsPage({ lang }: { lang: Lang }) {
                 />
               </div>
               <div style={{ padding: "16px 20px 20px" }}>
-                <div style={{ font: "600 16.5px 'DB Heavent',sans-serif", color: "#33241E" }}>{d.nick}</div>
-                <div style={{ font: "400 12.5px/1.5 'DB Heavent',sans-serif", color: "#33241E", marginTop: 4 }}>{d.full}</div>
+                <div style={{ font: "600 16.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E" }}>{d.nick}</div>
+                <div style={{ font: "400 12.5px/1.5 'Luxia','Noto Sans Thai',sans-serif", color: "#33241E", marginTop: 4 }}>{d.full}</div>
                 {d.role ? (
-                  <div style={{ font: "500 11.5px/1.55 'DB Heavent',sans-serif", color: "#8F543F", marginTop: 4 }}>{d.role}</div>
+                  <div style={{ font: "500 11.5px/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#8F543F", marginTop: 4 }}>{d.role}</div>
                 ) : null}
-                <div style={{ font: "300 11.5px/1.55 'DB Heavent',sans-serif", color: "#8F7266", marginTop: 7 }}>{d.deg}</div>
-                <div style={{ font: "300 11.5px/1.55 'DB Heavent',sans-serif", color: "#A08876", marginTop: 1 }}>{d.lic}</div>
+                <div style={{ font: "300 11.5px/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", marginTop: 7 }}>{d.deg}</div>
+                <div style={{ font: "300 11.5px/1.55 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", marginTop: 1 }}>{d.lic}</div>
               </div>
             </div>
           ))}

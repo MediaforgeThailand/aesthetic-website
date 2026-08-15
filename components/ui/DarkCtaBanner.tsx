@@ -43,12 +43,12 @@ export default function DarkCtaBanner({
         style={{ position: "relative", display: "grid", gridTemplateColumns: "1.15fr .85fr", gap: "clamp(24px,3.5vw,44px)", alignItems: "center" }}
       >
         <div>
-          <div style={{ font: "500 12px 'DB Heavent',sans-serif", letterSpacing: ".32em", color: "#E5B79D" }}>{eyebrow}</div>
+          <div style={{ font: "500 12px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".32em", color: "#E5B79D" }}>{eyebrow}</div>
           <h2 className="aa-serif" style={{ color: "#FBF3ED", fontSize: "clamp(26px,3.2vw,40px)", lineHeight: 1.25, margin: "12px 0 0" }}>
             {title}
           </h2>
           {sub ? (
-            <p style={{ font: "300 15px/1.85 'DB Heavent',sans-serif", color: "#C7AC9C", margin: "14px 0 0", maxWidth: 520 }}>{sub}</p>
+            <p style={{ font: "300 15px/1.85 'Luxia','Noto Sans Thai',sans-serif", color: "#C7AC9C", margin: "14px 0 0", maxWidth: 520 }}>{sub}</p>
           ) : null}
           <div style={{ display: "flex", flexWrap: "wrap", gap: 12, marginTop: 26 }}>
             <LineButton lang={lang} on="dark" label={t("แอดไลน์ ปรึกษาฟรี", "LINE — Free consult")} />

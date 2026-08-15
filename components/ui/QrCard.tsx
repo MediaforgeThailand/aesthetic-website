@@ -28,11 +28,11 @@ export default function QrCard({ lang }: { lang: Lang }) {
         style={{ width: 148, height: 148, background: "#fff", padding: 8, borderRadius: 18, flex: "none" }}
       />
       <div className="aa-qr-text">
-        <div style={{ font: "500 11.5px 'DB Heavent',sans-serif", letterSpacing: ".26em", color: "#E5B79D" }}>SCAN TO ADD</div>
+        <div style={{ font: "500 11.5px 'Luxia','Noto Sans Thai',sans-serif", letterSpacing: ".26em", color: "#E5B79D" }}>SCAN TO ADD</div>
         <div className="aa-serif" style={{ fontSize: "clamp(22px,2.4vw,30px)", fontWeight: 600, color: "#FBF3ED", margin: "6px 0" }}>
           {LINE_ID}
         </div>
-        <div style={{ font: "300 14px/1.7 'DB Heavent',sans-serif", color: "#C7AC9C" }}>
+        <div style={{ font: "300 14px/1.7 'Luxia','Noto Sans Thai',sans-serif", color: "#C7AC9C" }}>
           {t("สแกน QR เพื่อแอดไลน์ ปรึกษาแพทย์ฟรี ไม่มีค่าใช้จ่าย", "Scan to add us on LINE — free doctor consultation.")}
         </div>
       </div>
