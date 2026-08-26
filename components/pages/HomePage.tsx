@@ -216,7 +216,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
             filter: "drop-shadow(0 28px 54px rgba(90,60,50,.3))",
           }}
         />
-        {/* mobile: ทีมแพทย์รูปเดียวกึ่งกลาง (bleed) */}
+        {/* mobile: ทีมแพทย์รูปเดียวกึ่งกลาง — safe zone 10% ซ้าย/ขวา กันหน้าหมอนอกสุดโดนตัด */}
         <img
           className="aa-m-only"
           src="/assets/hero-doctors.png"
@@ -228,8 +228,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
             left: "50%",
             transform: "translateX(-50%)",
             bottom: 0,
-            width: "min(140%,780px)",
-            maxWidth: "none",
+            width: "80%",
             height: "auto",
             maxHeight: "60svh",
             objectFit: "contain",
