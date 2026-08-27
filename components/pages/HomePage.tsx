@@ -146,7 +146,10 @@ export default function HomePage({ lang }: { lang: Lang }) {
           .home-herosub-t{font-size:clamp(14px,4.2vw,19px) !important}
           .home-top5-en{font-size:clamp(19px,5.4vw,24px) !important}
           .home-con01{margin-left:0 !important}
+          .home-herocta{justify-content:center !important}
         }
+        .home-revcta{transition:transform .25s,box-shadow .25s}
+        .home-revcta:hover{transform:translateY(-2px);box-shadow:0 18px 36px rgba(143,84,63,.3) !important}
         .home-method{transition:transform .3s,box-shadow .3s,background .3s}
         .home-method:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(169,106,85,.16);background:#FAF3EE !important}
         .home-top5{transition:background .25s,padding .25s}
@@ -154,7 +157,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
         .home-vid{transition:transform .3s}
         .home-vid:hover{transform:translateY(-6px)}
         .home-revall{transition:background .25s}
-        .home-revall:hover{background:#fff}
+        .home-revall:hover{background:#fff !important}
       `}</style>
 
       {/* ══════ HERO (100svh) ══════ */}
@@ -283,6 +286,30 @@ export default function HomePage({ lang }: { lang: Lang }) {
               {t("แผนกผิวพรรณและความงาม", "Skin & Aesthetic Department")}
             </span>
             <span style={{ width: 34, height: 1, background: "#B4886F" }} />
+          </div>
+          {/* CTA ไปหน้ารวมรีวิว — จุดตัดสินใจแรกสุดของลูกค้า */}
+          <div className="home-herocta" style={{ display: "flex", justifyContent: "flex-start", marginTop: 28 }}>
+            <Link
+              href={href(lang, "/reviews/")}
+              className="home-revall"
+              style={{
+                pointerEvents: "auto",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 10,
+                padding: "13px 26px",
+                borderRadius: 999,
+                border: "1px solid #C99B85",
+                background: "rgba(255,255,255,.88)",
+                backdropFilter: "blur(6px)",
+                WebkitBackdropFilter: "blur(6px)",
+                color: "#8F543F",
+                font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif",
+                boxShadow: "0 14px 30px rgba(150,90,90,.18)",
+              }}
+            >
+              {t("ดูรีวิวจริง!", "See real reviews!")}
+            </Link>
           </div>
         </div>
         <HeroCircle
@@ -490,7 +517,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
                   font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif",
                 }}
               >
-                {t("ดูรีวิวทั้งหมด", "View all reviews")} →
+                {t("ดูทั้งหมด", "See all")} <span aria-hidden="true">→</span>
               </Link>
             </div>
           </div>
@@ -680,6 +707,53 @@ export default function HomePage({ lang }: { lang: Lang }) {
               </Link>
             ))}
           </div>
+
+          {/* ── ยังเลือกไม่ถูก → พาไปดูรีวิวจากเคสจริงก่อนตัดสินใจ ── */}
+          <div
+            data-rv
+            style={{
+              marginTop: 44,
+              display: "flex",
+              flexWrap: "wrap",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: 18,
+              background: "linear-gradient(120deg,#FAF3EE,#F5E7DE)",
+              border: "1px solid #F0DCCF",
+              borderRadius: 24,
+              padding: "clamp(22px,3vw,30px) clamp(20px,3.5vw,36px)",
+            }}
+          >
+            <div style={{ maxWidth: 520 }}>
+              <h3 style={{ margin: 0, fontWeight: 500, fontSize: "clamp(19px,2.2vw,25px)", lineHeight: 1.35, color: "#33241E" }}>
+                {t("ยังเลือกไม่ถูก? ดูผลลัพธ์จริงก่อนตัดสินใจ", "Not sure yet? See real results first")}
+              </h3>
+              <p style={{ margin: "8px 0 0", font: "300 14px/1.8 'Luxia','Noto Sans Thai',sans-serif", color: "#71594E" }}>
+                {t(
+                  "รวมภาพก่อน–หลังจากเคสจริงทุกหัตถการ พร้อมคลิปรีวิวจากผู้รับบริการ",
+                  "Before & after photos from real cases of every treatment, plus client video reviews.",
+                )}
+              </p>
+            </div>
+            <Link
+              href={href(lang, "/reviews/")}
+              className="home-revcta"
+              style={{
+                flex: "none",
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 10,
+                padding: "14px 30px",
+                borderRadius: 999,
+                background: "linear-gradient(120deg,#A96A55,#8F543F)",
+                color: "#FBF3ED",
+                font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif",
+                boxShadow: "0 14px 30px rgba(143,84,63,.24)",
+              }}
+            >
+              {t("ดูรีวิวเลย", "See reviews")} <span aria-hidden="true">→</span>
+            </Link>
+          </div>
         </div>
 
         {/* ── MEDICAL TEAM ── */}
@@ -795,6 +869,25 @@ export default function HomePage({ lang }: { lang: Lang }) {
             ))}
           </div>
           <div style={{ marginTop: 4, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876" }}>{disclaimer(lang)}</div>
+          <div data-rv style={{ display: "flex", marginTop: 24 }}>
+            <Link
+              href={href(lang, "/reviews/")}
+              className="home-revall"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 10,
+                padding: "14px 28px",
+                borderRadius: 999,
+                border: "1px solid #C99B85",
+                background: "transparent",
+                color: "#8F543F",
+                font: "500 14.5px 'Luxia','Noto Sans Thai',sans-serif",
+              }}
+            >
+              {t("ดูรีวิวทั้งหมด", "All reviews")} <span aria-hidden="true">→</span>
+            </Link>
+          </div>
         </div>
 
         {/* ── FREE CONSULTATION (dark banner + QR) ── */}
@@ -842,6 +935,22 @@ export default function HomePage({ lang }: { lang: Lang }) {
               </div>
               <div style={{ display: "flex", justifyContent: "center", marginTop: 22 }}>
                 <QrCard lang={lang} />
+              </div>
+              <div style={{ marginTop: 26 }}>
+                <Link
+                  href={href(lang, "/reviews/")}
+                  style={{
+                    display: "inline-block",
+                    padding: "12px 10px",
+                    margin: "-12px -10px",
+                    font: "400 13.5px 'Luxia','Noto Sans Thai',sans-serif",
+                    color: "#E5B79D",
+                    textDecoration: "underline",
+                    textUnderlineOffset: 4,
+                  }}
+                >
+                  {t("ยังไม่แน่ใจ? ดูรีวิวจริงก่อนได้", "Not sure yet? See real reviews first")}
+                </Link>
               </div>
             </div>
           </div>

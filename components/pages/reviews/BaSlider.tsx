@@ -14,7 +14,6 @@ export default function BaSlider({
   after,
   label,
   aspect,
-  minHeight,
   radius = 18,
   sizes,
 }: {
@@ -22,7 +21,6 @@ export default function BaSlider({
   after: string;
   label: string;
   aspect: string;
-  minHeight?: number;
   radius?: number;
   sizes: string;
 }) {
@@ -50,7 +48,6 @@ export default function BaSlider({
         borderRadius: radius,
         background: "#EFD3C2",
         aspectRatio: aspect,
-        minHeight,
         userSelect: "none",
       }}
     >

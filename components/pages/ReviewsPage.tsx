@@ -115,19 +115,6 @@ export default function ReviewsPage({ lang }: { lang: Lang }) {
             </div>
           ))}
         </div>
-        <div data-rv style={{ marginTop: 26 }}>
-          <BaSlider
-            before="/assets/ba/lips-b.jpg"
-            after="/assets/ba/lips-a.jpg"
-            label={`${t("ฟิลเลอร์ปาก", "Lip filler")} — ${dragLabel}`}
-            aspect="5/2"
-            minHeight={200}
-            sizes="(max-width:640px) 92vw, 88vw"
-          />
-          <div style={{ marginTop: 10, font: "300 12.5px 'Luxia','Noto Sans Thai',sans-serif", color: "#8F7266", textAlign: "center" }}>
-            {t("โปรแกรมฉีดฟิลเลอร์ปาก — ทำเมื่อ 22/11/67", "Lip filler programme — 22 Nov 2024")}
-          </div>
-        </div>
         <div style={{ marginTop: 18, font: "300 12px 'Luxia','Noto Sans Thai',sans-serif", color: "#A08876", textAlign: "center" }}>
           {t(
             "*รูปที่ใช้รีวิวได้รับการอนุญาตจากผู้รับบริการแล้ว · ผลลัพธ์ขึ้นอยู่กับสภาพผิวของแต่ละบุคคล",
