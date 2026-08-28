@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useId } from "react";
 import { Lang, switchLangHref } from "@/lib/i18n";
 
@@ -34,6 +33,7 @@ export function FlagEN({ size = 16 }: { size?: number }) {
   );
 }
 
+/** จำภาษาที่เลือกไว้ก่อนหน้าจะโหลดใหม่ (middleware อ่าน cookie นี้) */
 const remember = (l: Lang) => {
   document.cookie = `lang=${l}; path=/; max-age=31536000; samesite=lax`;
 };
@@ -77,14 +77,17 @@ export default function LangToggle({
       }}
       aria-label="Language / ภาษา"
     >
-      <Link href={thHref} hrefLang="th" onClick={() => remember("th")} style={opt(lang === "th")}>
+      {/* ใช้ <a> ธรรมดา ไม่ใช่ <Link>: ต้องโหลดหน้าใหม่ทั้งหน้าเพื่อให้คำขอถัดไปพก cookie ใหม่ไปด้วย
+          ถ้าใช้ <Link> Next จะ prefetch หน้าปลายทางไว้ก่อนกด (ตอนนั้น cookie ยังเป็นภาษาเดิม)
+          แล้วเล่นคำตอบที่ถูก redirect ค้างไว้ซ้ำ — กด TH กลับจากหน้าอังกฤษจะไม่ทำงาน */}
+      <a href={thHref} hrefLang="th" onClick={() => remember("th")} style={opt(lang === "th")}>
         <FlagTH />
         TH
-      </Link>
-      <Link href={enHref} hrefLang="en" onClick={() => remember("en")} style={opt(lang === "en")}>
+      </a>
+      <a href={enHref} hrefLang="en" onClick={() => remember("en")} style={opt(lang === "en")}>
         <FlagEN />
         EN
-      </Link>
+      </a>
     </div>
   );
 }
